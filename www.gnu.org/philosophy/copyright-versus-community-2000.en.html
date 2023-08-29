@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Copyright versus Community in the Age of Computer Networks -
+GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/copyright-versus-community-2000.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/copyright-versus-community-2000.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community-2000.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community-2000.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community-2000.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Copyright versus Community in the Age of Computer Networks (2000)</h2>
+
+<div class="infobox"><p>
+This is a transcription from an audio recording, prepared by Douglas
+Carnall, July 2000.
+</p></div>
+<hr class="thin" />
+
+<p><em> Mr Stallman arrives a few minutes after the appointed hour of
+commencement of his talk to address a hushed and respectful audience.
+He speaks with great precision and almost no hesitation in a
+pronounced Boston accent.</em></p>
+
+<p><strong>RMS</strong>: This is made for someone who wears a
+strangler.</p>
+
+<p><em>[indicates clip-on microphone for lecture theatre amplification
+system]</em></p>
+
+<p>I don't wear stranglers, so there is no place for it to go.</p>
+
+<p><em>[clips it to his T-shirt]</em></p>
+
+<p><strong>Me</strong>: Are you OK with the recording?</p>
+
+<p><strong>RMS</strong>: Yes!  <em>[testy]</em> How many people have
+to ask me?</p>
+
+<p>Well, I'm supposed to speak today</p>
+
+<p><em>[long pause]</em></p>
+
+<p>about copyright versus community.  This is too loud.</p>
+
+<p><em>[indicates clip-on microphone]</em></p>
+
+<p>What can I do?</p>
+
+<p>Let's see&hellip; there's no volume control&hellip;</p>
+
+<p><em>[finds volume control on radio microphone box]</em></p>
+
+<p>this seems better</p>
+
+<p>OK.  Copyright versus community in the age of computer networks.
+The principles of ethics can't change.  They are the same for all
+situations, but to apply them to any question or situation you have to
+look at the facts of the situation to compare alternatives, you have
+to see what their consequences are, a change in technology never
+changes the principles of ethics, but a change in technology can alter
+the consequences of the same choices, so it can make a difference for
+the outcome of the question, and that has happened in the area of
+copyright law.  We have a situation where changes in technology have
+affected the ethical factors that weigh on decisions about copyright
+law and change the right policy for society.</p>
+<p>Laws that in the past may have been a good idea, now are harmful
+because they are in a different context.  But to explain this, I
+should go back to the beginning to the ancient world where books were
+made by writing them out by hand.  That was the only way to do it, and
+anybody who could read could also write a copy of a book.  To be sure
+a slave who spent all day writing copies could probably do it somewhat
+better than someone who didn't ordinarily do that but it didn't make a
+tremendous difference.  Essentially, anyone who could read, could copy
+books, about as well as they could be copied in any fashion.</p>
+<p>In the ancient world, there wasn't the sharp distinction between
+authorship and copying that there tends to be today.</p>
+
+<p>There was a continuum.  On the one hand you might have somebody,
+say, writing a play.  Then you might have, on the other extreme, just
+somebody making copies of books, but in between you might have say,
+somebody, who say, copies part of a book, but writes some words of his
+own, or writing a commentary, and this was very common, and definitely
+respected.  Other people would copy some bits from one book, and then
+some bits from another book, and write something of their own words,
+and then copy from another book, quoting passages of various lengths
+from many different works, and then writing some other works to talk
+about them more, or relate them.  And there are many ancient
+works&mdash;now lost&mdash;in which part of them survived in these
+quotations in other books that became more popular than the book that
+the original quote <em>[came from]</em>.</p>
+
+<p>There was a spectrum between writing an original work, and copying.
+There were many books that were partly copied, but mixed with original
+writing.  I don't believe there was any idea of copyright in the
+ancient world and it would have been rather difficult to enforce one,
+because books could be copied by anyone who could read anywhere,
+anyone who could get some writing materials, and a feather to write
+with.  So, that was a rather clear simple situation.</p>
+
+<p>Later on, printing was developed and printing changed the situation
+greatly.  It provided a much more efficient way to make copies of
+books, provided that they were all identical.  And it required
+specialised, fairly expensive equipment that an ordinary reader would
+not have.  So in effect it created a situation in which copies could
+only feasibly be made by specialised businesses, of which the number
+was not that large.  There might have been hundreds of printing
+presses in a country and hundreds of thousands, or maybe even millions
+of actually people who could read.  So the decrease in the number of
+places in which copies could be made was tremendous.</p>
+
+<p>Now the idea of copyright developed along with the printing press.
+I think that there may be&hellip; I think I remember reading that
+Venice, which was a major centre of printing in the 1500s also had a
+kind of copyright but I can't find that: I couldn't find that
+reference again.  But the system of copyright fitted in naturally with
+the printing press because it became rare for ordinary readers to make
+copies.  It still happen.  People who were very poor or very rich had
+handmade copies of books.  The very rich people did this to show off
+their wealth: they had beautiful illuminated wealth to show that they
+could afford this.  And poor people still sometimes copied books by
+hand because they couldn't afford printed copies.  As the song goes
+&ldquo;Time ain't money when all you got is time.&rdquo; 
+<span class="gnun-split"></span>So some poor
+people copied books with a pen.  But for the most part the books were
+all made on printing presses by publishers and copyright as a system
+fitted in very well with the technical system.  For one thing it was
+painless for readers, because the readers weren't going to make copies
+anyway, except for the very rich ones who could presumably legitimise
+it, or the very poor ones who were making just individual copies and
+no one was going to go after them with lawyers.  And the system was
+fairly easy to enforce again because there were only a small number of
+places where it had to be enforced: only the printing presses, and
+because of this it didn't require, it didn't involve, a struggle
+against the public.  You didn't find just about everybody trying to
+copy books and being threatened with arrest for doing it.</p>
+
+<p>And in fact, in addition to not restricting the reader's directly,
+it didn't cause much of a problem for readers, because it might have
+added a small fraction to the price of books but it didn't double the
+price, so that small extra addition to the price was a very small
+burden for the readers.  The actions restricted by copyright were
+actions that you couldn't do, as an ordinary reader, and therefore, it
+didn't cause a problem.  And because of this there was no need for
+harsh punishments to convince readers to tolerate it and to obey.</p>
+
+<p>So copyright effectively was an industrial regulation.  It
+restricted publishers and writers but it didn't restrict the general
+public.  It was somewhat like charging a fee for going on a boat ride
+across the Atlantic.  You know, it's easy to collect the fee when
+people are getting on a boat for weeks or months.</p>
+
+<p>Well, as time went on, printing got more efficient.  Eventually
+even poor people didn't have to bother copying books by hand and the
+idea sort of got forgotten.  I think it's in the 1800s that
+essentially printing got cheap enough so that essentially everyone
+could afford printed books, so to some extent the idea of poor people
+copying books by hand was lost from memory.  I heard about this about
+ten years ago when I started talking about the subject to people.</p>
+
+<p>So originally in England copyright was partly intended as a measure
+of censorship.  People who wanted to publish books were required to
+get approval from the government but the idea began to change and it a
+different idea was expressed explicitly in the US constitution.  When
+the US constitution was written there was a proposal that authors
+should be entitled to a monopoly on copying their books.  This idea
+was rejected.  Instead, a different idea of the philosophy of
+copyright was put into the constitution.  The idea that a copyright
+system could be&hellip; well, the idea is that people have the natural
+right to copy things but copyright as an artificial restriction on
+copying can be authorised for the sake of promoting progress.</p>
+
+<p>So the system of copyright would have been the same more or less
+either way, but this was a statement about the purpose which is said
+to justify copyright.  It is explicitly justified as a means to
+promote progress, not as an entitlement for copyright owners.  So the
+system is meant to modify the behaviour of copyright owners so as to
+benefit the public.  The benefit consists of more books being written
+and published and this is intended to contribute to the progress of
+civilisation, to spreading ideas, and as a means to this end&hellip;
+in other words as a means to this end copyright exists.  So this also
+thought of as a bargain between the public and authors; that the
+public gives up its natural right to make copies of anything in
+exchange for the progress that is brought about indirectly, by
+encouraging more people to write.</p>
+
+<p>Now it may seem like an obscure question to ask &ldquo;What's the
+purpose of copyright?&rdquo; But the purpose of any activity is the
+most important thing for deciding when an activity needs to be changed
+and how.  If you forget about the purpose you are sure to get things
+wrong, so ever since that decision was made, the authors and
+especially the publishers most recently have been trying to
+misrepresent it and sweep it under the rug.  There has been a campaign
+for decades to try to spread the idea that was rejected in the US
+constitution.  The idea that copyright exists as an entitlement for
+copyright owners.  And you can that expressed in almost everything
+they say about it starting and ending with the word
+&ldquo;pirate&rdquo; which is used to give the impression that making
+an unauthorised copy is the moral equivalent of attacking a ship and
+kidnapping or killing the people on board.</p>
+
+<p>So if you look at the statements being made by publishers you find
+lots of implicit assumptions of this sort which you have to drag into
+the open and then start questioning.</p>
+
+<h3>Recent events and problems</h3>
+<p><em>[brightens]</em></p>
+
+<p>Anyway, as long as the age of the printing press continued,
+copyright was painless, easy to enforce, and probably a good idea.
+But the age of the printing press began changing a few decades ago
+when things like Xerox machines and tape recorders started to be
+available, and more recently as computer networks have come into use
+the situation has changed drastically.  We are now in a situation
+technologically more like the ancient world, where anybody who could
+read something could also make a copy of it that was essentially as
+good as the best copies anyone could make.</p>
+
+<p><em>[murmuring in the audience]</em></p>
+
+<p>A situation now where once again, ordinary readers can make copies
+themselves.  It doesn't have to be done through centralised mass
+production, as in the printing press.  Now this change in technology
+changes the situation in which copyright law operates.  The idea of
+the bargain was that the public trades away its natural right to make
+copies, and in exchange gets a benefit.  Well, a bargain could be a
+good one or a bad one.  It depends on the worth of what you are giving
+up.  And the worth of what you are getting.  In the age of the
+printing press the public traded away a freedom that it was unable to
+use.</p>
+
+<p>It's like finding a way of selling shit: what have you got to lose?
+You've got it on hand anyway, if you get something for it, it can
+hardly be a bad deal.</p>
+
+<p><em>[faint laughter]</em></p>
+
+<p>It's like accepting money for promising not to travel to another
+star.  You're not going to do it anyway</p>
+
+<p><em>[hearty laughter]</em></p>
+
+<p>at least not in our lifetime so you might as well, if someone's
+going to pay you to promise not to travel to another star, you might
+as well take the deal.  But if I presented you with a starship, then
+you might not think that deal was such a good deal any more.  When the
+thing you used to sell because it was useless, you discover a use for
+it, then you have to reconsider the desirability of those old deals
+that used to be advantageous.  Typically in a such a situation you
+decide that &ldquo;I'm not going to sell all of this any more; I'm
+going to keep some of it and use it.&rdquo; 
+<span class="gnun-split"></span>So if you were giving up a
+freedom that you couldn't exercise and now you can exercise it, you
+probably want to start retaining the right to exercise it at least
+partially.  You might still trade part of the freedom: and there are
+many alternatives of different bargains which trade parts of the
+freedom and keep other parts.  So, precisely what you want to do
+requires thought, but in any case you want to reconsider the old
+bargain, and you probably want to sell less of what you sold in the
+past.</p>
+
+<p>But the publishers are trying to do exactly the opposite.  At
+exactly the time when the public's interest is to keep part of the
+freedom to use it, the publishers are passing laws which make us give
+up more freedom.  You see copyright was never intended to be an
+absolute monopoly on all the uses of a copyright work.  It covered
+some uses and not others, but in recent times the publishers have been
+pushing to extend it further and further.  Ending up most recently
+with things like the Digital Millennium Copyright Act in the US which
+they are also trying to turn into a treaty through the World
+Intellectual Property Organisation which is essentially an
+organisation representing the owners of copyrights and patents and
+which works to try to increase their power, and pretends to be doing
+so in the name of humanity rather than in the name of these particular
+companies.</p>
+
+<p>Now, what are the consequences when copyright starts restricting
+activities that ordinary readers can do.  Well, for one thing it's no
+longer an industrial regulation.  It becomes an imposition on the
+public.  For another, because of this, you find the public's starting
+to object to it You know, when it is stopping ordinary people from
+doing things that are natural in their lives you find ordinary people
+refusing to obey.  Which means that copyright is no longer easy to
+enforce and that's why you see harsher and harsher punishments being
+adopted by governments that are basically serving the publishers
+rather than the public.</p>
+
+<p>Also, you have to question whether a copyright system is still
+beneficial.  Basically, the thing that we have been paying is now
+valuable for us.  Maybe the deal is a bad deal now.  So all the things
+that made technology fit in well with the technology of the printing
+press make it fit badly with digital information technology.  So,
+instead of like, charging the fee to cross the Atlantic in a boat,
+it's like charging a fee to cross a street.  It's a big nuisance,
+because people cross the street all along the street, and making them
+pay is a pain in the neck.</p>
+
+<h3>New kinds of copyright</h3>
+
+<p>Now what are some of the changes we might want to make in copyright
+law in order to adapt it to the situation that the public finds itself
+in?  Well the extreme change might be to abolish copyright law but
+that isn't the only possible choice.  There are various situations in
+which we could reduce the power of copyright without abolishing it
+entirely because there are various different actions that can be done
+with a copyright and there are various situations in which you might
+do them, and each of those is an independent question.  Should
+copyright cover this or not?  In addition, there is a question of
+&ldquo;How long?&rdquo;  
+<span class="gnun-split"></span>Copyright used to be much shorter in its
+period or duration, and it's been extended over and over again in the
+past fifty years or so and in fact in now appears that the owners of
+copyrights are planning to keep on extending copyrights so that they
+will never expire again.  The US constitution says that
+&ldquo;copyright must exist for a limited time&rdquo; but the
+publishers have found a way around this: every twenty years they make
+copyright twenty years longer, and this way, no copyright will ever
+expire again.  Now a thousand years from now, copyright might last for
+1200 years, just basically enough so that copyright on Mickey Mouse
+can not expire.</p>
+
+<p>Because that's why, people believe that US Congress passed a law to
+extend copyright for twenty years.  Disney was paying them, and paying
+the President too, with campaign funds of course, to make it lawful.
+See, if they just gave them cash it would be a crime, but contributing
+indirectly to campaigns is legal and that's what they do: to buy the
+legislators.  So they passed the Sonny Bono copyright act.  Now this
+is interesting: Sonny Bono was a congressman and a member of the
+Church of Scientology, which uses copyrights to suppress knowledge of
+its activities.  So they have their pet congressman and they pushed
+very hard for increased copyright powers.</p>
+
+<p>Anyway, we were fortunate that Sonny Bono died but in his name they
+passed the Mickey Mouse Copyright Act of 1998 I believe.  It's being
+challenged by the way, on the grounds that, there is a legal case that
+people hope to go to the Supreme Court and have the extension of old
+copyrights tossed out.  In any case, there are all these different
+situations and questions where we could reduce the scope of
+copyright.</p>
+
+<p>So what are some of them?  Well, first of all there are various
+different contexts for copying.  There is commercial sale of copies in
+the stores at one extreme and at the other there is privately making a
+copy for your friend once in a while, and in between there are other
+things, like, there's broadcasting on TV or the radio, there's posting
+it on the website, there's handing it out to all the people in an
+organisation, and some of these things could be done either
+commercially or non-commercially.  You know, you could imagine a
+company handing out copies to its staff or you could imagine a school
+doing it, or some private, non-profit organisation doing it.
+Different situations, and we don't have to treat them all the same.
+
+<span class="gnun-split"></span>So one way in we could reclaim the&hellip; in general though, the
+activities that are the most private are those that are most crucial
+to our freedom and our way of life, whereas the most public and
+commercial are those that are most useful for providing some sort of
+income for authors so it's a natural situation for a compromise in
+which the limits of copyright are put somewhere in the middle so that
+a substantial part of the activity still is covered and provides an
+income for authors, while the activities that are most directly
+relevant to peoples' private lives become free again.  And this is the
+sort of thing that I propose doing with copyright for things such as
+novels and biographies and memoires and essays and so on.  
+<span class="gnun-split"></span>That at the
+very minimum, people should always have a right to share a copy with a
+friend.  It's when governments have to prevent that kind of activity
+that they have to start intruding into everyone's lives and using
+harsh punishments.  The only way basically to stop people in their
+private lives from sharing is with a police state, but public
+commercial activities can be regulated much more easily and much more
+painlessly.</p>
+
+<p>Now, where we should draw these lines depends, I believe, on the
+kind of work.  Different works serve different purposes for their
+users.  Until today we've had a copyright system that treats almost
+everything exactly alike except for music: there are a lot of legal
+exceptions for music.  But there's no reason why we have to elevate
+simplicity above the practical consequences.  We can treat different
+kinds of works differently.  I propose a classification broadly into
+three kinds of works: functional works, works that express personal
+position, and works that are fundamentally aesthetic.</p>
+
+<p>Functional works include: computer software; recipes; textbooks;
+dictionaries and other reference works; anything that you use to get
+jobs done.  For functional works I believe that people need very broad
+freedom, including the freedom to publish modified versions.  So
+everything I am going to say tomorrow about computer software applies
+to other kinds of functional works in the same way.  So, this
+criterion of free&hellip; because it necessary to have the freedom to
+publish a modified version this means we have to almost completely get
+rid of copyright but the free software movement is showing that the
+progress that society wants that is supposedly the justification for
+society having copyright can happen in other ways.  
+<span class="gnun-split"></span>We don't have to
+give up these important freedoms to have progress.  Now the publishers
+are always asking us to presuppose that their there is no way to get
+progress without giving up our crucial freedoms and the most important
+thing I think about the free software movement is to show them that
+their pre-supposition is unjustified.</p>
+
+<p>I can't say I'm sure that in all of these areas we can't produce
+progress without copyright restrictions stopping people, but what
+we've shown is that we've got a chance: it's not a ridiculous idea.
+It shouldn't be dismissed.  The public should not suppose that the
+only way to get progress is to have copyright but even for these kinds
+of works there can be some kinds of compromise copyright systems that
+are consistent with giving people the freedom to publish modified
+versions.  
+<span class="gnun-split"></span>Look, for example, at the GNU free documentation license,
+which is used to make a book free.  It allows anyone to make and sell
+copies of a modified version, but it requires giving credit in certain
+ways to the original authors and publishers in a way that can give
+them a commercial advantage and thus I believe make it possible to
+have commercial publishing of free textbooks, and if this works people
+are just beginning to try it commercially.  The Free Software
+Foundation has been selling lots of copies of various free books for
+almost fifteen years now and it's been successful for us.  At this
+point though, commercial publishers are just beginning to try this
+particular approach, but I think that even for functional works where
+the freedom to publish modified works is essential, some kind of
+compromise copyright system can be worked out, which permits everyone
+that freedom.</p>
+
+<p>For other kinds of works, the ethical questions apply differently,
+because the works are used differently.  The second category of works
+is works that express someone's positions or views or experiences.
+For example, essays, offers to do business with people, statements of
+one's legal position, memoirs, anything that says, whose point is to
+say what you think or you want or what you like.  Book reviews and
+restaurant reviews are also in this category: it's expressing a
+personal opinion or position.  
+<span class="gnun-split"></span>Now for these kinds of works, making a
+modified version is not a useful thing to do.  So I see no reason why
+people should need to have the freedom to publish modified versions of
+these works.  Verbatim copying is the only thing that people need to
+have the freedom to do and because of this we can consider the idea
+that the freedom to distribute copies should only apply in some
+situations, for example if it were limited to non-commercial
+distribution that would be OK I think.  Ordinary citizen's lives would
+no longer be restricted but publishers would still be covered by
+copyright for these things.</p>
+
+<p><em>[drinks water]</em></p>
+
+<p>Now, I used to think that maybe it would be good enough to allow
+people to privately redistribute copies occasionally.  I used to think
+that maybe it would be OK if all public redistribution were still
+restricted by copyright for these works but the experience with
+Napster has convinced me that that's not so.  And the reason is that
+it shows that lots and lots of people both want to publicly
+redistribute&mdash;publicly but not commercially
+redistribute&mdash;and it's very useful.  And if it's so useful, then
+it's wrong to stop people from doing it.  But it would still be
+acceptable I think, to restrict commercial redistribution of this
+work, because that would just be an industrial regulation and it
+wouldn't block the useful activities that people should be doing with
+these works.</p>
+
+<p>Oh, also, scientific papers.  Or scholarly papers in general fall
+into this category because publishing modified versions of them is not
+a good thing to do: it's falsifying the record so they should only be
+distributed verbatim, so scientific papers should be freely
+redistributable by anyone because we should be encouraging their
+redistribution, and I hope you will never agree to publish a
+scientific paper in a way that restricts verbatim redistribution on
+the net.  Tell the journal that you won't do that.</p>
+
+<p>Because scientific journals have become an obstacle to the
+dissemination of scientific results.  They used to be a necessary
+mechanism.  Now they are nothing but an obstruction, and those
+journals that restrict access and restrict
+redistribution <em>[emphasis]</em> must be abolished.  They are the
+enemies of the dissemination of knowledge; they are the enemies of
+science, and this practice must come to an end.</p>
+
+<p>Now there is a third category of works, which is aesthetic works,
+whose main use is to be appreciated; novels, plays, poems, drawings in
+many cases, typically and most music.  Typically it's made to be
+appreciated.  Now, they're not functional people don't have the need
+to modify and improve them, the way people have the need to do that
+with functional works.  So it's a difficult question: is it vital for
+people to have the freedom to publish modified versions of an
+aesthetic work.  On the one hand you have authors with a lot of ego
+attachment saying</p>
+
+<p><em>[English accent, dramatic gesture]</em></p>
+
+<p>&ldquo;Oh this is my creation.&rdquo;</p>
+
+<p><em>[Back to Boston]</em></p>
+
+<p>&ldquo;How dare anyone change a line of this?&rdquo; On the other
+hand you have the folk process which shows that a series of people
+sequentially modifying the work or maybe even in parallel and then
+comparing versions can produce something tremendously rich, and not
+only beautiful songs and short poems, but even long epics have been
+produced in this way, and there was a time back before the mystique of
+the artist as creator, semi-divine figure was so powerful when even
+great writers reworked stories that had been written by others.  Some
+of the plays of Shakespeare involve stories that were taken from other
+plays written often a few decades before.  If today's copyright laws
+had been in effect they would have called Shakespeare a quote pirate
+unquote for writing some of his great work and so of course you would
+have had the other authors saying</p>
+
+<p><em>[English accent]</em></p>
+
+<p>&ldquo;How dare he change one line of my creation.  He couldn't
+possibly make it better.&ldquo;</p>
+
+<p><em>[faint audience chuckle]</em></p>
+
+<p>You'll hear people ridiculing this idea in exactly those terms.
+Well, I am not sure what we should do about publishing modified
+versions of these aesthetic works.  One possibility is to do something
+like what is done in music, which is anyone's allowed to rearranged
+and play a piece of music, but they may have to pay for doing so, but
+they don't have to ask permission to perform it.  Perhaps for
+commercial publication of these works, either modified or unmodified,
+if they're making money they might have to pay some money, that's one
+possibility.  It's a difficult question what to do about publishing
+modified versions of these aesthetic works and I don't have an answer
+that I'm fully satisfied with.</p>
+
+<p><strong>Audience member 1 (AM1)</strong>, question, inaudible</p>
+
+<p><strong>RMS</strong>: Let me repeat the question because he said it
+so fast you couldn't possibly have understood it.  He said &ldquo;What
+kind of category should computer games go in?&rdquo; Well, I would say
+that the game engine is functional and the game scenario is
+aesthetic.</p>
+
+<p><strong>AM1</strong>: Graphics?</p>
+
+<p><strong>RMS</strong>: Those are part of the scenario probably.  The
+specific pictures are part of the scenario; they are aesthetic,
+whereas the software for displaying the scenes is functional.  So I
+would say that if they combine the aesthetic and the functional into
+one seamless thing then the software should be treated as functional,
+but if they're willing to separate the engine and the scenario then it
+would be legitimate to say, well the engine is functional but the
+scenario is aesthetic.</p>
+
+<h3>Copyright: possible solutions</h3>
+
+<p>Now, how long should copyright last?  Well, nowadays the tendency
+in publishing is for books to go out of copyright faster and faster.
+Today in the US most books that are published are out of print within
+three years.  They've been remaindered and they're gone.  So it's
+clear that there's not real need for copyright to last for say 95
+years: it's ridiculous.  In fact, it's clear that ten year copyright
+would be sufficient to keep the activity of publishing going.  But it
+should be ten years from date of publication, but it would make sense
+to allow an additional period before publication which could even be
+longer than ten years which as you see, as long as the book has not
+been published the copyright on it is not restricting the public.
+It's basically just giving the author to have it published eventually
+but I think that once the book is published copyright should run for
+some ten years or so, then that's it.</p>
+
+<p>Now, I once proposed this in a panel where the other people were
+all writers.  And one of them said: &ldquo;Ten year copyright?  Why
+that's ridiculous!  Anything more than five years is
+intolerable.&rdquo; He was an award-winning science fiction writer who
+was complaining about the difficulty of retrouving, of pulling back,
+this is funny, French words are leaking into my English, of, of
+regaining the rights from the publisher who'd let his books go out of
+print for practical purposes but was dragging his heels about obeying
+the contract, which says that when the book is out of print the rights
+revert to the author.</p>
+
+<p>The publishers treat authors terribly you have to realise.  They're
+always demanding more power in the name of the authors and they will
+bring along a few very famous very successful writers who have so much
+clout that they can get contracts that treat them very well to testify
+saying that the power is really for their sake.  Meanwhile most
+writers who are not famous and are not rich and have no particular
+clout are being treated horribly by the publishing industry, and it's
+even worse in music.  I recommend all of you to read Courtney Love's
+article: it's in Salon magazine right?</p>
+
+<p><strong>AM2</strong> (Audience member 2) Yes</p>
+
+<p><strong>RMS</strong>: She started out by calling the record
+companies quote pirates unquotes because of the way they treat the
+musicians.  In any case we can shorten copyright more or less.  We
+could try various lengths, we could see, we could find out empirically
+what length of copyright is needed to keep publication vigourous.  I
+would say that since almost books are out of print by ten years,
+clearly ten years should be long enough.  But it doesn't have to be
+the same for every kind of work.  For example, maybe some aspects of
+copyright for movies should last for longer, like the rights to sell
+all the paraphernalia with the pictures and characters on them.  You
+know, that's so crassly commercial it hardly matters if that is
+limited to one company in most cases.  Maybe the copyright on the
+movies themselves, maybe that's legitimate for that to last twenty
+years.  
+<span class="gnun-split"></span>Meanwhile for software, I suspect that a three year copyright
+would be enough.  You see if each version of the programme remains
+copyrighted for three years after its release well, unless the company
+is in real bad trouble they should have a new version before those
+three years are up and there will be a lot of people who will want to
+use the newer version, so if older versions are all becoming free
+software automatically, the company would still have a business with
+the newer version.  Now this is a compromise as I see it, because it
+is a system in which not all software is free, but it might be an
+acceptable compromise, after all, if we had to wait three years in
+some cases for programs to become free&hellip; well, that's no
+disaster.  To be using three years old software is not a disaster.</p>
+
+<p><strong>AM3</strong>: Don't you think this is a system that would
+favour feature creep?</p>
+
+<p><strong>RMS</strong>: <em>[airily]</em> Ah that's OK.  That's a
+minor side issue, compared with these issues of freedom encouraging,
+every system encourages some artificial distortions in what people,
+and our present system certainly encourages various kinds of
+artificial distortions in activity that is covered by copyright so if
+a changed system also encourages a few of these secondary distortions
+it's not a big deal I would say.</p>
+
+<p><strong>AM4</strong>: The problem with this change in the copyright
+laws for three would be that you wouldn't get the sources.</p>
+
+<p><strong>RMS</strong>: Right.  There would have also to be a
+condition, a law that to sell copies of the software to the public the
+source code must be deposited somewhere so that three years later it
+can be released.  So it could be deposited say, with the library of
+congress in the US, and I think other countries have similar
+institutions where copies of published books get placed, and they
+could also received the source code and after three years, publish it.
+And of course, if the source code didn't correspond to the executable
+that would be fraud, and in fact if it really corresponds then they
+ought to be able to check that very easily when the work is published
+initially so you're publishing the source code and somebody there says
+alright &ldquo;dot slash configure dot slash make&rdquo; and sees if
+produces the same executables and uh.</p>
+
+<p>So you're right, just eliminating copyright would not make software
+free.</p>
+
+<p><strong>AM5</strong>: Um libre</p>
+
+<p><strong>RMS</strong>: Right.  That's the only sense I use the term.
+It wouldn't do that because the source code might not be available or
+they might try to use contracts to restrict the users instead.  So
+making software free is not as simple as ending copyright on software:
+it's a more complex situation than that.  In fact, if copyright were
+simply abolished from software then we would no longer be able to use
+copyleft to protect the free status of a program but meanwhile the
+software privateers could use other methods&mdash;contracts or
+withholding the source to make software proprietary.  So what would
+mean is, if we release a free program some greedy bastard could make a
+modified version and publish just the binaries and make people sign
+non-disclosure agreements for them.  We would no longer have a way to
+stop them.  So if we wanted to change the law that all software that
+was published had to be free we would have to do it in some more
+complex way, not just by turning copyright for software.</p>
+
+<p>So, overall I would recommend we look at the various kinds of works
+and the various different kinds of uses and then look for a new place
+to draw the line: one that gives the public the most important
+freedoms for making use of each new kind of work while when possible
+retaining some kind of fairly painless kind of copyright for general
+public that is still of benefit to authors.  In this way we can adapt
+the copyright system to the circumstances where we find it we find
+ourselves and have a system that doesn't require putting people in
+prison for years because they shared with their friends, but still
+does in various ways encourage people to write more.  We can also I
+believe look for other ways of encouraging writing other ways of
+facilitating authors making money.  
+<span class="gnun-split"></span>For example, suppose that verbatim
+redistribution of a work is permitted and suppose that the work comes
+with something, so that when you are playing with it or reading it,
+there is a box on the side that says &ldquo;click here to send one
+dollar to the authors or the musicians or whatever&rdquo; I think that
+in the wealthier parts of the world a lot of people will send it
+because people often really love the authors and musicians that made
+the things that they like to read and listen to.  And the interesting
+thing is that the royalty that they get now is such a small fraction
+that if you pay twenty dollars for something they're probably not
+getting more than one anyway.</p>
+
+<p>So this will be a far more efficient system.  And the interesting
+thing will be that when people redistribute these copies they will be
+helping the author.  Essentially advertising them, spreading around
+these reasons to send them a dollar.  Now right now the biggest reason
+why more people don't just send some money to the authors is that it's
+a pain in the neck to do it.  What are you going to do?  Write a
+cheque?  Then who are you going to mail the cheque to?  You'd have to
+dig up their address, which might not be easy.  But with a convenient
+internet payment system which makes it efficient to pay someone one
+dollar, then we could put this into all the copies, and then I think
+you'd find the mechanism starting to work well.  
+<span class="gnun-split"></span>It may take five of
+ten years for the ideas to spread around, because it's a cultural
+thing, you know, at first people might find it a little surprising but
+once it gets normal people would become accustomed to sending the
+money, and it wouldn't be a lot of money compared to what it costs to
+buy books today.</p>
+
+<p><em>[drinks]</em></p>
+
+<p>So I think that in this way, for the works of expression, and maybe
+aesthetic works, maybe this could a successful method.  But it won't
+work for the functional works, and the reason for that is that as one
+person after another makes a modified version and publishes it, who
+should the boxes point to, and how much money should they send, and
+you know, it's easy to do this when the work was published just once,
+by a certain author, or certain group of authors, and they can just
+agree together what they're going to do and click on the box, if
+no-one is publishing modified versions then every copy will contain
+the same box with the same URL directing money to the same people but
+when you have different version which have been worked on by different
+people there's no simple automatic way of working out who ought to get
+what fraction of what users donate for this version or that version.
+
+<span class="gnun-split"></span>It's philosophically hard to decide how important each contribution
+is, and all the obvious ways of trying to measure it
+are <em>[emphasis]</em> obviously
+<em>[/emphasis]</em> wrong in some cases, they're obviously closing
+their eyes to some important part of the facts so I think that this
+kind of solution is probably not feasible when everybody is free to
+publish modified versions.  But for those kinds of works where it is
+not crucial to have the freedom to publish modified versions then this
+solution can be applied very simply once we have the convenient
+internet payment system to base it on.</p>
+
+<p>With regard to the aesthetic works.  If there is a system where
+those who commercially redistribute or maybe even those who are
+publishing a modified version might have to negotiate the sharing of
+the payments with the original developers and then this kind of scheme
+could be extended to those works too even if modified versions are
+permitted there could be some standard formula which could be in some
+cases renegotiated, so I think in some cases probably possible even
+with a system of permitting in some way publishing modified versions
+of the aesthetic works it may be possible still to have this kind of
+voluntary payment system.</p>
+
+<p>Now I believe there a people who are trying to set up such
+voluntary payment systems.  I heard of something called the street
+performer's protocol.  I don't know the details of it.  And I believe
+there is something called GreenWitch.com <em>[transcriber's note: URL
+uncertain]</em> I believe the people there are trying to set up
+something more or less like this.  I think that what they are hoping
+to do is collect a bunch of payments that you make to various
+different people, and eventually charge your credit card once it gets
+to be big enough so that it's efficient.  
+<span class="gnun-split"></span>Whether those kind of
+systems work smoothly enough in practice that they'll get going is not
+clear, and whether they will become adopted widely enough for them to
+become a normal cultural practice is not clear.  It may be that in
+order for these voluntary payments to truly catch on we need to have
+some kind of&hellip; you need to see the idea everywhere in order
+to&hellip; &ldquo;Yeah, I outta pay&ldquo; once in a while.  We'll
+see.</p>
+
+<p>There is evidence ideas like this are not unreasonable.  If you
+look at for example public radio in the US, which is mostly supported
+by donations from listeners, you have I believe, millions of people
+donating, I'm not sure how many exactly but there are many public
+radio stations which are supported by their listeners and they seem to
+be finding it easier to get donations as time goes on.  Ten years ago
+they would have maybe six weeks of the year when they were spending
+most of their time asking people &ldquo;Please send some money, don't
+you think we're important enough&rdquo; and so on 24 hours a day, and
+now a lot of them have found that they can raise the contributions by
+sending people mail who sent them donations in the past, and they
+don't have to spend their airtime drumming up the donations.</p>
+
+<p>Fundamentally, the stated purpose of copyright: to encourage
+righting is a worthwhile purpose, but we have to look at ways of ways
+to achieve it that are not so harsh, and not so constricting of the
+use of the works whose developments we have encouraged and I believe
+that digital technology is providing us with solutions to the problem
+as well as creating a context where we need to solve the problem.  So
+that's the end of this talk, and are there questions?</p>
+
+<h3>Questions and discussion</h3>
+<p>First of all, what time is the next talk?  What time is it now?</p>
+
+<p><strong>Me</strong>: The time is quarter past three.</p>
+
+<p><strong>RMS</strong>: Oh really?  So I'm late already?  Well I hope
+Melanie will permit me to accept a few questions.</p>
+
+<p><strong>AM6</strong> (Audience member 6): Who will decide in which
+of your three categories will a work fit?</p>
+
+<p><strong>RMS</strong>: I don't know.  I'm sure there are various
+ways of deciding.  You can probably tell a novel when you see one.  I
+suspect judges can tell a novel when they see one too.</p>
+
+<p><strong>AM7</strong>: Any comment on encryption?  And the
+interaction of encryption devices with copyrighted materials?</p>
+
+<p><strong>RMS</strong>: Well, encryption is being used as a means of
+controlling the public.  The publishers are trying to impose various
+encryption systems on the public so that they can block the public
+from copying.  Now they call these things technological methods, but
+really they all rest on laws prohibiting people from by-passing them,
+and without those laws none of these methods would accomplish its
+purpose, so they are all based on direct government intervention to
+stop people from copying and I object to them very strongly, and I
+will not accept those media.  If as a practical matter the means to
+copy something are not available to me I won't buy it, and I hope you
+won't buy it either.</p>
+
+<p><strong>AM8</strong>: In France we have a law that says that even
+if the media is protected you have the right to copy again for backup
+purpose</p>
+
+<p><strong>RMS</strong>: Yes it used to be that way in the US as well
+until 2 years ago.</p>
+
+<p><strong>AM8</strong>: Very often you sign an agreement that is
+illegal in France&hellip; the contract you are supposed to sign with a
+mouse&hellip;</p>
+
+<p><strong>RMS</strong>: Well, maybe they're not.</p>
+
+<p><strong>AM8</strong>: How can we get it challenged?</p>
+
+<p><strong>RMS</strong>: <em>[rhetorically]</em> Well are you going to
+challenge them?  It costs money, it takes trouble, and not only that,
+how would you do it?  Well, you could either try to go to a court and
+say, &ldquo;They have no right to ask people to sign this contract
+because it is an invalid contract&rdquo; but that might be difficult
+if the distributor is in the US.  French law about what is a valid
+contract couldn't be used to stop them in the US.  On the other hand
+you could also say &ldquo;I signed this contract but it's not valid in
+France so I am publicly disobeying, and I challenge them to sue
+me.&rdquo; Now that you might consider doing, and if you're right and
+the laws are not valid in France then the case would get thrown out.
+I don't know.  Maybe that is a good idea to do, I don't know whether,
+what its effects politically would be.  
+<span class="gnun-split"></span>I know that there was just a
+couple of years ago a law was passed in Europe to prohibit some kind
+of private copying of music, and the record companies trotted out some
+famous very popular musicians to push for this law and they got it, so
+it's clear that they have a lot of influence here too, and it's
+possible that they will get more, just pass another law to change
+this.  We have to think about the political strategy for building the
+constituency to resist such changes and the actions we take should be
+designed to accomplish that.  Now, I'm no expert on how to accomplish
+that in Europe but that's what people should think about.</p>
+
+<p><strong>AM6</strong>: What about protection of private
+correspondence?</p>
+
+<p><strong>RMS</strong>: Well, if you're not <em>[emphasis]</em>
+publishing <em>[/emphasis]</em> it that's a completely different
+issue.</p>
+
+<p><strong>AM6</strong>: No, but if I send an email to somebody,
+that's automatically under my copyright.</p>
+
+<p><strong>RMS</strong>: <em>[forcefully]</em> That's entirely
+irrelevant actually.</p>
+
+<p><strong>AM6</strong>: No, I don't accept that.  If they're going to
+publish it in a newspaper.  At the moment my redress is my
+copyright.</p>
+
+<p><strong>RMS</strong>: Well, you can't make him keep secret the
+contents and I'm not sure actually.  I mean to me, I think there's
+some injustice in that.  If you for example, send a letter to somebody
+threatening to sue him and then you tell him you can't tell anybody I
+did this because my threat is copyrighted, that's pretty obnoxious,
+and I'm not sure that it would even be upheld.</p>
+
+<p><strong>AM6</strong>: Well, there are circumstances where I want to
+correspond with someone and keep my (and their) reply, entirely
+private.</p>
+
+<p><strong>RMS</strong>: Well if you and they agree to keep it
+private, then that's a different matter entirely.  I'm sorry the two
+issues can not be linked, and I don't have time to consider that issue
+today.  There's another talk scheduled to start soon.  But I think it
+is a total mistake for copyright to apply to such situations.  The
+ethics of those situations are completely different from the ethics of
+published works and so they should be treated in an appropriate way,
+which is completely different.</p>
+
+<p><strong>AM6</strong>: That's fair enough, but at the moment the
+only redress one has is copyright&hellip;</p>
+
+<p><strong>RMS</strong>: <em>[interrupts]</em> No you're wrong.  If
+people have agreed to keep something private then you have other
+redress.  In Europe there are privacy laws, and the other thing is,
+you don't have a right to force someone to keep secrets for you.  At
+most, you could force him to paraphrase it, because he has a right to
+tell people what you did.</p>
+
+<p><strong>AM6</strong>: Yes, but I assuming that the two people at
+either end are both in reasonable agreement.</p>
+
+<p><strong>RMS</strong>: Well then, don't say that copyright is your
+only recourse.  If he's in agreement he isn't going to give it to a
+newspaper is he?</p>
+
+<p><strong>AM6</strong>: No, er, you're sidestepping my question about
+interception.</p>
+
+<p><strong>RMS</strong>: Oh interception.  That's a totally
+different&hellip; <em>[heatedly]</em> no you didn't ask about
+interception.  This is the first time you mentioned
+interception&hellip;</p>
+
+<p><strong>AM6</strong>: No it's the second time.</p>
+
+<p><strong>AM9</strong>: <em>[murmurs assent to AM6]</em></p>
+
+<p><strong>RMS</strong>: <em>[still heated]</em> Well I didn't hear
+you before&hellip; it's totally silly&hellip; it's like trying
+to&hellip; oh how can I compare?&hellip; it's like trying to kill an
+elephant with a waffle iron I mean they have nothing to do with each
+other.</p>
+
+<p><em>[uninterpretable silence falls]</em></p>
+
+<p><strong>AM10</strong>: Have you thought about
+changes <em>[inaudible, in trade secrets?]</em></p>
+
+<p><strong>RMS</strong>: Uh yes: Trade secrets has developed in a very
+ominous and menacing direction.  It used to be that trade secrecy
+meant that you wanted to keep something secret so you didn't tell
+anybody, and later on it was something that was done within a business
+telling just a few people something and they would agree to keep it
+secret.  But now, it's turning into something where the public in
+general is becoming conscripted into keeping secrets for business even
+if they have never agreed in any way to keep these secrets and that's
+a pressure.  
+<span class="gnun-split"></span>So those who pretend that trade secrecy is just carrying
+out some natural right of theirs; that's just not true any more.
+They're getting explicit government help in forcing other people to
+keep their secrets.  And we might want to consider whether
+non-disclosure agreements should in general be considered legitimate
+contracts because of the anti-social nature of trade secrecy it
+shouldn't be considered automatic that just because somebody has
+promised to keep a secret that that means it's binding.</p>
+
+<p>Maybe in some cases it should be and in some cases it should not be.
+If there's a clear public benefit from knowing then maybe that should
+invalidate the contract, or maybe it should be valid when it is signed
+with customers or maybe between a business and a, maybe when a business
+supplies secrets to its suppliers that should be legitimate, but to its
+customers, no.</p>
+
+<p>There are various possibilities one can think of, but at the very
+start anybody who hasn't voluntarily agreed to keep the secrets should
+not be bound by trade secrecy.  That's the way it was until not long
+ago.  Maybe it still is that way in Europe, I'm not sure.</p>
+
+<p><strong>AM11</strong>: Is is OK for a company to ask say its&hellip;</p>
+
+<p><strong>RMS</strong>: employees?</p>
+
+<p><strong>AM11</strong>: No no</p>
+
+<p><strong>RMS</strong>: suppliers?</p>
+
+<p><strong>AM11</strong>: yes, suppliers.  What if the customer is
+another supplier?</p>
+
+<p><em>[gap as minidisk changed]</em></p>
+
+<p><strong>RMS</strong>: Let's start by not encouraging it.</p>
+
+<p><strong>AM12</strong>: I have a question regarding your opinion on
+the scientific work on journals and textbooks.  In my profession at
+least one official journal and textbook are available on-line, but
+they retain copyright, but there is free access to the resources
+provided they have internet access.</p>
+
+<p><strong>RMS</strong>: Well, that's good.  But there are many
+journals where it is not like that.  For example, the ACM journals you
+can't access unless you are a subscriber: they're blocked.  So I think
+journals should all start opening up access on the web.</p>
+
+<p><strong>AM12</strong>: So what impact does that have on the
+significance of copyright on the public when you basically don't
+interfere with providing free access on the web.</p>
+
+<p><strong>RMS</strong>: Well, first of all, I disagree.  Mirror sites
+are essential, so the journal should only provide open access but they
+should also give everyone the freedom to set up mirror sites with
+verbatim copies of these papers.  If not then there is a danger that
+they will get lost.  Various kinds of calamities could cause them to
+be lost, you know, natural disasters, political disasters, technical
+disasters, bureaucratic disasters, fiscal disasters&hellip; All sorts
+of things could cause that one site to disappear.  So really what the
+scholarly community should logically be doing is carefully arranging
+to have a wide network of mirror sites making sure that every paper is
+available on every continent, from places near the ocean to places
+that are far inland and you know this is exactly the kind of thing
+that major libraries will feel is their mission if only they were not
+being stopped.</p>
+
+<p>So what should be done, is that these journals should go one step
+further.  In addition to saying everybody can access the site they
+should be saying, everyone can set up a mirror site.  Even if they
+said, you have to do the whole publication of this journal, together
+with our advertisements, now that would still at least do the job of
+making the availability redundant so that it's not in danger, and
+other institutions would set up mirror sites, and I predict that you
+would find ten years down the road, a very well organised unofficial
+system of co-ordinating the mirroring to make sure that nothing was
+getting left out.  
+<span class="gnun-split"></span>At this point the amount that it costs to set up
+the mirror site for years of a journal is so little that it doesn't
+require any special funding; nobody has to work very hard: just let
+librarians do it.  Anyway, oh there was some other thing that this
+raised and I can't remember what it is.  Oh well, I'll just have to
+let it go.</p>
+
+<p><strong>AM13</strong>: The financing problem for the aesthetical
+works&hellip; do you think the dynamics could
+be&hellip; <em>[inaudible]</em> although I understand the problems
+of&hellip; I mean who's contributing?  And who will be rewarded?  Does
+the spirit of free software <em>[inaudible]</em></p>
+
+<p><strong>RMS</strong>: I don't know.  It's certainly suggesting the
+idea to people.  We'll see.  I don't the answers, I don't know how
+we're going to get there, I'm trying to think about where we should
+get to.  I know know how we can get there.  The publishers are so
+powerful, and can get governments to do their bidding.  How we're
+going to build up the kind of world where the public refuses to
+tolerate this any more I don't know.  I think the first thing we have
+to do is to clearly reject the term pirate and the views that go with
+it.  Every time we hear that we have to speak out and say this is
+propaganda, it's not wrong for people to share these published works
+with each other, it's sharing with you friend, it's good.  And sharing
+with your friend is more important than how much money these companies
+get.  The society shouldn't be shaped for the sake of these companies.
+<span class="gnun-split"></span>
+We have to keep on&hellip; because you see the idea that they've
+spread&mdash;that anything that reduces their income is immoral and
+therefore people must be restricted in any way it takes to guarantee
+for them to be paid for everything&hellip; that is the fundamental
+thing that we have to start attacking directly.  People have mostly
+tried tactics of concentrating on secondary issues, you know, to when
+people, you know when the publishers demand increased power usually
+people saying it will cause some secondary kind of harm and arguing
+based on that but you rarely find anybody (except me) saying that the
+whole point of the change is wrong, that it's wrong to restrict it in
+that way, that it's legitimate for people to want to change copies and
+that they should be allowed to.  We have to have more of this.  We
+have to start cutting the root of their dominion not just hacking away
+at a few leaves.</p>
+
+<p><strong>AM14</strong>: <em>[inaudible]</em> this is important is to
+concentrate on the donations system for music.</p>
+
+<p><strong>RMS</strong>: Yes.  Unfortunately though there are patents
+covering the technique that seems most likely to be usable.</p>
+
+<p><em>[laughs, cries of &ldquo;no&rdquo; from audience]</em></p>
+
+<p><strong>RMS</strong>: So it may take ten years before we can do it.</p>
+
+<p><strong>AM15</strong>: We only take French laws</p>
+
+<p><strong>RMS</strong>: I don't know.  I think I'd better hand the
+floor over to Melanie whose talk was supposed to start at 3.  And uh
+so</p>
+
+<p>RMS stands in silence.  There is a pause before the outbreak of
+applause.  RMS turns to applaud the stuffed fabric gnu he placed on
+the overhead projector at the beginning of the talk.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/copyright-versus-community-2000.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/copyright-versus-community-2000.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community-2000.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community-2000.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community-2000.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2000, 2021 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/02 08:55:39 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

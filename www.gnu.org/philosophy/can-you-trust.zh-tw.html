@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>能夠信賴你的電腦嗎？ - GNU 計畫 - 自由軟體基金會（FSF）</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=big5">
+<LINK REV="made" HREF="mailto:webmasters@gnu.org">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#1F00FF" ALINK="#FF0000" VLINK="#9900DD">
+<H3>能夠信賴你的電腦嗎？</H3>
+
+<P>
+
+<A HREF="http://www.stallman.org/"><STRONG>理查‧史托曼</STRONG></A> 著
+
+<P>
+
+<A HREF="/graphics/philosophicalgnu.html"><IMG SRC="/graphics/philosophical-gnu-sm.jpg"
+   ALT=" [image of a Philosophical Gnu] "
+   WIDTH="160" HEIGHT="200"></A>
+
+[
+<!-- Please keep this list alphabetical                             -->
+<!-- PLEASE UPDATE THE LIST AT THE BOTTOM (OR TOP) OF THE PAGE TOO! -->
+  <A HREF="/philosophy/can-you-trust.zh-cn.html">簡體中文</A>
+| <A HREF="/philosophy/can-you-trust.zh-tw.html">繁體中文</A>
+| <A HREF="/philosophy/can-you-trust.en.html">英文</A>
+| <A HREF="/philosophy/can-you-trust.de.html">德文</A>
+| <A HREF="/philosophy/can-you-trust.es.html">西班牙文</A>
+<!-- Please keep this list alphabetical                             -->
+<!-- PLEASE UPDATE THE LIST AT THE BOTTOM (OR TOP) OF THE PAGE TOO! -->
+]
+<P>
+
+<em>
+【本文是重要的 GNU 哲學頁面，
+請不吝於提供對於本文翻譯的意見。
+&lt;<a href="mailto:chliu@gnu.org">chliu@gnu.org</a>&gt;
+同時為了便於讀者引用查找，
+於中譯文本上的每一段都附有參考標號。
+我們也歡迎關於本文的各種討論：
+&lt;<a href="mailto:chinese-translators@gnu.org">chinese-translators@gnu.org</a>&gt; 。】
+</em>
+
+<p>
+Who should your computer take its orders from?  Most people think
+their computers should obey them, not obey someone else.  With a plan
+they call "trusted computing", large media corporations (including the
+movie companies and record companies), together with computer
+companies such as Microsoft and Intel, are planning to make your
+computer obey them instead of you.  (Microsoft's version of this
+scheme is called "Palladium".)  Proprietary programs have included
+malicious features before, but this plan would make it universal.
+<p>
+<sup><b>1</b></sup> 您的電腦應該聽取誰的命令？
+大部份的人認為他們的電腦應該服從他們而不是某個其他人。
+經由一項他們稱之為“可信賴的計算”（trusted computing）的打算，
+大型的媒體公司（包括電影和錄製公司）
+以及像是 Microsoft 和 Intel 的電腦公司，
+正打算要使您的電腦服從他們而不是您。
+（這項方案的 Microsoft 版本稱之為“安全裝備”： Palladium 。）
+私權的程式在以前就已經有包括了一些惡意的功能特色（features），
+但是這項打算將會使其普遍化。
+
+<p>
+Proprietary software means, fundamentally, that you don't control what
+it does; you can't study the source code, or change it.  It's not
+surprising that clever businessmen find ways to use their control to
+put you at a disadvantage.  Microsoft has done this several times: one
+version of Windows was designed to report to Microsoft all the
+software on your hard disk; a recent "security" upgrade in Windows
+Media Player required users to agree to new restrictions.  But
+Microsoft is not alone: the KaZaa music-sharing software is designed
+so that KaZaa's business partner can rent out the use of your computer
+to their clients.  These malicious features are often secret, but even
+once you know about them it is hard to remove them, since you don't
+have the source code.
+<p>
+<sup><b>2</b></sup> 私權軟體在本質上即表示：
+您無法控制它要做些什麼；
+您不能研究源碼或是更動它。
+聰明的商人找出一些方法利用他們的控制，
+來使您處於劣勢的行為並不讓人感到驚訝。
+Microsoft 已經做過許多次了：
+有一個版本的 Windows 被設計來將在您的硬碟上的所有軟體回報給
+Microsoft ；
+一個最近在 Windows Media Player 上的“安全”
+昇級要求使用者同意新的限制（restrictions）。
+但 Microsoft 並不孤單：
+KaZaa 這個音樂分享（music-sharing）軟體被設計成，
+使 KaZaa 的商業夥伴可以將您的電腦的使用出租給他們的客戶。
+這些惡意的功能特色通常是隱密的，
+但是就算您發現到，
+也很難將它們移除，
+因為您並沒有源碼。
+
+<p>
+In the past, these were isolated incidents.  "Trusted computing" would
+make it pervasive.  "Treacherous computing" is a more appropriate
+name, because the plan is designed to make sure your computer will
+systematically disobey you.  In fact, it is designed to stop your
+computer from functioning as a general-purpose computer.  Every
+operation may require explicit permission.
+<p>
+<sup><b>3</b></sup> 在過去，
+這些都是個別〔發生〕的事件。
+“可信賴的計算”（Trusted computing）將可能使它變得普遍。
+“背判了的計算”是一個較為合適的名稱，
+因為這項打算是設計用來確保您的電腦將會有系統地不服從您。
+事實上，
+它是設計用來使您的電腦無法作為一台通用的計算機（general-purpose computer）。
+每一項操作都將會需要明確的許可〔才得以進行〕。
+
+<p>
+The technical idea underlying treacherous computing is that the
+computer includes a digital encryption and signature device, and the
+keys are kept secret from you.  Proprietary programs will use this
+device to control which other programs you can run, which documents or
+data you can access, and what programs you can pass them to.  These
+programs will continually download new authorization rules through the
+Internet, and impose those rules automatically on your work.  If you
+don't allow your computer to obtain the new rules periodically from
+the Internet, some capabilities will automatically cease to function.
+<p>
+<sup><b>4</b></sup> 在「背判了的計算」底下的技術想法是：
+電腦包括了一個數位加密（digital encryption）
+以及簽章（signature）裝置，
+而其鍵值（keys）對您來說則是〔無法取得的〕祕密。
+私權程式將會使用這項裝置來控制「您可以執行的其它程式」、
+「您可以儲存的文件或資料」以及「您可以傳遞的程式」。
+這些程式將會持續地經由互聯網下載新的認證規則（authorization rules），
+並且自動地將那些規則加諸到您的工作上。
+如果您不允許您的電腦定期地從互聯網取得新的規則，
+〔那麼〕一些功能（capabilities）將會自動地停止作用（function）。
+
+<p>
+Of course, Hollywood and the record companies plan to use treacherous
+computing for "DRM" (Digital Restrictions Management), so that
+downloaded videos and music can be played only on one specified
+computer.  Sharing will be entirely impossible, at least using the
+authorized files that you would get from those companies.  You, the
+public, ought to have both the freedom and the ability to share these
+things.  (I expect that someone will find a way to produce unencrypted
+versions, and to upload and share them, so DRM will not entirely
+succeed, but that is no excuse for the system.)
+<p>
+<sup><b>5</b></sup> 當然，
+好萊塢（Hollywood）以及錄製公司打算要將「背判了的計算」用到“DRM”
+（數位限制管理： Digital Restrictions Management）上，
+這樣一來下載的錄像品（videos）和音樂就只能夠在一台指定的電腦上播放。
+分享將是完全的不可能，
+至少使用您可能從那些公司下載的認證檔案是如此。
+您，也就是公眾，
+應當同時擁有自由和能力來分享這些事物。
+（我期望將有某個人能找出一個製作出沒有加密版本的方法，
+並且上載分享它們，
+這樣子 DRM 將不會完全地成功，
+但那不能作為這個體系〔合理化〕的藉口。）
+
+<p>
+Making sharing impossible is bad enough, but it gets worse.  There are
+plans to use the same facility for email and documents--resulting in
+email that disappears in two weeks, or documents that can only be read
+on the computers in one company.
+<p>
+<sup><b>6</b></sup> 使得分享變得不可能已經是夠糟的了，
+但還有更糟的。
+他們打算要使用同樣的設施（facility）到電子郵件和文件上 --
+造成電子郵件會在兩個星期內消失，
+或是文件只可以在一間公司內的電腦上被閱讀。
+
+<p>
+Imagine if you get an email from your boss telling you to do something
+that you think is risky; a month later, when it backfires, you can't
+use the email to show that the decision was not yours.  "Getting it in
+writing" doesn't protect you when the order is written in disappearing
+ink.
+<p>
+<sup><b>7</b></sup> 設想如果您從您的老闆那裡收到一封電子郵件，
+要求您去做一件您認為太過於冒險的事；
+一個月後，
+這事情與〔他的〕預期相反時，
+您無法使用那封電子郵件來顯示那個決定並不是您所作出的。
+當這個命令是以會消失的墨水撰寫時，
+“白紙黑字地寫下來”並不足以保護您。
+
+<p>
+Imagine if you get an email from your boss stating a policy that is
+illegal or morally outrageous, such as to shred your company's audit
+documents, or to allow a dangerous threat to your country to move
+forward unchecked.  Today you can send this to a reporter and expose
+the activity.  With treacherous computing, the reporter won't be able
+to read the document; her computer will refuse to obey her.
+Treacherous computing becomes a paradise for corruption.
+<p>
+<sup><b>8</b></sup> 設想如果您自您的老闆那裡收到一封電子郵件，
+陳述了一個違反了法律或道德的政策，
+像是將您的公司的帳簿丟進碎紙機，
+或是允許一個對您的國家的嚴重威脅繼續進行而不受檢查。
+在今天您可以將這類事情送給〔新聞〕記者並揭露這個活動。
+但是經由「背判了的計算」，
+記者將無法閱讀這份文件，
+她的電腦將會拒絕服從她。
+「背判了的計算」變成了舞弊的天堂。
+
+<p>
+Word processors such as Microsoft Word could use treacherous computing
+when they save your documents, to make sure no competing word
+processors can read them.  Today we must figure out the secrets of
+Word format by laborious experiments in order to make free word
+processors read Word documents.  If Word encrypts documents using
+treacherous computing when saving them, the free software community
+won't have a chance of developing software to read them--and if we
+could, such programs might even be forbidden by the Digital Millennium
+Copyright Act.
+<p>
+<sup><b>9</b></sup> 像是 Microsoft Word 的文書處理器，
+可以在當它們儲存您的文件時使用「背判了的計算」，
+以確保沒有與之競爭的文書處理器可以閱讀它們。
+今天我們必須費力地嚐試來理解 Word 格式〔為何〕，
+以製作出可以閱讀 Word 文件的自由文書處理器。
+如果 Word 在當它儲存文件時使用「背判了的計算」，
+自由軟體社群將不會有機會開發出可以閱讀它們的軟體 --
+即便我們辦得到，
+這樣子的程式甚至也會被“數位千禧年版權法案”
+（Digital Millennium Copyright Act）所禁止。
+
+<p>
+Programs that use treacherous computing will continually download new
+authorization rules through the Internet, and impose those rules
+automatically on your work.  If Microsoft, or the US government, does
+not like what you said in a document you wrote, they could post new
+instructions telling all computers to refuse to let anyone read that
+document.  Each computer would obey when it downloads the new
+instructions.  Your writing would be subject to 1984-style retroactive
+erasure.  You might be unable to read it yourself.
+<p>
+<sup><b>10</b></sup> 使用「背判了的計算」的程式，
+將會持續地自互聯網下載新的認證規則，
+並且將這些自動地加諸到您的工作上。
+如果 Microsoft 或是美國政府不喜歡在某份您所撰寫的文件中所說的事，
+他們可以發出新的指示，
+告訴所有的電腦拒絕讓任何人閱讀那份文件。
+每一台電腦在它下載了新的指示後都將會遵守。
+您的著述將會受到有如小說《一九八四》中所描述的（1984-style）
+「追溯既往而有效的刪去」（retroactive erasure）。
+【《一九八四》（1984）是英國作家喬治‧歐威爾（George Orwell）
+於一九四九年發表的科幻小說；
+相對應的則是赫胥黎（Aldous Huxley）
+於一九三二年所發表的《美麗新世界》（Brave New World） --
+它也是《勇敢 GNU 世界》（Brave GNU World）名稱的由來。】
+您有可能連您自己都無法閱讀它。
+
+<p>
+You might think you can find out what nasty things a treacherous
+computing application does, study how painful they are, and decide
+whether to accept them.  It would be short-sighted and foolish to
+accept, but the point is that the deal you think you are making won't
+stand still.  Once you come depend on using the program, you are
+hooked and they know it; then they can change the deal.  Some
+applications will automatically download upgrades that will do
+something different--and they won't give you a choice about whether to
+upgrade.
+<p>
+<sup><b>11</b></sup> 您也許會想：
+您可以看穿「“背判了的計算”的程式在做的卑鄙事」，
+研究〔使用它們〕將會付出什麼代價，
+然後再來決定是否要使用它們。
+接受將會是短視而且愚蠢的，
+重點在於您認為您所作出的協議並不會保持不變。
+一旦您變得依賴於使用〔那些〕程式，
+您就被套牢了（hooked），
+而且他們清楚得很；
+然後他們就可以更動這項協議。
+一些應用程式將會自動地下載「將會做出某些不一樣的事情的」昇級 --
+而他們可不會給您一個是否要昇級的選擇。
+
+<p>
+Today you can avoid being restricted by proprietary software by not
+using it.  If you run GNU/Linux or another free operating system, and
+if you avoid installing proprietary applications on it, then you are
+in charge of what your computer does.  If a free program has a
+malicious feature, other developers in the community will take it out,
+and you can use the corrected version.  You can also run free
+application programs and tools on non-free operating systems; this
+falls short of fully giving you freedom, but many users do it.
+<p>
+<sup><b>12</b></sup> 今天您可以經由不去使用它來避免被私權軟體所限制。
+如果您執行 GNU/Linux 或是其它的自由作業系統，
+並且如果您避免在它上面安裝私權應用程式，
+那麼您就換得了〔完全地掌握〕您的電腦做些什麼〔的自由〕。
+如果一個自由程式有一個惡意的功能特色，
+在社群裡的其他程式員將會把它除去，
+然後您就可以使用修正過的版本了。
+您也可以在不自由的作業系統上執行自由的應用程式和工具；
+這並不足以給予您完全的自由，
+但是有許多使用者這麼做。
+
+<p>
+Treacherous computing puts the existence of free operating systems and
+free applications at risk, because you may not be able to run them at
+all.  Some versions of treacherous computing would require the
+operating system to be specifically authorized by a particular
+company.  Free operating systems could not be installed.  Some
+versions of treacherous computing would require every program to be
+specifically authorized by the operating system developer.  You could
+not run free applications on such a system.  If you did figure out
+how, and told someone, that could be a crime.
+<p>
+<sup><b>13</b></sup> 「背判了的計算」
+將自由作業系統和自由應用程式的存續置於危險的境地，
+因為您將根本無法執行它們。
+一些版本的「背判了的計算」，
+將會需要作業系統被某個特定的公司明確地給予認證。
+自由的作業系統將無法被安裝。
+一些版本的「背判了的計算」，
+將會需要每一個程式都要被作業系統開發者明確地給予認證。
+您無法在這樣的一個作業系統上執行自由的應用程式。
+如果您真的瞭解了要如何做，
+並且告訴了某人，
+那可能是一種犯罪行為。
+
+<p>
+There are proposals already for US laws that would require all computers to
+support treacherous computing, and to prohibit connecting old computers to
+the Internet.  The CBDTPA (we call it the Consume But Don't Try Programming
+Act) is one of them.  But even if they don't legally force you to switch to
+treacherous computing, the pressure to accept it may be enormous.  Today
+people often use Word format for communication, although this causes
+several sorts of problems (see <a
+href="/philosophy/no-word-attachments.html">"We Can Put an End to Word
+Attachments"</a>).  If only a treacherous computing machine can read the
+latest Word documents, many people will switch to it, if they view the
+situation only in terms of individual action (take it or leave it).  To
+oppose treacherous computing, we must join together and confront the
+situation as a collective choice.
+<p>
+<sup><b>14</b></sup> 已經有一些在美國法律上的提議：
+要求所有的電腦都支持「背判了的計算」，
+並且禁止將舊電腦連結到互聯網上。
+CBDTPA （我們稱它為“消費就好，不要試著編寫程式”法案：
+Consume But Don't Try Programming Act）就是其中之一。
+但是即使他們並沒有在法律上強制您切換到「背判了的計算」，
+〔被迫〕接受它的壓力還是很大。
+今天人們通常使用 Word 格式來通信，
+雖然這會造成許多類型的問題。
+（請見 <a href="/philosophy/no-word-attachments.html">“我們可以終結使用 Word 附加檔案”：We Can Put an End to Word Attachments</a>）
+〔但是〕如果只有「背判了的計算」的機器可以閱讀最新的 Word 文件，
+並且如果他們所看到的形勢只是以個別的動作（接受或離開）來表現時，
+許多人將會切換到它。
+為了反制「背判了的計算」，
+我們必須結合在一起面對這個形勢，
+以作為我們集體的選擇。
+
+<p>
+For further information about treacherous computing, see <a
+href="http://www.cl.cam.ac.uk/users/rja14/tcpa-faq.html">&lt;http://www.cl.cam.ac.uk/users/rja14/tcpa-faq.html&gt;</a>.
+<p>
+<sup><b>15</b></sup> 關於「背判了的計算」的更多資訊，
+請見 <a href="http://www.cl.cam.ac.uk/users/rja14/tcpa-faq.html">&lt;http://www.cl.cam.ac.uk/users/rja14/tcpa-faq.html&gt;</a> 。
+
+<p>
+To block treacherous computing will require large numbers of citizens to
+organize.  We need your help!  The <a href="http://www.eff.org">Electronic
+Frontier Foundation</a> and <a href="http://www.publicknowledge.org">Public
+Knowledge</a> are campaigning against treacherous computing, and so is the
+FSF-sponsored <a href="http://www.digitalspeech.org">Digital Speech
+Project</a>. Please visit these Web sites so you can sign up to support
+their work.
+<p>
+<sup><b>16</b></sup> 要阻擋「背判了的計算」將會需要很大數目的公民組織起來。
+我們需要您的幫助！
+<a href="http://www.eff.org">電子先鋒基金會（Electronic Frontier Foundation）</a> 和
+<a href="http://www.publicknowledge.org">公眾知識（Public Knowledge）</a>
+正在發起對抗「背判了的計算」的活動，
+由自由軟體基金會資助的
+<a href="http://www.digitalspeech.org">數位言論計畫（Digital Speech Project）</a>
+也有參與。
+請拜訪這些網站，
+這樣您就可以簽名來支持他們的工作了。
+
+<p>
+You can also help by writing to the public affairs offices of Intel,
+IBM, HP/Compaq, or anyone you have bought a computer from, explaining
+that you don't want to be pressured to buy "trusted" computing systems
+so you don't want them to produce any.  This can bring consumer power
+to bear.  If you do this on your own, please send copies of your
+letters to the organizations above.
+<p>
+<sup><b>17</b></sup> 您也可以經由撰寫給 Intel 、 IBM 、 HP/Compaq
+或任何您從他那裡購買電腦的人，
+解釋您不想要被強迫購買“可信賴”的計算系統，
+因此您不希望他們製造任何這樣子的系統。
+這可以帶給消費者維持〔自由〕的力量。
+如果您自行採取行動，
+請將您的信件副本送到上述的機構。
+
+<p>
+<h3>後記</h3>
+<p>
+<ol>
+<li>The GNU Project distributes the GNU Privacy Guard, a program that
+implements public-key encryption and digital signatures, which you can
+use to send secure and private email.  It is useful to explore how GPG
+differs from treacherous computing, and see what makes one helpful and
+the other so dangerous.
+<p>
+<sup><b>18</b></sup> GNU 計畫散佈了 GNU Privacy Guard （GNU 隱私守衛），
+那是一個實作了公開鍵加密（public-key encryption）
+以及數位簽章的程式，
+您可以使用來送出安全且祕密的電子郵件。
+瀏覽一下 GPG 是如何與「背判了的計算」不同是有用處的，
+並且看看那些對於某人有幫助的事物〔為什麼〕對其他人是如此的危險。
+
+<p>
+When someone uses GPG to send you an encrypted document, and you use
+GPG to decode it, the result is an unencrypted document that you can
+read, forward, copy, and even re-encrypt to send it securely to
+someone else.  A treacherous computing application would let you read
+the words on the screen, but would not let you produce an unencrypted
+document that you could use in other ways.  GPG, a free software
+package, makes security features available to the users; they use it.
+Treacherous computing is designed to impose restrictions on the users;
+it uses them.
+<p>
+<sup><b>19</b></sup> 當某人使用 GPG 送給您一份加密的文件，
+並且您使用了 GPG 來將它解碼，
+〔所得到的〕結果是一份您可以閱讀、〔進一步〕傳遞、
+複製甚至再次加密並安全地送給某個其他人的解密文件。
+一個「背判了的計算」應用程式將會讓您在螢幕上閱讀這些文字，
+但是不讓您〔能夠〕製作出一份可以讓您以其它方式使用的解密文件。
+GPG 這個自由軟體套件，
+讓「安全的功能特色」可以為使用者所取得；
+他們使用它。
+「背判了的計算」則是設計來將限制加諸到使用者身上；
+它利用了他們。
+
+<p>
+<li>Microsoft presents palladium as a security measure, and claims that
+it will protect against viruses, but this claim is evidently false.  A
+presentation by Microsoft Research in October 2002 stated that one of
+the specifications of palladium is that existing operating systems and
+applications will continue to run; therefore, viruses will continue to
+be able to do all the things that they can do today.
+<p>
+<sup><b>20</b></sup> Microsoft 簡報了 palladium 作為一種安全手段，
+並且宣稱它將會保護〔電腦〕免受病毒的侵襲，
+但是證據顯示這項宣稱完全是站不住腳。
+由 Microsoft Research （研究部門）在二○○二年十月所作的一場簡報，
+說明了 palladium 的其中一項規格是：
+現存的作業系統以及應用程式將會繼續地採用；
+因此，
+病毒也將能夠繼續地做它們今天能做的所有事情。
+
+<p>
+When Microsoft speaks of "security" in connection with palladium, they
+do not mean what we normally mean by that word: protecting your
+machine from things you do not want.  They mean protecting your copies
+of data on your machine from access by you in ways others do not want.
+A slide in the presentation listed several types of secrets palladium
+could be used to keep, including "third party secrets" and "user
+secrets"--but it put "user secrets" in quotation marks, recognizing
+that this somewhat of an absurdity in the context of palladium.
+<p>
+<sup><b>21</b></sup> 當 Microsoft
+在談論到與 palladium 作連接的“安全”時，
+他們指的「並不是」我們通常用來表示那個字的意思：
+保護您的機器，使其免於受到您不想要〔的事物侵擾〕。
+他們指的是保護在您的機器上的您的資料的拷貝，
+使其免於被您〔自己〕以其他人不希望的方式進行存取（access）。
+簡報中的一個幻燈片列出了數個 palladium 可能用來維護的祕密類型，
+包括了“第三團體（third party）的祕密”以及“使用者的祕密” --
+但是它將“使用者的祕密”放到引號中，
+「似乎」將它認知為：
+就 palladium 的〔開發〕脈絡而言，
+這實在有點荒謬。
+
+<p>
+The presentation made frequent use of other terms that we frequently
+associate with the context of security, such as "attack", "malicious
+code", "spoofing", as well as "trusted".  None of them means what it
+normally means.  "Attack" doesn't mean someone trying to hurt you, it
+means you trying to copy music.  "Malicious code" means code installed
+by you to do what someone else doesn't want your machine to do.
+"Spoofing" doesn't mean someone fooling you, it means you fooling
+palladium.  And so on.
+<p>
+<sup><b>22</b></sup> 簡報中頻繁地使用當我們談到安全時，
+經常會使用到的其它字眼，
+像是“攻擊”（attack）、
+“惡意的代碼”（malicious code）、
+“欺騙”（spoofing）以及“可信賴的”（trusted）。
+〔但是〕它們之中沒有一個指的是我們通常用來表示的意思。
+“攻擊”並不是指某人試圖要傷害您，
+它是指您試圖要複製音樂；
+“惡意的代碼”指的是由您〔自己〕所安裝的代碼，
+而這代碼可能做得出某個「其他人」不希望您的機器去做的某些事；
+“欺騙”並不是指某人欺騙了您，
+它指的是您玩弄了 palladium 。
+諸如此類……。
+
+<p>
+<li>A previous statement by the palladium developers stated the basic
+premise that whoever developed or collected information should have
+total control of how you use it.  This would represent a revolutionary
+overturn of past ideas of ethics and of the legal system, and create
+an unprecedented system of control.  The specific problems of these
+systems are no accident; they result from the basic goal.  It is the
+goal we must reject.
+<p>
+<sup><b>23</b></sup> 由一個 palladium 開發者先前所作的聲明，
+說明了它的基本根據是：
+不論是誰開發或收集了資訊，
+應該都對「您如何使用它」具有完全的控制權。
+這是對於過去「倫理」和「法律體系」的觀念的一種革命性的推翻，
+並且創造了一種前所未見的控制體系。
+〔關於〕這些系統的特定問題並不是出於偶然；
+它們是來自於〔有意識的〕基本目標。
+而這目標正是我們必須拒絕的。
+
+</ol>
+<p>
+Copyright &copy; 2002 Richard Stallman.
+<p>
+Verbatim copying and distribution of this entire article is permitted
+without royalty in any medium provided this notice is preserved.
+<BR>
+【本文允許在無須支付版稅，
+且不變更文件內容的前提下刊登在任何形式的媒體中，
+但需保留此聲明。】
+<P>
+
+<HR>
+
+<H4>本文被出版
+於 <a href="http://shop.fsf.org/product/free-software-free-society/"><i>
+《自由軟體，自由社會：理查‧馬修‧史托曼的選文》</i></a>
+
+<p>
+
+<A HREF="/philosophy/philosophy.html">閱讀其它文章</A></H4>
+
+<HR>
+[
+<!-- Please keep this list alphabetical                             -->
+<!-- PLEASE UPDATE THE LIST AT THE BOTTOM (OR TOP) OF THE PAGE TOO! -->
+  <A HREF="/philosophy/can-you-trust.zh-cn.html">簡體中文</A>
+| <A HREF="/philosophy/can-you-trust.zh-tw.html">繁體中文</A>
+| <A HREF="/philosophy/can-you-trust.en.html">英文</A>
+| <A HREF="/philosophy/can-you-trust.de.html">德文</A>
+| <A HREF="/philosophy/can-you-trust.es.html">西班牙文</A>
+<!-- Please keep this list alphabetical                             -->
+<!-- PLEASE UPDATE THE LIST AT THE BOTTOM (OR TOP) OF THE PAGE TOO! -->
+]
+
+<P>
+返回 <A HREF="/home.zh-tw.html">GNU 首頁</A>。
+
+<P>
+請將有關 自由軟體基金會 與 GNU 的 查詢 與 問題 送到
+<A HREF="mailto:gnu@gnu.org"><EM>gnu@gnu.org</EM></A>。
+你也可以使用 <A HREF="/home.html#ContactInfo">其他方法聯繫</A>
+自由軟體基金會。
+
+<P>
+請將有關網頁的意見送到
+<A HREF="mailto:webmasters@gnu.org"><EM>webmasters@gnu.org</EM></A>，
+其他問題則送到
+<A HREF="mailto:gnu@gnu.org"><EM>gnu@gnu.org</EM></A>。
+
+<P>
+請將有關中文網頁的意見送到
+<A HREF="mailto:chinese-coordinators@gnu.org"><EM>chinese-coordinators@gnu.org</EM></A>，
+其他問題則送到
+<A HREF="mailto:chliu@gnu.org"><EM>chliu@gnu.org</EM></A>。
+
+<P>
+Free Software Foundation, Inc.,
+51 Franklin St, Fifth Floor, Boston, MA  02110,  USA
+
+<P>
+翻譯：劉 昭宏。
+<BR>
+驗證：馬 雪萍。
+<BR>
+請將有關翻譯的問題送到
+<A HREF="http://savannah.gnu.org/projects/chinese/">GNU/CTT</A> 的
+<A HREF="mailto:chinese-translators@gnu.org">翻譯人員</A>。
+
+<P>
+Updated:
+<!-- timestamp start -->
+$Date: 2021/02/09 16:32:28 $ $Author: ineiev $
+<!-- timestamp end -->
+<HR>
+</BODY>
+</HTML>
+

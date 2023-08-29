@@ -1,0 +1,284 @@
+Stallman Condensed
+------------------
+
+What follows is a summary of Richard M. Stallman's 29 May 2001 speech at NYU
+entitled "Free Software: Freedom and Cooperation". As the length of the
+original speech is intimidating, my hope is that this distilled version will
+be more approachable to the casual reader.
+
+The original text can be found here:
+http://www.gnu.org/philosophy/rms-nyu-2001-transcript.txt
+
+Not everyone is a programmer
+----------------------------
+
+RMS starts out his presentation with an analogy one might use to explain free
+software to a person who is not technically savvy: sharing recipes. "Some of
+you may not ever write computer programs, but perhaps you cook," the analogy
+goes, "and, if you use recipes, you've probably had the experience of getting
+a copy of a recipe from a friend who's sharing it." This quality of sharing is
+very close to the principle upon which the free software movement is based:
+that useful information, specifically the code from which publicly distributed
+programs are built, should be available to everyone. Continuing the
+comparison, once you own a copy of a recipe, you are free to change it to suit
+your individual tastes, to "add some mushrooms, 'cause you like mushrooms",
+for example. This is another principle of free software: that one should be
+able to make changes to the code of a program as desired. If you cook for
+friends from this modified recipe, they may like your creation and then ask
+for the new recipe. As with distributing modified free software, you share it
+with them because "that's the way to be a decent person".
+
+Now the punch line: if recipes were like proprietary, non-free software, then
+this story would be far different. Suppose the recipe were given to you as a
+black box, the insides of which you could not change, but which would produce
+the same dish exactly as your friend had made it. Then you might not be able
+to change the dish to your liking and thus could never share with your friends
+a modified (hopefully better) version of that dish. Non-free software is based
+on a value system "in which common decency towards other people is prohibited
+or prevented", one which opposes the system of sharing that people commonly
+use and understand with recipes.
+
+Laser printer debacle
+---------------------
+
+With a bit of his own story, RMS explains how he came to see the dangers of
+proprietary software during the 1970s when he worked at the MIT Artificial
+Intelligence Lab. His group had been given a brand new Xerox laser printer for
+use with their PDP-10 computer, but it jammed frequently. This caused much
+aggravation as there was no way of knowing, without physically examining the
+printer itself, that it had jammed. So they got the idea of changing the
+printer software to notify the users on the system that a jam had occurred.
+This seemed natural enough to this particular group of researchers since the
+lab internally shared code and information freely. After all, they had created
+their own operating system in assembly language and this was merely software
+for a printer.  Unfortunately, that software had been provided in binary form
+only and they had no source with which they could make changes. Even worse,
+Xerox refused to let them have the source. And so they "just had to suffer
+with waiting"; "frustration up the whazzoo," he explains.
+
+NDAs have victims
+-----------------
+
+The story of the printer driver continues: someone at Carnegie Mellon
+University did have the source code, yet refused to give a copy to the MIT
+group because "he had promised to refuse to cooperate with us ... he had
+signed a non-disclosure agreement". By the terms of this agreement, the person
+with the source "had promised to refuse to cooperate with just about the
+entire population of the Planet Earth". This led RMS to draw the conclusion
+that, despite rationalizations and quid pro quo temptations, NDAs have victims
+since they bind a person to potentially refusing to share generally useful
+information, and thereby making life more difficult for fellow humans. As a
+consequence, RMS has "never knowingly signed a non-disclosure agreement for
+generally useful technical information, such as software". 
+
+Birth of GNU
+------------
+ 
+After the collapse of his group at MIT and contemplation upon the lessons
+learned there, RMS decided he "would develop a free operating system -- or die
+trying...of old age". He decided to model his system after the UNIX system,
+for the sake of compatibility and portability. The modularity of the system
+allowed the pieces to be developed one at a time, thus building the whole
+system gradually, replacing the proprietary bits that comprised most UNIX
+systems. In the spirit of the hacker culture, he used a recursive acronym to
+describe the software: GNU, which stands for "GNU's Not UNIX" and is
+pronounced "guh-NEW".
+
+Slowly bits of the system started getting written, and they were "equally good
+replacements, with fewer bugs ... but they weren't tremendously exciting".
+Then in early 1985, as RMS "had no intention of learning to use VI, the UNIX
+editor" for text files, he completed GNU Emacs, a versatile text editor.
+Quickly other users wanted a copy and RMS realized he had to work out the
+rules of distribution. Anyone with network access and an FTP client could get
+the software for free, and those without could get it on a tape for $150.
+
+$150 for free software - two meanings of "free"
+-----------------------------------------------
+
+This is a point of widespread confusion: how can free software cost $150? The
+answer is that the English word "free" has two distinct meanings. The "free"
+in the free software movement is about sharing and promoting freedoms.
+However, many people think that it means "free" and in "free of cost" and
+while most free software can be had without paying for it, no one is prevented
+for charging people for a copy. RMS makes this point by asking us to "think of
+free speech, not free beer". In effect, this is what almost every GNU/Linux
+distribution does: package free software to suit the needs of a group of
+users.  On the subject of the price of software, RMS says, "I'm not against
+some other programmer getting money either. I don't want prices to be low.
+That's not the issue at all. The issue is freedom."
+
+The Four Freedoms of free software
+----------------------------------
+
+Having alluded to the qualities of free software earlier, RMS now takes time
+spell out the four freedoms of free software. (Note that they are zero-
+indexed.) 
+
+First is Freedom Zero, the freedom to use software however you wish. RMS notes
+that "most programs will at least give you Freedom Zero", and that any
+software that doesn't "is a pretty damn restrictive program".
+
+Freedom One is the freedom to change software to suit your needs. Remember the
+example with the Xerox laser printer at the MIT AI lab, and how this freedom
+would have allowed them to rewrite the software to make their lives easier. In
+general when this freedom is not granted "it makes you a prisoner of your
+software" and "causes practical, material harm to society", just as the
+researchers at the lab were prisoners to their printer software and suffered
+under it.
+
+Freedom Two is the freedom to distribute the software to anyone else, and in
+doing so "to help your neighbor". Remember the analogy with recipes and how
+sharing is "society's most important resource".  RMS makes the point that the
+laws that are used to prevent sharing of software are based on the logic one
+normally applies to physical goods, when in fact there are vast differences
+between physical goods and software. For example, it takes greater resources
+to produce a copy of a car than it does to produce a copy of software. 
+
+Freedom Three is the freedom to distribute altered versions of the software,
+and in doing so cultivate a community centered around the evolution of the
+software. When you share a modified version of a recipe you obtained from a
+friend, you are exercising an analogue of this freedom.
+
+Open source and free software: two different goals
+--------------------------------------------------
+
+One source of confusion about the free software movement is the insistence
+that they and the open source software movement are inherently different. RMS
+claims that they differ in their goals: free software has a philosophical goal
+to promote the four freedoms listed above while open source software has the
+practical goal to promote the release of software for which the source is
+available under a license fitting a certain definition. In general, this means
+the freedoms granted by various types of open source licenses are a subset of
+the greater freedoms granted by free software licenses. RMS says that members
+of the OSS movement "only cite the practical benefits" of free software and
+while they have "contributed substantially to our community", he says that
+"philosophically, there's a tremendous disagreement".
+
+Where to measure freedom?
+-------------------------
+
+The measurement of whether a piece of software is free software can depend on
+where the measurement takes place. In the example of X Windows, the license
+allows for different freedoms for different groups. The developers of the X
+Windows system have all four freedoms and thus, it is free software to them.
+The users do not, in general, have any of the four freedoms except Freedom
+Zero, and so it is not free software to them. Similarly, some companies take
+the source, change it, release binary-only versions, and then their users have
+only Freedom Zero.
+
+RMS worried that "if that same thing had happened to GNU software, it would
+have been a failure". So he sought a way to prevent it from happening, a way
+to grant freedoms to all users of the software, regardless of the
+modifications.
+
+Copyleft
+--------
+
+The method RMS came up with is called "copyleft", so called since "it's sort
+of like taking copyright and flipping it over". Free software grants all four
+freedoms and, via copyleft, uses copyright law to enforce on all derived works
+those same four freedoms. Under these conditions, the paradox of X Windows,
+free software that isn't always free software, cannot occur. The license that
+accomplishes this, and which is used on much free software, is the GNU General
+Public License (or GPL), "a controversial license -- because it actually has
+the strength to say no to people who would be parasites on our community."
+
+Why GNU/Linux?
+--------------
+
+First came GNU in 1984 and subsequently in 1985 the Free Software Foundation
+was created. Work continued on the GNU system and in 1991 only one crucial
+piece was missing: the kernel. It was then that Linus Torvalds combined the
+GNU system with his monolithic Linux kernel to create the first GNU/Linux
+system. And this is a point that RMS feels strongly upon: "if I'm talking
+about the kernel, I call it Linux" and otherwise the complete system should be
+called GNU/Linux since both the GNU system and the kernel must be combined to
+create a complete whole.
+
+Free software and business
+--------------------------
+
+Having already discussed how free software puts power in the hands of users,
+RMS then takes time to clarify why, despite the recent invective from
+Microsoft, free software is a good for business. 
+
+That users are granted the four freedoms is the first advantage that business
+can receive from free software, as businesses are themselves users of
+software, often on a large scale. Thus a business has the opportunity to
+control the software they use, instead of being at the mercy of the bugs and
+feature decisions of the proprietary software vendor. Further, business can
+benefit from inspecting the code of the software to ensure privacy for its own
+sake (effectively preventing the use of spyware) and take action to fix any
+security flaws that might exist (instead of waiting for the proprietary
+software vendor to test and release a fix).
+
+For businesses that develop their own in-house applications, free software
+promotes code reuse, thus eliminating waste while saving time and potentially
+money. Since a free software license like the GPL requires that source be
+provided only when modified software is made available to the public,
+applications developed for internal use which potentially incorporate
+proprietary technology need not run afoul of the GPL. This point seems
+specifically targeted at Microsoft's contention that businesses cannot use
+free software without putting at risk their own proprietary technology, a
+position that RMS believes to be untrue.
+
+RMS also claims that the use of free software promotes standardization and
+compatibility. Businesses might find this attractive since it could prevent
+the seemingly planned obsolescence of products and their data formats that can
+occur with proprietary software. An obvious example here might be Microsoft
+Office's Word, for which new incarnations often introduce non-backward
+compatible document formats. 
+
+These don't address the question of free software companies and what business
+models are available to them. However, several models already exist and RMS
+takes the time to point them out. Primary among these is the support model,
+which almost every GNU/Linux distribution offers. Distributions also attempt
+to make money off of the retail sales of their packaged versions of GNU/Linux;
+however, one can still download those systems for free. Cygnus Support also
+offers services to support GNU software, and has since 1989. One method of
+making money from free software is to to charge a client to add desired 
+features to an existing application. RMS also points to Tony Stanco's recent
+FreeDevelopers movement as a potentially successful model to pay programmers
+to develop free software.
+
+In Closing
+----------
+
+Before taking questions from the audience, RMS expresses his stance that
+a free software movement should focus on long term gain, and that "people who
+don't support free software generally adopt a value system in which the only
+thing that matters is short-term practical benefits". Drawing a parallel with
+the US holiday Memorial Day, during which American heroes of war are honored,
+Stallman urges free software supporters to make "various sacrifices" for the
+cause. Unlike those made by war heroes, however, these sacrifices can be small
+like "learning a command-line interface" or "paying some money to a
+company that's going to develop a certain free software package, so that
+you can have it in a few years". As one that has devoted the past 17 years of
+his life to this cause, he is exceptionally qualified to speak to such a
+commitment.
+
+In this speech, RMS has outlined many of the salient and oft misunderstood
+qualities of free software: that it promotes the four freedoms that we all
+know from our social tradition of sharing; that the "free" in "free software"
+refers to freedom for the user, not cost; that software that denies any of the
+four freedoms can lead to waste and suffering; that open source software and
+free software are fundamentally philosophically different yet have together
+led many people to release much useful software as free software; that the GPL
+protects the freedoms of users from exploitation by parasitic commercial
+interests; and finally, perhaps most importantly, that business and free
+software can coexist, despite recent claims that free software destroys
+so-called intellectual property.
+
+--
+
+Reference information:
+ GNU Project and Free Software Foundation:
+   http://www.gnu.org
+ Original speech:
+   http://www.gnu.org/philosophy/rms-nyu-2001-transcript.txt
+ Open Source Initiative:
+   http://www.opensource.org/
+
+Copyright (C) 2001 Matt Matthews (jvm@linuxgames.com, jvmatthe@math.duke.edu)
+Verbatim copying and distribution of this entire article is permitted in any
+medium, provided this notice is preserved.

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Enforcing the GNU GPL
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/enforcing-gpl.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/enforcing-gpl.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/enforcing-gpl.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/enforcing-gpl.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/enforcing-gpl.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/enforcing-gpl.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/enforcing-gpl.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hu" hreflang="hu" href="/philosophy/enforcing-gpl.hu.html" title="magyar" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/enforcing-gpl.id.html" title="Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/enforcing-gpl.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/philosophy/enforcing-gpl.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/enforcing-gpl.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/enforcing-gpl.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/enforcing-gpl.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/enforcing-gpl.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#LicensingFreeSoftware">Licensing&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#copyleft">Copyleft<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Enforcing the GNU GPL</h2>
+
+<address class="byline">by <a href="http://moglen.law.columbia.edu/">Eben
+Moglen</a>&#8239;<a href="#moglen"><sup>[*]</sup></a></address>
+
+<p><em>10 September 2001</em></p>
+
+<p>Microsoft's anti-GPL offensive this summer has sparked renewed
+speculation about whether the GPL is &ldquo;enforceable.&rdquo; This
+particular example of &ldquo;FUD&rdquo; (fear, uncertainty and doubt)
+is always a little amusing to me.  I'm the only lawyer on earth who
+can say this, I suppose, but it makes me wonder what everyone's
+wondering about: Enforcing the <a href="/licenses/gpl.html">GPL</a> is
+something that I do all the time.</p>
+
+<p>Because <a href="/philosophy/free-sw.html">free software</a> is an
+unorthodox concept in contemporary society, people tend to assume that
+such an atypical goal must be pursued using unusually ingenious, and
+therefore fragile, legal machinery.  But the assumption is faulty.  The
+goal of the Free Software Foundation in designing and publishing the GPL,
+<em>is</em> unfortunately unusual: we're reshaping how programs are made in
+order to give everyone the right to understand, repair, improve, and
+redistribute the best-quality software on earth.  This is a transformative
+enterprise; it shows how in the new, networked society traditional ways of
+doing business can be displaced by completely different models of
+production and distribution.  But the GPL, the legal device that makes
+everything else possible, is a very robust machine precisely because it is
+made of the simplest working parts.</p>
+
+<p>The essence of copyright law, like other systems of property rules, is the
+power to exclude.  The copyright holder is legally empowered to exclude
+all others from copying, distributing, and making derivative works.</p>
+
+<p>This right to exclude implies an equally large power to
+license&mdash;that is, to grant permission to do what would otherwise
+be forbidden.  Licenses are not contracts: the work's user is obliged
+to remain within the bounds of the license not because she voluntarily
+promised, but because she doesn't have any right to act at all except
+as the license permits.</p>
+
+<p>But most proprietary software companies want more power than copyright
+alone gives them.  These companies say their software is
+&ldquo;licensed&rdquo; to consumers, but the license contains
+obligations that copyright law knows nothing about.  Software you're
+not allowed to understand, for example, often requires you to agree
+not to decompile it.  Copyright law doesn't prohibit decompilation,
+the prohibition is just a contract term you agree to as a condition of
+getting the software when you buy the product under shrink wrap in a
+store, or accept a &ldquo;clickwrap license&rdquo; on line.  Copyright
+is just leverage for taking even more away from users.</p>
+
+<p>The GPL, on the other hand, subtracts from copyright rather than adding to
+it.  The license doesn't have to be complicated, because we try to control
+users as little as possible.  Copyright grants publishers power to forbid
+users to exercise rights to copy, modify, and distribute that we believe
+all users should have; the GPL thus relaxes almost all the restrictions of
+the copyright system.  The only thing we absolutely require is that anyone
+distributing GPL'd works or works made from GPL'd works distribute in turn
+under GPL.  That condition is a very minor restriction, from the copyright
+point of view.  Much more restrictive licenses are routinely held
+enforceable: every license involved in every single copyright lawsuit is
+more restrictive than the GPL.</p>
+
+<p>Because there's nothing complex or controversial about the license's
+substantive provisions, I have never even seen a serious argument that the
+GPL exceeds a licensor's powers.  But it is sometimes said that the GPL
+can't be enforced because users haven't &ldquo;accepted&rdquo; it.</p>
+
+<p>This claim is based on a misunderstanding.  The license does not require
+anyone to accept it in order to acquire, install, use, inspect, or even
+experimentally modify GPL'd software.  All of those activities are either
+forbidden or controlled by proprietary software firms, so they require you
+to accept a license, including contractual provisions outside the reach of
+copyright, before you can use their works.  The free software movement
+thinks all those activities are rights, which all users ought to have; we
+don't even <em>want</em> to cover those activities by license.  Almost
+everyone who uses GPL'd software from day to day needs no license, and
+accepts none.  The GPL only obliges you if you distribute software made
+from GPL'd code, and only needs to be accepted when redistribution occurs.
+And because no one can ever redistribute without a license, we can safely
+presume that anyone redistributing GPL'd software intended to accept the
+GPL.  After all, the GPL requires each copy of covered software to include
+the license text, so everyone is fully informed.</p>
+
+<p>Despite the FUD, as a copyright license the GPL is absolutely solid.
+That's why I've been able to enforce it dozens of times over nearly ten
+years, without ever going to court.</p>
+
+<p>Meanwhile, much murmuring has been going on in recent months to the
+supposed effect that the absence of judicial enforcement, in US or other
+courts, somehow demonstrates that there is something wrong with the GPL,
+that its unusual policy goal is implemented in a technically indefensible
+way, or that the Free Software Foundation, which authors the license, is
+afraid of testing it in court.  Precisely the reverse is true.  We do not
+find ourselves taking the GPL to court because no one has yet been willing
+to risk contesting it with us there.</p>
+
+<p>So what happens when the GPL is violated?  With software for which the
+Free Software Foundation holds the copyright (either because we wrote
+the programs in the first place, or because free software authors have
+assigned us the copyright, in order to take advantage of our expertise
+in protecting their software's
+freedom), <a href="/licenses/gpl-violation.html">the first step is a
+report</a>, usually received by email
+to <a href="mailto:license-violation@gnu.org">&lt;license-violation@gnu.org&gt;</a>.
+<a href="/licenses/gpl-violation.html">We ask the reporters of
+violations to help us establish necessary facts</a>, and then we
+conduct whatever further investigation is required.</p>
+
+<p>We reach this stage dozens of times a year.  A quiet initial contact is
+usually sufficient to resolve the problem.  Parties thought they were
+complying with GPL, and are pleased to follow advice on the correction of
+an error.  Sometimes, however, we believe that confidence-building
+measures will be required, because the scale of the violation or its
+persistence in time makes mere voluntary compliance insufficient.  In such
+situations we work with organizations to establish GPL-compliance programs
+within their enterprises, led by senior managers who report to us, and
+directly to their enterprises' managing boards, regularly.  In
+particularly complex cases, we have sometimes insisted upon measures that
+would make subsequent judicial enforcement simple and rapid in the event
+of future violation.</p>
+
+<p>In approximately a decade of enforcing the GPL, I have never insisted on
+payment of damages to the Foundation for violation of the license, and I
+have rarely required public admission of wrongdoing.  Our position has
+always been that compliance with the license, and security for future good
+behavior, are the most important goals.  We have done everything to make
+it easy for violators to comply, and we have offered oblivion with respect
+to past faults.</p>
+
+<p>In the early years of the free software movement, this was probably the
+only strategy available.  Expensive and burdensome litigation might have
+destroyed the FSF, or at least prevented it from doing what we knew was
+necessary to make the free software movement the permanent force in
+reshaping the software industry that it has now become.  Over time,
+however, we persisted in our approach to license enforcement not because
+we had to, but because it worked.  An entire industry grew up around free
+software, all of whose participants understood the overwhelming importance
+of the GPL&mdash;no one wanted to be seen as the villain who stole free
+software, and no one wanted to be the customer, business partner, or even
+employee of such a bad actor.  Faced with a choice between compliance
+without publicity or a campaign of bad publicity and a litigation battle
+they could not win, violators chose not to play it the hard way.</p>
+
+<p>We have even, once or twice, faced enterprises which, under US
+copyright law, were engaged in deliberate, criminal copyright
+infringement: taking the source code of GPL'd software, recompiling it
+with an attempt to conceal its origin, and offering it for sale as a
+proprietary product.  I have assisted free software developers other
+than the FSF to deal with such problems, which we have
+resolved&mdash;since the criminal infringer would not voluntarily
+desist and, in the cases I have in mind, legal technicalities
+prevented actual criminal prosecution of the violators&mdash;by
+talking to redistributors and potential customers.  &ldquo;Why would
+you want to pay serious money,&rdquo; we have asked, &ldquo;for
+software that infringes our license and will bog you down in complex
+legal problems, when you can have the real thing for free?&rdquo;
+Customers have never failed to see the pertinence of the question.
+The stealing of free software is one place where, indeed, crime
+doesn't pay.</p>
+
+<p>But perhaps we have succeeded too well.  If I had used the courts to
+enforce the GPL years ago, Microsoft's whispering would now be falling
+on deaf ears.  Just this month I have been working on a couple of
+moderately sticky situations.  &ldquo;Look,&rdquo; I say, &ldquo;at
+how many people all over the world are pressuring me to enforce the
+GPL in court, just to prove I can.  I really need to make an example
+of someone.  Would you like to volunteer?&rdquo;</p>
+
+<p>Someday someone will.  But that someone's customers are going to go
+elsewhere, talented technologists who don't want their own reputations
+associated with such an enterprise will quit, and bad publicity will
+smother them.  And that's all before we even walk into court.  The first
+person who tries it will certainly wish he hadn't.  Our way of doing law
+has been as unusual as our way of doing software, but that's just the
+point.  Free software matters because it turns out that the different way
+is the right way after all.</p>
+
+<div class="infobox extra" role="complementary">
+<hr />
+<p id="moglen">[*]
+Eben Moglen is professor of law and legal history at Columbia University
+Law School.  He serves without fee as General Counsel of the Free Software
+Foundation.
+</p>
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/enforcing-gpl.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/enforcing-gpl.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/enforcing-gpl.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/enforcing-gpl.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/enforcing-gpl.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/enforcing-gpl.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/enforcing-gpl.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hu]&nbsp;<a lang="hu" hreflang="hu" href="/philosophy/enforcing-gpl.hu.html">magyar</a> &nbsp;</span>
+<span dir="ltr">[id]&nbsp;<a lang="id" hreflang="id" href="/philosophy/enforcing-gpl.id.html">Indonesia</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/enforcing-gpl.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ko]&nbsp;<a lang="ko" hreflang="ko" href="/philosophy/enforcing-gpl.ko.html">한국어</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/enforcing-gpl.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/enforcing-gpl.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/enforcing-gpl.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/enforcing-gpl.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<p>Copyright &copy; 2001 Eben Moglen</p>
+
+<p>Verbatim copying and distribution of this entire article is permitted in
+any medium, provided this notice is preserved.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/10/03 08:44:33 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

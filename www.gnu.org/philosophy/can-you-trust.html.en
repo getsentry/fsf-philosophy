@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Can You Trust Your Computer?
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/can-you-trust.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/can-you-trust.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/can-you-trust.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/can-you-trust.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/can-you-trust.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/can-you-trust.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/can-you-trust.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/can-you-trust.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/can-you-trust.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/philosophy/can-you-trust.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/can-you-trust.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/philosophy/can-you-trust.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/philosophy/can-you-trust.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/can-you-trust.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/can-you-trust.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/can-you-trust.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/philosophy/can-you-trust.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/can-you-trust.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/can-you-trust.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/can-you-trust.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#drm">DRM<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Can You Trust Your Computer?</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>
+Who should your computer take its orders from?  Most people think
+their computers should obey them, not obey someone else.  With a plan
+they call &ldquo;trusted computing,&rdquo; large media corporations
+(including the movie companies and record companies), together with
+computer companies such as Microsoft and Intel, are planning to make
+your computer obey them instead of you.  (Microsoft's version of this
+scheme is called Palladium.)  Proprietary programs have
+included malicious features before, but this plan would make it
+universal.</p>
+<p>
+Proprietary software means, fundamentally, that you don't control what
+it does; you can't study the source code, or change it.  It's not
+surprising that clever businessmen find ways to use their control to
+put you at a disadvantage.  Microsoft has done this several times: one
+version of Windows was designed to report to Microsoft all the
+software on your hard disk; a recent &ldquo;security&rdquo; upgrade in
+Windows Media Player required users to agree to new restrictions.  But
+Microsoft is not alone: the KaZaa music-sharing software is designed
+so that KaZaa's business partner can rent out the use of your computer
+to its clients.  These malicious features are often secret, but even
+once you know about them it is hard to remove them, since you don't
+have the source code.</p>
+<p>
+In the past, these were isolated incidents.  &ldquo;Trusted
+computing&rdquo; would make the practice pervasive.  &ldquo;Treacherous
+computing&rdquo; is a more appropriate name, because the plan is
+designed to make sure your computer will systematically disobey you.
+In fact, it is designed to stop your computer from functioning as a
+general-purpose computer.  Every operation may require explicit
+permission.</p>
+<p>
+The technical idea underlying treacherous computing is that the
+computer includes a digital encryption and signature device, and the
+keys are kept secret from you.  Proprietary programs will use this
+device to control which other programs you can run, which documents or
+data you can access, and what programs you can pass them to.  These
+programs will continually download new authorization rules through the
+Internet, and impose those rules automatically on your work.  If you
+don't allow your computer to obtain the new rules periodically from
+the Internet, some capabilities will automatically cease to function.</p>
+<p>
+Of course, Hollywood and the record companies plan to use treacherous
+computing for Digital Restrictions Management (DRM), so
+that downloaded videos and music can be played only on one specified
+computer.  Sharing will be entirely impossible, at least using the
+authorized files that you would get from those companies.  You, the
+public, ought to have both the freedom and the ability to share these
+things.  (I expect that someone will find a way to produce unencrypted
+versions, and to upload and share them, so DRM will not entirely
+succeed, but that is no excuse for the system.)</p>
+<p>
+Making sharing impossible is bad enough, but it gets worse.  There are
+plans to use the same facility for email and documents&mdash;resulting
+in email that disappears in two weeks, or documents that can only be
+read on the computers in one company.</p>
+<p>
+Imagine if you get an email from your boss telling you to do something
+that you think is risky; a month later, when it backfires, you can't
+use the email to show that the decision was not yours.  &ldquo;Getting
+it in writing&rdquo; doesn't protect you when the order is written in
+disappearing ink.</p>
+<p>
+Imagine if you get an email from your boss stating a policy that is
+illegal or morally outrageous, such as to shred your company's audit
+documents, or to allow a dangerous threat to your country to move
+forward unchecked.  Today you can send this to a reporter and expose
+the activity.  With treacherous computing, the reporter won't be able
+to read the document; her computer will refuse to obey her.
+Treacherous computing becomes a paradise for corruption.</p>
+<p>
+Word processors such as Microsoft Word could use treacherous computing
+when they save your documents, to make sure no competing word
+processors can read them.  Today we must figure out the secrets of
+Word format by laborious experiments in order to make free word
+processors read Word documents.  If Word encrypts documents using
+treacherous computing when saving them, the free software community
+won't have a chance of developing software to read them&mdash;and if
+we could, such programs might even be forbidden by the Digital
+Millennium Copyright Act.</p>
+<p>
+Programs that use treacherous computing will continually download new
+authorization rules through the Internet, and impose those rules
+automatically on your work.  If Microsoft, or the US government, does
+not like what you said in a document you wrote, they could post new
+instructions telling all computers to refuse to let anyone read that
+document.  Each computer would obey when it downloads the new
+instructions.  Your writing would be subject to 1984-style retroactive
+erasure.  You might be unable to read it yourself.</p>
+<p>
+You might think you can find out what nasty things a treacherous-computing
+application does, study how painful they are, and decide
+whether to accept them.  Even if you can find this out, it would
+be foolish to accept the deal, but you can't even expect the deal
+to stand still.  Once you come to depend on using the program, you are
+hooked and they know it; then they can change the deal.  Some
+applications will automatically download upgrades that will do
+something different&mdash;and they won't give you a choice about
+whether to upgrade.</p>
+<p>
+Today you can avoid being restricted by proprietary software by not
+using it.  If you run GNU/Linux or another free operating system, and
+if you avoid installing proprietary applications on it, then you are
+in charge of what your computer does.  If a free program has a
+malicious feature, other developers in the community will take it out,
+and you can use the corrected version.  You can also run free
+application programs and tools on nonfree operating systems; this
+falls short of fully giving you freedom, but many users do it.</p>
+<p>
+Treacherous computing puts the existence of free operating systems and
+free applications at risk, because you may not be able to run them at
+all.  Some versions of treacherous computing would require the
+operating system to be specifically authorized by a particular
+company.  Free operating systems could not be installed.  Some
+versions of treacherous computing would require every program to be
+specifically authorized by the operating system developer.  You could
+not run free applications on such a system.  If you did figure out
+how, and told someone, that could be a crime.</p>
+<p>
+There are proposals already for US laws that would require all computers to
+support treacherous computing, and to prohibit connecting old computers to
+the Internet.  The CBDTPA (we call it the Consume But Don't Try Programming
+Act) is one of them.  But even if they don't legally force you to switch to
+treacherous computing, the pressure to accept it may be enormous.  Today
+people often use Word format for communication, although this causes
+several sorts of problems (see
+<a href="/philosophy/no-word-attachments.html">&ldquo;We Can Put an End to Word
+Attachments&rdquo;</a>).  If only a treacherous-computing machine can read the
+latest Word documents, many people will switch to it, if they view the
+situation only in terms of individual action (take it or leave it).  To
+oppose treacherous computing, we must join together and confront the
+situation as a collective choice.</p>
+<p>
+For further information about treacherous computing, see the
+<a href="https://www.cl.cam.ac.uk/~rja14/tcpa-faq.html">
+&ldquo;Trusted Computing&rdquo; Frequently Asked Questions</a>.</p>
+<p>
+To block treacherous computing will require large numbers of citizens
+to organize.  We need your help!  Please support
+<a href="https://www.defectivebydesign.org/">Defective by Design</a>, the
+FSF's campaign against Digital Restrictions Management.</p>
+
+<h3>Postscripts</h3>
+
+<ol>
+<li><p>
+The computer security field uses the term &ldquo;trusted
+computing&rdquo; in a different way&mdash;beware of confusion
+between the two meanings.</p></li>
+
+<li><p>
+The GNU Project distributes the GNU Privacy Guard, a program that
+implements public-key encryption and digital signatures, which you can
+use to send secure and private email.  It is useful to explore how GPG
+differs from treacherous computing, and see what makes one helpful and
+the other so dangerous.</p>
+<p>
+When someone uses GPG to send you an encrypted document, and you use
+GPG to decode it, the result is an unencrypted document that you can
+read, forward, copy, and even reencrypt to send it securely to
+someone else.  A treacherous-computing application would let you read
+the words on the screen, but would not let you produce an unencrypted
+document that you could use in other ways.  GPG, a free software
+package, makes security features available to the users; <em>they</em> use <em>it</em>.
+Treacherous computing is designed to impose restrictions on the users;
+<em>it</em> uses <em>them</em>.</p></li>
+
+<li><p id="beneficial">
+The supporters of treacherous computing focus their discourse on its
+beneficial uses.  What they say is often
+correct, just not important.</p>
+<p>
+Like most hardware, treacherous-computing hardware can be used for
+purposes which are not harmful.  But these features can be implemented in
+other ways, without treacherous-computing hardware.  The principal
+difference that treacherous computing makes for users is the nasty
+consequence: rigging your computer to work against you.</p>
+<p>
+What they say is true, and what I say is true.  Put them together and
+what do you get?  Treacherous computing is a plan to take away our
+freedom, while offering minor benefits to distract us from what we
+would lose.</p></li>
+
+<li><p>
+Microsoft presents Palladium as a security measure, and claims that
+it will protect against viruses, but this claim is evidently false.  A
+presentation by Microsoft Research in October 2002 stated that one of
+the specifications of Palladium is that existing operating systems and
+applications will continue to run; therefore, viruses will continue to
+be able to do all the things that they can do today.</p>
+<p>
+When Microsoft employees speak of &ldquo;security&rdquo; in connection with
+Palladium, they do not mean what we normally mean by that word:
+protecting your machine from things you do not want.  They mean
+protecting your copies of data on your machine from access by you in
+ways others do not want.  A slide in the presentation listed several
+types of secrets Palladium could be used to keep, including
+&ldquo;third party secrets&rdquo; and &ldquo;user
+secrets&rdquo;&mdash;but it put &ldquo;user secrets&rdquo; in
+quotation marks, recognizing that this is somewhat of an absurdity in the
+context of Palladium.</p>
+<p>
+The presentation made frequent use of other terms that we frequently
+associate with the context of security, such as &ldquo;attack,&rdquo;
+&ldquo;malicious code,&rdquo; &ldquo;spoofing,&rdquo; as well as
+&ldquo;trusted.&rdquo;  None of them means what it normally means.
+&ldquo;Attack&rdquo; doesn't mean someone trying to hurt you, it means
+you trying to copy music.  &ldquo;Malicious code&rdquo; means code
+installed by you to do what someone else doesn't want your machine to
+do.  &ldquo;Spoofing&rdquo; doesn't mean someone's fooling you, it means
+you're fooling Palladium.  And so on.</p></li>
+
+<li><p>
+A previous statement by the Palladium developers stated the basic
+premise that whoever developed or collected information should have
+total control of how you use it.  This would represent a revolutionary
+overturn of past ideas of ethics and of the legal system, and create
+an unprecedented system of control.  The specific problems of these
+systems are no accident; they result from the basic goal.  It is the
+goal we must reject.</p></li>
+</ol>
+
+<hr class="thin" />
+
+<p>As of 2015, the main method of distributing copies of anything is
+over the internet, and specifically over the web.  Nowadays, the
+companies that want to impose DRM on the world want it to be enforced
+by programs that talk to web servers to get copies.  This means that
+they are determined to control your browser as well as your operating
+system.  The way they do this is through &ldquo;remote
+attestation&rdquo;&mdash;a facility with which your computer can
+&ldquo;attest&rdquo; to the web server precisely what software it is
+running, such that there is no way you can disguise it.  The software
+it would attest to would include the web browser (to prove it
+implements DRM and gives you no way to extract the unencrypted data),
+the kernel (to prove it gives no way to patch the running browser),
+the boot software (to prove it gives no way to patch the kernel when
+starting it), and anything else relating to the security of the DRM
+companies' dominion over you.</p>
+
+<p>Under an evil empire, the only crack by which you can reduce its
+effective power over you is to have a way to hide or disguise what you
+are doing.  In other words, you need a way to lie to the empire's
+secret police.  &ldquo;Remote attestation&rdquo; is a plan to force
+your computer to tell the truth to a company when its web server asks
+the computer whether you have liberated it.</p>
+
+<p>As of 2015, treacherous computing has been implemented for PCs in
+the form of the &ldquo;Trusted Platform Module&rdquo;; however, for
+practical reasons, the TPM has proved a total failure for the goal of
+providing a platform for remote attestation to verify Digital
+Restrictions Management.  Thus, companies implement DRM using other
+methods.  At present, &ldquo;Trusted Platform Modules&rdquo; are not
+being used for DRM at all, and there are reasons to think that it will
+not be feasible to use them for DRM.  Ironically, this means that the
+only current uses of the &ldquo;Trusted Platform Modules&rdquo; are
+the innocent secondary uses&mdash;for instance, to verify that no one
+has surreptitiously changed the system in a computer.</p>
+
+<p>Therefore, we conclude that the &ldquo;Trusted Platform
+Modules&rdquo; available for PCs as of 2015 are not dangerous, and
+there is no <em>immediate</em> reason not to include one in a
+computer or support it in system software.</p>
+
+<p>This does not mean that everything is rosy.  Other hardware systems
+for blocking the owner of a computer from changing the software in it
+are in use in some ARM PCs as well as processors in portable phones,
+cars, TVs and other devices, and these are fully as bad as we
+expected.</p>
+
+<p>This also does not mean that remote attestation is not a threat.  If
+ever a device succeeds in implementing that, it will be a grave threat
+to users' freedom.  The current &ldquo;Trusted Platform Module&rdquo;
+is harmless only because it failed in the attempt to make remote
+attestation feasible.  We must not presume that all future attempts
+will fail too.</p>
+
+<hr class="thin" />
+
+<p>As of 2022, the TPM2, a new &ldquo;Trusted Platform Module&rdquo;,
+really does support remote attestation and can support DRM.  The
+threat I warned about in 2002 has become terrifyingly real.</p>
+
+<hr class="no-display" />
+<div class="edu-note c"><p id="fsfs">This essay is published in
+<a href="https://shop.fsf.org/product/free-software-free-society/"><cite>Free
+Software, Free Society: The Selected Essays of Richard
+M. Stallman</cite></a>.</p></div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/can-you-trust.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/can-you-trust.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/can-you-trust.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/can-you-trust.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/can-you-trust.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/can-you-trust.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/can-you-trust.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/can-you-trust.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/can-you-trust.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[he]&nbsp;<a lang="he" hreflang="he" href="/philosophy/can-you-trust.he.html">עברית</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/can-you-trust.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ko]&nbsp;<a lang="ko" hreflang="ko" href="/philosophy/can-you-trust.ko.html">한국어</a> &nbsp;</span>
+<span dir="ltr">[ml]&nbsp;<a lang="ml" hreflang="ml" href="/philosophy/can-you-trust.ml.html">മലയാളം</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/can-you-trust.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/can-you-trust.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/can-you-trust.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[ta]&nbsp;<a lang="ta" hreflang="ta" href="/philosophy/can-you-trust.ta.html">தமிழ்</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/can-you-trust.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/can-you-trust.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/can-you-trust.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2002, 2007, 2015, 2023 Richard Stallman</p>
+  
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/05/12 13:32:12 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

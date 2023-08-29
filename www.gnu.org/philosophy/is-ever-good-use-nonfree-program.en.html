@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Is It Ever a Good Thing to Use a Nonfree Program? 
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="print,screen"><!--
+a.ftn { font-size: .94em; }
+--></style>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/is-ever-good-use-nonfree-program.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/is-ever-good-use-nonfree-program.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/is-ever-good-use-nonfree-program.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/is-ever-good-use-nonfree-program.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/is-ever-good-use-nonfree-program.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/is-ever-good-use-nonfree-program.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/is-ever-good-use-nonfree-program.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#free-nonfree">Mixing&nbsp;free&nbsp;&amp;&nbsp;nonfree<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+
+<h2>Is It Ever a Good Thing to Use a Nonfree Program?</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>The question here is, is it ever a good thing to use a nonfree
+program?  Our conclusion is that it is usually a bad thing,
+harmful to yourself and in some cases to others.</p>
+
+<p>If you run a nonfree program on your computer, it denies your
+freedom; the immediate wrong is directed at
+you&#8239;<a class="ftn" href="#f1">[1]</a>.</p>
+
+<p>That does <em>not</em> mean you're an &ldquo;evildoer&rdquo; or
+&ldquo;sinner&rdquo; for running a nonfree program.  When the harm
+you're doing is mainly to yourself, we hope you will stop, for your
+own sake.</p>
+
+<p>Sometimes you may face great pressure to run a nonfree program; we
+don't say you must defy that pressure at all costs (though it is
+inspiring when someone does that), but we do urge you
+to <a href="/philosophy/saying-no-even-once.html"> look for occasions
+to where you can refuse, even in small ways</a>.</p>
+
+<p>If you recommend that others run the nonfree program,
+or lead them to do so, you're leading them to give
+up their freedom. Thus, we have a responsibility not to lead
+or encourage others to run nonfree software.  Where the program uses
+a secret protocol for communication, as in the case of Skype, your own
+use of it pressures others to use it too, so it is especially
+important to avoid any use of these programs.</p>
+
+<p>But there is one special case where using some nonfree software, and
+even urging others to use it, can be a positive thing. That's when
+the use of the nonfree software aims directly at putting an end to the
+use of that very same nonfree software&#8239;<a class="ftn" href="#f2">[2]</a>.</p>
+
+<h3>In the past</h3>
+
+<p>In 1983 I decided to develop the GNU operating system, as a free
+replacement for Unix. The feasible way to do it was to write and test
+the components one by one on Unix. But was it legitimate to use Unix
+for this? And was it legitimate to ask others to use Unix for this,
+given that Unix was proprietary software?  (Of course, if it had not
+been proprietary, it would not have required replacing.)</p>
+
+<p>The conclusion I reached was that using Unix to put an end to the use
+of Unix was legitimate for me to suggest to other developers.
+I likened it to participating in small ways
+in some evil activity, such as a criminal gang or a dishonest
+political campaign, in order to expose it and shut it down. While
+participating in the activity is wrong in itself, shutting it down
+excuses minor peripheral participation, comparable to merely using
+Unix. This argument would not justify being a ringleader, but I was
+only considering using Unix, not going to work for its development
+team.</p>
+
+<p>The job of replacing Unix was completed when the last essential
+component was replaced by Linux, the kernel started by Linus Torvalds
+in 1991. We still add to the GNU/Linux system, but that doesn't
+require using Unix, so it isn't a reason for using Unix&mdash;not any
+more. Thus, whenever you're using a nonfree program for this sort of
+reason, you should reconsider from time to time whether the need still
+exists.</p>
+
+<h3>Nowadays</h3>
+
+<p>However, there are other nonfree programs we still need to replace,
+and the analogous question often arises. Should you run the nonfree
+driver for a peripheral to help you develop a free replacement driver?
+(More precisely, is it ethical for us to suggest that you do so?)
+Yes, by all means. Is it ok to run
+the <a href="/philosophy/javascript-trap.html">nonfree
+JavaScript</a> on a web site in order to file complaint asking the
+webmasters to free that JavaScript code, or make the site work without
+it?  Definitely&mdash;but other than that, you should
+have <a href="/software/librejs/">LibreJS</a> block
+it for you.</p>
+
+<p>But this justification won't stretch any further. People that develop
+nonfree software, even software with malicious functionalities, often
+try to excuse this on the grounds that they fund some development of
+free software. However, a business that is basically wrong can't be
+legitimized by spending some of the profits on a worthy cause. For
+instance, some (not all) of the activities of the Gates Foundation are
+laudable, but they don't excuse Bill Gates's career, or Microsoft. If
+the business works directly against the worthy cause it tries to
+legitimize itself with, that is a self-contradiction and it undermines
+the cause.</p>
+
+<p>Even using a nonfree program to develop free software in general is
+better to avoid, and not suggest to others. For instance, we should
+not ask people to run Windows or MacOS in order to make free
+applications run on them. As developer of Emacs and GCC, I accepted
+changes to make them support nonfree systems such as VMS, Windows and
+MacOS.  I had no reason to reject that code, even though people had
+run nonfree systems to write it.  Their use of unjust systems was not
+at my request or suggestion; rather, they were already using them
+before starting to write changes for GNU.  They also did the packaging
+of releases for those systems.</p>
+
+<p>The &ldquo;developing its own replacement&rdquo; exception is valid within its
+limits, and crucial for the progress of free software, but we must
+resist stretching it any further lest it turn into an all-purpose
+excuse for any profitable activity with nonfree software.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Footnotes</h3>
+<ol>
+<li id="f1">
+<p>Using the nonfree 
+program can have unfortunate indirect effects, such as rewarding the 
+perpetrator and encouraging more use of that program.  This is a 
+further reason to shun use of nonfree programs.</p>
+
+<p>Most proprietary programs come with an End User License Agreement
+that hardly anyone reads.  Tucked away in it, in most cases, is an
+unethical commitment to behave like an uncooperative, bad neighbor. 
+It claims you promised not to distribute copies to others, or even
+lend someone a copy.</p>
+
+<p>To carry out such a commitment is more wrong than to break it.  No
+matter what legalistic arguments they might make, the developers can
+hardly claim their shady trick gives users a moral obligation to be
+uncooperative.</p>
+
+<p>However, we think that the truly moral path is to carefully reject
+such agreements.</p>
+</li>
+
+<li id="f2">
+<p>Occasionally it is necessary to use and even upgrade a nonfree
+system on a machine in order to install a free system to replace it on
+that machine.  This is not exactly the same issue, but the same
+arguments apply: it is legitimate to recommend running some nonfree
+software momentarily in order to remove it.</p>
+</li>
+</ol>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/is-ever-good-use-nonfree-program.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/is-ever-good-use-nonfree-program.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/is-ever-good-use-nonfree-program.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/is-ever-good-use-nonfree-program.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/is-ever-good-use-nonfree-program.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/is-ever-good-use-nonfree-program.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/is-ever-good-use-nonfree-program.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2013, 2015, 2016, 2020, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/11/28 10:28:52 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

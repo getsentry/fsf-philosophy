@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+<title>A GNU GPL betartatása - GNU Projekt - Free Software Foundation</title>
+
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/enforcing-gpl.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/enforcing-gpl.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/enforcing-gpl.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/enforcing-gpl.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/enforcing-gpl.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/enforcing-gpl.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/enforcing-gpl.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hu" hreflang="hu" href="/philosophy/enforcing-gpl.hu.html" title="magyar" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/enforcing-gpl.id.html" title="Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/enforcing-gpl.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/philosophy/enforcing-gpl.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/enforcing-gpl.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/enforcing-gpl.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/enforcing-gpl.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/enforcing-gpl.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+
+
+
+
+
+<p class="trans-disclaimer"><a href="/philosophy/enforcing-gpl.en.html">
+This is a translation of an original page in English.
+<span class="gnun-split"></span>
+
+</a>
+
+</p>
+
+
+
+<h2>A GNU GPL betartatása</h2>
+
+<p>Írta: <a href="http://moglen.law.columbia.edu/"><strong>Eben
+Moglen</strong></a></p>
+<p><em>2001. szeptember 10.</em></p>
+
+<p>A Microsoft nyári GPL-ellenes kampánya megint szült a GPL
+„betartathatóságát” érintő találgatásokat. A „FUD” (fear, uncertainty and
+doubt = félelem, bizonytalanság, kétely) eme konkrét formáját mindig egy
+picit szórakoztatónak találom. Azt hiszem, én vagyok a Föld egyetlen
+jogásza, aki ezt mondhatja, de nem értem a bizonytalanság okát: a <a
+href="/licenses/gpl.html">GPL</a> betartatása nálam mindennapos tevékenység.</p>
+
+<p>Jelen társadalmunkban a <a href="/philosophy/free-sw.html">szabad
+szoftver</a> fogalmának szokatlansága miatt az emberek feltételezik, hogy
+egy ilyen különös célt minden bizonnyal csak példátlanul leleményes (és
+ezért törékeny) jogi bűvészkedéssel lehet elérni. A feltételezés azonban
+téves. Ami a Szabad Szoftver Alapítványt a GPL kidolgozására és
+publikálására vezette, az sajnos valóban szokatlan: át akarjuk formálni a
+programkészítésről alkotott közfelfogást, hogy mindenkinek joga legyen
+megérteni, kijavítani, feljavítani, és tovább terjeszteni a létező legjobb
+szoftvereket. Nagy átalakulással járó dologra vállalkoztunk tehát; amely
+világossá teszi, hogy a hagyományos üzletmenetet az új, a hálózati
+kommunikációra épülő társadalomban teljesen új termelési és terjesztési
+modellek válthatják fel. A mindezt lehetővé tevő jogi konstrukció, a GPL,
+azonban nagyon egyszerű alkotóelemekből épül fel, így igen megbízható.</p>
+
+<p>A szerzői jogi törvények lényege (mint a tulajdont szabályozó egyéb
+rendszereké is) a kizárólagos befolyás képessége, vagyis a kizárás joga. A
+szerzői jog birtokosának törvény adta joga, hogy mindenki másnak
+megtilthassa a mű másolását, terjesztését, abból leszármazott mű készítését.</p>
+
+<p>E joggal együtt jár az azonos mértékű licenszelés képessége – megengedni,
+ami egyébként tiltott. Egy licensz nem két egyenrangú fél szerződése: a mű
+felhasználója azért köteles a licensz keretein belül maradni, mert a licensz
+nélkül egyáltalán semmihez sincs joga.</p>
+
+<p>A zárt szoftvereket terjesztő cégek azonban általában a szerzői jogot is
+felülmúló befolyásra törekszenek. E cégek „licenszelik” szoftvereiket a
+fogyasztóknak, de a licensz a szerzői jogot meghaladó kötöttségeket is
+tartalmaz. A megértést nem, legfeljebb használatot engedélyező
+szoftverlicenszekben pl. gyakori kötöttség a visszafejtés (dekompiláció)
+tilalma. Maga a szerzői jog nem tiltja a visszafejtést, de ha az ember bolti
+szoftvert akar venni, vagy hálózatról letölteni, akkor a tilalom betartása a
+hozzájutás feltétele. A szerzői jog tehát csak egy eszköz, mellyel még
+többet lehet elvenni a felhasználóktól.</p>
+
+<p>A GPL viszont levon a szerzői jogokból, nem hozzájuk ad. A licensznek nem
+kell bonyolultnak lennie, mivel minél kevésbé akarjuk megkötni a
+felhasználók kezét. A kiadók a szerzői jog révén lehetetlenné tehetik, hogy
+a felhasználók a művet másolják, módosítsák, terjesszék, szerintünk viszont
+e jogok minden felhasználót megilletnek; a GPL ezért a szerzői jogoknál
+szokásos szinte minden kötelmet felold. Az egyetlen dolog, amit szigorúan
+megkövetelünk, az az, hogy ha valaki GPL-es (vagy abból származó) művet
+terjeszt, akkor azt szintén a GPL feltételei szerint tegye. A szerzői jog
+szempontjából ez a feltétel igen minimális kötöttség. Ennél jóval szigorúbb
+licenszeket is rendszeresen ítélnek betarthatónak: minden licensz, ami
+valaha is szerzői jogi perre került, szigorúbb a GPL-nél.</p>
+
+<p>Minthogy semmi bonyolult vagy félreérthető nincs a licensz feltételeiben,
+még senki nem mondta komolyan, hogy a GPL a jogtulajdonos jogain túlnyúlóan
+licenszelne. Azt viszont mondják néha, hogy a GPL nem betartható, mert egy
+adott mű felhasználói azt „nem fogadták el”.</p>
+
+<p>Ez az állítás azonban félreértésen alapul. A licensz senkit nem kötelez az
+elfogadásra, a GPL-es szoftverek anélkül is megszerezhetők, telepíthetők,
+használhatók, megvizsgálhatók, vagy akár kísérletileg módosíthatók. Mindezek
+a zárt szoftvereknél már önmagukban is tiltottak vagy licenszhez kötöttek,
+vagyis a licenszt már a műhöz való hozzáférés előtt el kell fogadni, a benne
+szereplő, szerzői jogon túli megkötésekkel egyetemben. A szabad szoftver
+mozgalom szerint e jogok minden felhasználót megilletnek; ezért e
+tevékenységeket nem is akarjuk licensszel szabályozni. A GPL legtöbb
+felhasználójának nem is kellenek a GPL adta pluszjogok, így nem is kell azt
+elfogadniuk. A GPL csak akkor jelent kötelmet, ha valaki GPL-es kódból
+származó művet kíván terjeszteni, és csak a terjesztéskor kell elfogadni. És
+mivel a szerzői jogi törvények szerint licensz nélkül soha senki nem
+terjeszthet semmit, ezért elég alapos okunk van feltételezni, hogy minden
+GPL-es szoftvert terjesztő fél el is akarta fogadni a GPL-t. A GPL-t ugyanis
+minden érintett szoftver minden példányával együtt kell terjeszteni, pont
+hogy mindenki tudjon róla.</p>
+
+<p>A FUD ellenére tehát a GPL teljesen érvényes szerzői jogi licensz. Ezért
+tudtam majdnem tíz év leforgása alatt esetek tucatjaiban betartatni, és
+ehhez egyszer sem kellett perre menni.</p>
+
+<p>Az utóbbi hónapokban azonban az a pletyka kapott lábra, hogy a bírósági
+megerősítés hiánya (az USA-ban, vagy másutt) is a GPL valamiféle
+gyengeségére utalna, hogy szokatlan célját jogilag nem megalapozottan
+próbálja elérni, vagy hogy a licensz szerzője, a Szabad Szoftver Alapítvány,
+fél a licensz bíróság elé vitelétől. Ennek éppen ellenkezője igaz. Még nem
+kellett bíróság elé vinnünk a GPL-t, mert még senki nem akarta
+megkockáztatni, hogy ott mérkőzzön meg velünk.</p>
+
+<p>Mi történik tehát egy GPL-sértés esetén? Olyan szoftvereknél, ahol a szerzői
+jog tulajdonosa a Szabad Szoftver Alapítvány (vagy mert mi magunk írtuk a
+szoftvert, vagy mert a szabad szoftver írói ránk ruházták a jogokat, hogy
+szakértelmünkkel jobban védhessük a szoftver szabadságát), <a
+href="/licenses/gpl-violation.html">az első lépés egy bejelentés</a>, amely
+általában villámlevélben érkezik a <a
+href="mailto:license-violation@gnu.org">&lt;license-violation@gnu.org&gt;</a>
+címre. Ekkor a szükséges tények megállapításához a licenszsértés
+bejelentőinek <a href="/licenses/gpl-violation.html">segítségét kérjük</a>,
+majd kivizsgáljuk az esetleg fennmaradó kérdéseket.</p>
+
+<p>Ezt a fázist évente tucatszor elérjük. A probléma megoldásához legtöbbször
+egy halk puhatolózás is elég. Az érintettek általában azt hiszik, hogy a GPL
+szerint jártak el, és örömmel szokták fogadni javító
+javaslatainkat. Alkalmanként azonban szükség van bizalomépítő intézkedésekre
+is, mivel a jogsértés mértéke vagy időbeli elhúzódása miatt az önkéntes
+lépések elégtelennek bizonyulhatnak. Ilyenkor a szervezeteken belül
+GPL-párti kampányt indítunk, ezeket általában a cég magasszintű vezetői
+felügyelik, a helyzet alakulását pedig mi (és a vállalkozások
+igazgatótanácsa is) az ő közvetlen jelentéseik alapján követjük
+nyomon. Különösen bonyolult esetekben szükségesnek láttunk (az esetleges
+jövőbeli jogsértést követő) egyszerű és gyors jogi fellépést elősegítő
+intézkedéseket is.</p>
+
+<p>A GPL betartatásának közel egy évtizede alatt sosem ragaszkodtam kártérítés
+fizetéséhez, és ritkán követeltem meg a jogsértés nyilvános
+beismerését. Mindvégig azt az álláspontot képviseltük, hogy a licensz
+betartása és a jövőbeli jóhiszemű viselkedésről való megbizonyosodás a
+legfontosabb cél. Mindent megtettünk, hogy a jogsértők könnyen
+korrigálhassák hibáikat, és megbocsátóak voltunk a múltbeli tévedésekkel
+szemben.</p>
+
+<p>A szabad szoftver mozgalom korai éveiben talán nem is volt más
+lehetőségünk. A drága és sok teherrel járó pereskedés szétzúzhatta volna az
+Alapítványt, vagy legalábbis megakadályozhatta a szabad szoftver mozgalom
+jelenlegi befolyású erővé növekedését. Az idők során azonban kitartottunk a
+licensz betartatásának e módja mellett, nem mintha csak így lehetett volna,
+hanem mert ez is működött. A szabad szoftverek körül egy egész iparág nőtt
+fel, melynek minden szereplője tisztában volt a GPL fontosságával – és senki
+sem akart a szabad szoftvert lopó gonosztevő szerepébe lépni, valamint senki
+sem akart ilyen szereplő ügyfele, üzlettársa, vagy akár alkalmazottja
+lenni. A hírverés nélküli együttműködés és a rossz publicitással járó
+kilátástalan jogi csatározás közti válaszút elé kerülve egyetlen jogsértő
+sem választotta a nehezebbik utat.</p>
+
+<p>Egyszer vagy kétszer még az is megtörtént, hogy cégek szándékos jogsértő
+magatartást tanúsítottak: GPL-es szoftverek forráskódját a forrás
+elrejtésének szándékával újrafordították, és zárt termékként eladásra
+kínálták. Ilyen esetekben is segítettem az FSF-en kívüli
+szabadszoftver-fejlesztőknek, megoldásként – mivel a bűnös jogsértő
+önszántából nem hagyott fel a jogsértéssel, és jogi részletkérdések miatt
+ezekben az ügyekben nem lehetett büntetőpert indítani – meggyőztük a bűnös
+fél viszonteladóit és lehetséges ügyfeleit. „Miért fizetne Ön is komoly
+pénzösszegeket” kérdeztük tőlük, „olyan jogsértő szoftverért, amely csak
+hosszadalmas jogi gondokhoz vezet, miközben a rendes verzió probléma nélkül
+elérhető?” Az ügyfelek kivétel nélkül belátták a kérdés jogosságát. A szabad
+szoftverek ellopása szó szerint olyan terület, ahol a bűnözés nem
+kifizetődő.</p>
+
+<p>De talán túl jól is sikerült mindez. Ha évekkel ezelőtt perre mentem volna
+GPL-ügyben, akkor a Microsoft jelen sugdosásai süket fülekre
+találnának. Pont ebben a hónapban dolgoztam pár közepes bonyolultságú
+ügyön. Azt mondtam, „Látjátok, mennyi ember akarja világszerte, hogy
+bírósági perre vigyem a GPL-t, csak hogy bebizonyítsam, lehetséges? Példát
+kéne valakivel statuálnom. Akad önként jelentkező?”</p>
+
+<p>Egyszer majd lesz ilyen. De annak a valakinek az ügyfelei el fognak tőle
+fordulni, tehetséges szakemberek nem akarják majd hírnevüket ilyen céghez
+kötni és kilépnek, valamint a negatív hírverés sem fog éppen használni
+nekik. És akkor még nem is mentünk perre. Az első próbálkozó nagyon meg
+fogja bánni. Jogi módszereink talán éppoly szokatlanok, mint a szakmaiak, de
+épp ez a lényeg. A szabad szoftver azért fontos, mert végeredményben pont a
+szokatlan bizonyul jónak.</p>
+
+<p><cite>Eben Moglen a Columbia Egyetem jogi karának jogász- és jogtörténeti
+professzora, a Szabad Szoftver Alapítvány fizetés nélküli jogi
+tanácsadója.</cite></p>
+<div class="translators-notes">
+
+<!--TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.-->
+ </div>
+</div>
+
+<!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/enforcing-gpl.hu.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/enforcing-gpl.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/enforcing-gpl.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/enforcing-gpl.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/enforcing-gpl.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/enforcing-gpl.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/enforcing-gpl.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hu]&nbsp;<a lang="hu" hreflang="hu" href="/philosophy/enforcing-gpl.hu.html">magyar</a> &nbsp;</span>
+<span dir="ltr">[id]&nbsp;<a lang="id" hreflang="id" href="/philosophy/enforcing-gpl.id.html">Indonesia</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/enforcing-gpl.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ko]&nbsp;<a lang="ko" hreflang="ko" href="/philosophy/enforcing-gpl.ko.html">한국어</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/enforcing-gpl.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/enforcing-gpl.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/enforcing-gpl.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/enforcing-gpl.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Az FSF-fel és a GNU-val kapcsolatos kérdéseket várjuk (angolul) a <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a> címen. Vannak <a
+href="/contact/">egyéb módok is az FSF elérésére</a>. A weblappal
+kapcsolatos észrevételeket a <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p>
+<!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and submitting translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a>
+for information on coordinating and submitting translations of this article.</p>
+</div>
+
+<p>Copyright &copy; 2001 Eben Moglen</p>
+
+<p>A teljes cikk szó szerinti közlése bármilyen médiumban megengedett, feltéve,
+hogy ez az engedély is vele marad.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+<div class="translators-credits">
+
+<!--TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.-->
+Fordította: Verók István</div>
+
+<p class="unprintable"><!-- timestamp start -->
+Utoljára frissítve:
+
+$Date: 2017/02/20 21:03:48 $
+
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

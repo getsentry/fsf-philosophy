@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>The JavaScript Trap - GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/javascript-trap.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/javascript-trap.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/javascript-trap.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/javascript-trap.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/javascript-trap.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/javascript-trap.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/philosophy/javascript-trap.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/javascript-trap.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/javascript-trap.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/javascript-trap.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/javascript-trap.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/javascript-trap.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/javascript-trap.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/javascript-trap.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/javascript-trap.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/javascript-trap.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/javascript-trap.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/javascript-trap.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#LicensingFreeSoftware">Licensing&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#traps">Traps<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>The JavaScript Trap</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<div class="introduction">
+<p>There are two kinds of moral wrongs a web page can do.  This page
+describes the wrong of sending nonfree programs to run in your
+computer.  There is also the wrong we call SaaSS, &ldquo;Service as a
+Software Substitute&rdquo; where the page invites you
+to <a href="/philosophy/who-does-that-server-really-serve.html">send
+your data</a> so it can do computing on it in the server&mdash;computing
+which is unjust because you have no control over what computing is
+done.</p>
+</div>
+
+<p><strong>You may be running nonfree programs on your computer every
+day without realizing it&mdash;through your web browser.</strong></p>
+
+<!-- any links that used to point to the appendices should point to
+     free-your-javascript.html instead.  -->
+
+<div class="announcement comment" role="complementary">
+<hr class="no-display" />
+<p>Webmasters: there are
+<a href="/software/librejs/free-your-javascript.html">several ways</a>
+to indicate the license of JavaScript programs in a web site.</p>
+<hr class="no-display" />
+</div>
+
+<p>In the free software community, the idea that
+<a href="/philosophy/free-software-even-more-important.html">
+any nonfree program mistreats its users</a> is familiar.  Some of us
+defend our freedom by rejecting all proprietary software on our
+computers.  Many others recognize nonfreeness as a strike against the
+program.</p>
+
+<p>Many users are aware that this issue applies to the plug-ins that
+browsers offer to install, since they can be free or nonfree.  But
+browsers run other nonfree programs which they don't ask you about, or
+even tell you about&mdash;programs that web pages contain or link to.
+These programs are most often written in JavaScript, though other
+languages are also used.</p>
+
+<p>JavaScript (officially called ECMAScript, but few use that name)
+was once used for minor frills in web pages, such as cute but
+inessential navigation and display features.  It was acceptable to
+consider these as mere extensions of HTML markup, rather than as true
+software, and disregard the issue.</p>
+
+<p>Some sites still use JavaScript that way, but many use it for major
+programs that do large jobs.  For instance, Google Docs tries to
+install into your browser a JavaScript program which measures half a
+megabyte, in a compacted form that we could call Obfuscript.  This
+compacted form is made from the source code, by deleting the extra
+spaces that make the code readable and the explanatory remarks that
+make it comprehensible, and replacing each meaningful name in the code
+with an arbitrary short name so we can't tell what it is supposed to
+mean.</p>
+
+<p>Part of the <a href="/philosophy/free-sw.html">meaning of free
+software</a> is that users have access to the program's source code
+(its plan).  The source code of a program means the preferred form for
+programmers to modify&mdash;including helpful spacing, explanatory
+remarks, and meaningful names.  Compacted code is a bogus, useless
+substitute for source code; the real source code of these programs is
+not available to the users, so users cannot understand it; therefore
+the programs are nonfree.</p>
+
+<p>In addition to being nonfree, many of these programs
+are <em>malware</em> because
+they <a href="https://github.com/w3c/fingerprinting-guidance/issues/8">snoop
+on the user</a>.  Even nastier, some sites use services which record
+<a href="https://freedom-to-tinker.com/2017/11/15/no-boundaries-exfiltration-of-personal-data-by-session-replay-scripts/">all
+the user's actions while looking at the page</a>.  The services
+supposedly &ldquo;redact&rdquo; the recordings to exclude some
+sensitive data that the web site shouldn't get.  But even if that
+works reliably, the whole purpose of these services is to give the web
+site other personal data that it shouldn't get.</p>
+
+<p>Browsers don't normally tell you when they load JavaScript
+programs.  Some browsers have a way to turn off JavaScript entirely,
+but even if you're aware of this issue, it would take you considerable
+trouble to identify the nontrivial nonfree programs and block them.
+However, even in the free software community most users are not aware
+of this issue; the browsers' silence tends to conceal it.</p>
+
+<p>To be clear, the language JavaScript is not inherently better or worse 
+for users' freedom than any other language.
+It is possible to release a JavaScript program as free software, by
+distributing the source code under a free software license.  If the
+program is self-contained&mdash;if its functioning and purpose are
+independent of the page it came in&mdash;that is fine; you can copy it
+to a file on your machine, modify it, and visit that file with a
+browser to run it.  It's even possible to package it for installation
+just like other free programs and invocation with a shell command.
+These programs present no special moral issue different from those
+of C programs.</p>
+
+<p>The issue of the JavaScript trap applies when the JavaScript
+program comes along with a web page that users visit.
+Those JavaScript programs are written to work with a
+particular page or site, and the page or site depends on them to
+function.</p>
+
+<p>Suppose you copy and modify the page's JavaScript code.
+Then another problem arises: even if the program's source
+is available, browsers do not offer a way to run your modified version
+instead of the original when visiting that page or site.  The effect
+is comparable to tivoization, although in principle not quite so hard
+to overcome.</p>
+
+<p>JavaScript is not the only language web sites use for programs sent
+to the user.  Flash supported programming through an extended variant
+of JavaScript, but that is a thing of the past.  Microsoft Silverlight
+seems likely to create a problem similar to Flash, except worse, since
+Microsoft uses it as a platform for nonfree codecs.  A free
+replacement for Silverlight does not do the job adequately for the
+free world unless it normally comes with free replacement codecs.</p>
+
+<p>Java applets also run in the browser, and raise similar issues.  In
+general, any sort of applet system poses this sort of problem.  Having
+a free execution environment for an applet only brings us far enough
+to encounter the problem.</p>
+
+<p>It is theoretically possible to program in HTML and CSS, but in
+practice this capability is limited and inconvenient; merely to make
+it do something is an impressive hack.  Such programs ought to be
+free, but CSS is not a serious problem for users' freedom as of
+2019.</p>
+
+<p>A strong movement has developed that calls for web sites to
+communicate only through formats and protocols that are free (some say
+&ldquo;open&rdquo;); that is to say, whose documentation is published and which
+anyone is free to implement.  However, the presence of JavaScript programs
+in web pages makes that criterion insufficient.  The JavaScript language
+itself, as a format, is free, and use of JavaScript in a web site is
+not necessarily bad.  However, as we've seen above, it can be bad&mdash;if
+the JavaScript program is nonfree.  When the site transmits a program
+to the user, it is
+not enough for the program to be written in a documented and
+unencumbered language; that program must be free, too.  &ldquo;Transmits only free
+programs to the user&rdquo; must become part of the criterion
+for an ethical web site.</p>
+
+<p>Silently loading and running nonfree programs is one among several
+issues raised by &ldquo;web applications.&rdquo;  The term &ldquo;web
+application&rdquo; was designed to disregard the fundamental
+distinction between software delivered to users and software running
+on a server.  It can refer to a specialized client program running
+in a browser; it can refer to specialized server software; it can
+refer to a specialized client program that works hand in hand with
+specialized server software.  The client and server sides raise
+different ethical issues, even if they are so closely integrated that
+they arguably form parts of a single program.  This article addresses
+only the issue of the client-side software.  We are addressing the
+server issue separately.</p>
+
+<p>In practical terms, how can we deal with the problem of nontrivial nonfree
+JavaScript programs in web sites?  The first step is to avoid running
+it.</p>
+
+<p>What do we mean by &ldquo;nontrivial&rdquo;?  It is a matter of
+degree, so this is a matter of designing a simple criterion that gives
+good results, rather than finding the one correct answer.</p>
+<p>
+Our current criterion is to consider a JavaScript program nontrivial
+if any of these conditions is met:</p>
+
+<ul>
+  <li>it is referred to as an external script (from another page).</li>
+
+  <li>it declares an array more than 50 elements long.</li>
+
+  <li>it defines a named entity (function or method) that calls anything other
+      than a primitive.</li>
+
+  <li>it defines a named entity with more than three conditional
+      constructs and loop construction.</li>
+
+  <li>code outside of named definitions calls anything but primitives and
+      functions defined further up in the page.</li>
+
+  <li>code outside of named definitions contains more than three
+      conditional constructs and loop construction, total.</li>
+
+  <li>it calls <b>eval</b>.</li>
+
+  <li>it does Ajax calls.</li>
+
+  <li>it uses bracket notation for dynamic object property access,
+which looks like <b><em>object</em>[<em>property</em>]</b>.</li>
+
+  <li>it alters the DOM.</li>
+  
+  <li>it uses dynamic JavaScript constructs that are difficult to
+    analyze without interpreting the program, or is loaded along with
+    scripts that use such constructs.  Specifically, using any other
+    construct than a string literal with certain methods
+    (<b>Obj.write</b>, <b>Obj.createElement</b>, and others).</li>
+</ul>
+
+<p>How do we tell whether the JavaScript code is free?  In a <a 
+href="/licenses/javascript-labels.html">separate article</a>,
+we propose a method by which a nontrivial JavaScript
+program in a web page can state the URL where its source code is
+located, and can state its license too, using stylized comments.</p>
+
+<p>Finally, we need to change free browsers to detect and block
+nontrivial nonfree JavaScript in web pages.  The program
+<a href="/software/librejs/">LibreJS</a> detects nonfree,
+nontrivial JavaScript in pages you visit, and blocks it.  LibreJS is
+included in IceCat, and available as an add-on for Firefox.</p>
+
+<p>Browser users also need a convenient facility to specify JavaScript
+code to use <em>instead</em> of the JavaScript in a certain page.
+(The specified code might be total replacement, or a modified version
+of the free JavaScript program in that page.)  Greasemonkey comes close
+to being able to do this, but not quite, since it doesn't guarantee to
+modify the JavaScript code in a page before that program starts to
+execute.  Using a local proxy works, but is too inconvenient now to be
+a real solution.  We need to construct a solution that is reliable and
+convenient, as well as sites for sharing changes.  The GNU Project
+would like to recommend sites which are dedicated to free changes
+only.</p>
+
+<p>These features will make it possible for a JavaScript program included
+in a web page to be free in a real and practical sense.  JavaScript
+will no longer be a particular obstacle to our freedom&mdash;no more than
+C and Java are now.  We will be able to reject and even replace the
+nonfree nontrivial JavaScript programs, just as we reject and replace
+nonfree packages that are offered for installation in the usual way.
+Our campaign for web sites to free their JavaScript can then begin.</p>
+
+<p>In the mean time, there's one case where it is acceptable to run a
+nonfree JavaScript program: to send a complaint to the website
+operators saying they should free or remove the JavaScript code in the
+site.  Please don't hesitate to enable JavaScript temporarily to do
+that&mdash;but remember to disable it again afterwards.</p>
+
+<!-- any links that used to point to the appendices should point to
+     free-your-javascript.html instead.  -->
+
+<div class="announcement comment" role="complementary">
+<hr class="no-display" />
+<p>Webmasters: there are
+<a href="/software/librejs/free-your-javascript.html">several ways</a>
+to indicate the license of JavaScript programs in a web site.</p>
+<hr class="no-display" />
+</div>
+
+<p><strong>Acknowledgements:</strong> I thank <a href="/people/people.html#mattlee">Matt Lee</a>
+and <a href="https://johnresig.com/">John Resig</a> for their help in
+defining our proposed criterion, and David Parunakian for
+bringing the problem to my attention.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/javascript-trap" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/javascript-trap.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/javascript-trap.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/javascript-trap.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/javascript-trap.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/javascript-trap.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hr]&nbsp;<a lang="hr" hreflang="hr" href="/philosophy/javascript-trap.hr.html">hrvatski</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/javascript-trap.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/javascript-trap.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/philosophy/javascript-trap.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/javascript-trap.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/javascript-trap.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/javascript-trap.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/javascript-trap.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/javascript-trap.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/javascript-trap.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/javascript-trap.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/javascript-trap.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2009-2013, 2016-2019, 2021, 2023 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/07/05 12:07:28 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

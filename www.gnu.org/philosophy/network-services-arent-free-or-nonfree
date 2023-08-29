@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Network Services Aren't Free or Nonfree; They Raise Other Issues
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/network-services-arent-free-or-nonfree.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/network-services-arent-free-or-nonfree.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/network-services-arent-free-or-nonfree.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/network-services-arent-free-or-nonfree.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/network-services-arent-free-or-nonfree.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/network-services-arent-free-or-nonfree.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#extension">Beyond&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Network Services Aren't Free or Nonfree; They Raise Other Issues</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<div class="introduction">
+<p><em>Programs and services are different kinds of entities. A
+program is a work that you can execute; a service is an activity that
+you might interact with.</em></p>
+</div>
+
+<p>For programs, we make a distinction between free and nonfree
+(proprietary). More precisely, this distinction applies to a program
+that you have a copy of: either
+you <a href="/philosophy/free-sw.html"> have the four freedoms for
+your copy</a> or you don't.  If you don't, that program does a
+specific kind of injustice to you, simply because it is nonfree.</p>
+
+<p>The copyright holders of a nonfree program can cure that injustice
+in a simple, clear way: release the same source code under a free
+software license.  Convincing them to <em>do</em> this
+may be difficult, but the action itself is straightforward.</p>
+
+<p>An activity (such as a service) doesn't exist in the form of
+copies, so it's not possible for a user to have a copy of it, let
+alone make more copies.  Lacking a copy to modify, the user can't
+modify it either.  As a result, the four freedoms that define free
+software don't make sense for services.  It is meaningless to say that
+the service is &ldquo;nonfree,&rdquo; or that it is
+&ldquo;free.&rdquo; That distinction makes no sense, for services.</p>
+
+<p>That does not mean that the service treats users justly.  Quite the
+contrary&mdash;many services do wrong to their users, in various
+ways, and we call them &ldquo;dis-services&rdquo;&mdash;but there is no
+simple universal fix for this, comparable to that for a nonfree
+program (to release it as free software so users can run and control
+their copies and their versions).</p>
+
+<p>To use a culinary analogy, my way of cooking can't be a copy of
+your way of cooking, not even if I learned to cook by watching you. I
+might have and use a copy of the <em>recipe</em> you use to do your
+cooking, because a recipe, like a program, is a work and exists in
+copies, but your recipe is not the same as your way of cooking.  (And
+neither of those is the same as the food produced by your
+cooking.)</p>
+
+<p>With today's technology, services are often implemented by running
+programs on computers, but that is not the only way to implement them.
+(In fact, there are network services that are implemented by asking
+human beings to enter responses to questions.) In any case, the
+implementation is not visible to users of the service, so it has no
+direct effect on them.</p>
+
+<p>A network service can raise issues of free vs nonfree software for
+its users through the client software needed to use it. If the service
+requires using a nonfree client program, use of the service requires
+ceding your freedom to that program. With many web services, the
+nonfree software is <a href="/philosophy/javascript-trap.html">
+JavaScript code</a> silently installed in the user's
+browser. The <a href="/software/librejs">GNU LibreJS</a> program makes
+it easier to refuse to run this nonfree JavaScript code. But the issue
+of the client software is logically separate from the service as
+such.</p>
+
+<p>There is one case where a service is directly comparable to a
+program: when using the service is equivalent to having a copy of a
+hypothetical program and running it yourself. In this case, we call it Service as
+a Software Substitute, or <abbr title="Service as a Software
+Substitute">SaaSS</abbr> (we coined that to be less vague and
+general than &ldquo;Software as a Service&rdquo;), and such a service
+is always a bad thing.  The job it does is the users' own computing,
+and the users ought to have full control over that.  The way for users
+to have control over their own computing is to do it by running their
+own copies of a free program.  Using someone else's server to do that
+computing implies losing control of it.</p>
+
+<p>SaaSS is equivalent to using a nonfree program with surveillance features 
+and a universal back door, so <a 
+href="/philosophy/who-does-that-server-really-serve.html">you should reject 
+it and replace it with a free program</a> that does the same job.</p>
+
+<p>However, most services' principal functions are communicating or
+publishing information; they are nothing like running any program
+yourself, so they are not SaaSS. They could not be replaced by your copy of a
+program, either; a program running in your own computers, used solely
+by you and isolated from others, is not communicating with anyone else.</p>
+
+<p>A non-SaaSS service can mistreat users by doing something
+specific and unjust to the user.  For instance, it could misuse the
+data users send it, or collect too much data (surveillance).  It could be
+designed to mislead or cheat users (for instance, with &ldquo;dark
+patterns&rdquo;).  It could impose antisocial or unjust usage
+conditions.
+The <a href="https://web.archive.org/web/20090124084811/http://autonomo.us/2008/07/franklin-street-statement/">Franklin
+Street Statement</a> made a stab at addressing these issues, but we
+don't have full understanding of them as yet. What's clear is that the
+issues about a service are <em>different</em> from the issues about a
+program. Thus, for clarity's sake, it is better not to apply the terms
+&ldquo;free&rdquo; and &ldquo;nonfree&rdquo; to a service.</p>
+
+<p>Let's suppose a service is implemented using software: the server
+operator has copies of many programs, and runs them to implement the
+service. These copies may be free software or not. If the operator
+developed them and uses them without distributing copies, they are
+free in a trivial sense since every user (there's only one) has the
+four freedoms.</p>
+
+<p>If some of them are nonfree, that usually doesn't directly affect
+users of the service. They are not running those programs; the service
+operator is running them. In a special situation, these programs can
+indirectly affect the users of the service: if the service holds
+private information, users might be concerned that nonfree programs on
+the server might have back doors allowing someone else to see their
+data. In effect, nonfree programs on the server require users to trust
+those programs' developers as well as the service operator. How
+significant this is in practice depends on the details, including what
+jobs the nonfree programs do.</p>
+
+<p>However, the one party that is <em>certainly</em> mistreated by the
+nonfree programs implementing the service is the server operator
+herself. We don't condemn the server operator for being at the mercy
+of nonfree software, and we certainly don't boycott her for this.
+Rather, we are concerned for her freedom, as with any user of nonfree
+software. Given an opportunity, we try to explain how it curtails her
+freedom, hoping she will switch to free software.</p>
+
+<p>Conversely, if the service operator runs GNU/Linux or other free
+software, that's not a virtue that affects you, but rather a benefit
+for her.  We don't praise or thank her for this; rather we felicitate
+her for making the wise choice.</p>
+
+<p>If she has developed some software for the service, and released it
+as free software, that's the point at which we have a reason to thank
+her. We suggest releasing these programs under
+the <a href="/licenses/license-recommendations.html">GNU Affero
+GPL</a>, since evidently they are useful on servers.</p>
+
+<p><a href="/licenses/why-affero-gpl.html">Why the Affero
+GPL?</a></p>
+
+<p>Thus, we don't have a rule that free systems shouldn't use (or
+shouldn't depend on) services (or sites) implemented with nonfree
+software. However, they should not depend on, suggest or encourage use
+of services which are SaaSS; use of SaaSS needs to be replaced by use
+of free software.  All else being equal, it is good to favor those
+service providers who contribute to the community by releasing useful
+free software, and good to favor peer-to-peer communication over
+server-based centralized communication, for activities that don't
+inherently require a central hub.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/network-services-arent-free-or-nonfree" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/network-services-arent-free-or-nonfree.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/network-services-arent-free-or-nonfree.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/network-services-arent-free-or-nonfree.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/network-services-arent-free-or-nonfree.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/network-services-arent-free-or-nonfree.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<!-- No significant change in 2023 -->
+<p>Copyright &copy; 2012-2014, 2020, 2023 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/05/10 10:30:07 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

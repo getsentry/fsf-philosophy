@@ -1,0 +1,2371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Free Software: Freedom and Cooperation
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="screen"><!--
+#content i { color: #505050; }
+--></style>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/rms-nyu-2001-transcript.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/rms-nyu-2001-transcript.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/rms-nyu-2001-transcript.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/rms-nyu-2001-transcript.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/rms-nyu-2001-transcript.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/rms-nyu-2001-transcript.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/rms-nyu-2001-transcript.tr.html" title="Türkçe" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Free Software: Freedom and Cooperation</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<div class="infobox">
+<p>Transcript of a speech that was given at New York University in
+New York, NY, on 29 May 2001.</p>
+
+<p>A <a href="/philosophy/rms-nyu-2001-transcript.txt">plain
+text</a> version of this transcript and
+a <a href="/philosophy/rms-nyu-2001-summary.txt">summary</a> of the speech
+are also available.</p>
+</div>
+<hr class="thin" />
+
+<p><strong>URETSKY</strong>: I'm Mike Uretsky.  I'm over at the Stern
+School of Business.  I'm also one of the Co-Directors of the Center
+for Advanced Technology.  And, on behalf of all of us in the Computer
+Science Department, I want to welcome you here.  I want to say a few
+comments, before I turn it over to Ed, who is going to introduce the
+speaker.</p>
+
+<p>The role of a university is a place to foster debate and to have
+interesting discussions.  And the role of a major university is to
+have particularly interesting discussions.  And this particular
+presentation, this seminar falls right into that mold.  I find the
+discussion of open source particularly interesting.  In a sense
+&hellip; <i>[Laughter]</i></p>
+
+<p><strong>STALLMAN</strong>: I do free software.  Open source is a
+different movement.  <i>[Laughter] [Applause]</i></p>
+
+<p><strong>URETSKY</strong>: When I first started in the field in the
+'60's, basically software was free.  And we went in cycles.  It became
+free, and then software manufacturers, in the need to expand their
+markets, pushed it in other directions.  A lot of the developments
+that took place with the entry of the PC moved in exactly the same
+kind of a cycle.</p>
+
+<p>There's a very interesting French philosopher, Pierre Levy, who
+talks about movement to this direction and who talks about the move
+into cyberspace as not only relating to technology but also relating
+to social restructuring, to political restructuring, through a change
+in the kinds of relationships that will improve the well-being of
+mankind.  And we're hoping that this debate is a movement in that
+direction, that this debate is something that cuts across a lot of the
+disciplines that normally act as solace within the University.  We're
+looking forward to some very interesting discussions.  Ed?</p>
+
+<p><strong>SCHONBERG</strong>: I'm Ed Schonberg from the Computer
+Science Department at the Courant Institute.  Let me welcome you all
+to this event.  Introducers are usually, and particularly, a useless
+aspect of public presentations, but in this case, actually, they serve
+a useful purpose, as Mike easily demonstrated, because an introducer
+for instance, told him, by making inaccurate comments, can allow him
+to straighten out and correct and <i>[Laughter]</i> sharpen
+considerably the parameters of the debate.</p>
+
+<p>So, let me make the briefest possible introduction to somebody who
+doesn't need one.  Richard is the perfect example of somebody who, by
+acting locally, started thinking globally from problems concerning the
+unavailability of source code for printer drivers at the AI Lab many
+years ago.  He has developed a coherent philosophy that has forced all
+of us to re-examine our ideas of how software is produced, of what
+intellectual property means, and what the software community actually
+represents.  Let me welcome Richard Stallman.  <i>[Applause]</i></p>
+
+<p><strong>STALLMAN</strong>: Can someone lend me a
+watch?  <i>[Laughter]</i> Thank you.  So, I'd like to thank Microsoft
+for providing me the opportunity to <i>[Laughter]</i> be on this
+platform.  For the past few weeks, I have felt like an author whose
+book was fortuitously banned somewhere.  <i>[Laughter]</i> Except that
+all the articles about it are giving the wrong author's name, because
+Microsoft describes the GNU GPL as an open source license, and most of
+the press coverage followed suit.  Most people, of course just
+innocently don't realize that our work has nothing to do with open
+source, that in fact we did most of it before people even coined the
+term open source.</p>
+
+<p>We are in the free software movement, and I'm going to speak about
+what the free software movement is about, what it means, what we have
+done, and, because this is partly sponsored by a school of business,
+I'll say some things more than I usually do about how free software
+relates to business, and some other areas of social life.</p>
+
+<p>Now, some of you may not ever write computer programs, but perhaps
+you cook.  And if you cook, unless you're really great, you probably
+use recipes.  And, if you use recipes, you've probably had the
+experience of getting a copy of a recipe from a friend who's sharing
+it.  And you've probably also had the experience&mdash;unless you're
+a total neophyte&mdash;of changing a recipe.  You know, it says
+certain things, but you don't have to do exactly that.  You can leave
+out some ingredients.  Add some mushrooms, 'cause you like mushrooms.
+Put in less salt because your doctor said you should cut down on
+salt&mdash;whatever.  You can even make bigger changes according to your
+skill.  And if you've made changes in a recipe, and you cook it for
+your friends, and they like it, one of your friends might say,
+&ldquo;Hey, could I have the recipe?&rdquo; And then, what do you do?
+You could write down your modified version of the recipe and make a
+copy for your friend.  These are the natural things to do with
+functionally useful recipes of any kind.</p>
+
+<p>Now a recipe is a lot like a computer program.  A computer
+program's a lot like a recipe: a series of steps to be carried out to
+get some result that you want.  So it's just as natural to do those
+same things with computer programs&mdash;hand a copy to your friend.
+Make changes in it because the job it was written to do isn't exactly
+what you want.  It did a great job for somebody else, but your job is
+a different job.  And after you've changed it, that's likely to be
+useful for other people.  Maybe they have a job to do that's like the
+job you do.  So they ask, &ldquo;Hey, can I have a copy?&rdquo; Of
+course, if you're a nice person, you're going to give a copy.  That's
+the way to be a decent person.</p>
+
+<p>So imagine what it would be like if recipes were packaged inside
+black boxes.  You couldn't see what ingredients they're using, let
+alone change them, and imagine if you made a copy for a friend, they
+would call you a pirate and try to put you in prison for years.  That
+world would create tremendous outrage from all the people who are used
+to sharing recipes.  But that is exactly what the world of proprietary
+software is like.  A world in which common decency towards other
+people is prohibited or prevented.</p>
+
+<p>Now, why did I notice this?  I noticed this because I had the good
+fortune in the 1970's to be part of a community of programmers who
+shared software.  Now, this community could trace its ancestry
+essentially back to the beginning of computing.  In the 1970's,
+though, it was a bit rare for there to be a community where people
+shared software.  And, in fact, this was sort of an extreme case,
+because in the lab where I worked, the entire operating system was
+software developed by the people in our community, and we'd share any
+of it with anybody.  Anybody was welcome to come and take a look, and
+take away a copy, and do whatever he wanted to do.  There were no
+copyright notices on these programs.  Cooperation was our way of life.
+And we were secure in that way of life.  We didn't fight for it.  We
+didn't have to fight for it.  We just lived that way.  And, as far as
+we knew, we would just keep on living that way.  So there was free
+software, but there was no free software movement.</p>
+
+<p>But then our community was destroyed by a series of calamities that
+happened to it.  Ultimately it was wiped out.  Ultimately, the PDP-10
+computer which we used for all our work was discontinued.  And you
+know, our system&mdash;the Incompatible Timesharing System&mdash;was
+written starting in the '60's, so it was written in assembler
+language.  That's what you used to write an operating system in the
+'60's.  So, of course, assembler language is for one particular
+computer architecture; if that gets discontinued, all your work turns
+into dust&mdash;it's useless.  And that's what happened to us.  The
+20 years or so of work of our community turned into dust.</p>
+
+<p>But before this happened, I had an experience that prepared me,
+helped me see what to do, helped prepare me to see what to do when
+this happened, because at certain point, Xerox gave the Artificial
+Intelligence Lab, where I worked, a laser printer, and this was a
+really handsome gift, because it was the first time anybody outside
+Xerox had a laser printer.  It was very fast, printed a page a second,
+very fine in many respects, but it was unreliable, because it was
+really a high-speed office copier that had been modified into a
+printer.  And, you know, copiers jam, but there's somebody there to
+fix them.  The printer jammed and nobody saw.  So it stayed jammed for
+a long time.</p>
+
+<p>Well, we had an idea for how to deal with this problem.  Change it
+so that whenever the printer gets a jam, the machine that runs the
+printer can tell our timesharing machine, and tell the users who are
+waiting for printouts, or something like that, you know, tell them, go
+fix the printer.  Because if they only knew it was jammed, of course,
+if you're waiting for a printout and you know that the printer is
+jammed, you don't want to sit and wait forever, you're going to go fix
+it.</p>
+
+<p>But at that point, we were completely stymied, because the software
+that ran that printer was not free software.  It had come with the
+printer, and it was just a binary.  We couldn't have the source code;
+Xerox wouldn't let us have the source code.  So, despite our skill as
+programmers&mdash;after all, we had written our own timesharing
+system&mdash;we were completely helpless to add this feature to the
+printer software.</p>
+
+<p>And we just had to suffer with waiting.  It would take an hour or
+two to get your printout because the machine would be jammed most of
+the time.  And only once in a while&mdash;you'd wait an hour
+figuring &ldquo;I know it's going to be jammed. I'll wait an hour and
+go collect my printout,&rdquo; and then you'd see that it had been
+jammed the whole time, and in fact, nobody else had fixed it.  So
+you'd fix it and you'd go wait another half hour.  Then, you'd come
+back, and you'd see it jammed again&mdash;before it got to your
+output.  It would print three minutes and be jammed thirty minutes.
+Frustration up the whazzoo.  But the thing that made it worse was
+knowing that we could have fixed it, but somebody else, for his own
+selfishness, was blocking us, obstructing us from improving the
+software.  So, of course, we felt some resentment.</p>
+
+<p>And then I heard that somebody at Carnegie Mellon University had a
+copy of that software.  So I was visiting there later, so I went to
+his office and I said, &ldquo;Hi, I'm from MIT. Could I have a copy of
+the printer source code?&rdquo; And he said &ldquo;No, I promised not
+to give you a copy.&rdquo; <i>[Laughter]</i> I was stunned.  I was
+so&hellip; I was angry, and I had no idea how I could do justice to it.
+All I could think of was to turn around on my heel and walk out of his
+room.  Maybe I slammed the door.  <i>[Laughter]</i> And I thought
+about it later on, because I realized that I was seeing not just an
+isolated jerk, but a social phenomenon that was important and affected
+a lot of people.</p>
+
+<p>This was&mdash;for me&mdash;I was lucky, I only got a taste of
+it, but other people had to live in this all the time.  So I thought
+about it at length.  See, he had promised to refuse to cooperate with
+us&mdash;his colleagues at MIT.  He had betrayed us.  But he didn't
+just do it to us.  Chances are he did it to you too.  <i>[Pointing at
+member of audience.]</i>  And I think, mostly likely, he did it to you
+too.  <i>[Pointing at another member of audience.]  [Laughter]</i> And
+he probably did it to you as well.  <i>[Pointing to third member of
+audience.]</i> He probably did it to most of the people here in this
+room&mdash;except a few, maybe, who weren't born yet in 1980.
+Because he had promised to refuse to cooperate with just about the
+entire population of the Planet Earth.  He had signed a non-disclosure
+agreement.</p>
+
+<p>Now, this was my first, direct encounter with a non-disclosure
+agreement, and it taught me an important lesson&mdash;a lesson
+that's important because most programmers never learn it.  You see,
+this was my first encounter with a non-disclosure agreement, and I was
+the victim.  I, and my whole lab, were the victims.  And the lesson it
+taught me was that non-disclosure agreements have victims.  They're
+not innocent.  They're not harmless.  Most programmers first encounter
+a non-disclosure agreement when they're invited to sign one.  And
+there's always some temptation&mdash;some goody they're going to get
+if they sign.  So, they make up excuses.  They say, &ldquo;Well, he's
+never going to get a copy no matter what, so why shouldn't I join the
+conspiracy to deprive him?&rdquo; They say, &ldquo;This is the way
+it's always done.  Who am I to go against it?&rdquo; They say,
+&ldquo;If I don't sign this, someone else will.&rdquo; Various excuses
+to gag their consciences.</p>
+
+<p>But when somebody invited me to sign a non-disclosure agreement, my
+conscience was already sensitized.  It remembered how angry I had
+been, when somebody promised not to help me and my whole lab solve our
+problem.  And I couldn't turn around and do the exact same thing to
+somebody else who had never done me any harm.  You know, if somebody
+asked me to promise not to share some useful information with a hated
+enemy, I would have said yes.  You know?  If somebody's done something
+bad, he deserves it.  But, strangers&mdash;they haven't done me any
+harm.  How could they deserve that kind of mistreatment?  You can't
+let yourself start treating just anybody and everybody badly.  Then
+you become a predator on society.  So I said, &ldquo;Thank you very
+much for offering me this nice software package.  But I can't accept
+it in good conscience, on the conditions you are demanding, so I will
+do without it.  Thank you so much.&rdquo; And so, I have never
+knowingly signed a non-disclosure agreement for generally useful
+technical information such as software.</p>
+
+<p>Now there are other kinds of information which raise different
+ethical issues.  For instance, there's personal information.  You
+know, if you wanted to talk with me about what was happening between
+you and your boyfriend, and you asked me not to tell anybody&mdash;you
+know, I could keep&mdash;I could agree to keep that a secret for
+you, because that's not generally useful technical information.  At
+least, it's probably not generally useful. <i>[Laughter]</i></p>
+
+<p>There is a small chance&mdash;and it's a possibility
+though&mdash;that you might reveal to me some marvelous new sex
+technique, <i>[Laughter]</i> and I would then feel a moral
+duty <i>[Laughter]</i> to pass it onto the rest of humanity, so that
+everyone could get the benefit of it.  So, I'd have to put a proviso
+in that promise, you know?  If it's just details about who wants this,
+and who's angry at whom, and things like that&mdash;soap opera&mdash;that
+I can keep private for you, but something that humanity
+could tremendously benefit from knowing, I mustn't withhold.  You see,
+the purpose of science and technology is to develop useful information
+for humanity to help people live their lives better.  If we promise to
+withhold that information&mdash;if we keep it secret&mdash;then we
+are betraying the mission of our field.  And this, I decided I
+shouldn't do.</p>
+
+<p>But, meanwhile my community had collapsed, and that was collapsing,
+and that left me in a bad situation.  You see, the whole Incompatible
+Timesharing System was obsolete, because the PDP-10 was obsolete, and
+so there was no way that I could continue working as an operating
+system developer the way that I had been doing it.  That depended on
+being part of the community using the community software and improving
+it.  That no longer was a possibility, and that gave me a moral
+dilemma.  What was I going to do?  Because the most obvious
+possibility meant to go against that decision I had made.  The most
+obvious possibility was to adapt myself to the change in the world.
+To accept that things were different, and that I'd just have to give
+up those principles and start signing non-disclosure agreements for
+proprietary operating systems, and most likely writing proprietary
+software as well.  But I realized that that way I could have fun
+coding, and I could make money&mdash;especially if I did it other
+than at MIT&mdash;but at the end, I'd have to look back at my career
+and say, &ldquo;I've spent my life building walls to divide
+people,&rdquo; and I would have been ashamed of my life.</p>
+
+<p>So I looked for another alternative, and there was an obvious one.
+I could leave the software field and do something else.  Now I had no
+other special noteworthy skills, but I'm sure I could have become a
+waiter.  <i>[Laughter]</i> Not at a fancy restaurant; they wouldn't
+hire me, <i>[Laughter]</i> but I could be a waiter somewhere.  And
+many programmers, they say to me, &ldquo;The people who hire
+programmers demand this, this and this. If I don't do those things,
+I'll starve.&rdquo; It's literally the word they use.  Well, you know,
+as a waiter, you're not going to starve.  <i>[Laughter]</i> So,
+really, they're in no danger.  But&mdash;and this is important, you
+see&mdash;because sometimes you can justify doing something that
+hurts other people by saying otherwise something worse is going to
+happen to me.  You know, if you were <em>really</em> going to starve,
+you'd be justified in writing proprietary software.  <i>[Laughter]</i>
+If somebody's pointing a gun at you, then I would say, it's
+forgivable.  <i>[Laughter]</i> But, I had found a way that I could
+survive without doing something unethical, so that excuse was not
+available.  So I realized, though, that being a waiter would be no fun
+for me, and it would be wasting my skills as an operating system
+developer.  It would avoid misusing my skills.  Developing proprietary
+software would be misusing my skills.  Encouraging other people to
+live in the world of proprietary software would be misusing my skills.
+So it's better to waste them than misuse them, but it's still not
+really good.</p>
+
+<p>So for those reasons, I decided to look for some other alternative.
+What can an operating system developer do that would actually improve
+the situation, make the world a better place?  And I realized that an
+operating system developer was exactly what was needed.  The problem,
+the dilemma, existed for me and for everyone else because all of the
+available operating systems for modern computers were proprietary.
+The free operating systems were for old, obsolete computers, right?
+So for the modern computers&mdash;if you wanted to get a modern
+computer and use it, you were forced into a proprietary operating
+system.  So if an operating system developer wrote another operating
+system, and then said, &ldquo;Everybody come and share this; you're
+welcome to this&rdquo;&mdash;that would give everybody a way out of
+the dilemma, another alternative.  So I realized that there was
+something I could do that would solve the problem.  I had just the
+right skills to be able to do it.  And it was the most useful thing I
+could possibly imagine that I'd be able to do with my life.  And it
+was a problem that no one else was trying to solve.  It was just sort
+of sitting there, getting worse, and nobody was there but me.  So I
+felt, &ldquo;I'm elected.  I have to work on this.  If not me,
+who?&rdquo; So I decided I would develop a free operating system, or
+die trying &hellip; of old age, of course.  <i>[Laughter]</i></p>
+
+<p>So, of course I had to decide what kind of operating system it
+should be.  There are some technical design decisions to be made.  I
+decided to make the system compatible with Unix for a number of
+reasons.  First of all, I had just seen one operating system that I
+really loved become obsolete because it was written for one particular
+kind of computer.  I didn't want that to happen again.  We needed to
+have a portable system.  Well, Unix was a portable system.  So if I
+followed the design of Unix, I had a pretty good chance that I could
+make a system that would also be portable and workable.  And
+furthermore, why <i>[Tape unclear]</i> be compatible with it in the
+details.  The reason is, users hate incompatible changes.  If I had
+just designed the system in my favorite way&mdash;which I would have
+loved doing, I'm sure&mdash;I would have produced something that was
+incompatible.  You know, the details would be different.  So, if I
+wrote the system, then the users would have said to me, &ldquo;Well,
+this is very nice, but it's incompatible.  It will be too much work to
+switch.  We can't afford that much trouble just to use your system
+instead of Unix, so we'll stay with Unix,&rdquo; they would have
+said.</p>
+
+<p>Now, if I wanted to actually create a community where there would
+be people in it, people using this free system, and enjoying the
+benefits of liberty and cooperation, I had to make a system people
+would use, a system that they would find easy to switch to, that would
+not have an obstacle making it fail at the very beginning.  Now,
+making the system upward compatible with Unix actually made all the
+immediate design decisions, because Unix consists of many pieces, and
+they communicate through interfaces that are more or less documented.
+So if you want to be compatible with Unix, you have to replace each
+piece, one by one, with a compatible piece.  So the remaining design
+decisions are inside one piece, and they could be made later by
+whoever decides to write that piece.  They didn't have to be made at
+the outset.</p>
+
+<p>So all we had to do to start work was find a name for the system.
+Now, we hackers always look for a funny or naughty name for a program,
+because thinking of people being amused by the name is half the fun of
+writing the program.  <i>[Laughter]</i> And we had a tradition of
+recursive acronyms, to say that the program that you're writing is
+similar to some existing program. You can give it a recursive acronym
+name which says: this one's not the other.  So, for instance, there
+were many Tico text editors in the '60's and '70's, and they were
+generally called something-or-other Tico.  Then one clever hacker
+called his Tint, for Tint Is Not Tico&mdash;the first recursive
+acronym.  In 1975, I developed the first Emacs text editor, and there
+were many imitations of Emacs, and a lot of them were called
+something-or-other Emacs, but one was called Fine, for Fine Is Not
+Emacs, and there was Sine, for Sine Is Not Emacs, and Eine for Eine Is
+Not Emacs, and MINCE for Mince Is Not Complete
+Emacs.  <i>[Laughter]</i> That was a stripped down imitation.  And
+then, Eine was almost completely rewritten, and the new version was
+called Zwei, for Zwei Was Eine Initially.  <i>[Laughter]</i></p>
+
+<p>So I looked for a recursive acronym for Something is not Unix.  And
+I tried all 26 letters, and discovered that none of them was a word.
+<i>[Laughter]</i> Hmm, try another way.  I made a contraction.  That
+way I could have a three-letter acronym, for Something's not Unix.
+And I tried letters, and I came across the word &ldquo;GNU&rdquo;&mdash;the
+word &ldquo;GNU&rdquo; is the funniest word in the English
+language.  <i>[Laughter]</i> That was it.  Of course, the reason it's
+funny is that according to the dictionary, it's pronounced
+&ldquo;new.&rdquo;  You see?  And so that's why people use it for a
+lot of wordplay.  Let me tell you, this is the name of an animal that
+lives in Africa.  And the African pronunciation had a click sound in
+it.  <i>[Laughter]</i> Maybe still does.  And so, the European
+colonists, when they got there, they didn't bother learning to say
+this click sound.  So they just left it out, and they wrote a
+&ldquo;G&rdquo; which meant &ldquo;there's another sound that's
+supposed to be here which we are not
+pronouncing.&rdquo; <i>[Laughter]</i> So, tonight I'm leaving for
+South Africa, and I have begged them, I hope they're going to find
+somebody who can teach me to pronounce click sounds, <i>[Laughter]</i>
+so that I'll know how to pronounce GNU the correct way, when it's the
+animal.</p>
+
+<p>But, when it's the name of our system, the correct pronunciation is
+&ldquo;guh-NEW&rdquo;&mdash;pronounce the hard &ldquo;G.&rdquo;  If
+you talk about the &ldquo;new&rdquo; operating system, you'll get
+people very confused, because we've been working on it for 17 years
+now, so it is not new any more.  <i>[Laughter]</i> But it still is,
+and always will be, GNU&mdash;no matter how many people call it
+Linux by mistake.  <i>[Laughter]</i></p>
+
+<p>So, in January 1984, I quit my job at MIT to start writing pieces
+of GNU.  They were nice enough to let me keep using their facilities
+though.  And, at the time, I thought we would write all these pieces,
+and make an entire GNU system, and then we'd say, &ldquo;Come and get
+it,&rdquo; and people would start to use it.  That's not what
+happened.  The first pieces I wrote were just equally good
+replacements, with fewer bugs for some pieces of Unix, but they
+weren't tremendously exciting.  Nobody particularly wanted to get them
+and install them.  But then, in September 1984, I started writing GNU
+Emacs, which was my second implementation of Emacs, and by early 1985,
+it was working.  I could use it for all my editing, which was a big
+relief, because I had no intention of learning to use VI, the Unix
+editor. <i>[Laughter]</i> So, until that time, I did my editing on
+some other machine, and saved the files through the network, so that I
+could test them.  But when GNU Emacs was running well enough for me to
+use it, it was also&mdash;other people wanted to use it too.</p>
+
+<p>So I had to work out the details of distribution.  Of course, I put
+a copy in the anonymous FTP directory, and that was fine for people
+who were on the net. They could then just pull over a tar file, but a
+lot of programmers then even were not on the net in 1985.  They were
+sending me emails saying &ldquo;How can I get a copy?&rdquo; I had to
+decide what I would answer them.  Well, I could have said, I want to
+spend my time writing more GNU software, not writing tapes, so please
+find a friend who's on the internet and who is willing to download it
+and put it on a tape for you.  And I'm sure people would have found
+some friends, sooner or later, you know.  They would have got copies.
+But I had no job.  In fact, I've never had a job since quitting MIT in
+January 1984.  So, I was looking for some way I could make money
+through my work on free software, and therefore I started a free
+software business.  I announced, &ldquo;Send me $150, and I'll
+mail you a tape of Emacs.&rdquo; And the orders began dribbling in.
+By the middle of the year they were trickling in.</p>
+
+<p>I was getting 8 to 10 orders a month.  And, if necessary, I could
+have lived on just that, because I've always lived cheaply. I live
+like a student, basically.  And I like that, because it means that
+money is not telling me what to do.  I can do what I think is
+important for me to do.  It freed me to do what seemed worth doing.
+So make a real effort to avoid getting sucked into all the expensive
+lifestyle habits of typical Americans.  Because if you do that, then
+people with the money will dictate what you do with your life.  You
+won't be able to do what's really important to you.</p>
+
+<p>So, that was fine, but people used to ask me, &ldquo;What do you
+mean it's free software if it costs $150?&rdquo; <i>[Laughter]</i>
+Well, the reason they asked this was
+that they were confused by the multiple meanings of the English word
+&ldquo;free.&rdquo;  One meaning refers to price, and another meaning
+refers to freedom.  When I speak of free software, I'm referring to
+freedom, not price.  So think of free speech, not free
+beer.  <i>[Laughter]</i> Now, I wouldn't have dedicated so many years
+of my life to making sure programmers got less money.  That's not my
+goal.  I'm a programmer and I don't mind getting money myself.  I
+won't dedicate my whole life to getting it, but I don't mind getting
+it.  And I'm not&mdash;and therefore, ethics is the same for
+everyone.  I'm not against some other programmer getting money either.
+I don't want prices to be low.  That's not the issue at all.  The
+issue is freedom.  Freedom for everyone who's using software, whether
+that person be a programmer or not.</p>
+
+<p>So at this point I should give you the definition of free software.
+I better get to some real details, you see, because just saying
+&ldquo;I believe in freedom&rdquo; is vacuous.  There's so many
+different freedoms you could believe in, and they conflict with each
+other, so the real political question is: Which are the important
+freedoms, the freedoms that we must make sure everybody has?</p>
+
+<p>And now, I will give my answer to that question for the particular
+area of using software.  A program is free software for you, a
+particular user, if you have the following freedoms:</p>
+
+<ul>
+<li>First, Freedom Zero is the freedom to run the program for any
+purpose, any way you like.</li>
+<li>Freedom One is the freedom to help yourself by changing the
+program to suit your needs.</li>
+<li>Freedom Two is the freedom to help your neighbor by distributing
+copies of the program.</li>
+<li>And Freedom Three is the freedom to help build your community by
+publishing an improved version so others can get the benefit of your
+work.</li>
+</ul>
+
+<p>If you have all of these freedoms, the program is free software,
+for you&mdash;and that's crucial.  That's why I phrase it that way.
+I'll explain why later, when I talk about the GNU General Public
+License, but right now I'm explaining what free software means, which
+is a more basic question.</p>
+
+<p>So, Freedom Zero's pretty obvious.  If you're not even allowed to
+run the program anyway you like, it is a pretty damn restrictive
+program.  But as it happens, most programs will at least give you
+Freedom Zero.  And Freedom Zero follows, legally, as a consequence of
+Freedoms One, Two, and Three&mdash;that's the way that copyright law
+works.  So the freedoms that distinguish free software from typical
+software are Freedoms One, Two, and Three, so I'll say more about them
+and why they are important.</p>
+
+<p>Freedom One is the freedom to help yourself by changing the
+software to suit your needs.  This could mean fixing bugs.  It could
+mean adding new features.  It could mean porting it to a different
+computer system.  It could mean translating all the error messages
+into Navajo.  Any change you want to make, you should be free to
+make.</p>
+
+<p>Now, it's obvious that professional programmers can make use of
+this freedom very effectively, but not just them.  Anybody of
+reasonable intelligence can learn a little programming.  You know,
+there are hard jobs, and there are easy jobs, and most people are not
+going to learn enough to do hard jobs.  But lots of people can learn
+enough to do easy jobs, just the way, you know, 50 years ago, lots and
+lots of American men learned to repair cars, which is what enabled the
+U.S. to have a motorized army in World War II and win.  So, very
+important, having lots of people tinkering.</p>
+
+<p>And if you are a people person, and you really don't want to learn
+technology at all, that probably means that you have a lot of friends,
+and you're good at getting them to owe you favors.  <i>[Laughter]</i>
+Some of them are probably programmers.  So you can ask one of your
+programmer friends. &ldquo;Would you please change this for me?  Add
+this feature?&rdquo; So, lots of people can benefit from it.</p>
+
+<p>Now, if you don't have this freedom, it causes practical, material
+harm to society.  It makes you a prisoner of your software.  I
+explained what that was like with regard to the laser printer.  You
+know, it worked badly for us, and we couldn't fix it, because we were
+prisoners of our software.</p>
+
+<p>But it also affects people's morale.  You know if the computer is
+constantly frustrating to use, and people are using it, their lives
+are going to be frustrating, and if they're using it in their jobs,
+their jobs are going to be frustrating; they're going to hate their
+jobs.  And you know, people protect themselves from frustration by
+deciding not to care.  So you end up with people whose attitude is,
+&ldquo;Well, I showed up for work today.  That's all I have to do.  If
+I can't make progress, that's not my problem; that's the boss's
+problem.&rdquo; And when this happens, it's bad for those people, and
+it's bad for society as a whole.  That's Freedom One, the freedom to
+help yourself.</p>
+
+<p>Freedom Two is the freedom to help your neighbor by distributing
+copies of the program.  Now, for beings that can think and learn,
+sharing useful knowledge is a fundamental act of friendship.  When
+these beings use computers, this act of friendship takes the form of
+sharing software.  Friends share with each other.  Friends help each
+other.  This is the nature of friendship.  And, in fact, this spirit
+of goodwill&mdash;the spirit of helping your neighbor, voluntarily&mdash;is
+society's most important resource.  It makes the difference
+between a livable society and a dog-eat-dog jungle.  Its importance
+has been recognized by the world's major religions for thousands of
+years, and they explicitly try to encourage this attitude.</p>
+
+<p>When I was going to kindergarten, the teachers were trying to teach
+us this attitude&mdash;the spirit of sharing&mdash;by having us do
+it.  They figured if we did it, we'd learn.  So they said, &ldquo;If
+you bring candy to school, you can't keep it all for yourself; you
+have to share some with the other kids.&rdquo; Teaching us, the
+society was set up to teach, this spirit of cooperation.  And why do
+you have to do that?  Because people are not totally cooperative.
+That's one part of human nature, and there are other parts of human
+nature.  There are lots of parts of human nature.  So, if you want a
+better society, you've got to work to encourage the spirit of sharing.
+You know, it'll never get to be 100%.  That's understandable.  People
+have to take care of themselves too.  But if we make it somewhat
+bigger, we're all better off.</p>
+
+<p>Nowadays, according to the U.S. Government, teachers are supposed
+to do the exact opposite.  &ldquo;Oh, Johnny, you brought software to
+school.  Well, don't share it.  Oh no.  Sharing is wrong.  Sharing
+means you're a pirate.&rdquo;</p>
+
+<p>What do they mean when they say &ldquo;pirate&rdquo;?  They're
+saying that helping your neighbor is the moral equivalent of attacking
+a ship.  <i>[Laughter]</i></p>
+
+<p>What would Buddha or Jesus say about that?  Now, take your favorite
+religious leader.  I don't know, maybe Manson would have said
+something different.  <i>[Laughter]</i> Who knows what L. Ron Hubbard
+would say?  But &hellip;</p>
+
+<p><strong>QUESTION</strong>: <i>[Inaudible]</i></p>
+
+<p><strong>STALLMAN</strong>: Of course, he's dead.  But they don't
+admit that.  What?</p>
+
+<p><strong>QUESTION</strong>: So are the others, also
+dead.  <i>[Laughter] [Inaudible]</i> Charles Manson's also
+dead.  <i>[Laughter]</i> They're dead, Jesus's dead, Buddha's
+dead&hellip;</p>
+
+<p><strong>STALLMAN</strong>: Yes, that's true.  <i>[Laughter]</i> So
+I guess, in that regard, L. Ron Hubbard is no worse than the
+others.  <i>[Laughter]</i> Anyway&mdash;<i>[Inaudible]</i></p>
+
+<p><strong>QUESTION</strong>: L. Ron always used free software&mdash;it
+freed him from Zanu.  <i>[Laughter]</i></p>
+
+<p><strong>STALLMAN</strong>: Anyway, so, I think this is actually the
+most important reason why software should be free: We can't afford to
+pollute society's most important resource.  It's true that it's not a
+physical resource like clean air and clean water.  It's a
+psycho-social resource, but it's just as real for all that, and it
+makes a tremendous difference to our lives.  You see, the actions we
+take influence the thoughts of other people.  When we go around
+telling people, &ldquo;Don't share with each other,&rdquo; if they
+listen to us, we've had an effect on society, and it's not a good one.
+That's Freedom Two, the freedom to help your neighbor.</p>
+
+<p>Oh, and by the way, if you don't have that freedom, it doesn't just
+cause this harm to society's psycho-social resource, it also causes
+waste&mdash;practical, material harm.  If the program has an owner,
+and the owner arranges a state of affairs where each user has to pay
+in order to be able to use it, some people are going to say,
+&ldquo;Never mind, I'll do without it.&rdquo; And that's waste,
+deliberately inflicted waste.  And the interesting thing about
+software, of course, is that fewer users doesn't mean you have to make
+less stuff.  You know, if fewer people buy cars, you can make fewer
+cars.  There's a saving there.  There are resources to be allocated,
+or not allocated, into making cars.  So that you can say that having a
+price on a car is a good thing.  It prevents people from diverting
+lots of wasted resources into making cars that aren't really needed.
+But if each additional car used no resources, it wouldn't be doing any
+good saving the making of these cars.  Well, for physical objects, of
+course, like cars, it is always going to take resources to make an
+additional one of them, each additional exemplar.</p>
+
+<p>But for software that's not true.  Anybody can make another copy.
+And it's almost trivial to do it.  It takes no resources, except a
+tiny bit of electricity.  So there's nothing we can save, no resource
+we're going to allocate better by putting this financial disincentive
+on the use of the software.  You often find people taking economic,
+the consequences of economic reasoning, based on premises that don't
+apply to software, and trying to transplant them from other areas of
+life where the premises may apply, and the conclusions may be valid.
+They just take the conclusions and assume that they're valid for
+software too, when the argument is based on nothing, in the case of
+software.  The premises don't work in that case.  It is very important
+to examine how you reach the conclusion, and what premises it depends
+on, to see where it might be valid.  So, that's Freedom Two, the
+freedom to help your neighbor.</p>
+
+<p>Freedom Three is the freedom to help build your community by
+publishing an improved version of the software.  People used to say to
+me, &ldquo;If the software's free, then nobody will get paid to work
+on it, so why should anybody work on it?&rdquo; Well, of course, they
+were confusing the two meanings of free, so their reasoning was based
+on a misunderstanding.  But, in any case, that was their theory.
+Today, we can compare that theory with empirical fact, and we find
+that hundreds of people are being paid to write free software, and
+over 100,000 are doing it as volunteers.  We get lots of people
+working on free software, for various different motives.</p>
+
+<p>When I first released GNU Emacs&mdash;the first piece of the GNU
+system that people actually wanted to use&mdash;and when it started
+having users, after a while, I got a message saying, &ldquo;I think I
+saw a bug in the source code, and here's a fix.&rdquo; And I got
+another message, &ldquo;Here's code to add a new feature.&rdquo; And
+another bug fix.  And another new feature.  And another, and another,
+and another, until they were pouring in on me so fast that just making
+use of all this help I was getting was a big job.  Microsoft doesn't
+have this problem.  <i>[Laughter]</i></p>
+
+<p>Eventually, people noted this phenomenon.  You see, in the 1980's a
+lot of us thought that maybe free software wouldn't be as good as the
+nonfree software, because we wouldn't have as much money to pay
+people.  And, of course, people like me, who value freedom and
+community said, &ldquo;Well, we'll use the free software
+anyway.&rdquo; It's worth making a little sacrifice in some mere
+technical convenience to have freedom.  But what people began to note,
+around 1990 was that our software was actually better.  It was more
+powerful, and more reliable, than the proprietary alternatives.</p>
+
+<p>In the early '90's, somebody found a way to do a scientific
+measurement of reliability of software.  Here's what he did.  He took
+several sets of comparable programs that did the same jobs&mdash;the
+exact same jobs&mdash;in different systems.  Because there were
+certain basic Unix-like utilities.  And the jobs that they did, we
+know, was all, more or less, imitating the same thing, or they were
+following the POSIX spec, so they were all the same in terms of what
+jobs they did, but they were maintained by different people, written
+separately.  The code was different.  So they said, OK, we'll take
+these programs and run them with random data, and measure how often
+they crash, or hang.  So they measured it, and the most reliable set
+of programs was the GNU programs.  All the commercial alternatives
+which were proprietary software were less reliable.  So he published
+this and he told all the developers, and a few years later, he did the
+same experiment with the newest versions, and he got the same result.
+The GNU versions were the most reliable.  People&mdash;you know
+there are cancer clinics and 911 operations that use the GNU system,
+because it's so reliable, and reliability is very important to
+them.</p>
+
+<p>Anyway, there's even a group of people who focus on this particular
+benefit as the reason they give, the main reason they give, why users
+should be permitted to do these various things, and to have these
+freedoms.  If you've been listening to me, you've noticed, you've seen
+that I, speaking for the free software movement, I talk about issues
+of ethics, and what kind of a society we want to live in, what makes
+for a good society, as well as practical, material benefits.  They're
+both important.  That's the free software movement.</p>
+
+<p>That other group of people&mdash;which is called the open source
+movement&mdash;they only cite the practical benefits.  They deny
+that this is an issue of principle.  They deny that people are
+entitled to the freedom to share with their neighbor and to see what
+the program's doing and change it if they don't like it.  They say,
+however, that it's a useful thing to let people do that.  So they go
+to companies and say to them, &ldquo;You know, you might make more
+money if you let people do this.&rdquo; So, what you can see is that
+to some extent, they lead people in a similar direction, but for
+totally different, for fundamentally different, philosophical
+reasons.</p>
+
+<p>Because on the deepest issue of all, you know, on the ethical
+question, the two movements disagree.  You know, in the free software
+movement we say, &ldquo;You're entitled to these freedoms.  People
+shouldn't stop you from doing these things.&rdquo; In the open source
+movement, they say, &ldquo;Yes, they can stop you if you want, but
+we'll try to convince them to deign to let you to do these
+things.&rdquo; Well, they have contributed&mdash;they have convinced
+a certain number of businesses to release substantial pieces of
+software as free software in our community.  So they, the open source
+movement, has contributed substantially to our community.  And so we
+work together on practical projects.  But, philosophically, there's a
+tremendous disagreement.</p>
+
+<p>Unfortunately, the open source movement is the one that gets the
+support of business the most, and so most articles about our work
+describe it as open source, and a lot of people just innocently think
+that we're all part of the open source movement.  So that's why I'm
+mentioning this distinction.  I want you to be aware that the free
+software movement, which brought our community into existence and
+developed the free operating system, is still here&mdash;and that we
+still stand for this ethical philosophy.  I want you to know about
+this, so that you won't mislead someone else unknowingly.</p>
+
+<p>But also, so that you can think about where you stand.</p>
+
+<p>You know, which movement you support is up to you.  You might agree
+with the free software movements and my views.  You might agree with
+the open source movement.  You might disagree with them both.  You
+decide where you stand on these political issues.</p>
+
+<p>But if you agree with the free software movement&mdash;if you see
+that there's an issue here that the people whose lives are controlled
+and directed by this decision deserve a say in it&mdash;then I hope
+you'll say that you agree with the free software movement, and one way
+you can do that is by using the term free software and just helping
+people know we exist.</p>
+
+<p>So, Freedom Three is very important both practically and
+psycho-socially.  If you don't have this freedom, it causes practical
+material harm, because this community development doesn't happen, and
+we don't make powerful, reliable software.  But it also causes
+psycho-social harm, which affects the spirit of scientific
+cooperation&mdash;the idea that we're working together to advance human
+knowledge.  You see, progress in science crucially depends on people
+being able to work together.  And nowadays though, you often find each
+little group of scientists acting like it's a war with each other gang
+of scientists and engineers.  And if they don't share with each other,
+they're all held back.</p>
+
+<p>So, those are the three freedoms that distinguish free software
+from typical software.  Freedom One is the freedom to help yourself,
+making changes to suit your own needs.  Freedom Two is the freedom to
+help your neighbor by distributing copies.  And Freedom Three is the
+freedom to help build your community by making changes and publishing
+them for other people to use.  If you have all of these freedoms, the
+program is free software for you.  Now, why do I define it that way in
+terms of a particular user?  Is it free software for
+you?  <i>[Pointing at member of audience.]</i> Is it free software for
+you?  <i>[Pointing at another member of audience.]</i> Is it free
+software for you?  <i>[Pointing at another member of audience.]</i>
+Yes?</p>
+
+<p><strong>QUESTION</strong>: Can you explain a bit about the
+difference between Freedom Two and Three?  <i>[inaudible]</i></p>
+
+<p><strong>STALLMAN</strong>: Well, they certainly relate, because if
+you don't have freedom to redistribute at all, you certainly don't
+have freedom to distribute a modified version, but they're different
+activities.</p>
+
+<p><strong>QUESTION</strong>: Oh.</p>
+
+<p><strong>STALLMAN</strong>: Freedom Two is, you know, read it, you
+make an exact copy, and hand it to your friends, so now your friend
+can use it.  Or maybe you make exact copies and you sell them to a
+bunch of people, and then they can use it.</p>
+
+<p>Freedom Three is where you make improvements&mdash;or at least
+you think they're improvements, and some other people may agree with
+you.  So that's the difference.  Oh, and by the way, one crucial
+point.  Freedoms One and Three depend on your having access to the
+source code.  Because changing a binary-only program is extremely
+hard.  <i>[Laughter]</i> Even trivial changes like using four digits
+for the date, <i>[Laughter]</i> if you don't have source.  So, for
+compelling, practical reasons, access to the source code is a
+precondition, a requirement, for free software.</p>
+
+<p>So, why do I define it in terms of whether it's free software for
+<em>you</em>?  The reason is that sometimes the same program can be
+free software for some people, and nonfree for others.  Now, that
+might seem like a paradoxical situation, so let me give you an example
+to show you how it happens.  A very big example&mdash;maybe the
+biggest ever&mdash;of this problem was the X Window System which was
+developed at MIT and released under a license that made it free
+software.  If you got the MIT version with the MIT license, you had
+Freedoms One, Two, and Three.  It was free software for you.  But
+among those who got copies were various computer manufacturers that
+distributed Unix systems, and they made the necessary changes in X to
+run on their systems.  You know, probably just a few thousand lines
+out of the hundreds of thousands of lines of X.  And, then they
+compiled it, and they put the binaries into their Unix system and
+distributed it under the same non-disclosure agreement as the rest of
+the Unix system.  And then, millions of people got these copies.  They
+had the X Window System, but they had none of these freedoms.  It was
+not free software for <em>them</em>.</p>
+
+<p>So, the paradox was that whether X was free software depended on
+where you made the measurement.  If you made the measurement coming
+out of the developers' group, you'd say, &ldquo;I observe all these
+freedoms.  It's free software.&rdquo; If you made the measurements
+among the users you'd say, &ldquo;Hmm, most users don't have these
+freedoms.  It's not free software.&rdquo; Well, the people who
+developed X didn't consider this a problem, because their goal was
+just popularity, ego, essentially.  They wanted a big professional
+success.  They wanted to feel, &ldquo;Ah, lots of people are using our
+software.&rdquo; And that was true.  Lots of people were using their
+software but didn't have freedom.</p>
+
+<p>Well, in the GNU project, if that same thing had happened to GNU
+software, it would have been a failure, because our goal wasn't just
+to be popular; our goal was to give people liberty, and to encourage
+cooperation, to permit people to cooperate.  Remember, never force
+anyone to cooperate with any other person, but make sure that
+everybody's allowed to cooperate, everyone has the freedom to do so,
+if he or she wishes.  If millions of people were running nonfree
+versions of GNU, that wouldn't be success at all. The whole thing
+would have been perverted into nothing like the goal.</p>
+
+<p>So, I looked for a way to stop that from happening.  The method I
+came up with is called &ldquo;copyleft.&rdquo;  It's called copyleft
+because it's sort of like taking copyright and flipping it
+over.  <i>[Laughter]</i> Legally, copyleft works based on copyright.
+We use the existing copyright law, but we use it to achieve a very
+different goal.  Here's what we do.  We say, &ldquo;This program is
+copyrighted.&rdquo; And, of course, by default, that means it's
+prohibited to copy it, or distribute it, or modify it.  But then we
+say, &ldquo;You're authorized to distribute copies of this.  You're
+authorized to modify it.  You're authorized to distribute modified
+versions and extended versions.  Change it any way you
+like.&rdquo;</p>
+
+<p>But there is a condition.  And the condition, of course, is the
+reason why we go to all this trouble, so that we could put the
+condition in.  The condition says: Whenever you distribute anything
+that contains any piece of this program, that whole program must be
+distributed under these same terms, no more and no less.  So you can
+change the program and distribute a modified version, but when you do,
+the people who get that from you must get the same freedom that you
+got from us.  And not just for the parts of it&mdash;the excerpts
+that you copied from our program&mdash;but also for the other parts
+of that program that they got from you.  The whole of that program has
+to be free software for them.</p>
+
+<p>The freedoms to change and redistribute this program become
+inalienable rights&mdash;a concept from the Declaration of
+Independence.  Rights that we make sure can't be taken away from you.
+And, of course, the specific license that embodies the idea of
+copyleft is the GNU General Public License, a controversial license
+because it actually has the strength to say no to people who would be
+parasites on our community.</p>
+
+<p>There are lots of people who don't appreciate the ideals of
+freedom.  And they'd be very glad to take the work that we have done,
+and use it to get a head start in distributing a nonfree program and
+tempting people to give up their freedom.  And the result would
+be&mdash;you know, if we let people do that&mdash;that we would
+developing these free programs, and we'd constantly have to compete
+with improved versions of our own programs.  That's no fun.</p>
+
+<p>And, a lot of people also feel&mdash;you know, I'm willing to
+volunteer my time to contribute to the community, but why should I
+volunteer my time to contribute to that company's, to improving that
+company's, proprietary program?  You know, some people might not even
+think that that's evil, but they want to get paid if they're going to
+do that.  I, personally, would rather not do it at all.</p>
+
+<p>But both of these groups of people&mdash;both the ones like me
+who say, &ldquo;I don't want to help that nonfree program to get a
+foothold in our community&rdquo; and the ones that say, &ldquo;Sure,
+I'd work for them, but then they better pay me&rdquo;&mdash;both of
+us have a good reason to use the GNU General Public License.  Because
+that says to that company, &ldquo;You can't just take my work, and
+distribute it without the freedom.&rdquo; Whereas, the non-copyleft
+licenses, like the X Windows license, do permit that.</p>
+
+<p>So that is the big division between the two categories of free
+software&mdash;license-wise.  There are the programs that are
+copylefted so that the license defends the freedom of the software for
+every user.  And there are the non-copylefted programs for which
+nonfree versions are allowed.  Somebody <em>can</em> take those
+programs and strip off the freedom.  You may get that program in a
+nonfree version.</p>
+
+<p>And that problem exists today.  There are still nonfree versions
+of X Windows being used on our free operating systems.  There is even
+hardware&mdash;which is not really supported&mdash;except by a
+nonfree version of X Windows.  And that's a major problem in our
+community.  Nonetheless, I wouldn't say that X Windows is a bad thing,
+you know. I'd say that the developers did not do the best possible
+thing that they could have done.  But they <em>did</em> release a lot
+of software that we could all use.</p>
+
+<p>You know, there's a big difference between less than perfect, and
+evil.  There are many gradations of good and bad.  We have to resist
+the temptation to say, if you didn't do the absolute best possible
+thing, then you're no good.  You know, the people that developed X
+Windows made a big contribution to our community.  But there's
+something better that they could have done.  They could have
+copylefted parts of the program and prevented those freedom-denying
+versions from being distributed by others.</p>
+
+<p>Now, the fact that the GNU General Public License defends your
+freedom, uses copyright law to defend your freedom, is, of course, why
+Microsoft is attacking it today.  See, Microsoft would really like to
+be able to take all the code that we wrote and put it into proprietary
+programs, have somebody make some improvements, or even just
+incompatible changes is all they need.  <i>[Laughter]</i></p>
+
+<p>You know, with Microsoft's marketing clout, they don't need to make
+it better to have their version supplant ours.  They just have to make
+it different and incompatible.  And then, put it on everybody's
+desktop.  So they really don't like the GNU GPL.  Because the GNU GPL
+won't let them do that.  It doesn't allow &ldquo;embrace and
+extend.&rdquo;  It says, if you want to share our code in your
+programs, you can.  But, you've got to share and share alike.  The
+changes that you make we have to be allowed to share.  So, it's a
+two-way cooperation, which is real cooperation.</p>
+
+<p>Many companies&mdash;even big companies like IBM and HP are
+willing to use our software on this basis.  IBM and HP contribute
+substantial improvements to GNU software.  And they develop other free
+software.  But, Microsoft doesn't want to do that, so they give it out
+that businesses just can't deal with the GPL.  Well, if businesses
+don't include IBM, and HP and SUN, then maybe they're
+right.  <i>[Laughter]</i> More about that later.</p>
+
+<p>I should finish the historical story.  You see, we set out in 1984
+not just to write some free software but to do something much more
+coherent: to develop an operating system that was entirely free
+software.  So that meant we had to write piece after piece after
+piece.  Of course, we were always looking for shortcuts.  The job was
+so big that people said we'd never be able to finish.  And, I thought
+that there was at least a chance that we'd finish it but, obviously,
+it's worth looking for shortcuts.  So we kept looking around. Is there
+any program that somebody else has written that we could manage to
+adapt, to plug into here, and that way we won't have to write it from
+scratch?  For instance, the X Window system.  It's true it wasn't
+copylefted, but it was free software, so we could use it.</p>
+
+<p>Now, I had wanted to put a window system into GNU from day one.  I
+wrote a couple of window systems at MIT before I started GNU.  And so,
+even though Unix had no window system in 1984, I decided that GNU
+would have one.  But, we never ended up writing a GNU window system,
+because X came along.  And I said, Goody!  One big job we don't have
+to do.  We'll use X.  So I basically said, let's take X, and put it
+into the GNU system.  And we'll make the other parts of GNU, you know,
+work with X, when appropriate.  And we found other pieces of software
+that had been written by other people, like the text formatter TeX,
+some library code from Berkeley.  At that time there was Berkeley
+Unix, but it was not free software.  This library code, initially, was
+from a different group at Berkeley, that did research on floating
+point.  And, so, we kept, we fit in these pieces.</p>
+
+<p>In October 1985, we founded the Free Software Foundation.  So
+please note, the GNU project came first.  The Free Software Foundation
+came after, about almost two years after the announcement of the
+Project.  And the Free Software Foundation is a tax-exempt charity
+that raises funds to promote the freedom to share and change software.
+And in the 1980's, one of the main things we did with our funds was to
+hire people to write parts of GNU.  And essential programs, such as
+the shell and the C library were written this way, as well as parts of
+other programs.  The <code>tar</code> program, which is absolutely
+essential, although not exciting at all <i>[Laughter]</i> was written
+this way.  I believe GNU grep was written this way.  And so, we're
+approaching our goal.</p>
+
+<p>By 1991, there was just one major piece missing, and that was the
+kernel.  Now, why did I put off the kernel?  Probably because it
+doesn't really matter what order you do the things in, at least
+technically it doesn't.  You've got to do them all anyway.  And partly
+because I'd hoped we'd be able to find a start at a kernel somewhere
+else.  And we did.  We found Mach, which had been developed at
+Carnegie Mellon.  And it wasn't the whole kernel; it was the bottom
+half of the kernel.  So we had to write the top half, but I figured,
+you know, things like the file system, the network code, and so on.
+But running on top of Mach they're running essentially as user
+programs, which ought to make them easier to debug.  You can debug
+with a real source-level debugger running at the same time.  And so, I
+thought that way we'd be able to get these, the higher level parts of
+the kernel, done in a short time.  It didn't work out that way.  These
+asynchronous, multi-threaded processes, sending messages to each other
+turned out to be very hard to debug.  And the Mach-based system that
+we were using to bootstrap with had a terrible debugging environment,
+and it was unreliable, and various problems.  It took us years and
+years to get the GNU kernel to work.</p>
+
+<p>But, fortunately, our community did not have to wait for the GNU
+kernel.  Because in 1991, Linus Torvalds developed another free kernel
+called Linux.  And he used the old-fashioned monolithic design and it
+turns out that he got his working much faster than we got ours
+working.  So maybe that's one of the mistakes that I made: that design
+decision.  Anyway, at first, we didn't know about Linux, because he
+never contacted us to talk about it.  Although he did know about the
+GNU Project.  But he announced it to other people and other places on
+the net.  And so other people then did the work of combining Linux
+with the rest of the GNU system to make a complete free operating
+system.  Essentially, to make the GNU plus Linux combination.</p>
+
+<p>But, they didn't realize that's what they were doing.  You see,
+they said, We have a kernel&mdash;let's look around and see what
+other pieces we can find to put together with the kernel.  So, they
+looked around&mdash;and lo and behold, everything they needed was
+already available.  What good fortune, they said.  <i>[Laughter]</i>
+It's all here.  We can find everything we need.  Let's just take all
+these different things and put it together, and have a system.</p>
+
+<p>They didn't know that most of what they found was pieces of the GNU
+system.  So they didn't realize that they were fitting Linux into the
+gap in the GNU system.  They thought they were taking Linux and making
+a system out of Linux.  So they called it a Linux system.</p>
+
+<p><strong>QUESTION</strong>: <i>[Inaudible]</i></p>
+
+<p><strong>STALLMAN</strong>: Can't hear you&mdash;what?</p>
+
+<p><strong>QUESTION</strong>: <i>[Inaudible]</i></p>
+
+<p><strong>STALLMAN</strong>: Well, it's just not&mdash;you know,
+it's provincial.</p>
+
+<p><strong>QUESTION</strong>: But it's more good fortune then finding
+X and Mach?</p>
+
+<p><strong>STALLMAN</strong>: Right.  The difference is that the
+people who developed X and Mach didn't have the goal of making a
+complete free operating system.  We're the only ones who had that.
+And, it was our tremendous work that made the system exist.  We
+actually did a larger part of the system than any other project.  No
+coincidence, because those people&mdash;they wrote useful parts of
+the system.  But they didn't do it because they wanted the system to
+be finished.  They had other reasons.</p>
+
+<p>Now the people who developed X&mdash;they thought that designing
+across the network window system would be a good project, and it was.
+And it turned out to help us make a good free operating system.  But
+that's not what they hoped for.  They didn't even think about that.
+It was an accident.  An accidental benefit.  Now, I'm not saying that
+what they did was bad.  They did a large free software project.
+That's a good thing to do.  But they didn't have that ultimate vision.
+The GNU Project is where that vision was.</p>
+
+<p>And, so, we were the ones whose&mdash;every little piece that
+didn't get done by somebody else, we did it.  Because we knew that we
+wouldn't have a complete system without it.  And even if it was
+totally boring and unromantic, like <code>tar</code>
+or <code>mv</code>.  <i>[Laughter]</i> We did it.  Or <code>ld</code>, you know
+there's nothing very exciting in <code>ld</code>&mdash;but I wrote
+one.  <i>[Laughter]</i> And I did make efforts to have it do a minimal
+amount of disk I/O so that it would be faster and handle bigger
+programs.  But, you know, I like to do a good job.  I like to improve
+various things about the program while I'm doing it.  But the reason
+that I did it wasn't that I had brilliant ideas for a
+better <code>ld</code>.  The reason I did it is that we needed one
+that was free.  And we couldn't expect anyone else to do it.  So, we
+had to do it, or find someone to do it.</p>
+
+<p>So, although at this point thousands of people in projects have
+contributed to this system, there is one project which is the reason
+that this system exists, and that's the GNU Project.  It <em>is</em>
+basically the GNU System, with other things added since then.</p>
+
+<p>So, however, the practice of calling the system Linux has been a
+great blow to the GNU Project, because we don't normally get credit
+for what we've done.  I think Linux, the kernel, is a very useful
+piece of free software, and I have only good things to say about it.
+But, well, actually, I can find a few bad things to say about
+it.  <i>[Laughter]</i> But, basically, I have good things to say about
+it.  However, the practice of calling the GNU system, Linux, is just a
+mistake.  I'd like to ask you please to make the small effort
+necessary to call the system GNU/Linux, and that way to help us get a
+share of the credit.</p>
+
+<p><strong>QUESTION</strong>: You need a mascot!  Get yourself a
+stuffed animal!  <i>[Laughter]</i></p>
+
+<p><strong>STALLMAN</strong>: We have one.</p>
+
+<p><strong>QUESTION</strong>: You do?</p>
+
+<p><strong>STALLMAN</strong>: We have an animal&mdash;a
+gnu.  <i>[Laughter]</i> Anyway.  So, yes, when you draw a penguin,
+draw a gnu next to it.  <i>[Laughter]</i> But, let's save the
+questions for the end.  I have more to go through.</p>
+
+<p>So, why am I so concerned about this?  You know, why do I think it
+is worth bothering you and perhaps giving you a, perhaps lowering your
+opinion of me, <i>[Laughter]</i> to raise this issue of credit?
+Because, you know, some people when I do this, some people think that
+it's because I want my ego to be fed, right?  Of course, I'm not
+saying&mdash;I'm not asking you to call it &ldquo;Stallmanix,&rdquo;
+right?  <i>[Laughter] [Applause]</i></p>
+
+<p>I'm asking you to call it GNU, because I want the GNU Project to
+get credit.  And there's a very specific reason for that, which is a
+lot more important than anybody getting credit, in and of itself.  You
+see, these days, if you look around in our community most of the
+people talking about it and writing about it don't ever mention GNU,
+and they don't ever mention these goals of freedom&mdash;these
+political and social ideals, either.  Because the place they come from
+is GNU.</p>
+
+<p>The ideas associated with Linux&mdash;the philosophy is very
+different.  It is basically the apolitical philosophy of Linus
+Torvalds.  So, when people think that the whole system is Linux, they
+tend to think: &ldquo;Oh, it must have been all started by Linux
+Torvalds.  His philosophy must be the one that we should look at
+carefully.&rdquo;  And when they hear about the GNU philosophy, they
+say: &ldquo;Boy, this is so idealistic, this must be awfully
+impractical.  I'm a Linux-user, not a
+GNU-user.&rdquo; <i>[Laughter]</i></p>
+
+<p>What irony!  If they only knew!  If they knew that the system they
+liked&mdash;or, in some cases, love and go wild over&mdash;is our
+idealistic, political philosophy made real.</p>
+
+<p>They still wouldn't have to agree with us.  But at least they'd see
+a reason to take it seriously, to think about it carefully, to give it
+a chance.  They would see how it relates to their lives.  You know, if
+they realized, &ldquo;I'm using the GNU system. Here's the GNU
+philosophy.  This philosophy is <em>why</em> this system that I like
+very much exists,&rdquo; they'd at least consider it with a much more
+open mind.  It doesn't mean that everybody will agree.  People think
+different things.  That's OK.  You know, people should make up their
+own minds.  But I want this philosophy to get the benefit of the
+credit for the results it has achieved.</p>
+
+<p>If you look around in our community, you'll find that almost
+everywhere, the institutions are calling the system Linux.  You know,
+reporters mostly call it Linux.  It's not right, but they do.  The
+companies mostly say it that package the system.  Oh, and most of
+these reporters, when they write articles, they usually don't look at
+it as a political issue, or social issue.  They're usually looking at
+it purely as a business question or what companies are going to
+succeed more or less, which is really a fairly minor question for
+society.  And, if you look at the companies that package the GNU/Linux
+system for people to use, well, most of them call it Linux.  And they
+<em>all</em> add nonfree software to it.</p>
+
+<p>See, the GNU GPL says that if you take code, and some code out of a
+GPL-covered program, and add some more code to make a bigger program,
+that whole program has to be released under the GPL.  But you could
+put other separate programs on the same disk (of either kind, hard
+disk, or CD), and they can have other licenses.  That's considered
+mere aggregation, and, essentially, just distributing two programs to
+somebody at the same time is not something we have any say over.  So,
+in fact, it is not true&mdash;sometimes, I wish it were true&mdash;that
+if a company uses a GPL-covered program in a product that the
+whole product has to be free software.  It's not&mdash;it doesn't go
+to that range&mdash;that scope.  It's the whole program.  If there
+are two separate programs that communicate with each other at arm's
+length&mdash;like by sending messages to each other&mdash;then,
+they're legally separate, in general.  So, these companies, by adding
+nonfree software to the system, are giving the users, philosophically
+and politically, a very bad idea.  They're telling the users,
+&ldquo;It is OK to use nonfree software.  We're even putting it on
+this as a bonus.&rdquo;</p>
+
+<p>If you look at the magazines about the use of the GNU/Linux system,
+most of them have a title like &ldquo;Linux-something or other.&rdquo;
+So they're calling the system Linux most of the time.  And they're
+filled with ads for nonfree software that you could run on top of the
+GNU/Linux system.  Now those ads have a common message.  They say:
+Nonfree Software Is Good For You.  It's So Good That You Might Even
+<em>Pay</em> To Get It.  <i>[Laughter]</i></p>
+
+<p>And they call these things &ldquo;value-added packages,&rdquo;
+which makes a statement about their values.  They're saying: Value
+practical convenience, not freedom.  And, I don't agree with those
+values, so I call them &ldquo;freedom-subtracted
+packages.&rdquo;  <i>[Laughter]</i> Because if you have installed a
+free operating system, then you now are living in the free world.  You
+enjoy the benefits of liberty that we worked for so many years to give
+you.  Those packages give you an opportunity to buckle on a chain.</p>
+
+<p>And then if you look at the trade shows&mdash;about the use of
+the, dedicated to the use of, the GNU/Linux system, they all call
+themselves &ldquo;Linux&rdquo; shows.  And they're filled with booths
+exhibiting nonfree software, essentially putting the seal of approval
+on the nonfree software.  So, almost everywhere you look in our
+community, the institutions are endorsing the nonfree software,
+totally negating the idea of freedom that GNU was developed for.
+And the only place that people are likely to come across the idea of
+freedom is in connection with GNU, and in connection with free
+software, the term, free software.  So this is why I ask you: please
+call the system GNU/Linux.  Please make people aware where the system
+came from and why.</p>
+
+<p>Of course, just by using that name, you won't be making an
+explanation of the history.  You can type four extra characters and
+write GNU/Linux; you can say two extra syllables.  But, GNU/Linux is
+fewer syllables than Windows 2000.  <i>[Laughter]</i> But, you're not
+telling them a lot, but you're preparing them, so that when they hear
+about GNU, and what it's all about, they'll see how that connects to
+them and their lives.  And that, indirectly, makes a tremendous
+difference.  So please help us.</p>
+
+<p>You'll note that Microsoft called the GPL an &ldquo;open source
+license.&rdquo;  They don't want people to be thinking in terms of
+freedom as the issue.  You'll find that they invite people to think in
+a narrow way, as consumers, and, of course, not even think very
+rationally as consumers, if they're going to choose Microsoft
+products.  But they don't want people to think as citizens or
+statesmen.  That's inimical to them.  At least it's inimical to their
+current business model.</p>
+
+<p>Now, how does free software&hellip;well, I can tell you about how
+free software relates to our society.  A secondary topic that might be
+of interest to some of you is how free software relates to business.
+Now, in fact, free software is <em>tremendously</em> useful for
+business.  After all, most businesses in the advanced countries use
+software.  Only a tiny fraction of them develop software.</p>
+
+<p>And free software is tremendously advantageous for any company that
+uses software, because it means that you're in control.  Basically,
+free software means the users are in control of what the program does.
+Either individually, if they care enough to be, or, collectively, when
+they care enough to be.  Whoever cares enough can exert some
+influence.  If you don't care, you don't buy.  Then you use what other
+people prefer.  But, if you do care, then you have some say. With
+proprietary software, you have essentially no say.</p>
+
+<p>With free software, you can change what you want to change.  And it
+doesn't matter that there are no programmers in your company; that's
+fine.  You know, if you wanted to move the walls in your building, you
+don't have to be a carpentry company. You just have to be able to go
+find a carpenter and say, &ldquo;What will you charge to do this
+job?&rdquo; And if you want to change around the software you use, you
+don't have to be a programming company.  You just have to go to a
+programming company and say, &ldquo;What will you charge to implement
+these features?  And when will you have it done?&rdquo; And if they
+don't do the job, you can go find somebody else.</p>
+
+<p>There's a free market for support.  So, any business that cares
+about support will find a tremendous advantage in free software.  With
+proprietary software, support is a monopoly, because one company has
+the source code, or maybe a small number of companies that paid a
+gigantic amount of money have the source code, if it's Microsoft's
+shared source program, but, it's very few.  And so, there aren't very
+many possible sources of support for you.  And that means, that unless
+you're a real giant, they don't care about you.  Your company is not
+important enough for them to care if they lose your business, or what
+happens.  Once you're using the program, they figure you're locked in
+to getting the support from them, because to switch to a different
+program is a gigantic job.  So, you end up with things like paying for
+the privilege of reporting a bug.  <i>[Laughter]</i> And once you've
+paid, they tell you, &ldquo;Well, OK, we've noted your bug report.
+And in a few months, you can buy an upgrade, and you can see if we've
+fixed it.&rdquo; <i>[Laughter]</i></p>
+
+<p>Support providers for free software can't get away with that.  They
+have to please the customers.  Of course, you can get a lot of good
+support gratis.  You post your problem on the Internet.  You may get
+an answer the next day.  But that's not guaranteed, of course.  If you
+want to be confident, you better make an arrangement with a company
+and pay them.  And this is, of course, one of the ways that free
+software business works.</p>
+
+<p>Another advantage of free software for businesses that use software
+is security and privacy.  And this applies to individuals as well, but
+I brought it up in the context of businesses.  You see, when a program
+is proprietary, you can't even tell what it really does.</p>
+
+<p>It could have features, deliberately put in that you wouldn't like
+if you knew about them, like it might have a backdoor to let the
+developer get into your machine.  It might snoop on what you do and
+send information back.  This is not unusual.  Some Microsoft software
+did this.  But it's not only Microsoft.  There are other proprietary
+programs that snoop on the user.  And you can't even tell if it does
+this.  And, of course, even assuming that the developer's totally
+honest, every programmer makes mistakes.  There could be bugs that
+affect your security which are nobody's fault.  But the point is: If
+it's not free software, you can't find them. And you can't fix
+them.</p>
+
+<p>Nobody has the time to check the source of every program he runs.
+You're not going to do that.  But with free software there's a large
+community, and there are people in that community who are checking
+things.  And you get the benefit of their checking, because if there's
+an accidental bug, there surely are, from time to time, in any
+program, they might find it and fix it.  And people are much less
+likely to put in a deliberate Trojan horse, or a snooping feature, if
+they think they might get caught.  The proprietary software developers
+figure they won't get caught.  They'll get away with it undetected.
+But a free software developer has to figure that people will look at
+that and see it's there.  So, in our community, we don't feel we can
+get away with ramming a feature down the users' throats that the users
+wouldn't like.  So we know that if the users don't like it, they'll
+make a modified version which doesn't have it.  And then, they'll all
+start using that version.</p>
+
+<p>In fact, we can all reason enough, we can all figure this out
+enough steps ahead, that we probably won't put in that feature.  After
+all, you're writing a free program; you want people to like your
+version; you don't want to put in a thing that you know a lot of
+people are going to hate, and have another modified version catch on
+instead of yours.  So you just realize that the user is king in the
+world of free software.  In the world of proprietary software, the
+customer is <em>not</em> king.  Because you are only a customer.  You
+have no say in the software you use.</p>
+
+<p>In this respect, free software is a new mechanism for democracy to
+operate.  Professor Lessig, now at Stanford, noted that code functions
+as a kind of law.  Whoever gets to write the code that just about
+everybody uses for all intents and purposes is writing the laws that
+run people's lives.  With free software, these laws get written in a
+democratic way.  Not the classical form of democracy&mdash;we don't
+have a big election and say, &ldquo;Everybody vote which way should
+this feature be done.&rdquo; <i>[Laughter]</i> Instead we say,
+basically, those of you who want to work on implementing the feature
+this way, do it.  And if you want to work on implementing the feature
+that way, do it.  And, it gets done one way or the other, you know?
+And so, if a lot of people want it this way, it'll get done this way.
+So, in this way, everybody contributes to the social decision by
+simply taking steps in the direction that he wants to go.</p>
+
+<p>And you're free to take as many steps, personally, as you want to
+take.  A business is free to commission as many steps as they find
+useful to take.  And, after you add all these things up, that says
+which direction the software goes.</p>
+
+<p>And it's often very useful to be able to take pieces out of some
+existing program, presumably usually large pieces, of course, and then
+write a certain amount of code of your own, and make a program that
+does exactly what you need, which would have cost you an arm and a leg
+to develop, if you had to write it all from scratch, if you couldn't
+cannibalize large pieces from some existing free software package.</p>
+
+<p>Another thing that results from the fact that the user is king is
+that we tend to be very good about compatibility and standardization.
+Why?  Because users like that.  Users are likely to reject a program
+that has gratuitous incompatibilities in it.  Now, sometimes there's a
+certain group of users which actually have a need for a certain kind
+of incompatibility, and then they'll have it. That's OK.  But when
+users want is to follow a standard, we developers have to follow it,
+and we know that.  And we do it.  By contrast, if you look at
+proprietary software developers, they often find it advantageous to
+deliberately <em>not</em> follow a standard, and not because they
+think that they're giving the user an advantage that way, but rather
+because they're imposing on the user, locking the user in.  And you'll
+even find them making changes in their file formats from time to time,
+just to force people to get the newest version.</p>
+
+<p>Archivists are finding a problem now, that files written on
+computers ten years ago often can't be accessed; they were written
+with proprietary software that's essentially lost now.  If it were
+written with free software, then it could be brought up-to-date and
+run.  And those things would not, those records would not be lost,
+would not be inaccessible.  They were even complaining about this on
+NPR recently in citing free software as a solution.  And so, in
+effect, by using a nonfree program to store your own data, you are
+putting your head in a noose.</p>
+
+<p>So, I've talked about how free software affects most business.  But
+how does it affect that particular narrow area which is software
+business?  Well, the answer is mostly not at all.  And the reason is
+that 90% of the software industry, from what I'm told, is development
+of custom software, software that's not meant to be released at all.
+For custom software, this issue, or the ethical issue of free or
+proprietary, doesn't arise.  You see, the issue is, are you users free
+to change, and redistribute, the software?  If there's only one user,
+and that user owns the rights, there's no problem.  That
+user <em>is</em> free to do all these things.  So, in effect, any
+<em>custom</em> program that was developed by one company for use
+in-house is free software, as long as they have the sense to insist on
+getting the source code and all the rights.</p>
+
+<p>And the issue doesn't really arise for software that goes in a
+watch or a microwave oven or an automobile ignition system.  Because
+those are places where you don't download software to install.  It's
+not a real computer, as far as the user is concerned.  And so, it
+doesn't raise these issues enough for them to be ethically important.
+So, for the most part, the software industry will go along, just as
+it's been going.  And the interesting thing is that since such a large
+fraction of the jobs are in that part of the industry, even if there
+were no possibilities for free software business, the developers of
+free software could all get day jobs writing custom
+software.  <i>[Laughter]</i> There's so many; the ratio is so big.</p>
+
+<p>But, as it happens, there is free software business.  There are
+free software companies, and at the press conference that I'm going to
+have, people from a couple of them will join us.  And, of course,
+there are also companies which are <em>not</em> free software
+businesses but do develop useful pieces of free software to release,
+and the free software that they produce is substantial.</p>
+
+<p>Now, how do free software businesses work?  Well, some of them sell
+copies.  You know, you're free to copy it but they can still sell
+thousands of copies a month.  And others sell support and various
+kinds of services.  I, personally, for the second half of the '80's, I
+sold free software support services.  Basically I said, for $200 an
+hour, I'll change whatever you want me to change in GNU software that
+I'd written.  And, yes, it was a stiff rate, but if it was a program
+that I was the author of, people would figure that I might get the job
+done in a lot fewer hours.  <i>[Laughter]</i> And I made a living that
+way.  In fact, I'd made more than I'd ever made before.  I also taught
+classes.  And I kept doing that until 1990, when I got a big prize and
+I didn't have to do it any more.</p>
+
+<p>But, 1990 was when the first corporation free software business was
+formed, which was Cygnus Support.  And their business was to do,
+essentially, the same kind of thing that I'd been doing.  I certainly
+could have worked for them, if I had needed to do that.  Since I
+didn't need to, I felt it was good for the movement if I remained
+independent of any one company.  That way, I could say good and bad
+things about the various free software and nonfree software
+companies, without a conflict of interest.  I felt that I could serve
+the movement more.  But, if I had needed that to make a living, sure,
+I would have worked for them.  It's an ethical business to be in.  No
+reason I would have felt ashamed to take a job with them.  And that
+company was profitable in its first year.  It was formed with very
+little capital, just the money its three founders had.  And it kept
+growing every year and being profitable every year until they got
+greedy, and looked for outside investors, and then they messed things
+up.  But it was several years of success, before they got greedy.</p>
+
+<p>So, this illustrates one of the exciting things about free
+software.  Free software demonstrates that you don't need to raise
+capital to develop free software.  I mean, it's useful;
+it <em>can</em> help.  You know, if you do raise some capital, you can
+hire people and have them write a bunch of software.  But you can get
+a lot done with a small number of people.  And, in fact, the
+tremendous efficiency of the process of developing free software is
+one of the reasons it's important for the world to switch to free
+software.  And it also belies what Microsoft says when they say the
+GNU GPL is bad, because it makes it harder for them to raise capital
+to develop nonfree software and take our free software and put our
+code into their programs that they won't share with us.  Basically, we
+don't need to have them raising capital that way.  We'll get the job
+done anyway.  We are getting the job done.</p>
+
+<p>People used to say we could never do a complete free operating
+system.  Now we've done that and a tremendous amount more.  And I
+would say that we're about an order of magnitude away from developing
+all the general purpose published software needs of the world.  And
+this is in a world where more than 90% of the users don't use our free
+software yet.  This is in a world where, although in certain areas of
+business, you know, more than half of all the web servers in the world
+are running on GNU/Linux with Apache as the web server.</p>
+
+<p><strong>QUESTION</strong>: <i>[Inaudible]</i> &hellip; What did you
+say before, Linux?</p>
+
+<p><strong>STALLMAN</strong>: I said GNU/Linux.</p>
+
+<p><strong>QUESTION</strong>: You did?</p>
+
+<p><strong>STALLMAN</strong>: Yes, if I'm talking about the kernel, I
+call it Linux.  You know, that's it's name.  The kernel was written by
+Linus Torvalds, and we should only call it by the name that he chose,
+out of respect for the author.</p>
+
+<p>Anyway, but in general, in business most users are not using it.
+Most home users are not using our system yet.  So, when they are, we
+should automatically get 10 times as many volunteers and 10 times as
+many customers for the free software businesses that there will be.
+And so that will take us that order of magnitude.  So at this point, I
+am pretty confident that we <em>can</em> do the job.</p>
+
+<p>And, this is important, because Microsoft asks us to feel
+desperate.  They say, The only way you can have software to run, the
+only way you can have innovation, is if you give us power.  Let us
+dominate you.  Let us control what you can do with the software you're
+running, so that we can squeeze a lot of money out of you, and use a
+certain fraction of that to develop software, and take the rest as
+profit.</p>
+
+<p>Well, you shouldn't ever feel that desperate.  You shouldn't ever
+feel so desperate that you give up your freedom.  That's very
+dangerous.</p>
+
+<p>Another thing that Microsoft, well, not just Microsoft, people who
+don't support free software generally adopt a value system in which
+the only thing that matters is short-term practical benefits: How much
+money am I going to make this year? What job can I get done today?
+Short-term thinking and narrow thinking.  Their assumption is that it
+is ridiculous to imagine that anybody ever might make a sacrifice for
+the sake of freedom.</p>
+
+<p>Yesterday, a lot of people were making speeches about Americans who
+made sacrifices for the freedom of their compatriots.  Some of them
+made great sacrifices.  They even sacrificed their lives for the kinds
+of freedom that everyone in our country has heard about, at least.
+(At least, in some of the cases; I guess we have to ignore the war in
+Vietnam.)</p>
+
+<p><i>[Editor's note: The day before was &ldquo;Memorial Day&rdquo; in
+the USA.  Memorial Day is a day where war heros are
+commemorated.]</i></p>
+
+<p>But, fortunately, to maintain our freedom in using software,
+doesn't call for big sacrifices. Just tiny, little sacrifices are
+enough, like learning a command-line interface, if we don't have a GUI
+interface program yet.  Like doing the job in this way, because we
+don't have a free software package to do it that way, yet.  Like,
+paying some money to a company that's going to develop a certain free
+software package, so that you can have it in a few years.  Various
+little sacrifices that we can all make.  And, in the long run, even we
+will have benefited from it.  You know, it is really an investment
+more than a sacrifice.  We just have to have enough long-term view to
+realize it's good for us to invest in improving our society, without
+counting the nickels and dimes of who gets how much of the benefit
+from that investment.</p>
+
+<p>So, at this point, I'm essentially done.</p>
+
+<p>I'd like to mention that there's a new approach to free software
+business being proposed by Tony Stanco, which he calls &ldquo;Free
+Developers,&rdquo; which involves a certain business structure which
+hopes eventually to pay out a certain share of the profits to every,
+to all the authors of the free software who've joined the
+organization.  And they're looking at the prospects of getting me some
+rather large government software development contracts in India now,
+because they're going to be using free software as the basis, having
+tremendous cost savings that way.</p>
+
+<p>And so now I guess that I should ask for questions.</p>
+
+<p><strong>QUESTION</strong>: <i>[Inaudible]</i></p>
+
+<p><strong>STALLMAN</strong>: Could you speak up a bit louder please?
+I can't really hear you.</p>
+
+<p><strong>QUESTION</strong>: How could a company like Microsoft
+include a free software contract?</p>
+
+<p><strong>STALLMAN</strong>: Well, actually, Microsoft is planning to
+shift a lot of its activity into services.  And what they're planning
+to do is something dirty and dangerous, which is tie the services to
+the programs, one to the next, in a sort of zigzag, you know?  So that
+to use this service, you've got to be using this Microsoft program,
+which is going to mean you need to use this service, to this Microsoft
+program, so it's all tied together.  That's their plan.</p>
+
+<p>Now, the interesting thing is that selling those services doesn't
+raise the ethical issue of free software or nonfree software.  It
+might be perfectly fine for them to have the business for those
+businesses selling those services over the net to exist.  However,
+what Microsoft is planning to do is to use them to achieve an even
+greater lock, an even greater monopoly, on the software and the
+services, and this was described in an article, I believe in Business
+Week, recently.  And, other people said that it is turning the net
+into the Microsoft Company Town.</p>
+
+<p>And this is relevant because, you know, the trial court in the
+Microsoft antitrust trial recommended breaking up the company,
+Microsoft.  But in a way, that makes no sense&mdash;it wouldn't do
+any good at all&mdash;into the operating part and the applications
+part.</p>
+
+<p>But having seen that article, I now see a useful, effective way to
+split up Microsoft into the services part and the software part, to
+require them to deal with each other only at arm's length, that the
+services must publish their interfaces, so that anybody can write a
+client to talk to those services, and, I guess, that they have to pay
+to get the service. Well, that's OK.  That's a totally different
+issue.</p>
+
+<p>If Microsoft is split up in this way [&hellip;] services and
+software, they will not be able to use their software to crush
+competition with Microsoft services.  And they won't be able to use
+the services to crush competition with Microsoft software.  And we
+will be able to make the free software, and maybe you people will use
+it to talk to Microsoft services, and we won't mind.</p>
+
+<p>Because, after all, although Microsoft is the proprietary software
+company that has subjugated the most people&mdash;the others have
+subjugated fewer people, it's not for want of
+trying.  <i>[Laughter]</i> They just haven't succeeded in subjugating
+as many people.  So, the problem is not Microsoft and only Microsoft.
+Microsoft is just the biggest example of the problem we're trying to
+solve, which is proprietary software taking away users' freedom to
+cooperate and form an ethical society.  So we shouldn't focus too much
+on Microsoft, you know, even though they did give me the opportunity
+for this platform. That doesn't make them all-important.  They're not
+the be-all and end-all.</p>
+
+<p><strong>QUESTION</strong>: Earlier, you were discussing the
+philosophical differences between open source software and free
+software.  How do you feel about the current trend of GNU/Linux
+distributions as they head towards supporting only Intel platforms?
+And the fact that it seems that less and less programmers are
+programming correctly, and making software that will compile anywhere?
+And making software that simply works on Intel systems?</p>
+
+<p><strong>STALLMAN</strong>: I don't see an ethical issue there.
+Although, in fact, companies that make computers sometimes port the
+GNU/Linux system to it.  HP apparently did this recently.  And, they
+didn't bother paying for a port of Windows, because that would have
+cost too much.  But getting GNU/Linux supported was, I think, five
+engineers for a few months.  It was easily doable.</p>
+
+<p>Now, of course, I encourage people to use <code>autoconf</code>,
+which is a GNU package that makes it easier to make your programs
+portable.  I encourage them to do that.  Or when somebody else fixes
+the bug that it didn't compile on that version of the system, and
+sends it to you, you should put it in.  But I don't see that as an
+ethical issue.</p>
+
+<p><strong>QUESTION</strong>: Two comments.  One is: Recently, you
+spoke at MIT.  I read the transcript.  And someone asked about
+patents, and you said that &ldquo;patents are a totally different
+issue.  I have no comments on that.&rdquo;</p>
+
+<p><strong>STALLMAN</strong>: Right.  I actually have a lot to say
+about patents, but it takes an hour.  <i>[Laughter]</i></p>
+
+<p><strong>QUESTION</strong>: I wanted to say this: It seems to me
+that there is an issue.  I mean, there is a reason that companies call
+both patents and copyrights things like hard property in trying to get
+this concept which is, if they want to use the power of the State to
+create a course of monopoly for themselves.  And so, what's common
+about these things is not that they revolve around the same issues,
+but that motivation is not really the public service issues but the
+motivation of companies to get a monopoly for their private
+interests.</p>
+
+<p><strong>STALLMAN</strong>: I understand.  But, well, I want to
+respond because there's not too much time.  So I'd like to respond to
+that.</p>
+
+<p>You're right that that's what they want.  But there's another
+reason why they want to use the term intellectual property.  It's that
+they don't want to encourage people to think carefully about copyright
+issues or patent issues.  Because copyright law and patent law are
+totally different, and the effects of software copyrighted and
+software patents are totally different.</p>
+
+<p>Software patents are a restriction on programmers, prohibiting them
+from writing certain kinds of programs, whereas copyright doesn't do
+that.  With copyright, at least if you wrote it yourself, you're
+allowed to distribute it.  So, it's tremendously important to separate
+these issues.</p>
+
+<p>They have a little bit in common, at a very low level, and
+everything else is different.  So, please, to encourage clear
+thinking, discuss copyright or discuss patents.  But don't discuss
+intellectual property.  I don't have an opinion on intellectual
+property.  I have opinions on copyrights and patents and software.</p>
+
+<p><strong>QUESTION</strong>: You mentioned at the beginning that a
+functional language, like recipes, are computer programs.  There's a
+cross a little bit different than other kinds of language created on.
+This is also causing a problem in the DVD case.</p>
+
+<p><strong>STALLMAN</strong>: The issues are partly similar but partly
+different, for things that are not functional in nature.  Part of the
+issue transfers but not all of it.  Unfortunately, that's another hour
+speech.  I don't have time to go into it.  But I would say that all
+functional works ought to be free in the same sense as software.  You
+know, textbooks, manuals, dictionaries, and recipes, and so on.</p>
+
+<p><strong>QUESTION</strong>: I was just wondering on online
+music. There are similarities and differences created all through.</p>
+
+<p><strong>STALLMAN</strong>: Right.  I'd say that the minimum freedom
+that we should have for any kind of published information is the
+freedom to non-commercially redistribute it, verbatim.  For functional
+works, we need the freedom to commercially publish a modified version,
+because that's tremendously useful to society.  For non-functional
+works, you know, things that are to entertain, or to be aesthetic, or
+to state a certain person's views, you know, perhaps they shouldn't be
+modified.  And, perhaps that means that it's OK, to have copyright
+covering all commercial distribution of them.</p>
+
+<p>Please remember that according to the U.S. Constitution, the
+purpose of copyright is to benefit the public.  It is to modify the
+behavior of certain private parties, so that they will publish more
+books.  And the benefit of this is that society gets to discuss issues
+and learn.  And, you know, we have literature.  We have scientific
+works.  The purpose is encourage that.  Copyrights do not exist for
+the sake of authors, let alone for the sake of publishers.  They exist
+for the sake of readers and all those who benefit from the
+communication of information that happens when people write and others
+read.  And that goal I agree with.</p>
+
+<p>But in the age of the computer networks, the method is no longer
+tenable, because it now requires draconian laws that invade
+everybody's privacy and terrorize everyone.  You know, years in prison
+for sharing with your neighbor.  It wasn't like that in the age of the
+printing press.  Then copyright was an industrial regulation.  It
+restricted publishers.  Now, it's a restriction imposed by the
+publishers on the public.  So, the power relationship is turned around
+180 degrees, even if it's the same law.</p>
+
+<p><strong>QUESTION</strong>: So you can have the same thing&mdash;but
+like in making music from other music?</p>
+
+<p><strong>STALLMAN</strong>: Right.  That is an interesting
+&hellip;</p>
+
+<p><strong>QUESTION</strong>: And unique, new works, you know, it's
+still a lot of cooperation.</p>
+
+<p><strong>STALLMAN</strong>: It is.  And I think that probably
+requires some kind of fair use concept.  Certainly making a few
+seconds of sample and using that in making some musical work,
+obviously that should be fair use.  Even the standard idea of fair use
+includes that, if you think about it.  Whether courts agree, I'm not
+sure, but they should.  That wouldn't be a real change in the system
+as it has existed.</p>
+
+<p><strong>QUESTION</strong>: What do you think about publishing
+public information in proprietary formats?</p>
+
+<p><strong>STALLMAN</strong>: Oh, it shouldn't be.  I mean, the
+government should never require citizens to use a nonfree program to
+access, to communicate with the government in any way, in either
+direction.</p>
+
+<p><strong>QUESTION</strong>: I have been, what I will now say, a
+GNU/Linux user&hellip;</p>
+
+<p><strong>STALLMAN</strong>: Thank you.  <i>[Laughter]</i></p>
+
+<p><strong>QUESTION</strong>: &hellip;for the past four years.  The one
+thing that has been problematical for me and is something that is
+essential, I think, to all of us, is browsing the web.</p>
+
+<p><strong>STALLMAN</strong>: Yes.</p>
+
+<p><strong>QUESTION</strong>: One thing that has been decidedly a
+weakness in using a GNU/Linux system has been browsing the web,
+because the prevailing tool for that, Netscape&hellip;</p>
+
+<p><strong>STALLMAN</strong>: &hellip;is not free software.</p>
+
+<p>Let me respond to this.  I want to get to the point, for the sake
+of getting in more.  So, yes.  There has been a terrible tendency for
+people to use Netscape Navigator on their GNU/Linux systems.  And, in
+fact all the commercially packaged systems come with it.  So this is
+an ironic situation: we worked so hard to make a free operating
+system, and now, if you go to the store, and you can find versions of
+GNU/Linux there, most of them are called Linux, and they're not free.
+Oh, well, part of them is.  But then, there's Netscape Navigator, and
+maybe other nonfree programs as well.  So, it's very hard to actually
+find a free system, unless you know what you're doing.  Or, of course,
+you can not install Netscape Navigator.</p>
+
+<p>Now, in fact, there have been free web browsers for many years.
+There is a free web browser that I used to use called Lynx.  It's a
+free web browser that is non-graphical; it's text-only.  This has a
+tremendous advantage, in you don't see the ads.  <i>[Laughter]
+[Applause]</i></p>
+
+<p>But anyway, there is a free graphical project called Mozilla, which
+is now getting to the point where you can use it.  And I occasionally
+use it.</p>
+
+<p><strong>QUESTION</strong>: Konqueror 2.01 has been very good.</p>
+
+<p><strong>STALLMAN</strong>: Oh, OK.  So that's another free
+graphical browser.  So, we're finally solving that problem, I
+guess.</p>
+
+<p><strong>QUESTION</strong>: Can you talk to me about that
+philosophical/ethical division between free software and open source?
+Do you feel that those are irreconcilable? &hellip;</p>
+
+<p><i>[Recording switches tapes; end of question and start of answer
+is missing]</i></p>
+
+<p><strong>STALLMAN</strong>: &hellip; to a freedom, and ethics.  Or
+whether you just say, Well, I hope that you companies will decide it's
+more profitable to let us be allowed to do these things.</p>
+
+<p>But, as I said, in a lot of practical work, it doesn't really
+matter what a person's politics are.  When a person offers to help the
+GNU project, we don't say: &ldquo;You have to agree with our
+politics.&rdquo; We say that in a GNU package, you've got to call the
+system GNU/Linux, and you've got to call it free software.  What you
+say when you're not speaking to the GNU Project, that's up to you.</p>
+
+<p><strong>QUESTION</strong>: The company, IBM, started a campaign for
+government agencies, to sell their big new machines, that they used
+Linux as selling point, and say Linux.</p>
+
+<p><strong>STALLMAN</strong>: Yes, of course, it's really the
+GNU/Linux systems. <i>[Laughter]</i></p>
+
+<p><strong>QUESTION</strong>: That's right!  Well, tell the top sales
+person.  He doesn't know anything for GNU.</p>
+
+<p><strong>STALLMAN</strong>: I have to tell who?</p>
+
+<p><strong>QUESTION</strong>: The top sales person.</p>
+
+<p><strong>STALLMAN</strong>: Oh yes.  The problem is that they've
+already carefully decided what they want to say for reasons of their
+advantage.  And the issue of what is a more accurate, or fair, or
+correct way to describe it is not the primary issue that matters to a
+company like that.  Now, some small companies, yes, there'll be a
+boss.  And if the boss is inclined to think about things like that, he
+might make a decision that way.  Not a giant corporation though. It's
+a shame, you know.</p>
+
+<p>There's another more important and more substantive issue about
+what IBM is doing.  They're saying that they're putting a billion
+dollars into &ldquo;Linux.&rdquo;  But perhaps, I should also put
+quotes around &ldquo;into,&rdquo; as well, because some of that money
+is paying people to develop free software.  That really is a
+contribution to our community.  But other parts is paying to pay
+people to write proprietary software, or port proprietary software to
+run on top of GNU/Linux, and that is <em>not</em> a contribution to
+our community.  But IBM is lumping that altogether into this.  Some of
+it might be advertising, which is partly a contribution, even if it's
+partly wrong.  So, it's a complicated situation.  Some of what they're
+doing is contribution and some is not.  And some is sort is somewhat,
+but not exactly.  And you can't just lump it altogether and think,
+Wow!  Whee!  A billion dollars from IBM.  <i>[Laughter]</i> That's
+oversimplification.</p>
+
+<p><strong>QUESTION</strong>: Can you talk a little bit more about the
+thinking that went into the General Public License?</p>
+
+<p><strong>STALLMAN</strong>: Well, here's the&mdash;I'm sorry, I'm
+answering his question now. <i>[Laughter]</i></p>
+
+<p><strong>SCHONBERG</strong>: Do you want to reserve some time for
+the press conference?  Or do you want to continue here?</p>
+
+<p><strong>STALLMAN</strong>: Who is here for the press conference?
+Not a lot of press.  Oh, three&hellip; OK.  Can you afford if
+we&hellip; if I go on answering everybody's questions for another ten
+minutes or so?  OK.  So, we'll go on answering everybody's
+questions.</p>
+
+<p>So, the thinking that went into the GNU GPL?  Part of it was that I
+wanted to protect the freedom of the community against the phenomena
+that I just described with X Windows, which has happened with other
+free programs as well.  In fact, when I was thinking about this issue,
+X Windows was not yet released.  But I had seen this problem happen in
+other free programs.  For instance, TeX.  I wanted to make sure that
+the users would all have freedom.  Otherwise, I realized that I might
+write a program, and maybe a lot of people would use the program, but
+they wouldn't have freedom.  And what's the point of that?</p>
+
+<p>But the other issue I was thinking about was, I wanted to give the
+community a feeling that it was not a doormat, a feeling that it was
+not prey to any parasite who would wander along.  If you don't use
+copyleft, you are essentially saying: <i>[speaking meekly]</i>
+&ldquo;Take my code.  Do what you want.  I don't say no.&rdquo; So,
+anybody can come along and say: <i>[speaking very firmly]</i>
+&ldquo;Ah, I want to make a nonfree version of this.  I'll just take
+it.&rdquo; And, then, of course, they probably make some improvements,
+those nonfree versions might appeal to users, and replace the free
+versions.  And then, what have you accomplished?  You've only made a
+donation to some proprietary software project.</p>
+
+<p>And when people see that that's happening, when people see, other
+people take what I do, and they don't ever give back, it can be
+demoralizing.  And, this is not just speculation.  I had seen that
+happen.  That was part of what happened to wipe out the old community
+that I belonged to the '70's.  Some people started becoming
+uncooperative.  And we assumed that they were profiting thereby.  They
+certainly acted as if they thought they were profiting.  And we
+realized that they can just take off cooperation and not give back.
+And there was nothing we could do about it.  It was very discouraging.
+We, those of us who didn't like the trend, even had a discussion and
+we couldn't come up with any idea for how we could stop it.</p>
+
+<p>So, the GPL is designed to stop that.  And it says, Yes, you are
+welcome to join the community and use this code.  You can use it to do
+all sorts of jobs.  But, if you release a modified version, you've got
+to release that to our community, as part of our community, as part of
+the free world.</p>
+
+<p>So, in fact, there are still many ways that people can get the
+benefit of our work and not contribute, like you don't have to write
+any software.  Lots of people use GNU/Linux and don't write any
+software.  There's no requirement that you've got to do anything for
+us.  But if you do a certain kind of thing, you've got to contribute
+to it.  So what that means is that our community is not a doormat.
+And I think that that helped give people the strength to feel, Yes, we
+won't just be trampled underfoot by everybody.  We'll stand up to
+this.</p>
+
+<p><strong>QUESTION</strong>: Yes, my question was, considering free
+but not copylefted software, since anybody can pick it up and make it
+proprietary, is it not possible also for someone to pick it up and
+make some changes and release the whole thing under the GPL?</p>
+
+<p><strong>STALLMAN</strong>: Yes, it is possible.</p>
+
+<p><strong>QUESTION</strong>: Then, that would make all future copies
+then be GPL'ed.</p>
+
+<p><strong>STALLMAN</strong>: From that branch.  But here's why we
+don't do that.</p>
+
+<p><strong>QUESTION</strong>: Hmm?</p>
+
+<p><strong>STALLMAN</strong>: Here's why we don't generally do that.
+Let me explain.</p>
+
+<p><strong>QUESTION</strong>: OK, yes.</p>
+
+<p><strong>STALLMAN</strong>: We could, if we wanted to, take X
+Windows, and make a GPL-covered copy and make changes in that.  But
+there's a much larger group of people working on improving X Windows
+and <em>not</em> GPL-ing it.  So, if we did that, we would be forking
+from them.  And that's not very nice treatment of them.  And, they
+<em>are</em> a part of our community, contributing to our
+community.</p>
+
+<p>Second, it would backfire against us, because they're doing a lot
+more work on X than we would be.  So, our version would be inferior to
+theirs, and people wouldn't use it, which means, why go to the trouble
+at all?</p>
+
+<p><strong>QUESTION</strong>: Mmm hmm.</p>
+
+<p><strong>STALLMAN</strong>: So when a person has written some
+improvement to X Windows, what I say that person should do is
+cooperate with the X development team.  Send it to them and let them
+use it their way.  Because they are developing a very important piece
+of free software.  It's good for us to cooperate with them.</p>
+
+<p><strong>QUESTION</strong>: Except, considering X, in particular,
+about two years ago, the X Consortium that was far into the nonfree
+open source&hellip;</p>
+
+<p><strong>STALLMAN</strong>: Well, actually it <em>wasn't</em> open
+sourced.  It wasn't open sourced, either.  They may have said it was.
+I can't remember if they said that or not.  But it wasn't open
+source. It was restricted.  You couldn't commercially distribute, I
+think.  Or you couldn't commercially distribute a modified version, or
+something like that.  There was a restriction that's considered
+unacceptable by both the Free Software movement and the Open Source
+movement.</p>
+
+<p>And yes, that's what using a non-copyleft license leaves you open
+to.  In fact, the X Consortium, they had a very rigid policy.  They
+say: If your program if copylefted even a little bit, we won't
+distribute it at all.  We won't put it in our distribution.</p>
+
+<p>So, a lot of people were pressured in this way into not
+copylefting.  And the result was that all of their software was wide
+open, later on.  When the same people who had pressured a developer to
+be too all-permissive, then the X people later said, All right, now we
+can put on restrictions, which wasn't very ethical of them.</p>
+
+<p>But, given the situation, would we really want to scrape up the
+resources to maintain an alternate GPL-covered version of X?  And it
+wouldn't make any sense to do that.  There are so many other things we
+need to do.  Let's do them instead.  We can cooperate with the X
+developers.</p>
+
+<p><strong>QUESTION</strong>: Do you have a comment, is the GNU a
+trademark?  And is it practical to include it as part of the GNU
+General Public License allowing trademarks?</p>
+
+<p><strong>STALLMAN</strong>: We are, actually, applying for trademark
+registration on GNU.  But it wouldn't really have anything to do with
+that.  It's a long story to explain why.</p>
+
+<p><strong>QUESTION</strong>: You could require the trademark be
+displayed with GPL-covered programs.</p>
+
+<p><strong>STALLMAN</strong>: No, I don't think so.  The licenses
+cover individual programs.  And when a given program is part of the
+GNU Project, nobody lies about that.  The name of the system as a
+whole is a different issue.  And this is an aside.  It's not worth
+discussing more.</p>
+
+<p><strong>QUESTION</strong>: If there was a button that you could
+push and force all companies to free their software, would you press
+it?</p>
+
+<p><strong>STALLMAN</strong>: Well, I would only use this for
+published software.  You know, I think that people have the right to
+write a program privately and use it.  And that includes companies.
+This is privacy issue.  And it's true, there can be times when it is
+wrong to do that, like if it is tremendously helpful to humanity, and
+you are withholding it from humanity. That is a wrong but that's a
+different kind of wrong.  It's a different issue, although it's in the
+same area.</p>
+
+<p>But yes, I think all published software should be free software.
+And remember, when it's not free software, that's because of
+government intervention.  The government is intervening to make it
+nonfree.  The government is creating special legal powers to hand out
+to the owners of the programs, so that they can have the police stop
+us from using the programs in certain ways.  So I would certainly like
+to end that. </p>
+
+<p><strong>SCHONBERG</strong>: Richard's presentation has invariably
+generated an enormous amount of intellectual energy.  I would suggest
+that some of it should be directed to using, and possibly writing,
+free software.</p>
+
+<p>We should close the proceedings shortly.  I want to say that
+Richard has injected into a profession which is known in the general
+public for its terminal apolitical nerditude a level of political and
+moral discussion which is, I think, unprecedented in our profession.
+And we owe him very big for this.  I'd like to note to people that
+there is a break.</p>
+
+<p><i>[Applause]</i></p>
+
+<p><strong>STALLMAN</strong>: You are free to leave at any time, you
+know. <i>[Laughter]</i> I'm not holding you prisoner here.</p>
+
+<p><i>[Audience adjourns&hellip;]</i></p>
+
+<p><i>[overlapping conversations&hellip;]</i></p>
+
+<p><strong>STALLMAN</strong>: One final thing.  Our website:
+www.gnu.org</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/rms-nyu-2001-transcript.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/rms-nyu-2001-transcript.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/rms-nyu-2001-transcript.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/rms-nyu-2001-transcript.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/rms-nyu-2001-transcript.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/rms-nyu-2001-transcript.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/rms-nyu-2001-transcript.tr.html">Türkçe</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2001, 2005, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/12/25 21:07:06 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

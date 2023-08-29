@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Solutions to the Software Patent Problem
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="screen"><!--
+#content i { color: #505050; }
+--></style>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/rms-patents.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/rms-patents.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/rms-patents.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/rms-patents.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/rms-patents.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Solutions to the Software Patent Problem</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<div class="infobox">
+<p>Speech given at the Locatelli Center, Santa Clara University,
+in November 2012&nbsp; (<a
+href="//audio-video.gnu.org/video/keynote-what-is-the-problem.webm">video</a>,
+&nbsp;<a href="/audio-video/philosophy-recordings.html#rms-201211160">metadata</a>)</p>
+</div>
+<hr class="thin" />
+
+<p><b>Andrew Chen:</b> Thank you, Eric.</p>
+
+<p>My name is Andrew Chen.  I teach patent law at the University of
+North Carolina, and I had a previous life as a Computer Science
+professor.</p>
+
+<p>I have the easiest job today, which is introducing two men who need
+no introduction.  Richard Stallman, we know, is the founder of the
+free software movement, co-founder of the League for Programming
+Freedom, lead software architect for the GNU Project and author of
+Emacs, which he's described as a text editor and also a way of life.
+Something that I can agree with, having written my doctoral
+dissertation using his program.</p>
+
+<p>Dr Stallman has decided not to participate in the live streaming
+facility for today.  He explains that use of the streaming online
+would require use of the Microsoft Silverlight plugin, which would
+pressure people to use proprietary software.  Dr Stallman considers it
+wrong to pressure people to do that.  He would like you to know that
+he plans to make a recording of his presentation available at a later
+time in either the Ogg Theora or WebM formats.</p>
+
+<p>Dr Stallman.</p>
+
+<p><i>[applause]</i></p>
+
+<p><b>Richard Stallman:</b> Can the tech people please confirm that
+the streaming is off?</p>
+
+<p>OK, I think that's confirmation.</p>
+
+<p>So, why are software patents bad?  Or, &ldquo;computational idea
+patents&rdquo; as I think we should really call them, because each one
+is a monopoly on a computational idea.  Most people, when you say
+&ldquo;software patents,&rdquo; they think it's a question of
+patenting a specific program.  I'm sure all of you know that that's
+not what those patents do, but most people don't know that, so, to try
+to avoid misleading people, I call them &ldquo;computational idea
+patents.&rdquo;</p>
+
+<p>So, anyway, the reason these are bad is that they deny people the
+freedom to use their computers as they wish and do their computing as
+they wish, freedom that everyone must have.  These patents put all
+software developers in danger, and their users as well.  A danger that
+there is no reason we should stand for.  So: we should protect
+software from patents.  Software needs patent protection: protection
+from patents.</p>
+
+<p>But most people don't know enough about what patents do to
+appreciate why patents that can restrict software are so harmful.
+Most people think that patents are like copyrights, which is not true
+at all.  The sum total of what they have in common is one sentence in
+the Constitution, and that similarity is so little and abstract it has
+nothing to do with the practical effects.</p>
+
+<p>So, the last thing we should ever do is use the term
+&ldquo;intellectual property&rdquo; that confuses not just these two
+laws, but a bunch of other unrelated, disparate laws, that don't even
+share one sentence in the Constitution with those two.  So that term
+spreads confusion whenever it's used and about eight years ago I
+decided I should never use it and I have never used it since then.
+It's surprisingly easy to avoid, because in general there's no reason
+whatsoever to use it except that it's chic.  And once you learn to
+resist that, it's as easy as pie, just talk about one law, and then
+you call that law by its name, and you're making a coherent, clear
+statement.</p>
+
+<p>So, I have to explain to people what patents do, and show them that
+it's not at all like what copyrights do.  An analogy is a good way to
+do this.  What can you say about programs?  Well, they're large works,
+full of details that all have to work together to get the desired
+result.  Well, what else is there like that?  A novel, or a symphony.
+<span class="gnun-split"></span>
+So, imagine if the governments of Europe in the 1700s had had the
+cockeyed idea of promoting the progress of symphonic music with a
+system of &ldquo;musical idea patents.&rdquo;  So, any musical idea
+statable in words could have been patented.  A melodic motif could
+have been patented, or a series of chords, or a rhythmic pattern, or a
+pattern of repetitions in a movement, or the use of certain
+instruments while the rest of the orchestra is silent and a bunch of
+other musical ideas that I can't think of, but maybe a composer
+would.</p>
+
+<p>So, now imagine it's 1800 and you're Beethoven and you want to
+write a symphony.  You're going to find that it's harder to write a
+symphony that you don't get sued for than to write a good symphony.
+Now, you'd probably have complained, and the patent holders would have
+said &ldquo;Oh, Beethoven, you're just jealous because we had these
+ideas before you.  Why don't you go think of some ideas of your
+own?&rdquo;<span class="gnun-split"></span>
+Of course, Beethoven is considered a great composer
+because he had lots of new ideas, and not only that, he knew how to
+use them effectively.  And that is: combined with lots of familiar
+ideas, so that his pieces were merely shocking for a while, but people
+could get used to them.  They were not so alien and incomprehensible
+that they got rejected.  They shocked people for a while, people got
+used to them, and now we don't see what's shocking any more, because
+we're used to those ideas.  Well, that's the proof that he used those
+ideas well.</p>
+
+<p>So, the idea that anyone could, or should have to, reinvent music
+from zero, is absurd.  Not even a Beethoven could do that, and it
+would be silly to ask someone to try.  It's the same with computing.
+Just as a symphony implements many musical ideas together, but the
+hard part is not picking a bunch of ideas.  The hard part is
+implementing them together with notes.  It's the same with software.
+A large program will implement thousands of ideas together.  But the
+hard part is not picking some ideas.  It's easy to pick some ideas.
+What's hard is to implement them all together and make it work
+well.</p>
+
+<p>So &ldquo;computational idea patents&rdquo; obstruct the hard and
+big job by promoting resources that we get plenty of anyways.  So it's
+a misconceived system.  Designed to give us help we don't want at the
+cost of tremendous problems.</p>
+
+<p>So what we need is to get rid of the problem.  What is the problem?
+The problem is: software developers and their users are threatened by
+patents.  They are in danger.  How can you prevent that?  Well, one
+way is: don't issue patents that could affect software.  That solution
+works if you apply it from the beginning.  If a country never issues
+such patents, then its patent system doesn't attack software.  OK,
+it's a good solution.  But it's not applicable if a country has
+already issued hundreds of thousands of software patents.</p>
+
+<p>Now, I've proposed that constitutions should explicitly say that
+patent privileges can be reduced just as they can be increased.  That
+they are not in any sense somebody's property; they are privileges
+given out by the government which can be changed at will.  After all,
+if you allow the government by legislation to increase them, it's
+absurd to make this a one-way ratchet.  But that's not in the US
+Constitution.</p>
+
+<p>So, what can we do?  Well, we can ask courts to rule that all those
+patents that restrict software were invalid from the beginning and
+always have been invalid, and that gets rid of them all.  However,
+that's not something that people can lobby for.  It's not something we
+can say to officials, &ldquo;do this because we want you
+to.&rdquo;</p>
+
+<p>So, if we're going to look for a solution that we can get
+implemented, what is there?  Well, the only way I can see is to
+legislate that software is a safe harbor.  If it's software, then
+you're safe.  Circuits to do the same computation would be covered by
+a patent, but if it's software, then you're safe.  But what does that
+mean?  What does it mean for something to be software?  Well, it runs
+on a general purpose, universal machine.  So first you make a
+universal machine and then you put in the program to say what it
+should do.  Well, if the machine's only function is to be universal,
+then the program is all that implements any specific, patented
+idea.</p>
+
+<p>So, that's the case I want to get at, and I'm trying to separate it
+from a case like that in <cite>Diamond v. Diehr</cite> where there
+was a patent for a system, a method of curing rubber.  The
+implementation involved a computer, but it also involved special
+purpose hardware, not a general purpose universal machine, and that
+special purpose hardware was crucial to carrying out the patented
+technique.<span class="gnun-split"></span>
+It wasn't actually a software technique.  And, actually, I
+read an article by Pamela Samuelson arguing that the CAFC twisted that
+decision and basically got the quantifiers in the wrong order.  That
+the Supreme Court said, &ldquo;the fact that there's a computer in
+there somewhere doesn't automatically make it non-patentable,&rdquo;
+and the CAFC twisted that into &ldquo;the computer makes it
+patentable.&rdquo;</p>
+
+<p>Anyway, we might have some hope with the courts, but I'm proposing
+a method that will separate the cases that we must protect from
+non-computational idea patents that affect systems that might be
+implemented  with a computer in there somewhere.  The precise words to
+use?  Well, the best I could come up with was: &ldquo;software running
+on generally used computing hardware.&rdquo;  We certainly want things
+like smartphones to be covered; we don't want it to exclude anything
+that has any kind of special-purpose hardware in there.
+<span class="gnun-split"></span>The portable
+phone obviously has specialised hardware to talk to the phone network,
+but that shouldn't automatically mean that if it's running on a
+portable phone, it's vulnerable to patents.  Because that is a general
+purpose computer and people use it for all sorts of things.  But my
+words, &ldquo;generally used computing hardware,&rdquo; they may not
+be the best possible words.  This is a subject that I think calls for
+study, because we've got to look at each possible wording that might
+be used and see which cases would be protected from patents and which
+would be exposed to come up with the right method.</p>
+
+<p>Now, every time I suggest a method to solve this problem, the first
+thing people try to look for is how to half solve it instead.  The
+idea of really solving the problem shocks people because it strikes
+them as radical.  They think &ldquo;I can't advocate something so
+radical as to really solve this whole problem.  I've got to look for
+some partial solution that will only protect some software
+developers.&rdquo;<span class="gnun-split"></span>
+Well, that's a mistake.  It's a mistake a) because
+it wouldn't do the whole job, but b) because it would be harder to get
+it passed.  There are lots of software developers and they are all
+threatened and if we propose to protect them all, they will all have a
+reason to support it.  But if we propose to only protect some of them,
+the rest will say &ldquo;well, this doesn't do me any good, why should
+I care?&rdquo;</p>
+
+<p>So, let's propose a real solution.  And, besides, partial solutions
+tend to be vulnerable to the problem that Boldrin and Levine have
+written about very effectively, that it's easy for the pressures for
+patents to stretch the boundaries if you give them any kind of
+boundary that they can stretch.  And this, by the way, is another
+advantage of applying a change to suing people, rather than to what's
+patentable.  Because there, the criteria are just &ldquo;what kind of
+situation is this?&rdquo;
+<span class="gnun-split"></span>
+It's harder to stretch those, and if they
+tried, it would always be in a case against somebody who's going to be
+fighting not to stretch it.  So it's less vulnerable to being
+distorted from an intended restriction of substance into an actual
+requirement of form of patent applications, which tends to happen to
+any kind of requirement about what patent applications have to look
+like.</p>
+
+<p>So, there I go.</p>
+
+<p><i>[applause]</i></p>
+
+<p><b>Andrew Chen:</b> Thank you, Dr Stallman.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/rms-patents.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/rms-patents.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/rms-patents.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/rms-patents.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/rms-patents.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2016, 2022 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/10/20 10:06:39 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

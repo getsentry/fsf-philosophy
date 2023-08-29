@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+
+<title>When Free Software Depends on Nonfree - GNU Project - Free Software Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/when-free-depends-on-nonfree.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/when-free-depends-on-nonfree.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/when-free-depends-on-nonfree.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/when-free-depends-on-nonfree.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/when-free-depends-on-nonfree.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#free-nonfree">Mixing&nbsp;free&nbsp;&amp;&nbsp;nonfree<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>When Free Software Depends on Nonfree</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>When a program is free software (free as in freedom), that means it 
+gives users <a 
+href="/philosophy/free-sw.html">the four freedoms</a>,
+so that they control what the program does. In most cases, that is 
+sufficient for the program's distribution to be ethical; but not 
+always. There are additional problems that can arise in specific 
+circumstances. This article describes a subtle problem, where 
+upgrading the free program requires using a nonfree program.</p>
+
+<p>If the free program's use depends unavoidably on another program which
+is nonfree, we say that the free program is &ldquo;trapped.&rdquo; Its code is
+free software, and you may be able to copy pieces of its code into
+other free programs with good, ethical results. But you shouldn't
+<em>run</em> the trapped program, because that entails surrendering
+your freedom to the other nonfree program.</p>
+
+<p>Someone who upholds the principles of free software would not knowingly
+make a program that is trapped. However, many free programs are
+developed by people or companies that don't particularly support these
+principles, or don't understand the problem.</p>
+
+<p>Dependence on a nonfree program can take various forms. The most
+basic form is when the programming language used has no free
+implementation. The first programs I wrote for the GNU system in the
+1980s, including GNU Emacs, GDB and GNU Make, had to be compiled with
+AT&amp;T's nonfree C compiler, because there was no free C compiler until
+I wrote GCC. Fortunately, this kind of problem is mostly a thing of
+the past; we now have free compilers and platforms for just about all
+the languages anyone uses for writing free software.</p>
+
+<p>We can release the program from this kind of trap by translating it to
+another language, or by releasing a free implementation of the
+language it's written in. Thus, when a full free Java implementation
+became available, that released all the free Java programs from the <a
+href="/philosophy/java-trap.html">Java Trap</a>.</p>
+
+<p>This kind of dependence is conceptually simple because it stems from
+the situation at one given instant in time. At time T, free program P
+won't run without nonfree programming platform Q. To borrow a term
+from linguistics, this relationship is &ldquo;synchronic.&rdquo;</p>
+
+<p>More recently, we have seen another kind of dependence in database
+programs, where you can build and run any given version of the program
+in the free world, but upgrading from version N to version N+1
+requires a nonfree program.</p>
+
+<p>This happens because the internal format of the database changes from
+version N to version N+1. If you have been seriously using version N,
+you probably have a large existing database in the version N format.
+To upgrade to version N+1 of the database software, you need to
+reformat that database.</p>
+
+<p>If the way you are supposed to do this is by running a proprietary
+database reformat program, or using the developer's service which is
+SaaSS (<a
+href="/philosophy/who-does-that-server-really-serve.html">Service as
+a Software Substitute</a>),
+the database software is trapped&mdash;but in a more subtle
+way. Any single version of the database program can be used without
+nonfree software or SaaSS. The problem arises when you try to keep
+using the program for the long term, which entails upgrading it from
+time to time; you can't use it this way without some nonfree software
+or equivalent. This database program is trapped across time&mdash;we
+could call it &ldquo;diachronically trapped,&rdquo; borrowing another term from
+linguistics.</p>
+
+<p>For example, the program OpenERP (since renamed &ldquo;Odoo&rdquo;),
+though free, is diachronically
+trapped. <a href="/software/health/">GNU Health</a>, our free package
+for running a medical clinic, initially used OpenERP. In 2011, GNU
+Health developer Luis Falcón discovered that upgrading to the next
+version of OpenERP required sending the database (full of patients'
+medical data) to OpenERP's server for reformatting. This is SaaSS:
+it requires the user of GNU Health (a
+clinic) to entrust its own computing and its data to the company
+developer of OpenERP. Rather than bow down, Falcón rewrote GNU Health
+to use <a href="https://www.tryton.org">Tryton</a> instead.</p>
+
+<p>Using SaaSS is inherently equivalent to running a proprietary program
+with snooping functionality and a universal back door. The service
+could keep a copy of the databases that users reformat. Even if we
+can trust the company that runs the service never to intentionally
+show any form of the data to anyone, we can't be sure that it won't be
+accessed by <a href="/philosophy/surveillance-vs-democracy.html">the
+intelligence agencies of various countries</a> or security-breaking
+crackers (<a
+href="https://stallman.org/articles/on-hacking.html">please don't call
+them &ldquo;hackers&rdquo;</a>).</p>
+
+<p>When a program is diachronically trapped, releasing it from the trap
+requires more than a one-time job of programming. Rather, the job has
+to be done continually, each time there is a change in the data
+format. Launching a project with a long-term commitment to continue
+doing this is not easy. It may be easier to pressure the company to
+stop trying to trap users&mdash;by rejecting the trapped program until it
+does so. Given how difficult it is to free the program, you had
+better stay away from it.</p>
+
+<p>It is possible to try out a diachronically trapped free program
+without nonfree software, but if you're going to do more than dabble,
+you must steer clear of really using it. Both businesses and
+individuals will find fine free alternatives that don't have such a
+problem; all it takes to avoid the trap is to recognize it.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/when-free-depends-on-nonfree.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/when-free-depends-on-nonfree.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/when-free-depends-on-nonfree.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/when-free-depends-on-nonfree.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/when-free-depends-on-nonfree.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2016, 2021 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/05 10:10:10 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

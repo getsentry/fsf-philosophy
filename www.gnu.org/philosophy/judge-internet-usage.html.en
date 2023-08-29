@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>A Wise User Judges Each Internet Usage Scenario Carefully - GNU
+Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/judge-internet-usage.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/judge-internet-usage.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/judge-internet-usage.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/judge-internet-usage.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/judge-internet-usage.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/judge-internet-usage.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/judge-internet-usage.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#ns">Network&nbsp;services<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>A Wise User Judges Each Internet Usage Scenario Carefully</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>Businesses now offer computing users tempting opportunities to
+let others keep their data and do their computing. In other words,
+to toss caution and responsibility to the winds.</p>
+
+<p>These businesses, and their boosters, like to call these computing
+practices &ldquo;cloud computing.&rdquo; They apply the same term
+to other quite different scenarios as well, such as renting a remote
+server, making the term so broad and nebulous that nothing meaningful
+can be said with it. If it has any meaning, it can only be a certain
+attitude towards computing: an attitude of not thinking carefully about
+what a proposed scenario entails or what risks it implies. Perhaps the
+cloud they speak of is intended to form inside the customer's mind.</p>
+
+<p>To replace that cloud with clarity, this article discusses
+several different products and services that involve very different
+usage scenarios (please don't think of them as &ldquo;cloud
+computing&rdquo;), and the distinctive issues that they raise.</p>
+
+<p>First, let's classify the kinds of issues that a usage scenario
+<em>can</em> raise. In general, there are two kinds of issues to
+be considered.  One is the issue of <em>treatment of your data</em>,
+and the other is <em>control of your computing</em>.</p>
+
+<p>Within treatment of your data, several issues can be distinguished:
+a service could lose your data, alter it, show it to someone else
+without your consent, and/or make it hard for you to get the data
+back. Each of those issues is easy to understand; how important they
+are depends on what kind of data is involved.</p>
+
+<p>Keep in mind that a US company (or a subsidiary of one) is required
+to hand over nearly all data it has about a user on request of the
+FBI, without a court order, under &ldquo;USA PATRIOT Act,&rdquo;
+whose blackwhiting name is as orwellian as its provisions. We know
+that although the requirements this law places on the FBI are very
+loose, the FBI systematically violates them. Senator Wyden says
+that if he could publicly say how the FBI stretches the law, <a
+href="https://www.wired.com/2011/05/secret-patriot-act/">the
+public would be angry at it</a>. European organizations might well
+violate their countries' data protection laws if they entrust data
+to such companies.</p>
+
+<p>Control of your computing is the other category of issue.
+Users deserve to have control of their computing. Unfortunately,
+most of them have already given up such control through the use of
+proprietary software (not free/libre).</p>
+
+<p>With software, there are two possibilities: either the users control
+the software or the software controls the users. The first case we
+call &ldquo;free software,&rdquo; free as in freedom, because the users
+have effective control of the software if they have certain essential
+freedoms. We also call it &ldquo;free/libre&rdquo; to emphasize that
+this is a <a href="/philosophy/free-sw.html">question of freedom, not
+price</a>. The second case is proprietary software. Windows and MacOS
+are proprietary; so is iOS, the software in the iPhone. Such a system
+controls its users, and a company controls the system.</p>
+
+<p>When a corporation has power over users in that way, it is likely to
+abuse that power. No wonder that Windows and iOS are known to have spy
+features, features to restrict the user, and back doors. When users
+speak of &ldquo;jailbreaking&rdquo; the iPhone, they acknowledge that
+this product shackles the user.</p>
+
+<p>When a service does the user's computing, the user loses control
+over that computing. We call this practice &ldquo;Software as
+a Service&rdquo; or &ldquo;SaaS,&rdquo; and it is equivalent to
+running a proprietary program with a spy feature and a back door. <a
+href="/philosophy/who-does-that-server-really-serve.html">It is
+definitely to be avoided.</a></p>
+
+<p>Having classified the possible issues, let's consider how several
+products and services raise them.</p>
+
+<p>First, let's consider iCloud, a coming Apple service, whose
+functionality (according to advance information) will be that users
+can copy information to a server and access it later from elsewhere,
+or let users access it from there. This is not Software as a Service
+since it doesn't do any of the user's computing, so that issue
+doesn't arise.</p>
+
+<p>How will iCloud treat the user's data? As of this writing, we don't
+know, but we can speculate based on what other services do. Apple
+will probably be able to look at that data, for its own purposes
+and for others' purposes. If so, courts will be able to get it with
+a subpoena to Apple (<em>not</em> to the user). The FBI may be able
+to get it without a subpoena. Movie and record companies, or their
+lawsuit mills, may be able to look at it too. The only way this might
+be avoided is if the data is encrypted on the user's machine before
+upload, and decrypted on the user's machine after it is accessed.</p>
+
+<p>In the specific case of iCloud, all the users will be running Apple
+software, so Apple will have total control over their data anyway. A
+spy feature was discovered in the iPhone and iPad software early in
+2011, leading people to speak of the &ldquo;spyPhone.&rdquo; Apple
+could introduce another spy feature in the next &ldquo;upgrade,&rdquo;
+and only Apple would know. If you're foolish enough to use an iPhone
+or iPad, maybe iCloud won't make things any worse, but that is no
+recommendation.</p>
+
+<p>Now let's consider Amazon EC2, a service where a customer leases
+a virtual computer (hosted on a server in an Amazon data center)
+that does whatever the customer programs it to do.</p>
+
+<p>These computers run the <a href="/gnu/linux-and-gnu.html">GNU/Linux
+operating system</a>, and the customer gets to choose all the
+installed software, with one exception: Linux, the lowest-level
+component (or &ldquo;kernel&rdquo;) of the system. Customers must
+select one of the versions of Linux that Amazon offers; they cannot
+make and run their own. But they can replace the rest of the system.
+Thus, they get almost as much control over their computing as they
+would with their own machines, but not entirely.</p>
+
+<p>EC2 does have some drawbacks. One is, since users cannot install
+their own versions of the kernel Linux, it is possible that Amazon
+has put something nasty, or merely inconvenient, into the versions
+they offer. But this may not really matter, given the other flaws. One
+other flaw is that Amazon does have ultimate control of the computer
+and its data. The state could subpoena all that data from Amazon. If
+you had it in your home or office, the state would have to subpoena
+it from you, and you would have the chance to fight the subpoena in
+court. Amazon may not care to fight the subpoena on your behalf.</p>
+
+<p>Amazon places conditions on what you can do with these servers,
+and can cut off your service if it construes your actions to conflict
+with them. Amazon has no need to prove anything, so in practice it
+can cut you off if it finds you inconvenient. As Wikileaks found out,
+the customer has no recourse if Amazon stretches the facts to make
+a questionable judgment.</p>
+
+<p>Now let's consider Google ChromeOS, a variant of GNU/Linux which is
+still in development. According to what Google initially said, it will
+be free/libre software, at least the basic system, though experience
+with Android suggests it may come with nonfree programs too.</p>
+
+<p>The special feature of this system, its purpose, was to deny
+users two fundamental capabilities that GNU/Linux and other operating
+systems normally provide: to store data locally and to run applications
+locally. Instead, ChromeOS would be designed to require users to save
+their data in servers (normally Google servers, I expect) and to let
+these servers do their computing too. This immediately raises both
+kinds of issues in their fullest form. The only way ChromeOS as thus
+envisaged could become something users ought to accept is if they
+install a modified version of the system, restoring the capabilities
+of local data storage and local applications.</p>
+
+<p>More recently I've heard that Google has reconsidered this decision
+and may reincorporate those local facilities. If so, ChromeOS might
+just be something people can use in freedom&mdash;if it avoids the
+many other problems that we <a
+href="/philosophy/android-and-users-freedom.html">observe today in
+Android</a>.</p>
+
+<p>As these examples show, each Internet usage scenario raises its own
+set of issues, and they need to be judged based on the specifics.
+Vague statements, such as any statement formulated in terms of
+&ldquo;cloud computing,&rdquo; can only get in the way.</p>
+
+<div class="infobox extra" role="complementary">
+<hr />
+<p>First published in <a
+href="https://web.archive.org/web/20201126031912/https://www.europeanbusinessreview.com/a-wise-user-judges-each-internet-usage-scenario-carefully/">
+<cite>The European Business Review</cite></a>.</p>
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/judge-internet-usage.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/judge-internet-usage.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/judge-internet-usage.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/judge-internet-usage.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/judge-internet-usage.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/judge-internet-usage.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/judge-internet-usage.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2011, 2022 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/04/17 09:26:47 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

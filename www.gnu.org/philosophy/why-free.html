@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Why Software Should Not Have Owners
+- GNU Project - Free Software Foundation</title>
+
+<meta name="Keywords" content="GNU, GNU Project, FSF, Free Software, Free Software Foundation, Why Software Should Not Have Owners" />
+
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/why-free.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/why-free.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/why-free.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="az" hreflang="az" href="/philosophy/why-free.az.html" title="Azərbaycanca" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/why-free.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="bn" hreflang="bn" href="/philosophy/why-free.bn.html" title="বাংলা" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/why-free.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/why-free.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="da" hreflang="da" href="/philosophy/why-free.da.html" title="dansk" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/why-free.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/why-free.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/why-free.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/why-free.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/why-free.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/philosophy/why-free.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="hu" hreflang="hu" href="/philosophy/why-free.hu.html" title="magyar" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/why-free.id.html" title="Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/why-free.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/why-free.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="ko" hreflang="ko" href="/philosophy/why-free.ko.html" title="한국어" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/why-free.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/philosophy/why-free.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/why-free.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/why-free.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/why-free.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/why-free.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/why-free.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/why-free.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/philosophy/why-free.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/why-free.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/why-free.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/why-free.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/why-free.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#principles">Principles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Why Software Should Not Have Owners</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>
+Digital information technology contributes to the world by making it
+easier to copy and modify information.  Computers promise to make this
+easier for all of us.</p>
+
+<p>
+Not everyone wants it to be easier.  The system of copyright gives
+software programs &ldquo;owners,&rdquo; most of whom aim to withhold
+software's potential benefit from the rest of the public.  They would
+like to be the only ones who can copy and modify the software that we
+use.</p>
+
+<p>
+The copyright system grew up with printing&mdash;a technology for
+mass-production copying.  Copyright fit in well with this technology
+because it restricted only the mass producers of copies.  It did not
+take freedom away from readers of books.  An ordinary reader, who did
+not own a printing press, could copy books only with pen and ink, and
+few readers were sued for that.</p>
+
+<p>
+Digital technology is more flexible than the printing press: when
+information has digital form, you can easily copy it to share it with
+others.  This very flexibility makes a bad fit with a system like
+copyright.  That's the reason for the increasingly nasty and draconian
+measures now used to enforce software copyright.  Consider these four
+practices of the Software Publishers Association (SPA):</p>
+
+<ul>
+<li>Massive propaganda saying it is wrong to disobey the owners to
+help your friend.</li>
+
+<li>Solicitation for stool pigeons to inform on their coworkers and
+colleagues.</li>
+
+<li>Raids (with police help) on offices and schools, in which people
+are told they must prove they are innocent of illegal copying.</li>
+
+<li>Prosecution (by the US government, at the SPA's request) of people
+such as
+<abbr title="Massachusetts Institute of Technology">MIT</abbr>'s
+David LaMacchia, not for copying software (he is not accused of
+copying any), but merely for leaving copying facilities unguarded and
+failing to censor their use.<a href="#footnote1">[1]</a></li>
+</ul>
+
+<p>
+All four practices resemble those used in the former Soviet Union,
+where every copying machine had a guard to prevent forbidden copying,
+and where individuals had to copy information secretly and pass it
+from hand to hand as samizdat.  There is of course a difference: the
+motive for information control in the Soviet Union was political; in
+the US the motive is profit.  But it is the actions that affect us,
+not the motive.  Any attempt to block the sharing of information, no
+matter why, leads to the same methods and the same harshness.</p>
+
+<p>
+Owners make several kinds of arguments for giving them the power
+to control how we use information:</p>
+
+
+<ul>
+<li id="name-calling">Name calling.
+
+<p>
+Owners use smear words such as &ldquo;piracy&rdquo; and
+&ldquo;theft,&rdquo; as well as expert terminology such as
+&ldquo;intellectual property&rdquo; and &ldquo;damage,&rdquo; to
+suggest a certain line of thinking to the public&mdash;a simplistic
+analogy between programs and physical objects.</p>
+
+<p>
+Our ideas and intuitions about property for material objects are about
+whether it is right to <em>take an object away</em> from someone else.  They
+don't directly apply to <em>making a copy</em> of something.  But the owners
+ask us to apply them anyway.</p></li>
+
+<li id="exaggeration">Exaggeration.
+
+<p>
+Owners say that they suffer &ldquo;harm&rdquo; or &ldquo;economic
+loss&rdquo; when users copy programs themselves.  But the copying has
+no direct effect on the owner, and it harms no one.  The owner can
+lose only if the person who made the copy would otherwise have paid
+for one from the owner.</p>
+
+<p>
+A little thought shows that most such people would not have bought
+copies.  Yet the owners compute their &ldquo;losses&rdquo; as if each
+and every one would have bought a copy.  That is exaggeration&mdash;to
+put it kindly.</p></li>
+
+<li id="law">The law.
+
+<p>
+Owners often describe the current state of the law, and the harsh
+penalties they can threaten us with.  Implicit in this approach is the
+suggestion that today's law reflects an unquestionable view of
+morality&mdash;yet at the same time, we are urged to regard these
+penalties as facts of nature that can't be blamed on anyone.</p>
+
+<p>
+This line of persuasion isn't designed to stand up to critical
+thinking; it's intended to reinforce a habitual mental pathway.</p>
+
+<p>
+It's elementary that laws don't decide right and wrong.  Every American
+should know that, in the 1950s, it was against the law in many
+states for a black person to sit in the front of a bus; but only
+racists would say sitting there was wrong.</p></li>
+
+<li id="natural-rights">Natural rights.
+
+<p>
+Authors often claim a special connection with programs they have
+written, and go on to assert that, as a result, their desires and
+interests concerning the program simply outweigh those of anyone
+else&mdash;or even those of the whole rest of the world.  (Typically
+companies, not authors, hold the copyrights on software, but we are
+expected to ignore this discrepancy.)</p>
+
+<p>
+To those who propose this as an ethical axiom&mdash;the author is more
+important than you&mdash;I can only say that I, a notable software
+author myself, call it bunk.</p>
+
+<p>
+But people in general are only likely to feel any sympathy with the
+natural rights claims for two reasons.</p>
+
+<p>
+One reason is an overstretched analogy with material objects.  When I
+cook spaghetti, I do object if someone else eats it, because then I
+cannot eat it.  His action hurts me exactly as much as it benefits
+him; only one of us can eat the spaghetti, so the question is, which one?
+The smallest distinction between us is enough to tip the ethical
+balance.</p>
+
+<p>
+But whether you run or change a program I wrote affects you directly
+and me only indirectly.  Whether you give a copy to your friend
+affects you and your friend much more than it affects me.  I shouldn't
+have the power to tell you not to do these things.  No one should.</p>
+
+<p>
+The second reason is that people have been told that natural rights
+for authors is the accepted and unquestioned tradition of our society.</p>
+
+<p>
+As a matter of history, the opposite is true.  The idea of natural
+rights of authors was proposed and decisively rejected when the US
+Constitution was drawn up.  That's why the Constitution only
+<em>permits</em> a system of copyright and does not <em>require</em>
+one; that's why it says that copyright must be temporary.  It also
+states that the purpose of copyright is to promote progress&mdash;not
+to reward authors.  Copyright does reward authors somewhat, and
+publishers more, but that is intended as a means of modifying their
+behavior.</p>
+
+<p>
+The real established tradition of our society is that copyright cuts
+into the natural rights of the public&mdash;and that this can only be
+justified for the public's sake.</p></li>
+
+<li id="economics">Economics.
+
+<p>
+The final argument made for having owners of software is that this
+leads to production of more software.</p>
+
+<p>
+Unlike the others, this argument at least takes a legitimate approach
+to the subject.  It is based on a valid goal&mdash;satisfying the
+users of software.  And it is empirically clear that people will
+produce more of something if they are well paid for doing so.</p>
+
+<p>
+But the economic argument has a flaw: it is based on the assumption
+that the difference is only a matter of how much money we have to pay.
+It assumes that <em>production of software</em> is what we want,
+whether the software has owners or not.</p>
+
+<p>
+People readily accept this assumption because it accords with our
+experiences with material objects.  Consider a sandwich, for instance.
+You might well be able to get an equivalent sandwich either gratis or
+for a price.  If so, the amount you pay is the only difference.
+Whether or not you have to buy it, the sandwich has the same taste,
+the same nutritional value, and in either case you can only eat it
+once.  Whether you get the sandwich from an owner or not cannot
+directly affect anything but the amount of money you have afterwards.</p>
+
+<p>
+This is true for any kind of material object&mdash;whether or not it
+has an owner does not directly affect what it <em>is</em>, or what you
+can do with it if you acquire it.</p>
+
+<p>
+But if a program has an owner, this very much affects what it is, and
+what you can do with a copy if you buy one.  The difference is not
+just a matter of money.  The system of owners of software encourages
+software owners to produce something&mdash;but not what society really
+needs.  And it causes intangible ethical pollution that affects us
+all.</p></li>
+
+</ul>
+
+<p>
+What does society need?  It needs information that is truly available
+to its citizens&mdash;for example, programs that people can read, fix,
+adapt, and improve, not just operate.  But what software owners
+typically deliver is a black box that we can't study or change.</p>
+
+<p>
+Society also needs freedom.  When a program has an owner, the users
+lose freedom to control part of their own lives.</p>
+
+<p>
+And, above all, society needs to encourage the spirit of voluntary
+cooperation in its citizens.  When software owners tell us that
+helping our neighbors in a natural way is &ldquo;piracy,&rdquo; they
+pollute our society's civic spirit.</p>
+
+<p>
+This is why we say that
+<a href="/philosophy/free-sw.html">free software</a>
+is a matter of freedom, not price.</p>
+
+<p>
+The economic argument for owners is erroneous, but the economic issue
+is real.  Some people write useful software for the pleasure of
+writing it or for admiration and love; but if we want more software
+than those people write, we need to raise funds.</p>
+
+<p>
+Since the 1980s, free software developers have tried various methods
+of finding funds, with some success.  There's no need to make anyone
+rich; a typical income is plenty of incentive to do many jobs that are
+less satisfying than programming.</p>
+
+<p>
+For years, until a fellowship made it unnecessary, I made a living
+from custom enhancements of the free software I had written.  Each
+enhancement was added to the standard released version and thus
+eventually became available to the general public.  Clients paid me so
+that I would work on the enhancements they wanted, rather than on the
+features I would otherwise have considered highest priority.</p>
+
+<p>
+Some free software developers make money by selling support services.
+In 1994, Cygnus Support, with around 50 employees, estimated that
+about 15 percent of its staff activity was free software
+development&mdash;a respectable percentage for a software company.</p>
+
+<p>
+In the early 1990s, companies including Intel, Motorola, Texas
+Instruments and Analog Devices combined to fund the continued
+development of the GNU C compiler.  Most GCC development is still done
+by paid developers.  The GNU compiler for the Ada language was funded
+in the 90s by the US Air Force, and continued since then by a company
+formed specifically for the purpose.</p>
+
+<p>
+The free software movement is still small, but the example of
+listener-supported radio in the US shows it's possible to support a
+large activity without forcing each user to pay.</p>
+
+<p>
+As a computer user today, you may find yourself using a
+<a href="/philosophy/categories.html#ProprietarySoftware">proprietary</a>
+program.  If your friend asks to make a copy, it would be wrong to
+refuse.  Cooperation is more important than copyright.  But
+underground, closet cooperation does not make for a good society.  A
+person should aspire to live an upright life openly with pride, and
+this means saying no to proprietary software.</p>
+
+<p>
+You deserve to be able to cooperate openly and freely with other
+people who use software.  You deserve to be able to learn how the
+software works, and to teach your students with it.  You deserve to be
+able to hire your favorite programmer to fix it when it breaks.</p>
+
+<p>
+You deserve free software.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Footnote</h3>
+<ol>
+<li id="footnote1">The charges were subsequently dismissed.</li>
+</ol>
+
+<hr class="no-display" />
+<div class="edu-note c"><p id="fsfs">This essay is published in
+<a href="https://shop.fsf.org/product/free-software-free-society/"><cite>Free
+Software, Free Society: The Selected Essays of Richard
+M. Stallman</cite></a>.</p></div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/why-free.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/why-free.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/why-free.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[az]&nbsp;<a lang="az" hreflang="az" href="/philosophy/why-free.az.html">Azərbaycanca</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/why-free.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[bn]&nbsp;<a lang="bn" hreflang="bn" href="/philosophy/why-free.bn.html">বাংলা</a> &nbsp;</span>
+<span dir="ltr">[ca]&nbsp;<a lang="ca" hreflang="ca" href="/philosophy/why-free.ca.html">català</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/why-free.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[da]&nbsp;<a lang="da" hreflang="da" href="/philosophy/why-free.da.html">dansk</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/why-free.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[el]&nbsp;<a lang="el" hreflang="el" href="/philosophy/why-free.el.html">ελληνικά</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/why-free.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/why-free.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/why-free.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hr]&nbsp;<a lang="hr" hreflang="hr" href="/philosophy/why-free.hr.html">hrvatski</a> &nbsp;</span>
+<span dir="ltr">[hu]&nbsp;<a lang="hu" hreflang="hu" href="/philosophy/why-free.hu.html">magyar</a> &nbsp;</span>
+<span dir="ltr">[id]&nbsp;<a lang="id" hreflang="id" href="/philosophy/why-free.id.html">Indonesia</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/why-free.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/why-free.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[ko]&nbsp;<a lang="ko" hreflang="ko" href="/philosophy/why-free.ko.html">한국어</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/philosophy/why-free.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[ml]&nbsp;<a lang="ml" hreflang="ml" href="/philosophy/why-free.ml.html">മലയാളം</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/why-free.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/why-free.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/why-free.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/why-free.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/why-free.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/why-free.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[ta]&nbsp;<a lang="ta" hreflang="ta" href="/philosophy/why-free.ta.html">தமிழ்</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/why-free.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/why-free.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/why-free.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/why-free.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1994, 2009, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/08/28 13:29:46 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

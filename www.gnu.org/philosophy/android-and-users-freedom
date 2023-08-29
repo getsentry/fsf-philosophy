@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Android and Users' Freedom
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/android-and-users-freedom.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/android-and-users-freedom.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/android-and-users-freedom.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/android-and-users-freedom.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/android-and-users-freedom.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/android-and-users-freedom.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/philosophy/android-and-users-freedom.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/android-and-users-freedom.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/android-and-users-freedom.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/android-and-users-freedom.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/android-and-users-freedom.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/android-and-users-freedom.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/android-and-users-freedom.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#practice">Practice<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Android and Users' Freedom</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>
+To what extent does Android respect the freedom of its users? For a
+computer user that values freedom, that is the most important question
+to ask about any software system.</p>
+
+<p>In the <a href="https://fsf.org">free/libre software movement</a>, we
+develop software that respects users' freedom, so we and you can escape
+from software that doesn't. By contrast, the idea of &ldquo;open
+source&rdquo; focuses on how to develop code; it is a different current
+of thought whose principal value is <a
+href="/philosophy/open-source-misses-the-point.html">code
+quality rather than freedom</a>. Thus, the concern here is not whether
+Android is &ldquo;<a href="/philosophy/free-open-overlap.html">open</a>,&rdquo;
+but whether it allows users to be free.</p>
+
+<p>Android is an operating system primarily for mobile phones and
+other devices, which
+consists of Linux (Torvalds' kernel), some libraries, a Java platform
+and some applications. Linux aside, the software of Android versions
+1 and 2 was mostly developed by Google; Google released it under the
+Apache 2.0 license, which is a lax free software license without
+<a href="/licenses/copyleft.html">copyleft</a>.</p>
+
+<p>The version of Linux included in Android is not entirely free
+software, since it contains nonfree &ldquo;binary blobs&rdquo; (just
+like Torvalds' version of Linux), some of which are really used in some
+Android devices. Android platforms use other nonfree firmware, too,
+and nonfree libraries. Aside from those, the source code of Android
+versions 1 and 2, as released by Google, is free software&mdash;but this
+code is insufficient to run the device. Some of the applications that
+generally come with Android are nonfree, too.</p>
+
+<div class="announcement comment" role="complementary">
+<hr class="no-display" />
+<p>Support the <a href="https://fsfe.org/activities/android/">Free Your
+Android</a> campaign.</p>
+<hr class="no-display" />
+</div>
+
+<p>Android is very different from the <a
+href="/gnu/thegnuproject.html">GNU/Linux operating
+system</a> because it contains very little of GNU. Indeed, just about
+the only component in common between Android and GNU/Linux is Linux, the
+kernel. People who erroneously think &ldquo;Linux&rdquo; refers to the
+entire GNU/Linux combination get tied in knots by these facts, and make
+paradoxical statements such as &ldquo;Android contains Linux, but it
+isn't Linux.&rdquo;(<a href="#linuxnote">1</a>) Absent this confusion,
+the situation is simple: Android contains Linux, but not GNU; thus,
+Android and GNU/Linux are mostly different, because all they have in
+common is Linux.</p>
+
+<p>Within Android, Linux the kernel remains a separate program, with its
+source code under <a href="/licenses/gpl-2.0.html">GNU GPL
+version 2</a>. To combine Linux with code under the Apache 2.0 license
+would be copyright infringement, since GPL version 2 and Apache 2.0 are
+<a href="/licenses/license-list.html#apache2">incompatible</a>.
+Rumors that Google has somehow converted Linux to the Apache license are
+erroneous; Google has no power to change the license on the code of
+Linux, and did not try. If the authors of Linux allowed its use under <a
+href="/licenses/gpl.html">GPL version 3</a>,
+then that code could be combined with Apache-licensed code, and the
+combination could be released under GPL version 3. But Linux has not
+been released that way.</p>
+
+<p>Google has complied with the requirements of the GNU General Public
+License for Linux, but the Apache license on the rest of Android does
+not require source release. Google said it would never publish the
+source code of Android 3.0 (aside from Linux). Android 3.1 source code
+was also withheld, making Android 3, apart from Linux, nonfree
+software pure and simple.</p>
+
+<p>Google said it withheld the 3.0 source code because it was buggy, and
+that people should wait for the next release. That may be good advice
+for people who simply want to run the Android system, but the users
+should be the ones to decide this. Anyway, developers and tinkerers
+who want to include some of the changes in their own versions could
+use that code just fine.</p>
+
+<p>Fortunately, Google later released the source code for Android 3.*
+when it released version 4 (also with source code).  The problem above
+turned out to be a temporary aberration rather than a policy shift.
+However, what happens once may happen again.</p>
+
+<p>In any case, most of the source code of various versions of Android
+has been released as free software. Does that mean that products using
+those Android versions respect users' freedom? No, for several
+reasons.</p>
+
+<p>First of all, most of them contain nonfree Google applications for
+talking to services such as YouTube and Google Maps. These are
+officially not part of Android, but that doesn't make the product ok.
+Many of the free applications available for earlier versions of
+Android have
+been <a href="https://arstechnica.com/gadgets/2013/10/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/">
+replaced by nonfree applications</a>; in 2013 Android devices appeared
+which <a href="https://www.greenbot.com/new-google-play-edition-devices-lack-photo-gallery-app-use-google/">
+provided no way to view photos except through a nonfree Google+
+app</a>.  In 2014 Google announced
+that <a href="https://arstechnica.com/gadgets/2014/06/android-wear-auto-and-tv-save-you-from-skins-and-oems-from-themselves/">Android
+versions for TVs, watches and cars would be largely nonfree.</a>
+</p>
+
+<p>Most Android devices come with the nonfree Google Play software
+(formerly &ldquo;Android Market&rdquo;).  This software invites users
+with a Google account to install nonfree apps.  It also has a back
+door with which Google can forcibly install or deinstall apps.  (This
+probably makes it a universal back door, though that is not proved.)
+Google Play is officially not part of Android, but that doesn't make
+it any less bad.
+</p>
+
+<p>Google has moved many basic general facilities into the
+nonfree <a href="https://blog.grobox.de/2016/the-proprietarization-of-android-google-play-services-and-apps/">Google
+Play Services library</a>.  If an app's own code is free software but
+it depends on Google Play Services, that app as a whole is effectively
+nonfree; it can't run on a free version of Android, such as Replicant.
+</p>
+
+<p>If you value freedom, you don't want the nonfree apps that Google
+Play offers.  To install free Android apps, you don't need Google
+Play, because you can get them
+from <a href="https://f-droid.org/">f-droid.org</a>.
+</p>
+
+<p>Android products also come with nonfree libraries.  These are
+officially not part of Android, but since various Android
+functionalities depend on them, they are part of any real Android
+installation.</p>
+
+<p>Even the programs that are officially part of Android may not
+correspond to the source code Google releases. Manufacturers may
+change this code, and often they don't release the source code for
+their versions. The GNU GPL requires them to distribute the code for
+their versions of Linux, assuming they comply. The rest of the code,
+under the lax Apache license, does not require them to release the
+source version that they really use.</p>
+
+<p>One user discovered that many of the programs in the Android system
+that came with his phone
+were <a href="https://www.beneaththewaves.net/Projects/Motorola_Is_Listening.html">modified
+to send personal data to Motorola.</a>  Some manufacturers add
+a <a href="https://androidsecuritytest.com/features/logs-and-services/loggers/carrieriq/">
+hidden general surveillance package such as Carrier IQ.</a></p>
+
+<p><a href="https://replicant.us/">Replicant</a> is the free version of
+Android.  The Replicant developers have replaced many nonfree
+libraries, for certain device models.  The nonfree apps are excluded,
+but you certainly don't want to use those.  By contrast, CyanogenMod
+(another modified version of Android) is nonfree, as it contains some
+nonfree programs.</p>
+
+<p>Many Android devices are &ldquo;tyrants&rdquo;: they are designed so users
+cannot install and run their own modified software, only the versions
+approved by some company. In that situation, the executables are not
+free even if they were made from sources that are free and available
+to you. However, some Android devices can be &ldquo;rooted&rdquo; so
+users can install different software.</p>
+
+<p>Important firmware or drivers are generally proprietary also. These
+handle the phone network radio, WiFi, bluetooth, GPS, 3D graphics, the
+camera, the speaker, and in some cases the microphone too. On some
+models, a few of these drivers are free, and there are some that you
+can do without&mdash;but you can't do without the microphone or the
+phone network radio.</p>
+
+<p>The phone network firmware comes preinstalled. If all it did was
+sit there and talk to the phone network when you wish, we could regard
+it as equivalent to a circuit. When we insist that the software in a
+computing device must be free, we can overlook preinstalled firmware
+that will never be upgraded, because it makes no difference to the
+user that it's a program rather than a circuit.</p>
+
+<p>Unfortunately, in this case it would be a malicious circuit.
+Malicious features are unacceptable no matter how they are
+implemented.</p>
+
+<p>On most Android devices, this firmware has so much control that it
+could turn the product into a listening device. On some, it controls
+the microphone. On some, it can take full control of the main
+computer, through shared memory, and can thus override or replace
+whatever free software you have installed. With some, perhaps all,
+models it is possible to exercise remote control of this firmware to
+overwrite the rest of the software in the device.  The point of free
+software is that we have control of our software and our computing;
+a system with a back door doesn't qualify. While any computing system
+might <em>have</em> bugs, these devices can <em>be</em> bugs. (Craig
+Murray,
+in <a href="https://www.theguardian.com/books/2006/aug/12/politics">Murder
+in Samarkand</a>, relates his involvement in an intelligence operation
+that remotely converted an unsuspecting target's non-Android portable
+phone into a listening device.)</p>
+
+<p>In any case, the phone network firmware in an Android phone is not
+equivalent to a circuit, because the hardware allows installation of
+new versions and this is actually done. Since it is proprietary
+firmware, in practice only the manufacturer can make new
+versions&mdash;users can't.</p>
+
+<p>Putting these points together, we can tolerate nonfree phone
+network firmware provided new versions of it won't be loaded, it can't
+take control of the main computer, and it can only communicate when
+and as the free operating system chooses to let it communicate. In
+other words, it has to be equivalent to circuitry, and that circuitry
+must not be malicious. There is no technical obstacle to building an
+Android phone which has these characteristics, but we don't know of
+any.</p>
+
+<p>Android is not a self-hosting system; development for Android needs
+to be done on some other system.  The tools in Google's
+&ldquo;software development kit&rdquo; (SDK) appear to be free,
+but it is hard work to check this.  The definition files for certain
+Google APIs are nonfree.  Installing the SDK requires signing a
+proprietary software license, which you should refuse to sign.
+<a href="https://redmine.replicant.us/projects/replicant/wiki/ReplicantSDK">
+Replicant's SDK</a> is a free replacement.</p>
+
+<p>Recent press coverage of Android focuses on the patent wars. During
+20 years of campaigning for the abolition of software patents, we have
+warned such wars could happen. Software patents could force
+elimination of features from Android, or even make it unavailable.
+See <a href="https://endsoftpatents.org/">endsoftpatents.org</a> for more
+information about why software patents must be abolished.</p>
+
+<p>However, the patent attacks and Google's responses are not directly
+relevant to the topic of this article: how Android products partly
+approach an ethically system of distribution, and how they fall
+short. This issue merits the attention of the press too.</p>
+
+<p>Android is a major step towards an ethical, user-controlled, free
+software portable phone, but there is a long way to go, and Google is
+taking it in the wrong direction.  Hackers are working
+on <a href="https://replicant.us/">Replicant</a>, but it's a big job to
+support a new device model, and there remains the problem of the
+firmware. Even though the Android phones of today are considerably
+less bad than Apple or Windows phones, they cannot be said to
+respect your freedom.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Footnote</h3>
+<ol>
+<li id="linuxnote">The extreme example of this confusion appears in
+the site linuxonandroid.com, which offers help to &ldquo;install Linux
+[sic] on your Android devices.&rdquo; This is entirely false: what
+they are installing is a version of the GNU system, <em>excluding</em>
+Linux, which is already present as part of Android.  Since that site
+supports only <a href="/distros/distros.html">nonfree GNU/Linux
+distros</a>, we do not recommend it.
+</li>
+</ol>
+
+<div class="infobox extra" role="complementary">
+<hr />
+First published in <cite><a
+href="https://www.guardian.co.uk/technology/2011/sep/19/android-free-software-stallman">
+The Guardian</a></cite>.
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/android-and-users-freedom" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/android-and-users-freedom.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/android-and-users-freedom.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/android-and-users-freedom.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/android-and-users-freedom.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/android-and-users-freedom.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ml]&nbsp;<a lang="ml" hreflang="ml" href="/philosophy/android-and-users-freedom.ml.html">മലയാളം</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/android-and-users-freedom.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/android-and-users-freedom.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/android-and-users-freedom.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/android-and-users-freedom.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/android-and-users-freedom.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/android-and-users-freedom.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2011-2016, 2021, 2023 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/05/20 09:55:19 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

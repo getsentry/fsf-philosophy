@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.97 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Software Patents - GNU Project - Free Software Foundation</title>
+<style type="text/css" media="print,screen"><!--
+ul.big-list li { margin-top: 1em; }
+ol.compact li { margin-top: .5em; }
+i.aside { color: #505050; }
+--></style>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/software-patents.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/software-patents.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/software-patents.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/software-patents.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/software-patents.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/software-patents.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Software Patents &mdash; Obstacles to Software Development</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<div class="infobox">
+<p>This is the transcription of a talk presented by Richard M. Stallman on 
+March 25, 2002, at the University of Cambridge 
+<a href="https://www.cl.cam.ac.uk/">Computer Laboratory</a>,
+organized by the
+<a href="https://web.archive.org/web/20221028103335/https://www.fipr.org/">
+Foundation for Information Policy Research</a>.</p>
+<p>Transcript (<a
+href="https://www.cl.cam.ac.uk/~mgk25/stallman-patents.html">original 
+version</a>) and <a
+href="//audio-video.gnu.org/audio/rms-speech-cambridgeuni-england2002.ogg">audio
+recording</a> by Nicholas Hill. HTML editing and links by Markus Kuhn
+and GNU webmasters.</p>
+</div>
+<hr class="thin" />
+
+<p>
+You might have been familiar with my work on
+<a href="/philosophy/free-sw.html">free software</a>.
+This speech is not about that. This speech is about a way of
+<a href="https://web.archive.org/web/20150329103351/http://www.progfree.org/Patents/against-software-patents.html">
+misusing laws</a> to make software development a dangerous activity.
+This is about what happens when patent law gets applied to the field
+of software.
+</p>
+
+<p>
+It's not about patenting software.  That's a very bad way, a
+misleading way to describe it, because it's not a matter of patenting
+individual programs.  If it were, it would make no difference, it
+would be basically harmless.  Instead, it's about patenting ideas.
+Every patent covers some idea.
+<a href="https://web.archive.org/web/20150329143651/http://progfree.org/Patents/patents.html">
+Software patents</a> are patents that cover software ideas, ideas
+that you would use in developing software.  That's what makes them a
+dangerous obstacle to all software development.
+</p>
+
+
+<div class="toc">
+<h3 class="no-display">Table of contents</h3>
+<ul>
+  <li><a href="#copyright-vs-patent">Differences between copyrights and
+    patents</a></li>
+  <li><a href="#patent-system">The patent system</a></li>
+  <li><a href="#dealing-with-patents">How a developer can deal with patents</a>
+    <ul>
+      <li><a href="#patent-avoiding">Avoiding the patent</a></li>
+      <li><a href="#patent-licensing">Licensing the patent</a></li>
+      <li><a href="#patent-overturning">Overturning the patent in court</a></li>
+    </ul>
+  </li>
+  <li><a href="#software-specificity">Specificities of the software field</a></li>
+  <li><a href="#software-patent-policies">Addressing the problem of software
+    patents in public policies</a></li>
+  <li><a href="#footnotes">Footnotes</a></li>
+</ul>
+</div>
+
+
+<h3 id="copyright-vs-patent">Differences between copyrights and patents</h3>
+
+<p>
+You may have heard people use a misleading term
+&ldquo;<a href="https://www.wipo.org/about-ip/en/">intellectual
+property</a>.&rdquo;  This term, as you can see, is biased, because it
+makes an assumption: whatever it is you are talking about, the way to
+treat it is as a kind of property, which is one among many
+alternatives.  This term &ldquo;intellectual property&rdquo;
+pre-judges the most basic question in whatever area you are dealing
+with. That's not conducive to clear and open minded thinking.
+</p>
+
+<p>
+But there is an additional problem which has nothing to do with promoting
+any one opinion.  It gets in the way of understanding even the facts.
+The term &ldquo;intellectual property&rdquo; is a catch-all.  It lumps
+together various completely disparate areas of law, such as copyrights and
+patents, which are completely different from copyrights (every detail is
+different), and trademarks, which are even more different, and
+various other things more or less commonly encountered.  None of them
+has anything in common with any of the others.  Their origins,
+historically, are completely separate.
+<span class="gnun-split"></span>The laws were designed
+independently.  They cover different areas of life and activities, and
+the public policy issues they raise are completely unrelated.  So, if
+you try to think about them by lumping them together, you are guaranteed to
+come to foolish conclusions.  Whatever they might be, there is literally no
+sensible or intelligent opinion you can have about &ldquo;intellectual
+property.&rdquo;  So, if you want to think clearly, don't lump them
+together.  Think about copyrights, and then think about patents.  Learn
+about copyright law, and separately, learn about patent law.
+</p>
+
+<p>
+To give you some of the biggest differences between copyrights and
+patents:
+</p>
+
+<ul class="big-list">
+<li>
+<p>
+Copyrights cover the details of expression of a work; copyrights
+don't cover any ideas. It's a {legal fault} to consider copyrights as
+covering any idea. But patents <em>only</em> cover ideas and the use of ideas.
+</p>
+</li>
+
+<li>
+<p>
+Copyrights happen automatically.  Patents are issued by
+a patent office in response to an application.
+It costs a lot of money.  And it costs even more paying the lawyers
+to write the application than it costs to actually apply.  It takes
+typically some years for the application to get considered, even though
+patent offices typically do an extremely sloppy job of considering them.
+</p>
+</li>
+
+<li>
+<p>
+Copyrights last tremendously long.  Nowadays, in some cases they can last as
+long as 150 years, whereas patents last for 20 years, which is long enough
+that you can outlive them, but still quite long by a timescale of a
+field such as software.
+</p>
+<p>
+Think back 20 years ago; the PC was a new thing.  Imagine
+being constrained to develop software using only the ideas that were
+known in 1982.
+</p>
+</li>
+
+<li>
+<p>
+Copyrights cover copying.  If you write a novel that turns out to be
+word-for-word the same as <cite>Gone with the Wind</cite>, but you
+can prove you never saw <cite>Gone with the Wind</cite>, and that you
+wrote it on your own, that would be
+a defense to any accusation of copyright infringement.
+</p>
+<p>
+But a patent is an absolute monopoly on using an idea.  Even if you could
+prove that you had the idea on your own, it would be entirely irrelevant if
+the idea is patented by somebody else.
+</p>
+</li>
+</ul>
+
+<p>
+I hope you will basically just forget about copyrights for the rest of this talk,
+because this talk is about patents and you should never lump together
+copyrights and patents.  Your understanding of these legal
+issues would be about like what would happen in your understanding of
+practical chemistry if you confused water and ethanol.
+</p>
+
+
+<h3 id="patent-system">The patent system</h3>
+
+<p>
+When you hear people describe the patent system, they usually describe
+it from the point of view of somebody who is hoping to get a patent:
+what it would be like for you to get a patent; what it would be like
+for you to be walking down the street with a patent in your pocket, so
+that every so often you can pull it out and point it out at somebody
+and say &ldquo;Give Me Your Money!&rdquo;  There is a reason for this
+bias, which is that most of the people who will tell you about this
+patent system have a stake in it, so they want you to like it.
+</p>
+
+<p>
+There is another reason: the patent system is a lot like a
+lottery because only a tiny fraction of patents actually bring any
+benefit to those who hold the patents.  In fact,
+<cite><a href="https://www.economist.com/leaders/2011/08/20/patent-medicine">
+The Economist</a></cite> once compared it to a time consuming lottery.
+If you have seen ads for lotteries, they always invite you to think
+about winning.  They don't invite you to think about losing, even
+though losing is far more likely. It's the same with ads for the
+patent system.  They always invite you to think about being the one
+who wins.
+</p>
+
+<p>
+To balance this bias, I am going to describe the patent system from
+the point of view of its victims.  That is from the point of view of
+somebody who wants to develop software but is forced to contend with a
+system of software patents that might result in getting sued.
+</p>
+
+<p>
+So, what's the first thing you are going to do after you have had an
+idea of what kind of program you are going to write?  The first thing
+you might want to try to do to deal with the patent system is find out
+what patents may cover the program you want to write.  This is
+impossible. The reason is that some of the patent applications that
+are pending are secret.  After a certain amount of time they may get
+published, like 18 months.  But that's plenty of time for you to
+write a program and even release it, not knowing that there is going to
+be a patent and you are going to get sued.
+<span class="gnun-split"></span>This is not just academic.
+In 1984, the Compress program was written (it was a program for data
+compression.)  At the time, there was no patent on the LZW compression
+algorithm which it used.  Then in 1985, the US issued a <a
+href="https://patents.justia.com/patent/4558302">patent</a> on this
+algorithm, and over the next few years, those who distributed the
+Compress program started getting threats.  There was no way that the
+author of Compress could have realized he was likely to get sued.
+All he did was use an idea that he found in a journal, just like
+programmers have always done.  He hadn't realized that you could no
+longer safely use ideas that you found in a journal.
+</p>
+
+<p>
+But let's forget about that problem&hellip; The issued patents are
+published by the patent office, so you can find the whole long list of
+them and see exactly what they say.  Of course, you couldn't actually
+read that whole list as there are too many of them.  In the US, there
+are hundreds of thousands of software patents, and
+there is no way you could keep track of what they are all about.  So you'd
+have to try to search for relevant ones.  Some people say that
+should be easy in these modern days of computers.  You could search
+for keywords and so on.  Well, that will work to a certain extent.  You
+will find some patents in the area.  You won't necessarily find them
+all, however.
+</p>
+
+<p>
+For instance, there was a software patent which, I think, may have
+expired by now, on natural order recalculation in spreadsheets.
+This means basically that, when you make certain cells depend on other
+cells, it always recalculates everything after the things it depends
+on, so that after one recalculation everything is up to date.  The
+first spreadsheets did their recalculation top-down, so if you made a
+cell depend on a cell that was lower down, and you had a few such steps, you
+had to recalculate several times to get the new values to propagate
+upwards.  You were supposed to have things depend on cells above
+them, you see.<span class="gnun-split"></span>
+Then somebody realized, &ldquo;Why don't I just do the recalculation.
+Everything gets recalculated after the things it depends on.
+Do it in the right order, and they will all be up to date.&rdquo; This
+algorithm is known as topological sorting.  The first reference to it
+I could find was in 1963.  The patent covered several dozen different
+ways you could implement topological sorting, but you wouldn't have
+found this patent by searching for &ldquo;spreadsheet,&rdquo; because it
+didn't mention that word.  You couldn't have found it to &ldquo;natural
+order&rdquo; or &ldquo;topological sort,&rdquo; because it
+didn't have any of those terms in it.  In fact, it was described as a
+&ldquo;method of compiling formulas into object code.&rdquo;  I think 
+when I first saw it, I thought it was the wrong patent.
+</p>
+
+<p>
+But let's suppose that you got a list of patents.  So you want to see now
+what you are not allowed to do. You try studying these patents; well, 
+you discover it's very hard to understand them, because they are written in 
+tortuous legal language, whose meaning is very hard to understand. In 
+fact, things that patent offices say often don't mean what they seem to 
+mean.                                       
+</p>
+
+<p>
+There was an Australian government study of the patent system in the
+1980's.  It concluded that, aside from international pressure, there was no
+reason to have a patent system&mdash;it did no good for the public&mdash;and 
+recommended abolishing it, if not for international pressure.  One
+of the things they cited was that engineers don't try reading patents
+to learn anything, because it is too hard to understand them.  They quoted
+one engineer saying &ldquo;I can't recognize my own inventions in
+patenteese.&rdquo; <i class="aside">[laughs]</i>
+</p>
+
+<p>
+This is not just theoretical.  Around 1990, a programmer named
+<a href="https://www.atarimagazines.com/startv2n3/hypercard.html">Paul
+Heckel</a> sued Apple, claiming that Hypercard infringed a couple of
+his <a href="https://patents.justia.com/patent/4486857">patents</a>.
+When he first saw Hypercard, he didn't think it had anything to do
+with his &ldquo;inventions.&rdquo;  It didn't look
+similar.  But his lawyer told him that you could read the patents as
+covering part of Hypercard, so he decided to then attack Apple.
+<span class="gnun-split"></span>When I gave a
+speech about this at Stanford, he was in the audience and he said &ldquo;That's
+<a href="https://groups.csail.mit.edu/mac/classes/6.805/articles/int-prop/heckel-debunking.html">
+not true</a>, I just didn't understand the extent of my
+protection!&rdquo; <i class="aside">[laughs]</i>&nbsp; And I said, &ldquo;Yes, that's what
+I said!&rdquo; <i class="aside">[laughs]</i>
+</p>
+
+<p>
+So, in fact, you 
+are going to spend a lot of time talking with lawyers to figure out
+what these patents prohibit you from doing. And ultimately, they are going
+to say something like this: &ldquo;If you do something in here, you
+are sure to lose; if you do something in here, there is a substantial
+chance of losing, and if you really want to be safe, stay out of this
+area.  And, by the way, there is a sizable element of chance in the
+outcome of any lawsuit.&rdquo; <i class="aside">[chuckle in the audience]</i>
+</p>
+
+
+<h3 id="dealing-with-patents">How a developer can deal with patents</h3>
+
+<p>
+Now that you have a predictable terrain for doing business, <i class="aside">[chuckle in
+the audience]</i> what are you going to do?  Well, there are three approaches
+that you might try, any of which is applicable in some cases.
+</p>
+
+<p>They are:</p>
+
+<ol class="compact">
+  <li>avoiding the patent,</li>
+  <li>licensing the patent, or</li>
+  <li>overturning it in court.</li>
+</ol>
+
+<p>
+Let me describe these three approaches and what makes them workable or
+unworkable.
+</p>
+
+<dl>
+<dt id="patent-avoiding">1. Avoiding the patent</dt>
+<dd>
+<p>
+That means don't use the idea that the patent covers.  This can be
+easy or hard, depending on what that idea is.  In some cases, a
+feature is patented.  Then you avoid the patent by not implementing
+that feature.  Then it just matters how important is that feature.  In
+some cases, you can live without it.
+</p>
+
+<p>
+A while ago, the users of the
+word processor XyWrite got a downgrade in the mail.  The downgrade
+removed a feature which allowed you to predefine abbreviations:
+when you typed an abbreviation followed by a punctuation character, it
+would immediately replace itself by some expansion. So that way
+you could define the abbreviation for some long phrase, type the
+abbreviation, and then the long phrase would be in your document.  They
+wrote to me about this because they knew that
+the <a href="/software/emacs/">Emacs</a> editor has a similar feature.
+In fact, it had it since the 70's.  This was interesting because it
+showed me that I've had at least one patentable idea in my life.
+<i class="aside">[laughs]</i>&nbsp; I knew it was patentable because somebody else
+patented it afterward! Actually, they had tried these various approaches.
+<span class="gnun-split"></span>At first they tried
+negotiating with the patent holder, who turned out not to negotiate in
+good faith.  Then they looked at whether they could have a chance of
+overturning the patent.  What they decided to do was take out the
+feature.  You can live without this feature.  If the word processor
+lacks only this feature, maybe people will still use it.  But as
+various features start getting hit, eventually you end up with a
+program that people think is not very good, and they are likely to reject
+it.
+</p>
+
+<p>
+That's a rather narrow patent on a very specific feature. But what do you 
+do with the <a href="https://patents.justia.com/patent/4873662">British
+Telecom patent</a> on traversing hyperlinks together with dial-up
+access?  Traversing hyperlinks is absolutely essential to a major use
+of computers these days.  And dial-up access is also essential.  How do
+you do without this feature, which, by the way, isn't even one
+feature, it is really just a combination of two, just arbitrarily
+juxtaposed.  It is rather like a patent on having a sofa and
+television in the same room. <i class="aside">[laughs]</i>
+</p>
+
+<p>
+Sometimes the idea that's patented will be so broad and basic that it's
+very hard, that it
+basically rules out an entire field.  For instance, the idea of Public
+Key Encryption, which was patented in the US.  The patent expired in
+1997.  Until then, it largely blocked the use of Public Key Encryption
+in the US.  A number of programs that people started to develop got
+crushed, and were never really available because the patent holders
+threatened them.
+<span class="gnun-split"></span>Then, one program got away: the program <a
+href="https://web.archive.org/web/20170315023711/http://www.pgpi.org/">
+PGP</a>, which initially was
+released as free software.  Apparently, the patent holders, by the time
+they got around to attacking, realized they might get too much bad
+publicity.  So they imposed restrictions, making it for noncommercial
+use only, which meant it couldn't catch on too much.  So they greatly
+limited the use of Public Key Encryption for a decade or more.  There
+was no way around that patent.  There was nothing else you could do
+like that.
+</p>
+
+<p>
+Sometimes a specific algorithm gets patented.  For instance, there is
+a patent on an optimized version of the Fast Fourier Transform.  It
+runs about twice as fast.  You can avoid that by using the ordinary
+FFT in your program.  That part of your program will take twice as
+long.  Maybe that doesn't matter. Maybe that's a small enough part of
+the program's running time that, if it is twice as slow, you won't
+really notice.  Or maybe that means your program won't run at all,
+because it will take twice the real time to do its job.  The effects vary.
+</p>
+
+<p>
+In some cases, you can find a better algorithm.  That may or may not
+do you any good.  Because we couldn't use Compress, in the GNU Project
+we started looking for some other algorithm for data compression.
+Somebody wrote to us saying he had one. He had written a program and
+he decided to contribute it to us.  We were going to release it, and just
+by chance I happened to see a copy of the <cite>New York Times</cite> that
+happened to have the weekly patent column in it.  I didn't see a copy
+of the <cite>Times</cite> more than once every few months.  So I looked at
+it, and it said that somebody had got a patent for &ldquo;inventing a new
+method of compressing data.&rdquo;
+<span class="gnun-split"></span>I figured I better take a look at
+this patent.  I got a copy, and it turned out to cover the program that
+we were just a week away from releasing.  So that program died before it
+was born.  Later on we did find another algorithm which was
+unpatented.  That became the program <a href="/software/gzip/">
+Gzip</a>, which is now effectively the de-facto standard for data
+compression.  As an algorithm to use in a program for data
+compression, it was fine.  People who wanted to do data compression
+could use Gzip instead of Compress.  But the same patented LZW
+compression algorithm was also used in image formats such as
+<a href="/philosophy/gif.html">GIF</a> format.
+<span class="gnun-split"></span>And there, because the job
+that people wanted to do was not simply &ldquo;Compress my data,&rdquo; but
+&ldquo;Make an image that people can display with their software,&rdquo; it turned
+out to be very hard to switch over to a different algorithm.  In fact, we have
+not been able to do it in 10 years!  Yes, people used the new Gzip
+algorithm to define <a href="https://www.w3.org/Graphics/PNG/">another
+image format</a>, once people started getting threatened with lawsuits
+for using GIF files.  But when we started saying to people &ldquo;Hey, stop
+using GIF files, switch over to this!&rdquo; people said, &ldquo;We can't
+switch.  The browsers don't support the new format yet.&rdquo;  And the
+browser developers said &ldquo;We're not in a hurry about this.  After
+all, nobody is using this file format.&rdquo; <i class="aside">[laughs]</i>
+</p>
+
+<p>
+In effect, society had so much inertia in the use of that particular format [GIF]
+that we have not been able to get people to switch.  Essentially, the
+community's use of the GIF format is still pushing sites into using
+GIF format, with the result that they are vulnerable to these threats.
+</p>
+
+<p>
+In fact, the situation is even more bizarre, because there are actually two
+patents covering the LZW compression algorithm.  The patent office
+couldn't even tell that they were issuing two patents on the same
+thing.  They couldn't keep track.  There is a reason for this.  It
+takes a while of study of these two patents to see that they really
+cover the same thing.
+</p>
+
+<p>
+If they were patents on some chemical process, it would be much
+easier.  Because you could see what substances were being used, what the
+inputs were, what the outputs were, which physical actions are being
+taken.  No matter how they are described, you'd see what they were and
+then you would see that they are similar.
+</p>
+
+<p>
+But when something is purely mathematical, you could have various ways to
+describe it, which are a lot more different.  They are not superficially
+similar.  You have to really understand them to see they are talking
+about the same thing.  In the patent office, they don't have time.  The US
+Patent Office, as of a few years ago, was spending 17 hours on the average
+per patent.  This is not long enough to think carefully about them.
+So, of course they make mistakes like that.  In fact, I told you about the
+program that died before it was born.  Well, that algorithm also has had two
+patents issued for it in the US.  Apparently, it is not that unusual.
+</p>
+
+<p>
+So, avoiding the patents may be easy {or it} may be impossible; it may be easy
+but it makes your program useless.  It varies depending on the
+situation.
+</p>
+
+<p>
+Here is another point I should mention, that sometimes a company or
+consortium can make a format or protocol a de-facto standard.  Then,
+if that format or protocol is patented, that's a real disaster for
+you.  There are even official standards that are restricted by
+patents.  There was a big political uproar last September when the
+<a href="https://www.w3.org/TR/patent-practice/">World Wide Web
+Consortium</a> was proposing to start adopting standards that were
+covered by patents.  The community objected, and they reversed
+themselves.
+<span class="gnun-split"></span>They went back to insisting that patents had to be
+freely implementable by anyone, and that standards had to be free
+for anyone to implement.  That is an interesting victory.  I think
+it's the first time any standards body has made that decision.  It's
+normal for standards bodies to be willing to put something in a
+standard which in fact is restricted by patents, and people are not allowed to
+go ahead and implement it freely.  We need to go to other standards
+bodies and call on them to change their rules.
+</p>
+</dd>
+
+<dt id="patent-licensing">2. Licensing the patent</dt>
+<dd>
+<p>
+The second possibility is, instead of avoiding the patent, to get a
+license for the patent.  This is not necessarily an option.  The
+patent holder does not have to offer you a license. It's not
+required.  Ten years ago, the League for Programming Freedom got a
+letter asking for help from somebody whose family business was making
+gambling machinery for casinos, and they used computers back then.  He
+received a threat from another company that said, &ldquo;We have the patents.
+You are not allowed to make these things.  Shut down.&rdquo;
+</p>
+
+<p>
+I looked at that patent.  It covered having a number of computers on a
+network for playing games, such that each computer supported more than
+one game and allowed you to be playing more than one game at a time.
+</p>
+
+<p>
+You will find the patent offices really think that there is something
+brilliant about doing more than one of anything.
+<i class="aside">[laughs]</i>&nbsp; They don't realize
+that, in computer science, that's the most obvious way to generalize
+anything.  You did it once. Now you can do it any number of times,
+make a subroutine.  They think that if you do anything twice instead of
+once, you made a new invention. That somehow means you are brilliant and nobody
+can possibly argue with your right to boss them around and
+restrict them.  Anyway, he wasn't offered a license, and he had to shut down.
+He couldn't even afford really to go to court.  I would say that
+particular patent was an obvious idea.  It's possible that a judge
+might have agreed.  We will never know, though, because he could not afford
+to go to court.
+</p>
+
+<p>
+However, a lot of patent holders do offer licenses.  They often charge
+a lot of money for that, though.  The company licensing the natural
+order recalculation patent was demanding 5% of the gross sales of
+every spreadsheet in the US.  I am told that was the cheap pre-lawsuit
+price.  If you actually made them sue you and they won, they'd demand
+more.  You might be able to afford that 5% for licensing this one
+patent, but what if you need to license 20 different patents to make
+the program?  Then all the money you take in has to go out to them.  What if
+you need to license 21 patents?
+</p>
+
+<p>
+People in business told me that, practically speaking, two or three of them
+would make any business unfeasible.
+</p>
+
+<p>
+But there is a situation where licensing patents is a very good solution.
+That is if you are a multinational mega-corporation.  Because these
+companies own a lot of patents, and they cross-license with each
+other.  That way, they escape most of the harm that the patent system
+does and they only get the good.  IBM published an
+<a href="https://web.archive.org/web/20150329104135/http://progfree.org/Links/prep.ai.mit.edu/ibm.think.article">
+article</a> in Think magazine&mdash;I believe it was issue No. 5 of
+1990&mdash;on IBM's patent portfolio, which said that IBM got two kinds of
+benefits from its 9000 US patents.  I believe the number is larger
+today.  These were (1) collecting royalties, and (2) getting
+access to the patents of others.  They said that the latter benefit was
+an order of magnitude greater.  So, the benefit that IBM got from being
+allowed to use the ideas that were patented by others was 10 times the
+direct benefit IBM could get from licensing patents.
+</p>
+
+<p>
+What does this really mean?
+What is the benefit that IBM gets from this access to the patents of
+others?  It's basically the benefit of being excused from the trouble
+that the patent system can cause you.  The patent system is like a
+lottery.  What happens with any given patent could be nothing, could
+be a windfall for some patent holder and a disaster for everyone else.
+But IBM being so big, for them it averages out.  They get to measure
+the average harm and good of the patent system.
+<span class="gnun-split"></span>For them, the trouble
+would have been 10 times the good.  I say would
+have been because IBM, through cross-licensing, avoids experiencing that
+trouble.  That trouble is only potential.  It doesn't really happen to
+them.  But when they measure the benefits of avoiding that trouble,
+they estimate it as 10 times the value of the money they collect from
+their patents.
+</p>
+
+<p>
+This phenomenon of cross-licensing refutes a common myth, the myth of
+the starving genius.  The myth that patents &ldquo;protect&rdquo; the
+&ldquo;small inventor.&rdquo;  Those terms are propaganda terms.  You
+shouldn't use them.  The scenario is like this: Suppose there is a
+brilliant designer of whatever, who has spent years by himself,
+starving in an attic, designing a new wonderful kind of whatever,
+and now wants to manufacture it. Isn't it a shame the big companies
+are going to go into competition with him, take away all the business
+and he'll &ldquo;starve&rdquo;?
+<span class="gnun-split"></span>Well, I have to point out that people
+in high tech fields are not generally working on their own, and that ideas
+don't come in a vacuum&mdash;they are based on the work of others&mdash;and that
+these people have pretty good chances of getting a job if they need to
+these days.  So this scenario, the idea that this brilliant idea came
+from this one person working alone, is unrealistic, and the idea
+that he is in danger of starving is unrealistic.  But it is conceivable
+that somebody could have an idea, and this idea, maybe together with
+100 or 200 other ideas, could be the basis of making some kind of product,
+and that big companies might want to compete with him.
+<span class="gnun-split"></span>So let's see
+what happens if he tries to use a patent to stop them.  He says,
+&ldquo;Oh no, IBM.  You can't compete with me.  I've got this patent.&rdquo;
+And IBM says, &ldquo;Let's see.  Let's look at your product.  Hmmm.  I've got this
+patent and this one and this one and this one and this one and this
+one, which parts of your product infringe.  If you think you can fight
+against all of them in court, I'll just go back and look for some more.
+So, why don't you cross-license with me?&rdquo; And then this
+brilliant small <i class="aside">[laughs]</i> inventor says, &ldquo;Well, OK, I'll
+cross-license.&rdquo;  And now he can go back and make these wonderful whatever
+it is, and so can IBM.  IBM now gets access to his patent, and gets the
+right to compete with him, which means that this patent didn't
+&ldquo;protect&rdquo; him at all.  The patent system doesn't really do
+that.
+</p>
+
+<p>
+The mega-corporations avoid, for the most part, the harm of the patent
+system.  They see mainly the good side. That's why they want to have
+software patents.  They are the ones who will benefit from it.  But if
+you are really a small inventor, or work for a small company, the small
+company is not going to be able to do this.  They try.  The problem is
+that they cannot get enough patents to do this.  You see, any given patent is
+pointing in a certain direction.  So, if a small company has patents
+pointing there, there, and there <i class="aside">[showing left side]</i>, and somebody over
+there <i class="aside">[showing right side]</i> points a patent at them and says &ldquo;Give
+me your money,&rdquo; they are helpless, because they've got patents pointing
+there or near <i class="aside">[showing left side]</i>, but not there
+<i class="aside">[showing right side]</i>.
+<span class="gnun-split"></span> 
+IBM can do it, because with these 9000 patents, they are pointing
+everywhere. No matter where you are, there is an IBM patent pointing at
+you, probably.  So, IBM can always make you cross-license, almost always.
+But the small companies only occasionally can make someone cross-license.
+They will say they want patents for defensive purposes, but they won't
+get enough to be able to defend themselves.
+</p>
+
+<p>
+There are cases where even IBM cannot make someone cross-license.
+That is when there is a company whose sole business is taking a patent
+and squeezing money out of people.  The company that had the natural
+order recalculation patent was exactly such a company.  Their sole
+business was to threaten to sue people and collect money from people
+who were really developing something.
+</p>
+
+<p>
+There are no patents on legal procedures. <i class="aside">[laughs]</i>&nbsp;
+I guess the lawyers
+sort of understand what a pain it would be to have to deal with the patent
+system themselves.  The result is that there is no way you can get a patent
+to make that company, <a
+href="https://www.nytimes.com/1990/01/14/business/a-white-knight-draws-cries-of-patent-blackmail.html">
+Refac</a>, cross-license with you. So they go around
+squeezing everyone.  But I guess the companies like IBM figure that's
+part of the price of doing business so they can live with it.
+</p>
+
+<p>
+So that's the possibility of licensing a patent, which may or may not
+be possible. And you may or may not be able to afford it.
+</p>
+</dd>
+
+<dt id="patent-overturning">3. Overturning the patent in court</dt>
+<dd>
+<p>
+Supposedly, in order to be patented, something has to be new, useful
+and unobvious.  That's the language used in the US.  I think other
+countries have different language which is pretty much equivalent to
+it.  Of course, when the patent office gets into the game and they start
+interpreting new and unobvious, &ldquo;new&rdquo; turns out to mean
+&ldquo;we don't have it in our files,&rdquo; and &ldquo;unobvious&rdquo;
+tends to mean &ldquo;unobvious to somebody with an IQ of 50.&rdquo;
+</p>
+
+<p>
+Somebody who studies most of the software patents issued in the US&mdash;or
+at least he used to; I don't know if he can still keep up with them&mdash;said
+that 90% of them wouldn't pass the Crystal City test, which meant,
+if the people in the patent office went outside to the news stand and
+got some computer magazines, they would see that these ideas were
+already known.
+</p>
+
+<p>
+The patent office does things that are so obviously foolish, you
+wouldn't even have to know the state of the art to see they are
+foolish.  This is not limited to software.  I once saw the famous
+Harvard mouse patent, which was obtained after Harvard genetically
+engineered a strain of mouse with a cancer causing gene.  The cancer
+causing gene was already known, and was inserted using known techniques
+into an already existing strain of mouse.  The patent they got covered
+inserting any cancer causing gene into any kind of mammal, using any
+method whatsoever.  You don't have to know anything about genetic
+engineering to realize that is ridiculous.
+</p>
+
+<p>
+But I am told that this overclaiming is normal practice, and that the US
+Patent Office sometimes invited patent applicants to make their claims
+broader.  Basically, make the claims broader until you think they are
+running into something else that's unambiguous prior art.  See how
+much land grab in mental space you can get away with.
+</p>
+
+<p>
+When programmers look at a lot of software patents, they say, &ldquo;This
+is ridiculously <a
+href="https://web.archive.org/web/20040604051644/http://people.qualcomm.com/karn/patents/patent-comments.html">
+obvious</a>!&rdquo; Patent bureaucrats have all sorts of excuses to
+justify ignoring what programmers think.  They say &ldquo;Oh! But you
+have to consider it in terms of the way things were 10 or 20 years
+ago.&rdquo;  Then they discovered that if they talk something to death
+then you can eventually lose your bearings.  Anything can look
+unobvious if you tear it apart enough, analyze it enough.  You simply
+lose all standard of obviousness, or at least lose the ability to
+justify any standard of obvious or unobvious.  Then, of course, they
+describe the patent holders as brilliant inventors, all of them.
+Therefore we can't question their entitlement to power over what we
+can do.
+</p>
+
+<p>
+If you go to court, the judges are likely to be a little more
+stringent about the idea of what is obvious or not.  But the problem
+is it costs millions of dollars to do that.  I heard of one
+patent case, the defendant I remember was Qualcomm, and I believe the
+ruling ultimately was 13 million dollars, of which most went to pay the
+lawyers on both sides.  There were a few million dollars left over for
+the plaintiff, because they lost.
+</p>
+
+<p>
+To a large extent, the question of the validity of a patent will
+depend on historical accidents.  Lots of historical accidents, such as
+precisely what was published when, and which of those things somebody
+manages to find, which of them didn't get lost, the precise dates, and so on.
+So it's many historical accidents that determine whether the patent is valid.
+</p>
+
+<p>In fact, it is a weird thing the <a
+href="https://patents.justia.com/patent/4873662">
+British Telecom following hyperlinks together with phone access</a>
+patent, was applied for, I think, in 1975.  I think it was in 1974
+that I developed the Info package for the first time.  The Info
+package allows you to traverse hyperlinks, and people did use
+telephones to dial up and access the system.  So in fact, I produced a
+piece of prior art for that patent.  That's the second patentable
+idea I've had in my life, but I don't think I have any proof of
+that.  I didn't think this was interesting enough to publish it.
+After all, the idea of following hyperlinks, I got that from a demo of
+Engelbart's editor.  He is the one who had an idea that was
+interesting to publish.
+<span class="gnun-split"></span>I called it &ldquo;poor man's
+hypertext,&rdquo; because I
+had to implement it in the context of TECO.  It wasn't as powerful as
+his hypertext, but it was at least useful for browsing documentation,
+which was all it was meant for, and as for there being dial-up access
+to the system, well, there was, but it didn't occur to me that the one
+had any particular thing to do with the other.  I wasn't going to try to
+publish a paper saying &ldquo;Oh!  I implemented this poor man's
+hypertext, and guess what! There are dial-up lines on the computer
+too!&rdquo; <i class="aside">[laughs]</i>&nbsp; I suspect there is no way to tell
+precisely on what dates
+I implemented this.  And was it published in any sense?  Well, we
+invited guests to come in across the ARPAnet and log in on our
+machine, so they could have browsed documentation using Info, and seen
+the thing.  And if they had asked us, they would have found we have
+dial-up access.  But as you can see, historical accident determines
+whether you've got prior art.
+</p>
+
+<p>
+Now of course, there is a publication made by Engelbart about
+hypertext, which they are going to show.  I don't think it says
+anything about having dial-ups on the computer however. So, whether it
+will suffice is not clear.
+</p>
+
+<p>
+So, this is an option, the possibility of going to court to overturn the patent.
+But, because of the expense, it is often out of the question even if you
+can find solid prior art that ought to be sufficient to overturn the
+patent.  As a result, an invalid patent, a patent that nominally
+shouldn't have existed (but in fact lots and lots of them do) is a
+dangerous weapon.  If somebody attacks you with an invalid patent,
+that can really cause a lot of trouble for you.  You might be able to
+bluff them away by showing them the prior art.  It depends
+whether they can get scared off that way or they might think
+&ldquo;Well, you are just bluffing, we figure you can't really go to
+court. You can't afford it, so we'll sue you anyway.&rdquo;
+</p>
+</dd>
+</dl>
+
+<p>
+All of these three possibilities are things that sometimes you can
+manage to use, but often you can't.  So you have to face patent after
+patent after patent.  Each time you may be able to find one of these
+three possibilities you can use, then there is another patent, then
+another, and another.  It gets like crossing a minefield.  Each step
+you take, each design decision, probably won't step on a patent. So
+you can take a few steps and, probably, there won't be an explosion.
+But the chance that you will get all the way through the minefield and get
+to develop the program you wanted to develop without ever stepping on a
+patent gets less and less as the program gets bigger.
+</p>
+
+
+<h3 id="software-specificity">Specificities of the software field</h3>
+
+<p>
+Now, people used to say to me, &ldquo;Well, there are patents in other
+fields, why should software be exempt?&rdquo;  Note the bizarre
+assumption in there that somehow we are all supposed to suffer through
+the patent system.  It is like saying &ldquo;Some people get cancer.
+Why should you be exempt?&rdquo; <i>[laughs]</i>&nbsp; As I see it, each person
+who doesn't get cancer is good.  But there is, behind that, a less biased
+question, which is a good question, which is: Is software different
+from other fields?  Should patent policy be different in different
+fields?  And if so, why?
+</p>
+
+<p>
+Let me address that question: patents relate to different fields
+differently because in various fields patents relate to products
+differently.
+</p>
+
+<p>
+On the one extreme we have pharmaceuticals, where a given chemical formula
+would be patented, so that patent covers one and only one product.
+Some other product wouldn't be covered by the existing patent.  If
+there is to be a patent for this new product, the patent holder would
+be whoever developed the new product.
+</p>
+
+<p>
+That fits in with the naive idea of the patent system that we have,
+that, if you are designing a new product, you are going to get
+&ldquo;The Patent,&rdquo; the idea that there is one patent per
+product and that it covers <em>the</em> idea of that product.  In some fields
+that's closer to being true.  In other fields it's farther from being
+true.  Software is at the opposite extreme.
+This is because software packages are very big, usually, and they
+use many different ideas in a new combination.  If the program is new,
+it's not just copied, then it's probably using a different combination
+of ideas combined, of course, with newly written code, because you
+can't just magically say the names of these ideas and have them work.
+You have to implement them all.
+<span class="gnun-split"></span>You have to implement them all in
+that combination.  The result is that, when you write a program,
+you are using lots of different ideas, any one of them might be
+patented by somebody.  A pair of them might be patented as a combination
+by somebody.  There might be several different ways of describing one
+idea, which might be patented by various different people.  So there
+are possibly thousands of things, thousands of points of vulnerability
+in your program, which might be patented by somebody else already.
+This is why software patents tend to obstruct the progress of
+software&mdash;the work of software development.
+</p>
+
+<p>
+If it were one patent-one product, then these patents wouldn't obstruct the
+development of products, because if you developed a new product it
+wouldn't be patented by somebody else already.  But when one product
+corresponds to many different ideas combined, it becomes very likely that 
+your new product is going to be patented by somebody else already.  In
+fact, there is economic research now showing just how imposing a
+patent system on a field where there is incremental innovation can
+retard progress.
+<span class="gnun-split"></span>You see, the advocates of software patents say
+&ldquo;Well yes, there may be problems, but more important than any
+problems, the patents must promote innovation, and that is so important
+it doesn't matter what problems they cause.&rdquo;  Of course, they
+don't say that out loud because it is ridiculous, but implicitly they
+want you to believe that, as long as it promotes progress, that
+outweighs any possible cost.  But actually, there is no reason to
+believe it does promote progress.  We now have a model showing
+precisely how patents <em>can</em> retard progress.  The case where that model
+can fit describes the software field pretty well: incremental
+innovation.
+</p>
+
+<p>
+Why is software on that extreme of the spectrum?  The reason is that
+in software we are developing idealized mathematical objects.  You can
+build a complicated castle and have it rest on a thin line, and it will
+stay up because it doesn't weigh anything.  In other fields, people
+have to cope with the perversity of matter&mdash;of physical objects.
+Matter does what it is going to do.  You can try to model it, and if
+the actual behavior doesn't fit the model, tough on you. Because
+the challenge is to make physical objects that really work.
+</p>
+
+<p>
+If I wanted to put an <code>if</code> statement inside a
+<code>while</code> statement, I don't have to worry about whether the
+<code>if</code> statement will oscillate at a certain frequency and
+rub against the <code>while</code> statement and eventually they will
+fracture. <i class="aside">[laughs]</i>&nbsp; I don't have to worry
+whether it will oscillate at a
+certain higher frequency and induce a signal in the value of some
+other variable.  I don't have to worry about how much current that
+<code>if</code> statement will draw, whether it can dissipate the
+heat there inside that <code>while</code> statement.  Whether there will be a
+voltage drop across the <code>while</code> statement that will make the
+<code>if</code> statement not function.
+<span class="gnun-split"></span>I don't have to worry that 
+if I run this program in a salt-water environment, that the salt water
+might get in between the <code>if</code> statement and the
+<code>while</code> statement and cause corrosion.  I don't have to
+worry, when I refer to the value of a variable, whether I am exceeding
+the fan-out limit by referring to it too many times.  I don't have to worry,
+when I refer to the variable, how much capacitance it has and whether
+there has been sufficient time to charge up the value.  I don't have
+to worry, when I write the program, about how I'm going to physically
+assemble each copy, and whether I can manage to get access to put that
+<code>if</code> statement inside the <code>while</code> statement.
+And I don't have to worry about how I'm going to gain access in case the
+<code>if</code> statement breaks, to remove it and replace it with a
+new one. <i class="aside">[laughs]</i>
+</p>
+
+<p>
+So many problems that we don't have to worry about in
+software.  That makes it fundamentally easier.  It's fundamentally
+easier to write a program than to design a physical object that's
+going to work.  This might seem strange because you have probably heard
+people talking about how hard software is to design, and how this is a
+big problem and how we are going to solve it.  They are not really
+talking about the same question I am.  See, I'm comparing physical and
+software systems of the same complexity, the same number of parts.  I'm
+saying the software system is much easier to design than the
+physical system.  But the intelligence of people in these various
+fields is the same, so what do we do when we are confronted with an
+easy field?  We just push it farther!  We push our abilities to the
+limit.
+<span class="gnun-split"></span>If systems of the same size are easy,
+let's make systems which are ten times as big, then it will be hard!
+<i class="aside">[laughs]</i>&nbsp; That's what we do!  We
+make software systems far bigger in terms of number of parts
+than physical systems.  A physical system whose design has a million
+different pieces in it is a mega project.  A computer program whose
+design has a million pieces in it, that's maybe 300,000 lines, a few
+people will write that in a couple of years.  That's not
+particularly a giant program.  GNU Emacs now has several million pieces
+in its design I think, because it has a million lines of code.  This was a
+project done with essentially no funding whatsoever.  Mostly done by
+people in their spare time.
+</p>
+
+<p>
+There is another big saving.  If you designed a physical product,
+the next thing you have to do is design the factory to make it.  To
+build this factory may cost millions or tens of millions, whereas to
+make copies of the program, you just have to type <code>copy</code>.
+The same <code>copy</code> command will copy any program.  You want copies on CD,
+fine.  You burn a master CD and send it off to a CD plant.  They
+will use the same equipment that will copy any contents on a CD.  You
+don't have to build a factory to <em>make</em> this product.  There is
+tremendous simplification and tremendous reduction in costs of
+designing things.
+<span class="gnun-split"></span>The result is, say for an automobile company, if
+they are going to spend 50 million dollars to build a factory, to build a new model
+of auto, they can hire some lawyers to cope with some patent license
+negotiations.  They could even cope with a lawsuit if they wanted to.
+Designing a program of the same complexity might cost 50 thousand dollars, or 100
+thousand dollars.  By comparison, the cost of dealing with the patent
+system is crushing.  Actually designing a program with the same
+complexity as the mechanical design of an auto, that's probably a month
+work.  How many parts does an auto have&hellip; that is if it is an
+auto that doesn't have computers in it?[<a href="#f1">1</a>] There
+are not that many parts, you see.  Which is not to say designing a good one is
+easy, but just that there are not that many different things in it.
+</p>
+
+<p>
+The result is, software really is different from other fields because
+we are working with mathematical stuff. Designing something is far, far
+easier. And the result is we regularly make systems that are
+much, much larger, and do so with just a few people.  The result is
+that the patent system then, instead of being close to &ldquo;one product, one
+patent,&rdquo; we are in a system where one product involves many, many ideas
+that could be patented already.
+</p>
+
+<p>
+The best way to explain it by analogy is with symphonies.  A symphony
+is also long and has many notes in it, and probably uses many musical
+ideas.  Imagine if the governments of Europe in the 1700's had decided
+they wanted to promote the progress of symphonic music by establishing
+a European Musical Patent Office that would give patents for any kind
+of musical idea that you could state in words.  Then imagine it is
+around 1800 and you are Beethoven and you want to write a symphony. You are
+going to find that getting your symphony to be legal, so that it doesn't infringe
+any patents, is going to be harder than writing a good symphony.
+<span class="gnun-split"></span>When
+you complain about this, the patent holders would say &ldquo;Ah
+Beethoven, you are just bitching because you have no ideas of your
+own.  All you want to do is rip off our inventions.&rdquo;  Beethoven,
+as it happens, had a lot of new musical ideas, but he had to use a lot
+of existing musical ideas in order to make recognizable music, in
+order to make music that listeners could possibly like, that they
+could recognize as music.  Nobody is so brilliant that he can
+re-invent music and make something that people want to listen
+to.  <a href="https://en.wikipedia.org/wiki/Pierre_Boulez">Pierre
+Boulez</a> said he would try to do that, and&hellip; who listens to Pierre
+Boulez? <i class="aside">[laughs]</i>
+</p>
+
+<p>
+Nobody is so brilliant he can re-invent all computer
+science, completely new.  If he did, he'd make something that the
+users would find so strange that they wouldn't want to use it.  If you
+look at a word processor today, you'll find, I think, hundreds of
+different features.  If you develop a nice new innovative word
+processor, that means there are some new ideas in it, but there must
+be hundreds of old ideas in it.  If you are not allowed to use them,
+you cannot make an innovative word processor.
+</p>
+
+<p>
+Because the work of software development is so big, the result is that
+we don't need any artificial scheme to incentivize new ideas.  You
+just have people writing software and they will have some new ideas.
+If you want to write a program, you want to make it good. Some ideas
+will come to you, and some of them you will see a way to use.  What used
+to happen&mdash;because I was in the software field before there were
+software patents&mdash;was most of the developers would publish any new
+ideas that they thought were noteworthy, that they thought they
+might get any credit or respect for.
+<span class="gnun-split"></span>The ideas that were too small or
+not impressive enough, they would not publish because that would be
+silly.  Now the patent system is supposed to encourage disclosure of
+ideas.  In fact, in the old days, nobody kept the ideas secret.  They
+kept the code secret, it's true.  The code, after all, represented the
+bulk of the work.  They would typically keep the code secret and publish the
+ideas. That way, the employees could get some credit and feel good;
+you know, they were allowed to publish papers.
+After software patents, they still kept the code secret and they
+patented the ideas. So, in fact, disclosure has not been encouraged in
+any meaningful sense.  The same things are kept secret now as were kept
+secret before, but the ideas, which used to be published so we could use
+them, now are likely to be patented and off-limits for 20 years.
+</p>
+
+
+<h3 id="software-patent-policies">Addressing the problem of software patents
+in public policies</h3>
+
+<p>
+What can a
+country do to change this?  How should we change the policy to solve
+this problem?  There are two places you can attack it.  One is the place where
+patents are being applied for and issued, in the patent office.  And the
+other is when patents are being applied&mdash;that is, the question of
+what does a patent cover.
+</p>
+
+<p>
+Changing the criteria for issuing patents, or simply keeping a good
+criteria for issuing patents, can work in a country which has not
+authorized software patents before; for instance, for the most part,
+in Europe.  Simply to clearly re-enforce the European Patent Office's
+rules which say that software is not patentable.  This is a good
+solution for Europe.  Europe is now considering a directive on
+software patents.  The directive I suppose may be broader than that
+but one of its important implications is for software patents.  Simply
+by modifying this to say software ideas cannot be patented will keep
+the problem out of Europe for the most part, except for some countries
+that may have admitted the problem on their own&mdash;unfortunately, one of
+them being the UK, unfortunately for you.
+</p>
+
+<p>
+That approach won't work in the US.  The reason is that the US already
+has large numbers of software patents, and any change in the criteria
+for issuing patents won't get rid of the existing
+ones. However in fact, these patents are not officially
+labeled as software patents.  I say software patents, but what do I
+really mean?  I mean patents that might potentially apply to software,
+that might potentially get you sued for writing software.
+<span class="gnun-split"></span>
+The patent office doesn't divide patents into software patents and
+other patents.  So, in fact, any patent might conceivably get you sued
+for writing software if it could apply to some software.  So, in the US,
+a solution would have to be done through changing the applicability,
+the scope of patents, saying that a pure software implementation,
+running on general purpose computer hardware which does not in itself
+infringe the patent, is not covered by any patent and you can't be 
+sued for it.  That's the other kind of solution.
+</p>
+
+<p>
+But the first kind of solution, the solution that operates on what kinds
+of patents can be valid is a good solution for Europe to use.
+</p>
+
+<p>
+When the US started having software patents, there was no political
+debate.  In fact, nobody noticed.  The software field, for the most
+part, didn't even notice.  There was a Supreme Court decision in 1981
+which considered a patent on a process for curing rubber.  The ruling
+was that the fact that the apparatus included a computer and a program
+as part of the process to cure the rubber did not make it
+unpatentable.
+<span class="gnun-split"></span>The appeals court the next year, which considers all
+patent cases, reversed the qualifiers.  They said the fact that there
+is a computer and a program in this makes it patentable.  The fact
+that there is a computer and program in anything makes it patentable.
+This is why the US started having business procedure patents.
+Because the business procedures were carried out on a computer and
+that made them patentable.  So this ruling was made, and I think the
+natural order recalculation patent was one of the first or might have
+been even the first.
+</p>
+
+<p>
+But throughout the 80's we mostly didn't know about this.  It was around
+1990 that programmers in the US started to become aware
+that they were faced with a danger from software patents.  So, I saw
+how the field worked before then and how it worked after.  I saw no
+particular speed up in progress after 1990.  There was no political
+debate in the US, but in Europe there has been a big political debate.
+Several years ago there was a push to amend the
+Munich treaty that established the <a href="https://www.epo.org/">
+European Patent Office</a>.  It has a <a
+href="https://www.epo.org/law-practice/legal-texts/html/epc/1973/e/ar52.html">
+clause saying that software is not patentable</a>.  The push was to
+amend that to start allowing software patents.  But the community took
+notice of this.  It was actually free software developers and free
+software users who took the lead.
+</p>
+
+<p>
+We are not the only ones threatened by software patents.  All software
+developers are threatened by software patents and even software users
+are threatened.  For instance, Paul Heckel, when
+Apple wasn't very scared of his threats, he threatened to start suing
+Apple customers.  That, Apple found very scary.  They figured they
+couldn't afford to have their customers being sued like that, even if
+they would ultimately win.  So users can get sued too, either as a
+way of attacking a developer, or just as a way to squeeze money out of
+them on their own or cause mayhem to them on their own.
+</p>
+
+<p>
+All software developers and users are vulnerable, but it was the free
+software community in Europe that took the lead in organizing
+opposition.  In fact, twice now the countries that govern the European
+Patent Office voted not to amend that treaty.  Then the EU took a hand,
+and the directorates of the EU were divided on the issue.
+</p>
+
+<p> The one whose job is to promote software is against software
+patents, it seems.  But they were not in charge of this issue.  It's the
+open market directorate that is in charge, and that's led by somebody who
+is in favor of software patents.  They basically disregarded public
+opinion that had been expressed to them, and they proposed a
+directive to allow software patents.[<a href="#f2">2</a>] The French
+government has already said they are against it.  People are
+working in various other governments in Europe to oppose software
+patents, and it is vital to start doing so here.
+</p>
+
+<p>
+According to Hartmut
+Pilch, who is one of the leaders in the European struggle against
+software patents, the main impetus comes from the <a
+href="https://www.gov.uk/topic/intellectual-property/patents">UK
+Patent Office</a>.  The UK Patent Office
+is simply biased in favor of software patents.  It had a
+public consultation, and most of the responses were opposed to software
+patents.  They then wrote a report saying that people seem to be content
+with them, <i class="aside">[laughs]</i> completely disregarding the
+answers.  You see, the
+free software community said, &ldquo;Please send the answers to them, and
+please send your answers to us too and we'll publish them.&rdquo;  So they
+published these answers, which were opposed generally.  You'd have
+never guessed that from the report that the UK Patent Office
+published.
+</p>
+
+<p>
+They [the UK Patent and Trademark Office] use a term that they call
+&ldquo;technical effect.&rdquo;  This is a term which can stretch tremendously.  You
+are supposed to think it means a program idea would only be patentable
+if it relates closely to specific physical activities.  If that is the
+interpretation, it would mostly solve the problem.  If the only
+software ideas that could be patented were those that really did relate
+to a particular technical, specific physical result that you might
+have patented if you didn't use a program, that would be OK.  The
+problem is you can stretch that term.  You can describe the
+result you get by running any program as a physical result.  How does
+this physical result differ from every other?  Well it is as a
+result of this computation.  The result is that the UK Patent Office
+is proposing something that looks like it leads to mostly solving the
+problem, and really gives <i>carte blanche</i> for patenting almost anything.
+</p>
+
+<p>
+The people in the same ministry are also involved in a copyright
+issue which really has nothing to do with software patents except that
+it's being handled by the same people.  It's a question of
+interpreting the recent EU copyright directive, a horrible law like
+the <a href="https://www.eff.org/issues/dmca">Digital Millennium Copyright
+Act in the US</a>.  But there is some latitude for countries to decide
+how to implement it.  The UK is proposing the most draconian possible
+way of implementing this directive. You could greatly reduce the harm
+that it does by implementing it properly.  The UK wants to maximize
+the tyrannical effect of this directive.  It seems there is a certain group, the
+<a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20070603164510/http://www.dti.gov.uk/">
+Department of Trade and Industry [archived]</a>, <i class="aside">[laughs]</i> who need
+to be reined in. <i class="aside">[laughs]</i>&nbsp;  It is necessary to put a
+check on their activities. Stop their creating new forms of power.
+</p>
+
+<p>
+Software patents tie up every software developer and every computer
+user in a new form of bureaucracy.  If the businesses that use
+computers realized how much trouble this can cause for them, they
+would be up in arms, and I'm sure they could stop it.  Business doesn't
+like being tied up in bureaucracy.
+</p>
+
+<p>
+Sometimes, of course, it serves an important purpose.  There are some
+areas where we wish the UK government did a more careful job of tying
+certain businesses up in bureaucracy, like when it involves moving
+animals around.[<a href="#f3">3</a>] But in some cases, when it
+doesn't serve any purpose except to create artificial monopolies, so
+that somebody can interfere with software development, squeeze money
+out of developers and users, then we should reject it.
+</p>
+
+<p>
+We need to make management aware of what software patents will do to
+them.  Get their support
+in <a href="https://ffii.org/">fighting against
+software patents in Europe</a>.
+</p>
+
+<p>
+The battle is not over.  It still can be won. <i class="aside">[applause]</i>
+</p>
+
+<div class="column-limit"></div>
+
+<h3 id="footnotes" class="footnote">Footnotes</h3>
+<ol>
+  <li id="f1">There are approximately 300-400 unique parts in an
+  automatic transmission, and a transmission is generally the most
+  complicated component of an auto.  To design a transmission may take
+  six months to a year, and even then it may take longer to actually
+  get it built and functioning.  However, a program with 500 to 600
+  functional parts would have 200 to 300 lines of actual code, and
+  would probably take a good programmer a day to a week to write, test
+  and debug.</li>
+  
+  <li id="f2">On 6 July 2005, the European Parliament rejected the
+  software patent directive by 648 out of 680 votes.  However, we must
+  not forget the issue of software patents, as those who were pressing
+  for patenting are trying to revive the recently thrown-out
+  directive.  We also have to ensure that the European Patent Office
+  (EPO) and the national offices in different EU countries stop
+  conceding patents for software included in other kinds of
+  inventions.</li>
+
+  <li id="f3">To make it harder for foot-and-mouth disease to
+  spread.</li>
+</ol>
+
+<hr class="no-display" />
+<div class="edu-note c"><p id="fsfs">This speech is published in
+<a href="https://shop.fsf.org/product/free-software-free-society/"><cite>Free
+Software, Free Society: The Selected Essays of Richard
+M. Stallman</cite></a>.</p></div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/software-patents.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/software-patents.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/software-patents.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/software-patents.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/software-patents.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/software-patents.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2002, 2006, 2022 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/12/13 14:15:36 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

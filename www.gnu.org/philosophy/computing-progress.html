@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Computing &lsquo;Progress&rsquo;: Good and Bad
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/computing-progress.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/computing-progress.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/computing-progress.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/computing-progress.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/computing-progress.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/computing-progress.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/computing-progress.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/computing-progress.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#society">Digital&nbsp;society<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Computing &lsquo;Progress&rsquo;: Good and Bad</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard 
+Stallman</a></address>
+
+<div class="infobox" role="complementary">
+<p><i>
+The BBC invited me to write an article for their column series, The
+Tech Lab, and this is what I sent them.  (It refers to a couple of
+other articles published in that series.)  The BBC was ultimately unwilling
+to publish it with a copying-permission notice, so I have published it
+here.</i></p>
+</div>
+<hr class="thin" />
+
+<p>
+Bradley Horowitz of Yahoo proposed here that every object in our world
+have a unique number so that your cell phone could record
+everything you do&mdash;even which cans you picked up while in the
+supermarket.</p>
+
+<p>
+If the phone is like today's phones, it will use proprietary software:
+software controlled by the companies that developed it, not by its
+users.  Those companies will ensure that your phone makes the
+information it collects about you available to the phone company's
+database (let's call it Big Brother) and probably to other
+companies.</p>
+
+<p>
+In the UK of the future, as New Labour would have it, those companies
+will surely turn this information over to the police.  If your phone
+reports you bought a wooden stick and a piece of poster board, the
+phone company's system will deduce that you may be planning a protest,
+and report you automatically to the police so they can accuse you of
+&ldquo;terrorism.&rdquo;</p>
+
+<p>
+In the UK, it is literally an offense to be suspect&mdash;more precisely,
+to possess any object in circumstances that create a &ldquo;reasonable
+suspicion&rdquo; that you might use it in certain criminal ways.
+Your phone will give the police plenty of opportunities to suspect
+you so they can charge you with having been suspected by them.
+Similar things will happen in China, where Yahoo has already given the
+government all the information it needed to imprison a dissident; it
+subsequently asked for our understanding on the excuse that it was &ldquo;just
+following orders.&rdquo;</p>
+
+<p>
+Horowitz would like cell phones to tag information automatically, based
+on knowing when you participate in an event or meeting.  That means
+the phone company will also know precisely whom you meet.  That
+information will also be interesting to governments, such as those of
+the UK and China, that cut corners on human rights.</p>
+
+<p>
+I do not much like Horowitz's vision of total surveillance.  Rather, I
+envision a world in which our computers never collect, or release, any
+information about us except when we want them to.</p>
+
+<p>
+Nonfree software does other nasty things besides spying; it often
+implements digital handcuffs&mdash;features designed to restrict the
+users (also called DRM, for Digital Restrictions Management).  These
+features control how you can access, copy, or move the files in your
+own computer.</p>
+
+<p>
+DRM is a common practice: Microsoft does it, Apple does it, Google
+does it, even the BBC's iPlayer does it.  Many governments, taking the
+side of these companies against the public, have made it illegal to
+tell others how to escape from the digital handcuffs.  As a result,
+competition does nothing to check the practice: no matter how many
+proprietary alternatives you might have to choose from, they will
+all handcuff you just the same.  If the computer knows where you are
+located, it can make DRM even worse: there are companies that would
+like to restrict what you can access based on your present
+location.</p>
+
+<p>
+My vision of the world is different.  I would like to see a world in
+which all the software in our computers&mdash;in our desktop PCs, our
+laptops, our handhelds, our phones&mdash;is under our control and
+respects our freedom.  In other words, a world where all software is
+<a href="/philosophy/free-sw.html"><em>free</em></a> software.</p>
+
+<p>
+Free software, freedom-respecting software, means that every user of
+the program is free to get the program's source code and change the
+program to do what she wants, and also free to give away or sell
+copies, either exact or modified.  This means the users are in
+control.  With the users in control of the software, nobody has power
+to impose nasty features on others.</p>
+
+<p>
+Even if you don't exercise this control yourself, you are part of a
+society where others do.  If you are not a programmer, other users of
+the program are.  They will probably find and remove any nasty
+features, which might spy on or restrict you, and publish safe
+versions.  You will have only to select to use them&mdash;and since
+all other users will prefer them, that will usually happen with no
+effort on your part.</p>
+
+<p>
+Charles Stross envisioned computers that permanently record everything
+that we see and hear.  Those records could be very useful, as long as
+Big Brother doesn't see and hear all of them.  Today's cell phones are
+already capable of listening to their users without informing them, at
+the request of the police, the phone company, or anyone that knows the
+requisite commands.  As long as phones use nonfree software,
+controlled by its developers and not by the users, we must expect this
+to get worse.  Only free software enables computer-using citizens to
+resist totalitarian surveillance.</p>
+
+<p>
+Dave Winer's article suggested that Mr. Gates should send a copy of
+Windows Vista to Alpha Centauri.  I understand the feeling, but
+sending just one won't solve our problem here on Earth.  Windows is
+designed to spy on users and restrict them.  We should collect all the
+copies of Windows, and of MacOS and iPlayer for the same reason, and send
+them to Alpha Centauri at the slowest possible speed.  Or just erase
+them.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/computing-progress.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/computing-progress.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/computing-progress.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/computing-progress.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/computing-progress.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/computing-progress.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/computing-progress.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/computing-progress.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2007, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/11 09:37:22 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

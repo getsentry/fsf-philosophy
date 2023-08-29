@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Self-Interest
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/self-interest.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/self-interest.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/self-interest.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/self-interest.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/self-interest.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/self-interest.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/self-interest.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/third-party-ideas.html#content">Third&nbsp;party&nbsp;ideas<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/third-party-ideas.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/third-party-ideas.html#general">General<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Self-Interest</h2>
+
+<address class="byline">by Loyd Fueston</address>
+
+<p>
+Is Self-Interest Sufficient to Organize a Free Economy?</p>
+
+<p>
+The quick answer is, &ldquo;No.&rdquo; And few of the better-known
+theoreticians of the free-market have ever thought that self-interest
+was, or even could be, sufficient to organize, or long maintain, a
+free economy.  Among those theoreticians, Adam Smith is often regarded
+as having been the primary philosopher of self-interest. In a book
+written to correct a number of misunderstandings of Smith's teachings,
+we find the following summaries of Smith's view about
+self-interest:</p>
+
+<blockquote><p>
+Far from being an individualist, Smith believed it is the influence
+of society that transforms people into moral beings. He thought that
+people often misjudge their own self-interest.
+</p></blockquote>
+
+<p>
+Even more directly to the point:</p>
+
+<blockquote><p>
+[Adam Smith] regarded the attempt to explain all human behavior on
+the basis of self-interest as analytically misguided and morally
+pernicious.&nbsp;<a href="#fn1">[1]</a>
+</p></blockquote>
+
+<p>
+As Adam Smith certainly realized, self-interest will be one of the
+principal forces organizing economic activities in any society, but
+that is as true of the most repressive or brutal society as it is of
+a relatively free and open society. Most of us will not like the
+results of self-interest untempered by a respect for other creatures.
+As a recent example, in running their country to the disadvantage of
+most Soviet citizens, the leaders of the Communist Party and of the
+Soviet military and intelligence services were advancing their own
+self-interests, at least as they understood or misunderstood those
+interests.</p>
+<p>
+The advantages enjoyed by Americans over citizens of the Soviet
+countries, and the advantages we still enjoy over the nominally free
+citizens of Russia and other eastern European countries, are those of
+a society organized to allow a high percentage of Americans to act in
+such a way as to serve both their self-interest and some substantial
+stock of moral principles. Not only our habits and customs, but also
+our positive laws&mdash;such as those of copyright&mdash;enter
+into that organization of our society, for good or bad, but not in a
+morally neutral manner.</p>
+<p>
+Self-interest is not necessarily evil, though it can lead people to act
+in morally reprehensible ways. The love of self, and the consequent
+development of self-interest, is one aspect of a creature who is also
+a social, and hence moral, being. Self-interest itself can serve
+moral interests in a free society so long as that society has the
+proper foundations. The elements of those foundations include not only
+a populace sharing a substantial body of moral beliefs and habits but
+also the formal political structures, positive laws, and accepted
+court decisions capable of supporting both social order and personal
+freedom. Once those are in place, and once they have been
+internalized by the bulk of the citizens, then self-interest will
+provide a fuel of sorts to keep an economy functioning effectively
+without leading to immoral results on the whole. The question is
+always: Is our society organized properly, in its positive laws and
+in the habits we teach our children and reinforce in ourselves, so that
+self-interest and moral principles do not generally come into
+conflict?</p>
+<p>
+Those people aware of modern mathematics or of programming techniques
+should appreciate the recursive, and inherently unstable, interactions
+between individual morality and social structure. To oversimplify in
+a useful manner: People with substantial moral beliefs organize
+societies along those beliefs and those societies then begin to form
+the habits and beliefs of children, immigrants, etc. according to
+those same beliefs. Always, it is a messy historical process which
+can be destroyed or rerouted into less desirable paths. There is
+inevitably a question as to whether we are straying from a proper path
+and also a question as to how robust the society is, i.e., how much
+of a disturbance it would take to destroy much of what is good about that
+society.</p>
+<p>
+Sometimes, good people will decide that something has gone wrong and
+it is time to fight for a moral principle even if it becomes necessary
+to sacrifice, or at least qualify, their own self-interest. In the
+words of Thomas Sowell, a free-market theorist of our time:</p>
+
+<blockquote><p>
+There are, of course, noneconomic values.  Indeed, there are
+<em>only</em> noneconomic values. Economics is not a value itself but
+merely a method of trading off one value against another.  If
+statements about &ldquo;noneconomic values&rdquo; (or, more
+specifically, &ldquo;social values&rdquo; or &ldquo;human
+values&rdquo;) are meant to deny the inherent reality of trade-offs,
+or to exempt some particular value from the trade-off process, then
+such selfless ideals can be no more effectively demonstrated than by
+trading off financial gains in the interest of such ideals. This is an
+economic trade-off.&nbsp;<a href="#fn2">[2]</a>
+</p></blockquote>
+
+<p>
+In context, Professor Sowell was not arguing against those imputing
+some sort of moral power to self-interest; he was instead arguing
+against those who think there should be an easy path to the reform of
+a society which may have a particular moral defect. Those are two
+sides to the same coin&mdash;serving self-interest may put a person
+in conflict with moral values and the attempt to serve moral values
+may lead to some sacrifice of one's self-interest.</p>
+<p>
+Self-interest can be a powerful fuel for a society, at least when the
+citizens of that society are well-formed individuals, but there is
+no mystical or magical aspect to self-interest that guarantees moral
+results. Self-interest will lead to generally moral results to the
+extent that moral constraints, external but mostly internal, guide
+the actions of the self-interested parties. A society with the proper
+constraints does not come into existence by some act of magic, but
+rather by the acts of people who are aiming at a higher purpose, whether
+the preservation of liberty in the society as a whole or the
+preservation of a cooperative spirit within communities of
+programmers, or maybe both of those at the same time.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Footnotes</h3>
+<ol>
+ <li id="fn1">Both quotes are from page 2 of <cite>Adam Smith: In His Time and
+Ours</cite>, Jerry Z. Muller, Princeton: Princeton University Press,
+1993.</li>
+ <li id="fn2">From page 79 of <cite>Knowledge &amp; Decisions</cite>,
+Thomas Sowell, New York: Basic Books, 1980.</li>
+</ol>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/self-interest.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/self-interest.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/self-interest.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/self-interest.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/self-interest.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/self-interest.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/self-interest.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<p>Copyright &copy; 1998 Loyd
+Fueston <a href="mailto:fueston@banet.net">&lt;fueston@banet.net&gt;</a></p>
+
+<p>Verbatim copying and distribution of this entire article is
+permitted in any medium, provided this notice is preserved.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/05/10 10:41:16 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

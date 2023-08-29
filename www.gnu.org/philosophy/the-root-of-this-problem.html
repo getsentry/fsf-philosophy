@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>The Problem Is Software Controlled By Its Developer
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/the-root-of-this-problem.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/the-root-of-this-problem.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/the-root-of-this-problem.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/the-root-of-this-problem.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/the-root-of-this-problem.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#evils">Surveillance&nbsp;etc.<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>The Problem Is Software Controlled By Its Developer</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>
+I fully agree with Jonathan Zittrain's conclusion that we should
+not abandon general-purpose computers. Alas, I disagree completely
+with the path that led him to it. He presents serious security
+problems as an intolerable crisis, but I'm not convinced. Then he
+forecasts that users will panic in response and stampede toward
+restricted computers (which he calls &ldquo;appliances&rdquo;), but there is no
+sign of this happening.</p>
+
+<p>
+Zombie machines are a problem, but not a catastrophe. Moreover, far
+from panicking, most users ignore the issue. Today, people are indeed
+concerned about the danger of phishing (mail and web pages that
+solicit personal information for fraud), but using a browsing-only
+device instead of a general computer won't protect you from that.</p>
+
+<p>
+Meanwhile, Apple has reported that 25 percent of iPhones have been
+unlocked. Surely at least as many users would have preferred an
+unlocked iPhone but were afraid to try a forbidden recipe to obtain
+it. This refutes the idea that users generally prefer that their
+devices be locked.</p>
+
+<p>
+It is true that a general computer lets you run programs designed to
+<a href="/proprietary/proprietary.html">spy on you, restrict you, or
+even let the developer attack you</a>.  Such programs include KaZaA,
+RealPlayer, Adobe Flash Player, Windows Media Player, Microsoft
+Windows, and MacOS.  Windows Vista does all three of those things; it
+also lets Microsoft change the software without asking, or command it
+to permanently cease normal functioning [<a href="#note1">1</a>].</p>
+
+<p>
+But restricted computers are no help, because they present the
+same problem for the same reason.</p>
+
+<p>
+The iPhone is designed for remote attack by Apple. When Apple remotely
+destroys iPhones that users have unlocked to enable other uses, that
+is no better than when Microsoft remotely sabotages Vista. The TiVo is
+designed to enforce restrictions on access to the recordings you make,
+and reports what you watch. E-book readers such as the Amazon
+&ldquo;<a href="/philosophy/why-call-it-the-swindle">Swindle</a>&rdquo;
+are designed to stop you from sharing and lending your
+books. Features that artificially obstruct use of your data are known
+as Digital Restrictions Management (DRM); our protest campaign against
+DRM is hosted
+at <a href="https://www.defectivebydesign.org/">defectivebydesign.org</a>. (Our
+adversaries call DRM &ldquo;Digital Rights Management&rdquo; based on their idea
+that restricting you is their right. When you choose a term, you
+choose your side.)</p>
+
+<p>
+The nastiest of the common restricted devices are cell phones. They
+transmit signals for tracking your whereabouts even when switched
+&ldquo;off&rdquo;; the only way to stop this is to take out all the
+batteries. Many can also be turned on remotely, for listening,
+unbeknownst to you. (The FBI is already taking advantage of this
+feature, and the US Commerce Department lists this danger in its
+Security Guide.) Cellular phone network companies regularly install
+software in users phones, without asking, to impose new usage
+restrictions.</p>
+
+<p>
+With a general computer you can escape by rejecting such programs. You
+don't have to have KaZaA, RealPlayer, Adobe Flash, Windows Media
+Player, Microsoft Windows or MacOS on your computer (I don't). By
+contrast, a restricted computer gives you no escape from the software
+built into it.</p>
+
+<p>
+The root of this problem, both in general PCs and restricted
+computers, is software controlled by its developer. The developer
+(typically a corporation) controls what the program does, and prevents
+everyone else from changing it. If the developer decides to put in
+malicious features, even a master programmer cannot easily remove
+them.</p>
+
+<p>
+The remedy is to give the users more control, not less. We must insist
+on free/libre software, software that the users are free to change and
+redistribute. Free/libre software develops under the control of its
+users: if they don't like its features, for whatever reason, they can
+change them. If you're not a programmer, you still get the benefit of
+control by the users. A programmer can make the improvements you would
+like, and publish the changed version. Then you can use it too.</p>
+
+<p>
+With free/libre software, no one has the power to make a malicious
+feature stick. Since the source code is available to the users,
+millions of programmers are in a position to spot and remove the
+malicious feature and release an improved version; surely someone will
+do it. Others can then compare the two versions to verify
+independently which version treats users right. As a practical fact,
+free software is generally free of designed-in malware.</p>
+
+<p>
+Many people do acquire restricted devices, but not for motives of
+security. Why do people choose them?</p>
+
+<p>
+Sometimes it is because the restricted devices are physically
+smaller. I edit text all day (literally) and I find the keyboard and
+screen of a laptop well worth the size and weight. However, people who
+use computers differently may prefer something that fits in a
+pocket. In the past, these devices have typically been restricted, but
+they weren't chosen for that reason.</p>
+
+<p>
+Now they are becoming less restricted. In fact, the OpenMoko cell
+phone features a main computer running entirely free/libre software,
+including the GNU/Linux operating system normally used on PCs and
+servers.</p>
+
+<p>
+A major cause for the purchase of some restricted computers is
+financial sleight of hand. Game consoles, and the iPhone, are sold for
+an unsustainably low price, and the manufacturers subsequently charge
+when you use them. Thus, game developers must pay the game console
+manufacturer to distribute a game, and they pass this cost on to the
+user. Likewise, AT&amp;T pays Apple when an iPhone is used as a
+telephone. The low up-front price misleads customers into thinking
+they will save money.</p>
+
+<p>
+If we are concerned about the spread of restricted computers, we
+should tackle the issue of the price deception that sells them.
+If we are concerned about malware, we should insist on free
+software that gives the users control.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Postnote</h3>
+
+<p>
+Zittrain's suggestion to reduce the statute of limitations on software
+patent lawsuits is a tiny step in the right direction, but it is much
+easier to solve the whole problem. Software patents are an
+unnecessary, artificial danger imposed on all software developers and
+users in the US. Every program is a combination of many methods and
+techniques&mdash;thousands of them in a large program. If patenting these
+methods is allowed, then hundreds of those used in a given program are
+probably patented. (Avoiding them is not feasible; there may be no
+alternatives, or the alternatives may be patented too.) So the
+developers of the program face hundreds of potential lawsuits from
+parties unknown, and the users can be sued as well.</p>
+
+<p>
+The complete, simple solution is to eliminate patents from the field
+of software. Since the patent system is created by statute,
+eliminating patents from software will be easy given sufficient
+political
+will. (See <a href="https://endsoftwarepatents.org">End Software Patents</a>.)</p>
+
+<h3 class="footnote">Footnote</h3>
+<ol>
+<li id="note1">Windows Vista initially had a &ldquo;kill switch&rdquo; with
+which Microsoft could remotely command the computer to stop
+functioning.  Microsoft
+subsequently <a href="https://badvista.fsf.org/blog/windows-genuine-disadvantage/">removed
+this</a>, ceding to public pressure, but reserved the
+&ldquo;right&rdquo; to put it back in.</li>
+</ol>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/the-root-of-this-problem.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/the-root-of-this-problem.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/the-root-of-this-problem.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/the-root-of-this-problem.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/the-root-of-this-problem.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2008, 2010, 2014, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/10/01 10:55:57 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

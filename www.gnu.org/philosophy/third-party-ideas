@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.98 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+<title>Third Party Ideas
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="print,screen"><!--
+.reduced-width > h3 { margin-top: 1.5em; border-bottom: 2px solid #bbb; }
+ul.no-bullet li { text-indent: -1.5em; }
+ul.no-bullet li p { text-indent: 0; color: #555;}
+.date-tag { font-size: .875em; position: relative; bottom: .05em; }
+--></style>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/third-party-ideas.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/third-party-ideas.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/third-party-ideas.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/third-party-ideas.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/third-party-ideas.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/third-party-ideas.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/third-party-ideas.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/third-party-ideas.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/third-party-ideas.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+
+
+<div role="navigation">
+ <ul id="edu-navigation">
+  <li><a href="/philosophy/essays-and-articles.html">Essays&nbsp;&amp;&nbsp;articles</a></li>
+  <li><a href="/philosophy/speeches-and-interviews.html">Speeches&nbsp;&amp;&nbsp;interviews</a></li>
+  <li class="active">
+   <span class='no-display'>=</span> 
+   <a href="/philosophy/third-party-ideas.html">Third&nbsp;party&nbsp;ideas</a>
+   <span class="gnun-split"></span>
+   <span class='no-display'>=</span> 
+  </li>
+  <li><a href="/philosophy/latest-articles.html">Latest&nbsp;articles</a></li>
+  <li><a href="/audio-video/philosophy-recordings.html">Recordings</a></li>
+ </ul>
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="reduced-width">
+<h2 id="ThirdPartyIdeas">Third Party Ideas</h2>
+<div class="thin"></div>
+
+<div class="comment">
+<p>
+These articles give other people's philosophical
+opinions in support of free software, or related issues, and don't
+speak for the GNU Project&mdash;but we more or less agree with them.</p>
+
+<p>
+Many of the
+<a href="/links/links.html#FreedomOrganizations">Organizations that Work
+for Freedom in Computer Development and Electronic Communications</a>
+also have philosophical opinions in support of free software, or
+related issues.</p>
+</div>
+
+<div class="toc">
+<h3 class="no-display">Table of Contents</h3>
+<ul class="columns">
+ <li><a href="#extension">Extending the Free Software Idea to Other Areas</a></li>
+ <li><a href="#upholding">Upholding Software Freedom</a></li>
+ <li><a href="#licensing">Licensing Free Software</a></li>
+ <li><a href="#laws">Legal Issues</a>
+  <ul>
+  <li><a href="#patents">Patents</a></li>
+  <li><a href="#copyright">Copyright</a></li>
+  <li><a href="#noip">The propaganda term &ldquo;Intellectual
+    Property&rdquo;</a></li>
+  <li><a href="#sco">Response to SCO's attacks</a></li>
+  </ul>
+ </li>
+ <li><a href="#cultural">Cultural and Social Issues</a>
+  <ul>
+  <li><a href="#general">General</a></li>
+  <li><a href="#society">Digital society</a></li>
+  <li><a href="#access">Accessing culture</a></li>
+  <li><a href="#funding">Funding cultural works</a></li>
+  <li><a href="#drm">Digital restrictions management and treacherous computing</a></li>
+  <li><a href="#evils">Surveillance, censorship, lock-in, etc.</a></li>
+  </ul>
+ </li>
+ <li><a href="#humor">Philosophical Humor</a></li>
+</ul>
+<hr class="no-display" />
+</div>
+
+<h3 id="extension">Extending the Free Software Idea to Other Areas</h3>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">*[2004]</span>
+  <a href="http://blog.jimmywales.com/index.php/archives/2004/10/21/free-knowledge-requires-free-software-and-free-file-formats/">
+  Free Knowledge requires Free Software and Free File Formats</a>
+  (by Jimmy Wales)
+  &mdash; This paper also explains why
+  <a href="http://www.wikipedia.org">Wikipedia</a> needs to be free
+  software.</li>
+ <li><span class="date-tag">[2010]</span>
+  <a href="https://simplemachines.it/index.php/historical-projects/sim-one">
+  Sim.One hardware project</a>
+  &mdash; This project of SimpleMachines has created free (as in freedom)
+  computer design specifications.</li>
+ <li><span class="date-tag">[2007]</span>
+  <a href="/philosophy/why-audio-format-matters.html">
+  Why Audio Format matters</a>
+  (by Karl Fogel)</li>
+ <li><span class="date-tag">[2001-2004]</span>
+  <a href="https://web.archive.org/web/20191221223329/http://www.piecepack.org/">Piecepack</a>
+  &mdash; A set of boardgame pieces which everyone is free to use in creating
+  or playing various types of games.</li>
+ <li><span class="date-tag">[1997]</span>
+  <a href="/philosophy/nonsoftware-copyleft.html">
+  Applying Copyleft To Non-Software Information</a>
+  (by Michael Stutz)</li>
+ <li><span class="date-tag">[1994]</span>
+  <a href="http://www.ram.org/ramblings/philosophy/fmp.html">
+  The Free Music Philosophy</a>
+  (by Ram Samudrala)</li>
+ <li><span class="date-tag">[1974]</span>
+  <a href="https://archive.org/details/felsenstein-tom-swift-lives">
+  Tom Swift Lives!</a>
+  (by Lee Felsenstein)
+  &mdash; The author designed a simple, easily repairable computer terminal.
+  With this &ldquo;Tom Swift Terminal,&rdquo; he tried to counteract the
+  growing control over users that computer hardware manufacturers were
+  gaining in the '70s. This practical goal is in line with the goals of
+  free software, but the philosophy behind it (developed in Ivan Illich's
+  <cite>Tools for Conviviality</cite>, Harper and Row, 1973) only has a very
+  partial convergence with the free software idea.</li>
+</ul>
+
+<h3 id="upholding">Upholding Software Freedom</h3>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2005]</span>
+  <a href="https://ocw.mit.edu/courses/15-352-managing-innovation-emerging-trends-spring-2005/8733c45a525ebcede867a9fb282398ca_lakhaniwolf.pdf">
+  Why Hackers Do What They Do: Understanding Motivation and Effort in
+  Free/Open Source Software Projects</a>
+  (by Karim R. Lakhani and Robert G. Wolf)
+  &mdash; A research paper on the motivation of free software developers,
+  which says that a considerable fraction are motivated by the view that
+  software should be free.  This was despite the fact that they surveyed
+  the developers on SourceForge, a site that does not support the view that
+  this is an ethical issue.</li>
+ <li><span class="date-tag">[2004]</span>
+  <a href="http://www.linuxjournal.com/article/7813">Bit Prepared II: Richard
+  Stallman Meets the World Scout Bureau</a>
+  (by Marco Fioretti)
+  &mdash; A discussion between Marco Fioretti, Ray Saunders and Richard
+  Stallman about the similarities between the ideals of scouting and free
+  software, and ways to uphold free software in scouting.</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="http://www.fsfla.org/~lxoliva/papers/free-software/selection-html/">
+  Competitive Advantages of Free Software</a>
+  (by Alexandre Oliva)</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="https://web.archive.org/web/20030904102640/http://proposicion.org.ar/doc/gob/Conde-281102/index.html.en">
+  Senator Alberto Conde's answer to CESSI</a> (translated from Spanish)
+  &mdash; The <abbr title="Chamber of Software and Information Technology Services">
+  CESSI</abbr> had raised objections to
+  <a href="https://web.archive.org/web/20030204005052/http://www.proposicion.org.ar/proyecto/leyes/E-135.02-03/">
+  Bill E-135/02-03</a> (submitted by Senator Alberto Conde himself), which
+  proposed the use of free software in the public sector for the province
+  of Buenos Aires.</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="https://web.archive.org/web/20030207075039/http://www.pimientolinux.com/peru2ms/villanueva_to_ms.html">
+  Letter of Peruvian Congressman Dr. Edgar David Villanueva Nu&ntilde;ez to
+  a Microsoft manager</a>
+  &mdash; The Microsoft official had criticized the country's
+  pending Free Software in Public Administration bill. This letter
+  (translated from Spanish) does an excellent job of allaying concerns
+  about free software often raised by Microsoft and others.</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="https://web.archive.org/web/20010410172314/http://www-personal.si.umich.edu/~beejoo/gnuproject.html">
+  The GNU Project FTP Site: A Digital Collection Supporting a Social Movement</a>
+  (by Michelle Bejian)</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="/philosophy/software-libre-commercial-viability.html">
+  Software Libre and Commercial Viability</a>
+  (by Alessandro Rubini)</li>
+ <li><span class="date-tag">[1997]</span>
+  <a href="/philosophy/free-world.html">
+  Only the Free World Can Stand Up to Microsoft</a>
+  (by Tom Hull)</li>
+ <li><span class="date-tag">[1960]</span>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/367177.367178">
+  Letter to the editor of the Communications of the ACM [vol.3, no.4,
+  pp.A12-A13]</a>
+  (by Bernard Galler)
+  &mdash; As early as 1960, the author says in part (mentioning price, but
+  clearly implying freedom):
+  <blockquote>
+     <p>
+     <i>&hellip; it is clear that what is being
+     charged for is the development of the program, and
+     while I am particularly unhappy that it comes from a
+     university, I believe it is damaging to the whole
+     profession. There isn't a 704 installation that hasn't
+     directly benefited from the free exchange of programs
+     made possible by the distribution facilities of SHARE.
+     If we start to sell our programs, this will set very
+     undesirable precedents.</i>
+     </p>
+  </blockquote>
+  <small>(Thanks to Nelson Beebe for the reference.)</small></li>
+</ul>
+
+<h3 id="licensing">Licensing Free Software</h3>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2008]</span>
+  <a href="/philosophy/vaccination.html">
+  Viral Code and Vaccination</a>
+  (by Robert J. Chassell)</li>
+ <li><span class="date-tag">[2006]</span>
+  <a href="https://www.semanticscholar.org/paper/A-Comparative-Ethical-Assessment-of-Free-Software-Chopra-Dexter/e85cbde10ed21ad05698a857f5018cb135c230c2">
+  A Comparative Ethical Assessment of Free Software Licensing Schemes</a>
+  (by Samir Chopra and Scott Dexter)</li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="https://web.archive.org/web/20030803114409/http://perens.com/Articles/StandTogether.html">
+  Free Software Leaders Stand Together</a>
+  &mdash; A joint statement, cosigned by Richard Stallman, responding to
+  comments on the GPL by Craig Mundie, of Microsoft.</li>
+ <li><span class="date-tag">[2000]</span>
+  <a id="PatentgrantundertheGPL"
+     href="https://web.archive.org/web/20170628063222/http://www.advogato.org/article/89.html">
+  GPL patent grant for 19 patents</a>
+  (by Raph Levien)</li>
+</ul>
+
+<h3 id="laws">Legal Issues</h3>
+
+<h4 id="patents">Patents</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[1999-2013]</span>
+  <a href="http://www.freeprotocols.org/">
+  The Free Protocols Foundation</a>
+  &mdash; An independent public forum, dedicated to the support of
+  patent-free protocols.</li>
+ <li><span class="date-tag">[2004]</span>
+  <a href="http://www.juergen-ernst.de/info_swpat_en.html">
+  Software patents under the magnifying glass</a>
+  (by Ernst Juergen)
+  &mdash; In this article, the author uses arguments based on lambda
+  calculus to show why software cannot be patented.</li>
+ <li><span class="date-tag">[2004]</span>
+  <a href="/philosophy/patent-practice-panel.html">
+  New Developments in Patent Practice: Assessing the Risks and Cost of
+  Portfolio Licensing and Hold-ups</a>
+  (by Daniel B. Ravicher, executive director of the Public Patent Foundation)
+  &mdash; Transcript of a panel presentation given on Wednesday,
+  November 10, 2004, at a conference organized by the Foundation for a Free
+  Information Infrastructure (FFII) in Brussels, Belgium.
+  <p><em>Note:</em>&nbsp; The GNU Project disagrees with the article's
+  assumption that nonfree programs are morally legitimate competitors.</p></li> 
+
+ <li><span class="date-tag">[2001-2004]</span>
+  <a href="http://fare.tunes.org/articles/patents.html">
+  Patents Are an Economic Absurdity</a>
+  (by Far&eacute;)
+  <p><em>Note:</em>&nbsp; This article adopts as a premise the popular view
+  that free trade is desirable. We don't always agree&mdash;beyond a certain
+  point; free trade gives businesses too much power, allowing them to intimidate
+  democracy. But that is a different matter.</p></li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="/philosophy/dmarti-patent.html">
+  Patent Reform Now!</a>
+  (by Don Marti)
+  &mdash; A call on free software supporters to nominate
+  Richard M. Stallman to the US Patent and Trademark Office's Patent
+  Public Advisory Committee.</li>
+</ul>
+
+<h4 id="copyright">Copyright</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2005&hellip;&nbsp;]</span>
+  <a href="http://questioncopyright.org">
+  QuestionCopyright.org</a>
+  &mdash; A website about the history and effects of copyright, dedicated
+  to raising awareness of the harmful consequences of today's copyright
+  system.</li>
+ 
+ <li><span class='date-tag'>[2017&hellip;&nbsp;]</span>
+  <a href="https://lumendatabase.org/">
+  The Lumen database</a> (formerly Chilling Effects)
+  &mdash; A collection point for cease and desist notices concerning
+  online activity&mdash;we invite visitors to enter C&amp;Ds they have
+  received or sent.  The website collects the C&amp;Ds in a searchable
+  database and hyperlinks them to explanations of the legal
+  issues.</li>
+ <li><span class="date-tag">[2008]</span>
+  <a href="http://www.cato-unbound.org/2008/06/09/rasmus-fleischer/the-future-of-copyright/">
+  The Future of Copyright</a>
+  (by Rasmus Fleischer)</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="http://eon.law.harvard.edu/openlaw/eldredvashcroft/progress.html">
+  What is Congress Supposed to Promote?</a>
+  (by Malla Pollack)
+  &mdash; This article explains how the United States government's recent
+  tendencies to provide maximum control to copyright holders defies the
+  justification for establishment of copyright set out in the
+  constitution.</li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=267848#PaperDownload">Locating
+  Copyright Within the First Amendment Skein</a>
+  (by Neil W. Netanel)
+  &mdash; The author argues that the United States court system has been
+  wrong in its dated assumption that fair use eliminates the conflict
+  between copyright law and the First Amendment.</li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="http://slashdot.org/article.pl?sid=01/03/28/0121209&amp;mode=nocomment">
+  A book review of <cite>Digital Copyright</cite></a></li>
+ <li><span class="date-tag">[2000, 2017]</span>
+  <a href="https://quod.lib.umich.edu/m/maize/mpub9798641">
+  Digital Copyright</a>
+  (by Jessica Littman), published by the University of Michigan Library</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="https://web.archive.org/web/20130509191813/http://www.maui.net/%7Ezen_gtr/zgzinepg4.html">
+  The Manifesto: Piracy is Your Friend</a>
+  (by Jaron Lanier)
+  <p><em>Note:</em>&nbsp; The GNU Project recommends
+  <a href="/philosophy/words-to-avoid.html#Piracy">avoiding the term
+  piracy</a> since it implies that sharing copies is somehow
+  illegitimate.</p></li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="http://old.law.columbia.edu/my_pubs/anarchism.html">
+  Anarchism Triumphant: Free Software and the Death of Copyright</a>
+  (by Eben Moglen)</li>
+ <li><span class="date-tag">[2000]</span>
+  <a href="http://www.compilerpress.ca/Cultural%20Economics/Works/CPU%202000.htm">
+  Copyright C.P.U.</a>
+  (by Harry Hillman Chartrand)
+  &mdash; This is a good summary of the history of copyright.</li>
+ <li><span class="date-tag">[2000]</span>
+  <a id="ConceptofCopyrightFightsMarkoff"
+     href="http://www.nytimes.com/library/tech/00/05/biztech/articles/10digital.html">
+  The Concept of Copyright Fights for Internet Survival</a>
+  (by John Markoff)</li>
+ <li><span class="date-tag">[2000]</span>
+  <a id="TheRealPurposeOfCopyrightBerry"
+     href="https://web.archive.org/web/20150331194505/http://lj.libraryjournal.com/2000/07/copyright/the-real-purpose-of-copyright/">
+  The Real Purpose of Copyright</a>
+  (by John N. Berry III)</li>
+ <li><span class="date-tag">[2000]</span>
+  <a href="https://www.lewrockwell.com/2000/09/stephan-kinsella/in-defense-of-napster-and-against-the-second-homesteading-rule/">
+  In Defense of Napster and Against the Second Homesteading Rule</a>
+  (by Lew Rockwell)</li>
+ <li><span class="date-tag">[1841]</span>
+  <a href="https://www.gutenberg.org/files/2170/2170-h/2170-h.htm#2H_4_0018">
+  Speech by British historian Thomas Macaulay</a>
+  &mdash; He had ideas about copyright in 1841 which still hold true today.</li>
+</ul>
+
+<h4 id="noip">The propaganda term &ldquo;Intellectual Property&rdquo;</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2003]</span>
+  <a href="https://reason.com/2003/03/01/creation-myths-2/">
+  Creation Myths: Does innovation require intellectual property rights?</a>
+  (by Douglas Clement) 
+  &mdash; Some economists argue that copyright and patents fail to promote
+  the progress that they supposedly exist to promote.
+  <p><em>Note:</em>&nbsp; This article takes a narrowly economic view of its subject, measuring
+  social alternatives only by what goods are available for what price,
+  assuming that you the citizen are a mere consumer and place no value
+  on your freedom in itself.  It also uses the misleading term &ldquo;<a 
+  href="/philosophy/words-to-avoid.html#IntellectualProperty">intellectual
+  property</a>,&rdquo; which is misleading because it lumps copyrights and
+  patents together.  The article also lumps them together, which it can
+  get away with because it ignores the (different) social issues that
+  copyrights and patents raise.</p>
+  <p>Despite those flaws, it is significant. If one can judge
+  copyright to be harmful even on narrow economic terms, disregarding the
+  ethical wrong of stopping people from sharing, it can only be even more
+  harmful when we consider the ethics as well.</p></li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="https://besser.tsoa.nyu.edu/howard/Papers/pw-public-spaces.html">
+  Intellectual Property: The Attack on Public Space in Cyberspace</a>
+  (by Howard Besser)
+  &mdash; This article describes how various industries are using their
+  leverage with copyright to make fewer locations on the Internet less and
+  less public.</li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="http://www.mises.org/journals/jls/15_2/15_2_1.pdf">
+  Against Intellectual Property</a>
+  (by Stephan Kinsella)</li>
+ <li><span class="date-tag">[1995]</span>
+  <a href="http://freenation.org/a/f31l1.html">
+  The Libertarian Case Against Intellectual Property Rights</a>
+  (by Roderick T. Long)
+  <p><em>Note:</em>&nbsp; The Free Software Movement does not endorse
+  Libertarianism, and <a href="/philosophy/rms-comment-longs-article.html">
+  we do not agree entirely</a> with that article.  But it is useful for
+  refuting one specific argument that is made in favor of proprietary
+  software.</p></li>
+ <li><span class="date-tag">[1994]</span>
+  <a href="http://www.ram.org/ramblings/philosophy/fmp/copying_primer.html">
+  A primer on the ethics of &ldquo;Intellectual property&rdquo;</a>
+  (by Ram Samudrala)</li>
+</ul>
+
+<h4 id="sco">Response to SCO's attacks</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2003]</span>
+  <a href="https://web.archive.org/web/20110807055230/http://www.theinquirer.net/inquirer/news/1010603/groklaw-sends-dear-darl-letter">
+  Groklaw sends a Dear Darl letter</a>
+  (by Egan Orion)
+  &mdash; A group from the free software and open source community has
+  put together a response to SCO CEO Darl McBride's Open Letter to the
+  Open Source Community.</li>
+ <li><span class="date-tag">[2003]</span>
+  <a href="https://www.linuxjournal.com/article/6913">
+  &ldquo;Hey SCO, Sue Me&rdquo;: What's Next?</a>
+  (by Taran Rampersad)
+  &mdash; In the last available public communication about the SCO Sue Me
+  Petition, its author (John Everitt) urged people to help the
+  <a href="https://www.fsf.org">FSF</a> in any way possible. He was expecting
+  only several responses, but instead he had thousands of participants.</li>
+</ul>
+
+<h3 id="cultural">Cultural and Social Issues</h3>
+
+<h4 id="general">General</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2008]</span>
+  <a href="http://freedom-to-tinker.com/blog/tblee/trouble-free-riding">
+  The Trouble with &ldquo;Free Riding&rdquo;</a>
+  (by Timothy B. Lee)</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="/philosophy/economics_frank/frank.html">
+  Does Studying Economics Inhibit Cooperation?</a>
+  (by Robert H. Frank, Thomas Gilovich, and Dennis T. Regan)</li>
+ <li><span class="date-tag">[1998]</span>
+  <a href="/philosophy/self-interest.html">
+  Is self-interest sufficient to organize a free economy?</a>
+  (by Loyd Fueston)</li>
+</ul>
+
+<h4 id="society">Digital society</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2008]</span>
+  <a href="https://pedro.jmrezende.com.br/trabs/Stockholm.pdf">
+  The Digital Stockholm Syndrome</a>
+  (by Pedro Rezende)
+  &mdash; Reflections over some psychological responses to market forces.</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="/philosophy/lessig-fsfs-intro.html">
+  Introduction by Lawrence Lessig</a> to 
+  <a href="https://shop.fsf.org/books-docs/free-software-free-society-selected-essays-richard-m-stallman-3rd-edition">
+  <cite>Free Software, Free Society: The Selected Essays of Richard
+  M. Stallman</cite></a></li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="https://web.archive.org/web/20130409233705/http://www-rohan.sdsu.edu/~digger/596/werry_comm.pdf">
+  Imagined Electronic Community: Representations of Virtual Community in
+  Contemporary Business Discourse</a>
+  (by Chris Werry)</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="http://danny.oz.au/freedom/ip/aidfs.html">
+  Development, Ethical Trading, and Free Software</a>
+  (by Danny Yee)</li>
+ <li><span class="date-tag">[1999?]</span>
+  <a href="/philosophy/kragen-software.html">
+  People, places, things and ideas</a>
+  (by Kragen Sitaker)</li>
+ <li><span class="date-tag">[1996]</span>
+  <a href="/philosophy/ICT-for-prosperity.html">
+  Shaping Collaborative ICT Development and Initiatives for Global Prosperity</a>
+  (by Robert J. Chassell)</li>
+</ul>
+
+<h4 id="access">Accessing culture</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2003]</span>
+  <a href="https://law.duke.edu/pd/papers/boyle.pdf">
+  The Second Enclosure Movement and the Construction of the Public Domain</a>
+  (by James Boyle)</li>
+ <li><span class="date-tag">[2000-2003]</span>
+  <a href="http://www.cs.cmu.edu/~dst/DeCSS/Gallery/">
+  Gallery of CSS Descramblers</a>
+  (by D.S. Touretzky)
+  &mdash; Examples demonstrating how outrageous and absurd the Digital
+  Millennium Copyright Act is.</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="https://web.archive.org/web/20020222080928/www.byte.com/documents/s=2302/byt1011380870846/">
+  Coding is a Crime</a>
+  (by Shannon Cochran)
+  &mdash; A commentary on the indictment of Jon Johansen on felony charges
+  for helping write DeCSS.</li>
+ <li><span class="date-tag">[2002]</span>
+  <a href="https://web.archive.org/web/20090502161838/http://www.openrevolt.org/">
+  openrevolt.org</a>
+  &mdash; This site was devoted to providing information about
+  the European Copyright Directive and similar legislation.  It
+  concentrated on the two principal problems of the EUCD, which make
+  it easier for copyright holders to censor webpages on ISPs and give
+  legal protection to copy-protection measures.</li>
+ <li><span class="date-tag">[1998]</span>
+  <a href="http://www.bmartin.cc/pubs/98il/">
+  Information liberation</a>
+  (by Brian Martin), published by Freedom Press
+  <p><em>Note:</em>&nbsp; We urge people to avoid using the term
+  <a href="/philosophy/words-to-avoid.html">intellectual property</a>, and
+  to instead speak about copyrights, patents, and/or trademarks.</p></li>
+ <li><span class="date-tag">[1998]</span>
+  <a href="https://web.archive.org/web/19991012082619/http://simson.net/clips/98.Globe.05-07.Read_them_and_weep.htm">
+  Read Them and Weep</a>
+  (by Simson Garfinkel)
+  &mdash; This article talks about the pending bills that would give
+  information owners sweeping new powers, and restrict the activities
+  of users.</li>
+</ul>
+
+<h4 id="funding">Funding cultural works</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[1993]</span>
+  <a href="https://genius.com/Steve-albini-the-problem-with-music-annotated">
+  The Problem With Music</a>
+  (by Steve Albini)
+  &mdash; Record companies argue for more copyright power by saying they
+  are the support of musicians. This article shows how they really treat
+  musicians.</li>
+</ul>
+
+<h4 id="drm">Digital restrictions management and treacherous computing</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2022]</span>
+  <a href="/philosophy/you-the-problem-tpm2-solves.html">
+  You, the Problem TPM2 Solves</a>
+  (by Chao-Kuei Hung)</li>
+ <li><span class="date-tag">[2006]</span>
+  <a href="https://www.informationweek.com/it-life/how-vista-lets-microsoft-lock-users-in">
+  How Vista Lets Microsoft Lock Users In</a>
+  (by Cory Doctorow)
+  <p><em>Note:</em>&nbsp; We think it is a mistake to use the enemy's
+  favorable-sounding propaganda terms such as &ldquo;trusted computing&rdquo;
+  to describe a malicious plan.</p></li>
+ <li><span class="date-tag">[2006]</span>
+  <a href="https://web.archive.org/web/20060313152550/http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1/">
+  <cite>Hardware Central</cite> editorial</a>
+  (by Eric Grevstad)
+  &mdash; Among other things, it discusses Microsoft's &ldquo;Trusted
+  Computing.&rdquo;
+  <p><em>Note:</em>&nbsp; We disagree with one aspect of this article's
+  conclusion: it's not legitimate for Microsoft to help Disney and the
+  RIAA impose Digital Restrictions Management on you, any more than it
+  is legitimate for Disney and the RIAA to try it.  The full power of
+  computing should be available to you, not just to the owners of
+  information.</p></li>
+</ul>
+
+<h4 id="evils">Surveillance, censorship, lock-in, etc.</h4>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2006]</span>
+  <a href="http://lwn.net/Articles/204641/">
+  Free gadgets need free software</a>
+  (by Jonathan Corbet)
+  &mdash; An editorial reporting a firmware &ldquo;upgrade&rdquo; that
+  removes the ability to record radio broadcasts.</li>
+ <li><span class="date-tag">[2006]</span>
+  <a href="https://lwn.net/Articles/194701/">
+  A couple of lessons on the hazards of proprietary software</a>
+  (by Jonathan Corbet)</li>
+ <li><span class="date-tag">[2006]</span>
+  <a href="http://southflorida.bizjournals.com/southflorida/stories/2006/07/03/story8.html">
+  Multiple doctors cut off from records by Dr. Notes</a>
+  (by Brian Bandell)
+  &mdash; An example of how proprietary software gives the developers unjust
+  power over the users.</li>
+ <li><span class="date-tag">[2000]</span>
+  <a href="https://web.archive.org/web/20000815064842/http://oppression.nerdherd.org/Stories/1998/9810/ucla/ucla.html">
+  GNU/Linux discrimination at UCLA</a>
+  (by Dan Helfman)
+  &mdash; One part of their justification is supporting the power of
+  software owners.</li>
+ <li><span class="date-tag">[1999]</span>
+  <a href="https://web.archive.org/web/20130723003646/http://www.heise.de/tp/artikel/2/2898/1.html">
+  Only NSA can listen, so that's OK</a>, and <a
+  href="https://www.heise.de/tp/features/How-NSA-access-was-built-into-Windows-3444341.html">
+  How NSA access was built into Windows</a>
+  (both by Duncan Campbell)
+  &mdash; These articles describe how NSA backdoors were hidden in
+  proprietary software programs.  Both are clear demonstrations of how
+  users of proprietary software can often be unaware of what they are
+  actually running.</li>
+</ul>
+
+<h3 id="humor">Philosophical Humor</h3>
+
+<ul class="no-bullet">
+ <li><span class="date-tag">[2011]</span>
+  <a href="https://maxbarry.com/2011/03/23/news.html">
+  Tomato parable</a>
+  (by Max Barry)</li>
+ <li><span class="date-tag">[2009]</span>
+  <a href="https://web.archive.org/web/20190924041236/http://www.gianoziaorientale.org/info/foreign_politics.html">
+  Eastern Gianozia</a>
+  &mdash; A tongue-in-cheek look at software patents and DRM.</li>
+ <li><span class="date-tag">[2001]</span>
+  <a href="https://web.archive.org/web/20211118053107/http://wearcam.org/seatsale/index.htm">
+  Seat Sale</a>
+  (by Steve Mann)
+  &mdash; A satire about copyright.</li>
+ <li><span class="date-tag">[2000]</span>
+  <a href="/philosophy/bdk.html">
+  The Ballad of Dennis Karjala</a>
+  (by Timothy R. Phillips)
+  &mdash; A political comment in the form of a broadside ballad.</li>
+ <li><span class="date-tag">[2000]</span>
+  <a id="Copyrightfire" href="/philosophy/fire.html">
+  Copyrighting Fire!</a>
+  (by Ian Clarke)</li>
+ <li><span class="date-tag">[2000]</span>
+  <a id="INFOTECH" href="http://www.praxagora.com/andyo/professional/infirmation_technology.html">
+  The Future Brings &ldquo;Infirmation Technology&rdquo;</a>
+  (by Andy Oram)</li>
+</ul>
+
+<!-- NOT LISTED -->
+<!-- Is this reference really useful?
+ <li><span class="date-tag">[2006-2017]</span>
+  <a href="https://web.archive.org/web/20180914161858/http://movingtofreedom.org/archives/">
+  Moving to Freedom</a>
+  &mdash; Scott Carpenter's blog with many freedom-related articles.</li>
+-->
+<!--The archived version is truncated.
+ <li><a
+  href="https://web.archive.org/web/20080703140137/http://www.itworld.com/LWD010523vcontrol4">Live and
+  let license [archived]</a>
+  by Joe Barr.</li>
+-->
+<!-- Available only against a fee.
+ <li><a href="http://www.lulu.com/dcparris/">Penguin in the Pew</a>, Free Software from a Christian perspective.</li>
+-->
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/third-party-ideas" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/third-party-ideas.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/third-party-ideas.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/third-party-ideas.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/third-party-ideas.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/third-party-ideas.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/third-party-ideas.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/third-party-ideas.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/third-party-ideas.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">
+  Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">
+  Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1996-2009, 2015, 2022, 2023 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/05/20 09:41:32 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

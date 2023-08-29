@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Why Open Source Misses the Point of Free Software - GNU Project - 
+Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/open-source-misses-the-point.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/open-source-misses-the-point.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/open-source-misses-the-point.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/open-source-misses-the-point.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/open-source-misses-the-point.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/open-source-misses-the-point.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/open-source-misses-the-point.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/open-source-misses-the-point.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/open-source-misses-the-point.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/philosophy/open-source-misses-the-point.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/open-source-misses-the-point.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/open-source-misses-the-point.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/open-source-misses-the-point.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/philosophy/open-source-misses-the-point.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/open-source-misses-the-point.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/open-source-misses-the-point.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/open-source-misses-the-point.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/open-source-misses-the-point.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/open-source-misses-the-point.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/open-source-misses-the-point.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/philosophy/open-source-misses-the-point.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/open-source-misses-the-point.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/open-source-misses-the-point.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/open-source-misses-the-point.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#free-open">Free&nbsp;software&nbsp;&amp;&nbsp;open&nbsp;source<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Why Open Source Misses the Point of Free Software</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<div class="important"><p>
+The terms &ldquo;free software&rdquo; and &ldquo;open
+source&rdquo; stand for almost the same range of programs.  However,
+they say deeply different things about those programs, based on
+different values.  The free software movement campaigns for freedom
+for the users of computing; it is a movement for freedom and justice.
+By contrast, the open source idea values mainly practical advantage
+and does not campaign for principles.  This is why we do not agree
+with open source, and do not use that term.
+</p></div>
+
+<p>When we call software &ldquo;free,&rdquo; we mean that it respects
+the <a href="/philosophy/free-sw.html">users' essential freedoms</a>:
+the freedom to run it, to study and change it, and to redistribute
+copies with or without changes.  This is a matter of freedom, not
+price, so think of &ldquo;free speech,&rdquo; not &ldquo;free
+beer.&rdquo;</p>
+
+<p>These freedoms are vitally important.  They are essential, not just
+for the individual users' sake, but for society as a whole because they 
+promote social solidarity&mdash;that is, sharing and cooperation.  They 
+become even more important as our culture and life activities are 
+increasingly digitized. In a world of digital sounds, images, and words, 
+free software becomes increasingly essential for freedom in general.</p>
+
+<p>Tens of millions of people around the world now use free software;
+the public schools of some regions of India and Spain now teach all 
+students to use the free <a href="/gnu/linux-and-gnu.html">GNU/Linux 
+operating system</a>.  Most of these users, however, have never heard of 
+the ethical reasons for which we developed this system and built the free 
+software community, because nowadays this system and community are more 
+often spoken of as &ldquo;open source,&rdquo; attributing them to a 
+different philosophy in which these freedoms are hardly mentioned.</p>
+
+<p>The free software movement has campaigned for computer users'
+freedom since 1983.  In 1984 we launched the development of the free
+operating system GNU, so that we could avoid the nonfree operating systems 
+that deny freedom to their users.  During the 1980s, we developed most
+of the essential components of the system and designed
+the <a href="/licenses/gpl.html">GNU General Public License</a> (GNU GPL) 
+to release them under&mdash;a license designed specifically to protect 
+freedom for all users of a program.</p>
+
+<p>Not all of the users and developers of free software
+agreed with the goals of the free software movement.  In 1998, a part
+of the free software community splintered off and began campaigning in
+the name of &ldquo;open source.&rdquo;  The term was originally
+proposed to avoid a possible misunderstanding of the term &ldquo;free
+software,&rdquo; but it soon became associated with philosophical
+views quite different from those of the free software movement.</p>
+
+<p>Some of the supporters of open source considered the term a
+&ldquo;marketing campaign for free software,&rdquo; which would appeal
+to business executives by highlighting the software's practical
+benefits, while not raising issues of right and wrong that they might
+not like to hear.  Other supporters flatly rejected the free software
+movement's ethical and social values.  Whichever their views, when
+campaigning for open source, they neither cited nor advocated those
+values.  The term &ldquo;open source&rdquo; quickly became associated
+with ideas and arguments based only on practical values, such as
+making or having powerful, reliable software.  Most of the supporters
+of open source have come to it since then, and they make the same
+association.  Most discussion of &ldquo;open source&rdquo; pays no
+attention to right and wrong, only to popularity and success; here's
+a <a href="https://linuxinsider.com/story/Open-Source-Is-Woven-Into-the-Latest-Hottest-Trends-78937.html">
+typical example</a>.  A minority of supporters of open source do
+nowadays say freedom is part of the issue, but they are not very visible
+among the many that don't.</p>
+
+<p>The two now
+describe almost the same category of software, but they stand for
+views based on fundamentally different values.  For the
+free software movement, free software is an ethical imperative,
+essential respect for the users' freedom.  By contrast,
+the philosophy of open source considers issues in terms of how to make
+software &ldquo;better&rdquo;&mdash;in a practical sense only.  It
+says that nonfree software is an inferior solution to the practical
+problem at hand.</p>
+
+<p>For the free software movement, however, nonfree software is a
+social problem, and the solution is to stop using it and move to free
+software.</p>
+
+<p>&ldquo;Free software.&rdquo; &ldquo;Open source.&rdquo; If it's the same 
+software (<a href="/philosophy/free-open-overlap.html">or nearly so</a>), 
+does it matter which name you use?  Yes, because different words convey 
+different ideas.  While a free program by any other name would give you the 
+same freedom today, establishing freedom in a lasting way depends above all 
+on teaching people to value freedom.  If you want to help do this, it is 
+essential to speak of &ldquo;free software.&rdquo;</p>
+
+<p>We in the free software movement don't think of the open source
+camp as an enemy; the enemy is proprietary (nonfree) software.  But we
+want people to know we stand for freedom, so we do not accept being
+mislabeled as open source supporters.  What we advocate is not
+&ldquo;open source,&rdquo; and what we oppose is not &ldquo;closed
+source.&rdquo;  To make this clear, we avoid using those terms.
+</p>
+
+<h3>Practical Differences between Free Software and Open Source</h3>
+
+<p>In practice, open source stands for criteria a little looser than
+those of free software.  As far as we know, all existing released free
+software source code would qualify as open source.  Nearly all open
+source software is free software, but there are exceptions.</p>
+
+<p>First, some open source licenses are too restrictive, so they do
+not qualify as free licenses.  For example, Open Watcom is nonfree
+because its license does not allow making a modified version and using
+it privately.  Fortunately, few programs use such licenses.</p>
+
+<p>Second, the criteria for open source are concerned solely with the
+licensing of the source code.  However, people often describe an
+executable as &ldquo;open source,&rdquo; because its source code is
+available that way.  That causes confusion in paradoxical situations
+where the source code is open source (and free) but the executable
+itself is nonfree.</p>
+
+<p>The trivial case of this paradox is when a program's source code
+carries a weak free license, one without copyleft, but its executables
+carry additional nonfree conditions.  Supposing the executables
+correspond exactly to the released sources&mdash;which may or may not
+be so&mdash;users can compile the source code to make and distribute
+free executables.  That's why this case is trivial; it is no grave
+problem.</p>
+
+<p>The nontrivial case is harmful and important.  Many products
+containing computers check signatures on their executable programs to
+block users from effectively using different executables; only one
+privileged company can make executables that can run in the device and
+use its full capabilities.  We call these devices
+&ldquo;tyrants,&rdquo; and the practice is called
+&ldquo;tivoization&rdquo; after the product (Tivo) where we first saw
+it.  Even if the executable is made from free source code, and
+nominally carries a free license, the users cannot usefully run
+modified versions of it, so the executable is de-facto nonfree.</p>
+
+<p>Many Android products contain nonfree tivoized executables of
+Linux, even though its source code is under GNU GPL version 2.  (We
+designed GNU GPL version 3 to prohibit this practice; too bad Linux
+did not adopt it.)  These executables, made from source code that is
+open source and free, are generally spoken of as &ldquo;open
+source,&rdquo; but they are <em>not</em> free software.</p>
+
+<h3>Common Misunderstandings of &ldquo;Free Software&rdquo; and
+&ldquo;Open Source&rdquo;</h3>
+
+<p>The term &ldquo;free software&rdquo; is prone to misinterpretation:
+an unintended meaning, &ldquo;software you can get
+for zero price,&rdquo; fits the term just as well as the intended
+meaning, &ldquo;software which gives the user certain freedoms.&rdquo;
+We address this problem by publishing the definition of free software,
+and by saying &ldquo;Think of &lsquo;free speech,&rsquo; not &lsquo;free 
+beer.&rsquo;&rdquo; This is not a perfect solution; it cannot completely 
+eliminate the problem. An unambiguous and correct term would be better, if 
+it didn't present other problems.</p>
+
+<p>Unfortunately, all the alternatives in English have problems of
+their own.  We've looked at many that people have
+suggested, but none is so clearly &ldquo;right&rdquo; that switching
+to it would be a good idea.  (For instance, in some contexts the
+French and Spanish word &ldquo;libre&rdquo; works well, but people in India 
+do not recognize it at all.)  Every proposed replacement for
+&ldquo;free software&rdquo; has some kind of semantic problem&mdash;and 
+this includes &ldquo;open source software.&rdquo;</p>
+
+<p>The <a href="https://opensource.org/osd">official definition of
+open source software</a> (which is published by the Open
+Source Initiative and is too long to include here) was derived
+indirectly from our criteria for free software.  It is not the same;
+it is a little looser in some respects.  Nonetheless, their definition
+agrees with our definition in most cases.</p>
+
+<p>However, the obvious meaning for the expression &ldquo;open source
+software&rdquo; is &ldquo;You can look at the source code.&rdquo;
+Indeed, most people seem to misunderstand &ldquo;open source
+software&rdquo; that way.  (The clear term for that meaning is
+&ldquo;source available.&rdquo;) That criterion is much weaker than
+the free software definition, much weaker also than the official
+definition of open source.  It includes many programs that are neither
+free nor open source.</p>
+
+<p>Why do people misunderstand it that way?  Because that is the
+natural meaning of the words &ldquo;open source.&rdquo; But the
+concept for which the open source advocates sought another name was
+a variant of that of free software.</p>
+
+<p>Since the obvious meaning for &ldquo;open source&rdquo; is not the
+meaning that its advocates intend, the result is that most people
+misunderstand the term.  According to writer Neal Stephenson,
+&ldquo;Linux is &lsquo;open source&rsquo; software meaning, simply,
+that anyone can get copies of its source code files.&rdquo; I don't
+think he deliberately sought to reject or dispute the official
+definition.  I think he simply applied the conventions of the English
+language to come up with a meaning for the term.  The <a 
+href="https://web.archive.org/web/20001011193422/http://da.state.ks.us/ITEC/TechArchPt6ver80.pdf">state
+of Kansas</a> published a similar definition: &ldquo;Make use of
+open-source software (OSS).  OSS is software for which the source code
+is freely and publicly available, though the specific licensing
+agreements vary as to what one is allowed to do with that
+code.&rdquo;</p>
+
+<p>The <cite>New York Times</cite> <a
+href="https://www.nytimes.com/external/gigaom/2009/02/07/07gigaom-the-brave-new-world-of-open-source-game-design-37415.html">
+ran an article that stretched the meaning of the term</a> to refer to
+user beta testing&mdash;letting a few users try an early version and
+give confidential feedback&mdash;which proprietary software developers
+have practiced for decades.</p>
+
+<p>The term has even been stretched to include designs for equipment
+that
+are <a href="https://www.theguardian.com/sustainable-business/2015/aug/27/texas-teenager-water-purifier-toxic-e-waste-pollution">published
+without a patent</a>.  Patent-free equipment designs can be laudable
+contributions to society, but the term &ldquo;source code&rdquo; does
+not pertain to them.</p>
+
+<p>Open source supporters try to deal with this by pointing to their
+official definition, but that corrective approach is less effective
+for them than it is for us.  The term &ldquo;free software&rdquo; has
+two natural meanings, one of which is the intended meaning, so a
+person who has grasped the idea of &ldquo;free speech, not free
+beer&rdquo; will not get it wrong again.  But the term &ldquo;open
+source&rdquo; has only one natural meaning, which is different from
+the meaning its supporters intend.  So there is no succinct way to
+explain and justify its official definition.  That makes for worse 
+confusion.</p>
+
+<p>Another misunderstanding of &ldquo;open source&rdquo; is the idea
+that it means &ldquo;not using the GNU GPL.&rdquo; This tends to
+accompany another misunderstanding that &ldquo;free software&rdquo;
+means &ldquo;GPL-covered software.&rdquo; These are both mistaken,
+since the GNU GPL qualifies as an open source license and most of the
+open source licenses qualify as free software licenses.  There
+are <a href="/licenses/license-list.html"> many free software
+licenses</a> aside from the GNU GPL.</p>
+
+<p>The term &ldquo;open source&rdquo; has been further stretched by
+its application to other activities, such as government, education,
+and science, where there is no such thing as source code, and where
+criteria for software licensing are simply not pertinent.  The only
+thing these activities have in common is that they somehow invite
+people to participate.  They stretch the term so far that it only
+means &ldquo;participatory&rdquo; or &ldquo;transparent,&rdquo; or
+less than that.  At worst, it
+has <a href="https://www.nytimes.com/2013/03/17/opinion/sunday/morozov-open-and-closed.html">
+become a vacuous buzzword</a>.</p>
+
+<h3>Different Values Can Lead to Similar Conclusions&mdash;but Not Always</h3>
+
+<p>Radical groups in the 1960s had a reputation for factionalism: some
+organizations split because of disagreements on details of strategy,
+and the two daughter groups treated each other as enemies despite
+having similar basic goals and values.  The right wing made much of
+this and used it to criticize the entire left.</p>
+
+<p>Some try to disparage the free software movement by comparing our
+disagreement with open source to the disagreements of those radical
+groups.  They have it backwards.  We disagree with the open source
+camp on the basic goals and values, but their views and ours lead in
+many cases to the same practical behavior&mdash;such as developing
+free software.</p>
+
+<p>As a result, people from the free software movement and the open
+source camp often work together on practical projects such as software
+development.  It is remarkable that such different philosophical views
+can so often motivate different people to participate in the same
+projects.  Nonetheless, there are situations where these fundamentally
+different views lead to very different actions.</p>
+
+<p>The idea of open source is that allowing users to change and
+redistribute the software will make it more powerful and reliable.
+But this is not guaranteed.  Developers of proprietary software are
+not necessarily incompetent.  Sometimes they produce a program that
+is powerful and reliable, even though it does not respect the users'
+freedom.   Free software activists and open source enthusiasts will
+react very differently to that.</p>
+
+<p>A pure open source enthusiast, one that is not at all influenced by
+the ideals of free software, will say, &ldquo;I am surprised you were able
+to make the program work so well without using our development model,
+but you did.  How can I get a copy?&rdquo;  This attitude will reward
+schemes that take away our freedom, leading to its loss.</p>
+
+<p>The free software activist will say, &ldquo;Your program is very
+attractive, but I value my freedom more.  So I reject your program.  I
+will get my work done some other way, and support a project to develop
+a free replacement.&rdquo; If we value our freedom, we can act to
+maintain and defend it.</p>
+
+<h3>Powerful, Reliable Software Can Be Bad</h3>
+
+<p>The idea that we want software to be powerful and reliable comes
+from the supposition that the software is designed to serve its users.
+If it is powerful and reliable, that means it serves them better.</p>
+
+<p>But software can be said to serve its users only if it respects
+their freedom.  What if the software is designed to put chains on its
+users?  Then powerfulness means the chains are more constricting,
+and reliability that they are harder to remove.  Malicious features,
+such as spying on the users, restricting the users, back doors, and
+imposed upgrades are common in proprietary software, and some open
+source supporters want to implement them in open source programs.</p>
+
+<p>Under pressure from the movie and record companies, software for
+individuals to use is increasingly designed specifically to restrict
+them.  This malicious feature is known as Digital Restrictions
+Management (DRM) (see <a
+href="https://defectivebydesign.org">DefectiveByDesign.org</a>) and is
+the antithesis in spirit of the freedom that free software aims
+to provide.  And not just in spirit: since the goal of DRM is to
+trample your freedom, DRM developers try to make it hard, impossible,
+or even illegal for you to change the software that implements the DRM.</p>
+
+<p>Yet some open source supporters have proposed &ldquo;open source
+DRM&rdquo; software.  Their idea is that, by publishing the source code
+of programs designed to restrict your access to encrypted media and by
+allowing others to change it, they will produce more powerful and
+reliable software for restricting users like you.  The software would then 
+be delivered to you in devices that do not allow you to change it.</p>
+
+<p>This software might be open source and use the open
+source development model, but it won't be free software since it
+won't respect the freedom of the users that actually run it.  If the
+open source development model succeeds in making this software more
+powerful and reliable for restricting you, that will make it even
+worse.</p>
+
+<h3>Fear of Freedom</h3>
+
+<p>The main initial motivation of those who split off the open source
+camp from the free software movement was that the ethical ideas of
+free software made some people uneasy.  That's true: raising 
+ethical issues such as freedom, talking about responsibilities as well as
+convenience, is asking people to think about things they might prefer
+to ignore, such as whether their conduct is ethical.  This can trigger
+discomfort, and some people may simply close their minds to it.  It
+does not follow that we ought to stop talking about these issues.</p>
+
+<p>That is, however, what the leaders of open source
+decided to do.  They figured that by keeping quiet about ethics and
+freedom, and talking only about the immediate practical benefits of
+certain free software, they might be able to &ldquo;sell&rdquo; the
+software more effectively to certain users, especially business.</p>
+
+<p>When open source proponents talk about anything deeper than that,
+it is usually the idea of making a &ldquo;gift&rdquo; of source code
+to humanity.  Presenting this as a special good deed, beyond what is
+morally required, presumes that distributing proprietary software
+without source code is morally legitimate.</p>
+
+<p>This approach has proved effective, in its own terms.  The rhetoric
+of open source has convinced many businesses and individuals to use,
+and even develop, free software, which has extended our
+community&mdash;but only at the superficial, practical level.  The
+philosophy of open source, with its purely practical values, impedes
+understanding of the deeper ideas of free software; it brings many
+people into our community, but does not teach them to defend it.  That
+is good, as far as it goes, but it is not enough to make freedom
+secure.  Attracting users to free software takes them just part of the
+way to becoming defenders of their own freedom.</p>
+
+<p>Sooner or later these users will be invited to switch back to
+proprietary software for some practical advantage.  Countless
+companies seek to offer such temptation, some even offering copies
+gratis.  Why would users decline?  Only if they have learned to value
+the freedom free software gives them, to value freedom in and of itself 
+rather than the technical and practical convenience of specific free
+software.  To spread this idea, we have to talk about freedom.  A
+certain amount of the &ldquo;keep quiet&rdquo; approach to business can be
+useful for the community, but it is dangerous if it becomes so common
+that the love of freedom comes to seem like an eccentricity.</p>
+
+<p>That dangerous situation is exactly what we have.  Most people
+involved with free software, especially its distributors, say little about 
+freedom&mdash;usually because they seek to be &ldquo;more acceptable to 
+business.&rdquo; Nearly all GNU/Linux operating system distributions add 
+proprietary packages to the basic free system, and they invite users to 
+consider this an advantage rather than a flaw.</p>
+
+<p>Proprietary add-on software and partially nonfree GNU/Linux
+distributions find fertile ground because most of our community does
+not insist on freedom with its software.  This is no coincidence.
+Most GNU/Linux users were introduced to the system through &ldquo;open
+source&rdquo; discussion, which doesn't say that freedom is a goal.
+The practices that don't uphold freedom and the words that don't talk
+about freedom go hand in hand, each promoting the other.  To overcome
+this tendency, we need more, not less, talk about freedom.</p>
+
+<h3>&ldquo;FLOSS&rdquo; and &ldquo;FOSS&rdquo;</h3>
+
+<p> The terms &ldquo;FLOSS&rdquo; and &ldquo;FOSS&rdquo; are used to
+be <a href="/philosophy/floss-and-foss.html"> neutral between free
+software and open source</a>.  If neutrality is your goal,
+&ldquo;FLOSS&rdquo; is the better of the two, since it really is
+neutral.  But if you want to stand up for freedom, using a neutral
+term isn't the way.  Standing up for freedom entails showing people
+your support for freedom.</p>
+
+<h3>Rivals for Mindshare</h3>
+
+<p>&ldquo;Free&rdquo; and &ldquo;open&rdquo; are rivals for mindshare.
+Free software and open source are
+different ideas but, in most people's way of looking at software, they
+compete for the same conceptual slot.  When people become habituated
+to saying and thinking &ldquo;open source,&rdquo; that is an obstacle
+to their grasping the free software movement's philosophy and thinking
+about it.  If they have already come to associate us and our software
+with the word &ldquo;open,&rdquo; we may need to shock them intellectually
+before they recognize that we stand for something <em>else</em>.
+Any activity that promotes the word &ldquo;open&rdquo; tends to
+extend the curtain that hides the ideas of the free software
+movement.</p>
+
+<p>Thus, free software activists are well advised to decline to work
+on an activity that calls itself &ldquo;open.&rdquo;  Even if the
+activity is good in and of itself, each contribution you make does a
+little harm on the side by promoting the open source idea.  There are
+plenty of other good activities which call themselves
+&ldquo;free&rdquo; or &ldquo;libre.&rdquo; Each contribution to those
+projects does a little extra good on the side.  With so many useful
+projects to choose from, why not choose one which does extra good?</p>
+
+<h3>Conclusion</h3>
+
+<p>As the advocates of open source draw new users into our community,
+we free software activists must shoulder the task of bringing the issue
+of freedom to their attention.  We have to say, &ldquo;It's
+free software and it gives you freedom!&rdquo;&mdash;more and louder
+than ever.  Every time you say &ldquo;free software&rdquo; rather than
+&ldquo;open source,&rdquo; you help our cause.</p>
+<div class="column-limit"></div>
+
+<h3 class="footnote">Note</h3>
+
+<!-- The article is incomplete (#793776) as of 21st January 2013.
+<p>
+Joe Barr's article, 
+<a href="http://www.itworld.com/LWD010523vcontrol4">&ldquo;Live and
+let license,&rdquo;</a> gives his perspective on this issue.</p>
+--> 
+<p>
+Lakhani and Wolf's <a 
+href="https://ocw.mit.edu/courses/sloan-school-of-management/15-352-managing-innovation-emerging-trends-spring-2005/readings/lakhaniwolf.pdf">
+paper on the motivation of free software developers</a> says that a 
+considerable fraction are motivated by the view that software should be 
+free. This is despite the fact that they surveyed the developers on 
+SourceForge, a site that does not support the view that this is an ethical 
+issue.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/open-source-misses-the-point" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/open-source-misses-the-point.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/open-source-misses-the-point.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/open-source-misses-the-point.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/open-source-misses-the-point.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[el]&nbsp;<a lang="el" hreflang="el" href="/philosophy/open-source-misses-the-point.el.html">ελληνικά</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/open-source-misses-the-point.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/open-source-misses-the-point.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/open-source-misses-the-point.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hr]&nbsp;<a lang="hr" hreflang="hr" href="/philosophy/open-source-misses-the-point.hr.html">hrvatski</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/open-source-misses-the-point.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/open-source-misses-the-point.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/philosophy/open-source-misses-the-point.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[ml]&nbsp;<a lang="ml" hreflang="ml" href="/philosophy/open-source-misses-the-point.ml.html">മലയാളം</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/open-source-misses-the-point.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/open-source-misses-the-point.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/open-source-misses-the-point.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/open-source-misses-the-point.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/open-source-misses-the-point.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/open-source-misses-the-point.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[ta]&nbsp;<a lang="ta" hreflang="ta" href="/philosophy/open-source-misses-the-point.ta.html">தமிழ்</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/open-source-misses-the-point.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/open-source-misses-the-point.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/open-source-misses-the-point.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2007, 2010, 2012-2016, 2019-2022 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/02/03 01:56:01 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

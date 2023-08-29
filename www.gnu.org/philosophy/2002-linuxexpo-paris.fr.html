@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+<link rel="translated" href="mailto:trad-gnu&#64;april.org" />
+
+
+
+<!-- Parent-Version: 1.97 -->
+
+<title>L'éthique du logiciel libre
+- Projet GNU - Free Software Foundation</title>
+
+<style type="text/css" media="print,screen"><!--
+.bruits { color: #555; font-size:.94em; }
+--></style>
+
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/2002-linuxexpo-paris.fr.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/2002-linuxexpo-paris.fr.html" title="français" />
+<!-- end translist file -->
+
+<!-- start of banner.fr.html -->
+
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- end of head-include-2.html -->
+
+<link rel="stylesheet" type="text/css" href="/style.fr.css" media="all" />
+</head>
+<body>
+<div class="inner">
+
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Lire l'article</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" /> <input type="hidden"
+name="group[25]" value="1" /> <input name="cancelURL" type="hidden"
+value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" /> <input
+name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a> (traduit):
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18"
+maxlength="80" value="adresse courriel" onfocus="this.value=''" /> <input
+type="submit" name="_qf_Edit_next" value="S'abonner" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">ADHÉRER&nbsp;À&nbsp;LA&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt=" [une tête de GNU] " /><span class="hide">Système
+d'exploitation&nbsp;</span><strong>GNU</strong></a><br />
+ <small id="fsf-support">Soutenu par la <a href="#mission-statement">Free
+Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt=" [Rechercher sur www.gnu.org] " /></a>
+ </div>
+
+ 
+</div>
+</div>
+
+<!-- end of server/body-include-1.html -->
+
+
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="Suite..."> <span>Naviguer sur
+le site</span></a> <a id="less-links" href="#content"><b>Sauter le
+menu</b></a>
+ <ul>
+
+  
+<li id="tabAboutGNU"><a href="/gnu/gnu.html">À PROPOS</a></li>
+
+
+
+<li id="tabPhilosophy" class="active">
+    
+     <span class='no-display'>=</span> 
+<a href="/philosophy/philosophy.html">PHILOSOPHIE</a>
+    
+    
+   <span class='no-display'>=</span> 
+</li>
+
+  
+
+<li id="tabLicenses"><a href="/licenses/licenses.html">LICENCES</a></li>
+
+
+
+<li id="tabEducation"><a href="/education/education.html">ÉDUCATION</a></li>
+
+
+
+<li id="tabSoftware"><a href="/software/software.html">LOGICIELS</a></li>
+
+
+
+<li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+
+<li id="tabDoc"><a href="/doc/doc.html">DOC</a></li>
+
+
+
+<li id="tabMalware"><a href="/proprietary/proprietary.html">MALICIELS</a></li>
+
+
+
+<li id="tabHelp"><a href="/help/help.html">AIDEZ GNU</a></li>
+
+
+
+<li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO &amp; VIDÉO</a></li>
+
+
+
+<li id="tabArt"><a href="/graphics/graphics.html">ART GNU</a></li>
+
+
+
+<li id="tabFun"><a href="/fun/humor.html">HUMOUR</a></li>
+
+
+
+<li id="tabPeople"><a href="/people/people.html">TROMBINOSCOPE</a></li>
+
+  
+<li><a href="//directory.fsf.org">RÉPERTOIRE LOGICIEL</a></li>
+  <li><a href="https://h-node.org/">MATÉRIEL</a></li>
+  <li><a href="/server/sitemap.html">PLAN DU SITE</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div>
+
+<!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+
+
+
+
+
+
+
+<!-- end of banner.fr.html -->
+
+<div class="breadcrumb" role="navigation">
+
+<a href="/">
+<img src="/graphics/icons/home.png" height="26" width="26"
+   alt="Accueil GNU" title="Accueil GNU" /></a>&nbsp;/
+
+<a href="/philosophy/philosophy.html#content">
+Philosophie</a>&nbsp;/
+
+
+<a href="/philosophy/speeches-and-interviews.html#content">
+Discours et entretiens</a>&nbsp;/
+
+</div>
+
+<div class="reduced-width">
+
+<h2>L'éthique du logiciel libre</h2>
+
+<address class="byline">Richard Stallman</address>
+
+<p>Titre complet : <cite>L'éthique du système GNU/Linux et de la
+communauté des logiciels libres, les tâches à accomplir et les risques à
+envisager</cite>,<br />
+discours donné en français à LinuxExpo&nbsp;Paris (CNIT de La Défense) le
+30&nbsp;janvier&nbsp;2002&nbsp; (<a
+href="//audio-video.gnu.org/audio/francais/rms-speech-paris-30-jan-2002.ogg">enregistrement
+audio</a>)</p>
+<hr class="thin" />
+
+<div class="article">
+<p>
+<i class="bruits">[Début de l'enregistrement]</i></p>
+
+<p>
+Il s'agit du logiciel libre.
+Mais qu'est-ce que ça veut dire le logiciel libre&nbsp;?</p>
+
+<p>
+Je peux décrire le logiciel libre en trois mots&nbsp;: liberté, égalité,
+fraternité.</p>
+
+<p>
+<i class="bruits">[Applaudissements]</i></p>
+
+<p>
+Liberté, parce que tout le monde est libre d'utiliser le programme de
+toutes les manières utiles, rechercher dans le code ce que fait
+vraiment le programme, faire des améliorations ou des changements
+personnels selon les besoins, partager le programme avec le voisin,
+sortir une version améliorée pour que les autres puissent avoir plus
+de fonctionnalités.</p>
+
+<p>
+Un programme libre appartient à la connaissance humaine&nbsp;; un programme
+propriétaire, non. Avec un [logiciel] propriétaire, l'utilisateur a
+perdu la liberté, surtout la liberté de coopérer avec le voisin. C'est
+pour ça que la Fraternité entre&nbsp;; parce que Fraternité veut dire&nbsp;:
+aider le voisin. Mais comment aider le voisin si c'est interdit de le
+faire&nbsp;? Le logiciel propriétaire c'est l'interdiction de la
+fraternité.</p>
+
+<p>
+Égalité, parce que tout le monde possède les même droits dans
+l'utilisation du programme. Il ne faut pas être privilégié pour
+pouvoir utiliser le programme. Pas besoin d'être privilégié pour
+pouvoir faire des changements ou même regarder ce que fait vraiment le
+programme, s'il fait des nuisances ou non.</p>
+
+<p>
+Dans les années 80, depuis le lancement du mouvement en 1984, quand
+j'ai commencé à écrire le système d'exploitation GNU, les gens pour la
+plupart se moquaient de l'idée de logiciel libre. Parfois ils
+disaient &laquo;&nbsp;Ah oui, c'est une bonne idée théoriquement mais
+vous n'arriverez jamais à avoir un système d'exploitation entièrement
+libre. C'est un rêve.&nbsp;&raquo;</p>
+
+<p>
+Mais dans les années 90, quand nous étions arrivés à avoir un système
+entier, le système GNU avec Linux le noyau, il y avait beaucoup de
+gens attirés par le logiciel libre, par les bienfaits techniques, par
+les avantages comme puissance et fiabilité. Et parmi eux, il y en
+avait beaucoup qui n'étaient pas conscients des issues, des questions
+éthiques, politiques, sociales. Pour lesquels il ne s'agissait que de
+rentabilité, d'efficacité, de fiabilité au lieu de liberté, d'égalité,
+et de fraternité. C'est ça l'origine du mouvement &laquo;&nbsp;open source&nbsp;&raquo;.
+Parmi ces gens qui ne désiraient pas parler des questions éthiques ou politiques,
+qui désiraient au contraire éviter ces questions. Dans l'année 98, ils
+ont lancé leur mouvement &laquo;&nbsp;open source&nbsp;&raquo; qui évite de manière studieuse
+d'aborder ces questions. Ils ne parlent que des bienfaits pratiques
+et je suppose que parmi les conférenciers avant moi, vous avez entendu
+beaucoup de ces idées. Il incombe à moi d'ajouter ce qu'ils ne disent
+pas.</p>
+
+<p>
+Je ne veux pas dire que ces gens ne font rien d'utile parce qu'ils ont
+écrit beaucoup de logiciels libres qui maintenant font partie du
+système GNU/Linux. Ils sont, pas tous mais beaucoup, sont des vrais
+contributeurs de la communauté des logiciels libres. Mais l'omission
+des questions politiques est très dangereuse pour notre avenir. Cette
+omission est devenue plus fréquente parce que les gens ont trouvé deux
+manières de cacher l'origine de la communauté de la vue des
+utilisateurs pour la plupart. Deux confusions qui ont cet effet.</p>
+
+<p>
+La première confusion c'est entre GNU et Linux. Vous pouvez voir
+beaucoup d'affiches disant Linux, voici Linux Expo, Linux Monde.
+Beaucoup de monde a l'idée que le système entier c'est Linux. Et que
+le développement du système entier a commencé en 91, a été commencé
+par Linus Torvalds et avec pour but seulement de s'amuser, aucun but
+plus profond que ça. Ce n'est pas vrai. Dans les détails ce n'est
+pas vrai mais peut-être une erreur des détails ne fait pas beaucoup de
+mal. Si on suppose que le développement a commencé en 91 au lieu de
+84 ça ne fait rien. Cela amène les gens à supposer que le système
+existe seulement pour s'amuser pas pour libérer les utilisateurs des
+ordinateurs et ça c'est une erreur très profonde et très dangereuse
+parce que ça facilite aux gens d'éviter les questions éthiques et
+politiques. Il est très facile de parler toute la journée au sujet de
+Linux sans aborder ces questions les plus importantes. Il y a un an,
+j'ai fait une intervention à ce sujet, et puis quelqu'un dans
+l'assistance est venu me dire &laquo;&nbsp;Ça fait cinq ans que je
+travaille dans la communauté et voici la première fois que quelqu'un
+m'a mentionné qu'il y a une question de liberté au fond&nbsp;&raquo;.
+La connaissance de la question de liberté, égalité, fraternité est
+presque perdue dans notre communauté. Il faut des efforts pour
+éduquer les gens, pour diffuser la conscience de ces questions. Il
+vous faut des efforts, moi je ne suffis pas.</p>
+
+<p>
+La deuxième confusion c'est l'idée de confondre le mouvement des
+logiciels libres avec l'autre mouvement &laquo;&nbsp;open source&nbsp;&raquo;.
+Les gens de &laquo;&nbsp;open source&nbsp;&raquo; ont le droit légitime de
+promouvoir leurs opinions, bien sûr.
+Mais ils ont attaché leur étiquette à notre travail et à nous, ce qui
+n'est pas correct. Souvent il y a des articles dans la presse qui
+m'identifient comme &laquo;&nbsp;père du mouvement open
+source&nbsp;&raquo; et chaque jour je reçois des courriers où les gens
+m'invitent à faire un travail avec eux au nom d'&laquo;&nbsp;open source&nbsp;&raquo;.
+C'est vraiment ironique et triste. Que dire à quelqu'un qui me félicite
+pour le grand succès d'&laquo;&nbsp;open source&nbsp;&raquo; croyant que je suis
+adhérent de ce mouvement&nbsp;? Peut-être se tromper du nom ce n'est pas grand chose mais
+avec l'autre nom il y a d'autres idées aussi et voilà le problème
+parce que les gens qui pensent que je suis adhérent de l'autre
+mouvement supposent que je suis d'accord avec leurs idées, ce que je
+ne suis pas. Et les idées qui nous ont livré ce système libre peuvent
+facilement être oubliées et perdues si nous ne faisons pas des efforts
+pour les garder dans la conscience du public. Mais si les gens
+écrivent du logiciel libre, est ce qu'il signifie grand chose qu'ils
+ne disent pas liberté, qu'ils ne disent pas logiciel libre&nbsp;? Peut-être
+oui, peut-être non. Ça dépend des circonstances. Parce que quand il
+n'y a pas d'obstacle, quand il ne s'agit que de faire l'effort
+d'écrire un programme, peut-être les motivations n'importent pas. Il
+y en a assez de gens motivés par les idées de &laquo;&nbsp;open source&nbsp;&raquo;
+à écrire des programmes libres. Bien, si nous arrivons à avoir assez de programmes
+comme ça, il n'y a pas de problème. Mais parfois il y a des
+obstacles, des obstacles très grands, des obstacles très difficiles à
+surmonter, et même des interdictions légales à écrire des programmes
+libres. Et quand il s'agit de se battre pendant des années contre des
+obstacles imposés au public, il faut une motivation très forte. Le
+désir de s'amuser ne suffit pas pour ça. Pour écrire un programme,
+oui. Parce que pour les grands développeurs c'est vraiment très
+amusant d'écrire un programme puissant et très utile. Mais pour se
+battre contre l'opposition il faut quelque chose de plus fort. Il
+faut la motivation de défendre nos libertés.</p>
+
+<p>
+C'est comme ça que les gens seulement éduqués dans le mouvement &laquo;&nbsp;open
+source&nbsp;&raquo; sont prêts à accepter le manque de logiciels libres pour cette
+tâche-ci ou cette tâche-là quand il y a un tel obstacle. Par exemple,
+aujourd'hui il n'est pas rare que les fabricants de matériel ne
+divulguent pas le mode d'emploi. C'est secret. La seule chose
+qu'ils offrent c'est des pilotes binaires, sans code source, pas
+libres. Qu'est-ce qu'il faut faire&nbsp;? Il ne s'agit pas que d'écrire un
+programme parce que les détails de ce qu'il faut faire ne sont pas
+disponibles à notre communauté. Que faire&nbsp;? Il y a deux chemins. Le
+chemin de reverse-engineering [ingénierie à rebours], ce qui est un
+très grand travail que les fabricants cherchent à interdire. Il y a
+aussi le chemin de pression du marché, inciter les gens à ne pas
+acheter ce matériel mais ça aussi exige un effort, un effort qui ne se
+fait pas beaucoup. Nous avons besoin des gens pour organiser cet
+effort dans le marché, le boycottage de ces produits avec le mode
+d'emploi secret. J'ai maintenant un laptop [ordinateur portable] où
+j'utilise le système GNU/Linux libre mais dans la version nouvelle du
+même produit, le système libre ne fonctionne pas. Techniquement, le
+système de fenêtrage ne fonctionne pas dans une version libre. Il y a
+une version binaire, pas libre, offerte par le fabricant. Ce n'est
+pas acceptable parce qu'elle ne respecte pas nos libertés. Comment
+organiser les gens au refus de ce produit&nbsp;? Est ce qu'il y a quelqu'un
+qui veut faire ce travail&nbsp;? Parce que si oui, il faut m'envoyer un
+courrier. Je veux bien lancer des efforts dans ce champ.</p>
+
+<p>
+Il y a des problèmes bien plus grands&nbsp;: les interdictions légales
+contre le développement des programmes libres pour ce travail-ci ou ce
+travail-là. L'Europe vient d'accepter une directive européenne
+interdisant le développement indépendant des programmes pour accéder
+aux données publiées d'une manière cryptée, comme les disques vidéo,
+comme la musique Real Audio, comme les livres électroniques. À bas
+les livres électroniques, j'espère qu'ils feront tous faillite.
+<i class="bruits">[Applaudissements]</i> Je n'ai rien contre l'idée de lire des livres sur
+l'écran. Si ça vous convient, bien. Mais si un livre ne vous vous
+offre pas le droit de le prêter au voisin, de le vendre en livre
+d'occasion ou de l'acheter sans donner votre nom à une base de
+données, si un livre ne vous offre pas le droit de le garder
+[indéfiniment] et de le lire [un nombre de fois illimité], il faut le
+refuser. C'est une loi très dangereuse qu'il faut chercher toujours
+à annuler. C'est comme la loi américaine DMCA au nom de laquelle
+Dimitri S. a été arrêté aux États-Unis. Il [y a eu une époque] où les
+visiteurs américains en Russie étaient en danger d'être arrêter pour
+des raisons idiotes. Maintenant c'est l'inverse.</p>
+
+<p>
+Mais [il y a] même pire&nbsp;: c'est le danger des brevets informatiques&nbsp;;
+parce que n'importe quel travail dans n'importe quel champ de
+l'informatique peut être interdit par un brevet si il y a des brevets
+informatiques. Mais cette question, avoir ou ne pas avoir des
+brevets, c'est une question politique. Vivre en Europe maintenant, la
+communauté des logiciels libres a fait des grands efforts pour
+empêcher l'acceptation des brevets informatiques en Europe. Ici en
+France il y a de l'opposition parmi les officiels mais il faut qu'ils
+reçoivent beaucoup d'opposition de chez le public. Il faut dire à vos
+députés que vous êtes contre les brevets informatiques. Et pourquoi
+est-ce que les brevets informatiques sont si dangereux&nbsp;? C'est parce
+que n'importe quelle idée, n'importe quelle manière de manipulation
+des données, n'importe quelle fonctionnalité peut être brevetée. Il ne
+s'agit pas de breveter un programme&nbsp;; cela ne serait pas si dangereux
+de breveter un programme. Parce que comme ça si vous écrivez un autre
+programme, pas de problème. Mais le problème existe parce que le
+brevet s'applique à une idée et si vous écrivez un programme utilisant
+cette idée, c'est interdit. Mais dans chaque programme il faut
+utiliser beaucoup, beaucoup d'idées&nbsp;; il faut utiliser les idées déjà
+connues. Personne n'est assez intelligent pour réinventer de nouveau
+l'informatique. Pour écrire un programme, un programme innovant, il
+faut avoir de nouvelles idées à mélanger, à combiner avec les idées
+déjà connues. Il faut faire un grand travail, écrire des lignes de
+code, des détails, pour implémenter les idées en combinaison. Mais si
+une de ces idées est brevetée par quelqu'un d'autre déjà, le programme
+est interdit. C'est comme ça que les brevets informatiques gênent
+même le progrès de l'informatique. Ce qui est amusant parce que le
+but supposé du système de brevets c'est d'inciter le progrès, et dans
+notre champ, l'informatique, le résultat est le contraire. Mais c'est
+surtout néfaste pour le logiciel libre parce que pour une entreprise
+qui développe un programme propriétaire, il y a peut-être la
+possibilité de négocier les licences pour l'utilisation des idées
+brevetées. Pour nous c'est très très difficile, nous ne pouvons pas
+payer pour ces licences. Pour la plupart, pas toujours, il y a des
+entreprises qui développent du logiciel libre comme vous avez vu ce
+matin, la plupart des développeurs sont des individus qui le font pour
+des buts non-lucratifs, qui ne peuvent donc pas payer pour être permis
+de servir l'humanité. Prière donc de vous mettre en contact avec
+votre député à ce sujet&nbsp;; cherchez à APRIL et à EuroLinux (même si
+cette organisation porte un nom incorrect, elle fait des travaux très
+utiles dans ce champ) pour des avis au sujet de comment agir contre
+les brevets informatiques.</p>
+
+<p>
+Bien&nbsp;; à ce moment je crois que je dois demander des questions.</p>
+
+<dl>
+<dt>[Question inaudible]</dt>
+
+<dd>Ma conception de servir l'humanité&nbsp;? Il y a beaucoup de choses à
+faire&nbsp;; vous pouvez imaginer beaucoup de choses. Mais pour servir
+l'humanité avec le logiciel, il faut que le logiciel soit libre, parce
+que le logiciel libre fait partie de la connaissance humaine. Le
+logiciel propriétaire est dépourvu à la connaissance humaine.</dd>
+
+<dt>[Question inaudible]</dt>
+
+<dd>Qui a entendu&nbsp;?</dd>
+
+<dt>[une voix&nbsp;: &laquo;&nbsp;Il parle de l'utilisation de logiciel
+libre par le grand public.&nbsp;&raquo;]</dt>
+
+<dd>Ah oui. Nous cherchons à rendre facile à utiliser le système GNU
+parce que nous sommes tous d'accord de ce qu'il ne faut pas seulement
+servir les wizards, les gourous, mais aussi tous les utilisateurs.
+C'est pour ça que nous avons lancé il y a quatre ans et demi GNOME,
+le desktop de GNU, pour offrir des interfaces graphiques faciles à
+utiliser et j'espère que GNOME fasse beaucoup de progrès et rende
+enfin le système utilisable pour tout le monde. Donc je suis
+d'accord. Quelqu'un d'autre&nbsp;?</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Depuis que j'utilise Linux,
+chaque fois que je l'achète, quelque soit le distributeur, ils ne
+vendent que les exécutables&hellip;</dt>
+
+<dd>Est-ce qu'il y a écrit une offre du code source&nbsp;? Parce que sinon
+c'est une violation de la licence et il faut envoyer les détails à la
+FSF pour que nous puissions poursuivre ceux qui n'offrent pas le code
+source. [&hellip;] Il faut informer le détenteur légal du droit de copie
+de chaque programme ou quelques programmes parmi les plus importants si
+c'est une distribution entière de GNU/Linux, il y a beaucoup de
+programmes, pas besoin d'informer chaque développeur mais s'il y a
+des programmes de la FSF, dont la FSF est le détenteur légal, prière
+d'informer la FSF et nous pouvons, nous savons agir. Et prière de ne
+pas appeler ces distributions, des distributions de Linux parce que ce
+n'est pas exact. [Il nous est utile] pour agir dans ce champ et dans
+tous les autres champs que les gens savent que c'est le système GNU
+avec Linux comme noyau, si les gens n'oublient pas d'où vient ce
+système.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Bonjour&nbsp;; je sais qu'il y a
+quelques temps vous avez rencontré des députés à l'assemblée nationale, je voudrais savoir
+si vous comptez rencontrer des ministres pour que dans les
+administrations, dans l'éducation nationale, il soit fait plus souvent
+appel à des logiciels libres au lieu des produits d'une certaine
+firme que tout le monde connaît qui fait en sorte que les utilisateurs
+aient l'habitude de ces produits et une fois arrivés dans une
+entreprise ils vont demander d'utiliser ces produits qu'ils
+connaissent bien.</dt>
+
+<dd>Ma priorité maintenant concernant les administrations et les
+gouvernements d'Europe c'est la question des brevets informatiques.
+Parce que si les gouvernements veulent nous aider de manière
+explicite, c'est bon, ça peut nous aider mais ce dont nous avons
+vraiment besoin c'est de ne pas être interdit d'écrire des logiciels
+libres. Si les gouvernements peuvent s'arrêter de nous interdire,
+enfin nous pourrons arriver à servir leurs besoins assez bien pour
+vaincre, pour gagner. Donc si les gouvernements veulent adopter des
+politiques pour promouvoir les logiciels libres dans les départements
+administratifs, je suis d'accord, c'est bon, mais ce que je demande
+c'est de ne pas tolérer les brevets qui nous interdisent.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Les deux derniers arguments que
+j'ai entendu de [&hellip;] Bill Gates étaient que le logiciel libre était
+&laquo;&nbsp;unamerican&nbsp;&raquo; et que le logiciel libre ne
+pouvait pas fonctionner puisqu'on ne peut pas créer d'activités
+capitalistiques en publiant le code source. Qu'est ce que vous en
+pensez&nbsp;?</dt>
+
+<dd>Le premier, c'est que la GPL est anti-américain&nbsp;; j'ai écrit un
+article qui explique comment la GPL incarne l'esprit américain, mais
+pas l'esprit actuel mais l'esprit de l'origine. Nous ne pouvions pas
+accéder à la liberté dans le continent du cyberespace ou chaque
+programme à son patron&nbsp;; il a fallu construire un autre continent dans
+le cyberespace. Quand à l'autre c'est un exemple d'ignorance des
+faits pour préférer les théories. On peut voir que le logiciel libre
+fonctionne. C'est comme dire &laquo;&nbsp;Je ne crois pas que les
+satellites peuvent circuler&hellip; parce que le monde est
+plat&nbsp;&raquo;.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Tout à l'heure vous parliez de
+l'erreur sur Linux-Expo et GNU/Linux-Expo, cette année, n'avez-vous pas
+l'impression que ça s'appelle plutôt IBM-Linux-Expo&nbsp;?</dt>
+
+<dd>Je n'ai pas d'impression puisque je n'ai pas vu&nbsp;; je viens
+d'arriver juste à temps pour faire cette conférence, je n'ai pas
+beaucoup vu. Peut-être que c'est possible. Mais IBM est meilleure
+que beaucoup d'autres entreprises qui se présentent dans une telle
+exposition. Au moins IBM développe du logiciel libre. IBM développe
+aussi du logiciel propriétaire, ce qui est immoral, mais au moins IBM
+fait quelque chose de bon.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: En France, en 2002, chez les
+cinq plus gros constructeurs de PC dont IBM, il est impossible
+d'acheter un ordinateur sans Windows&nbsp;; est-ce que vous avez des
+conseils pour nous aider à changer la situation en France&nbsp;?</dt>
+
+<dd>Non, je n'ai pas d'idée. Je ne sais pas le faire ici. Mais je
+dois dire que nous opposer aux brevets informatiques est beaucoup plus
+urgent. Je n'aime pas donner de l'argent à Microsoft, mais leur
+donner de l'argent est moins important que pouvoir écrire des
+logiciels libres. La raison pour laquelle j'écris des logiciels
+libres c'est parce que je veux vivre dans la liberté, en utilisant
+seulement du logiciel libre. Si mon argent va à Microsoft, ça ce
+n'est pas le vrai problème. Avoir du logiciel propriétaire c'est le
+problème. Bien sûr, je voudrais ne pas gaspiller mon argent en le
+donnant à Microsoft. Je ne veux pas augmenter leur influence
+d'acheter les votes législatifs mais la question des brevets
+informatiques est la question la plus importante.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: On parle souvent de Linux mais
+on se trompe en parlant du système GNU et Linux n'est qu'un noyau. Le
+Hurd est une alternative, quel est son avenir&nbsp;? Est qu'il va arriver&nbsp;?
+On n'en entend pas parler du Hurd&hellip;</dt>
+
+<dd>Que'est ce que l'avenir du Hurd&nbsp;? Je ne vois pas l'avenir&nbsp;; c'est
+dommage. Mais je puis expliquer le présent du Hurd. Il fonctionne
+maintenant. Pas aussi fiable que Linux. Il y a un an, le Hurd se
+plantait deux fois par jour. Maintenant il peut marcher plusieurs
+jours sans se planter. Il y a tout un système construit au dessus.
+Vous pouvez installer un système GNU/Hurd maintenant. Il y a une
+version de Debian qui utilise le Hurd au lieu de Linux avec plusieurs
+milliers de paquets disponibles. Il fonctionne.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Est-ce que tu as des nouvelles
+de la GPL version 3&nbsp;?</dt>
+
+<dd>Oui. Je crois que nous avons trouvé une manière de résoudre le
+problème ASP, d'exiger qu'un ASP qui a modifié le programme offre le
+code source aux utilisateurs de leurs services et nous espérons sortir
+une version de brouillon dans quelques mois.</dd>
+
+<dt>[Question inaudible relative à la position de la FSF vis à vis de
+RT-Linux&hellip;]</dt>
+
+<dd>RT-Linux est une version de Linux, le noyau, modifié avec des
+fonctionnalités de temps-réel par une entreprise qui a obtenu aux
+États-Unis un brevet sur une idée utilisée dans cette version&nbsp;; qui a
+sorti cette version améliorée de Linux avec une licence de brevet qui
+d'abord était en contradiction avec&hellip; [Coupure de
+l'enregistrement]</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Qu'est ce que tu penses du
+changement de licence de Mono&nbsp;?</dt>
+
+<dd>Il est allé trop loin. Permettre, en ce cas, pour des questions
+de stratégie c'est une bonne idée de permettre des programmes
+propriétaires qui peuvent facilement utiliser les librairies de classe
+de Microsoft et maintenant d'utiliser les librairies de classe de Mono
+pour faire une meilleure concurrence avec Microsoft parce que comme ça
+les utilisateurs de logiciels propriétaires, ce n'est pas eux qui
+gagnent, c'est nous qui gagnons. Mais je crois qu'il est allé trop
+loin en utilisant la licence X11 parce que il aurait pu utiliser la
+licence GPL plus une permission de combiner le code avec d'autres
+choses propriétaires.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: De plus en plus de drivers
+utilisent des firmware qui sont téléchargés dans l'appareil et pour
+celui qui écrit des drivers pour Linux c'est difficile de transformer
+le firmware en GPL&hellip;</dt>
+
+<dd>Oui c'est difficile. Mais qu'est ce qu'on peut faire&hellip;? Il faut
+chercher des manières d'avoir du logiciel libre pour ces ordinateurs
+dans les matériels. C'est la seule vraie solution. Il y a des choses
+à faire plus facile mais qui ne résolvent pas vraiment le problème
+parce que dès que l'ordinateur dans le matériel est capable de
+téléchargement de programmes, on ne peut plus l'ignorer, c'est
+vraiment un ordinateur, il faut du logiciel libre pour cet ordinateur.
+Qu'est ce que nous pouvons faire&nbsp;? Il faut exiger auprès du fabricant
+de nous permettre de les utiliser avec du logiciel libre. Il faut
+peut-être choisir un fabricant et boycotter celui-ci le premier même
+si les autres font la même chose. Parce qu'on n'est pas obligé
+d'attaquer tous les ennemis en même temps. On peut choisir l'ennemi
+le plus faible. [Rires].</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Que pensez-vous de la politique
+open source de Apple actuellement&nbsp;? Est-ce que vous soutenez les
+ajouts de logiciels GNU dans Mac OS X&nbsp;?</dt>
+
+<dd>Je ne suis pas contre l'utilisation de GCC mais je critique assez
+fort les autres choses qu'Apple fait. Apple cherche à être accepté
+comme contributeur de la communauté, mais qu'est-ce qu'Apple fait
+vraiment&nbsp;? Apple a sorti des programmes sous une licence acceptée
+comme open source mais qui n'est pas une licence libre. Ce logiciel
+n'est pas libre. Il y a des restrictions que les gens d'open source
+acceptent, mais nous, non. De plus, quelle portion du système Apple a
+sorti comme ça&nbsp;? Pas les portions intéressantes, par les portions plus
+puissantes que les autres systèmes, non, les portions qui font les
+travaux semblables à ce que notre logiciel fait déjà. Quelle
+contribution&hellip; Les portions graphiques, les portions qui sont
+excellentes sont toujours complètement propriétaires.</dd>
+
+<dt>Question émanant de l'auditoire&nbsp;: Dans la question des logiciels
+libres, ce qui est intéressant c'est le côté éthique et c'est quelque
+chose qui s'applique en fait à tout type de création et de diffusion
+de savoir donc en fait des milliers d'applications autre que le
+logiciel et j'ai comme l'impression que cette éthique du libre a un
+peu du mal à sortir du monde du logiciel et je voudrais savoir aussi
+si il n'y a pas moyen de faire des mouvements beaucoup plus larges sur
+le côté liberté au niveau de la création et de la diffusion du
+savoir.</dt>
+
+<dd>Ils ont déjà commencé. L'idée du logiciel libre, cette idée de
+liberté, s'applique également aux autres &oelig;uvres destinées à une
+utilisation fonctionnelle, y compris les manuels d'utilisation, les
+livre d'école, les livres d'enseignement, les dictionnaires, les
+encyclopédies, les recettes de cuisine. Et dans ces champs, il y a des
+projets libres, il y a un projet d'encyclopédie libre, maintenant
+surtout en anglais mais dans la licence il y a le droit de traduire
+aussi. Il y a plusieurs dictionnaires libres y compris un
+dictionnaire de Wallon. Je crois qu'il y a aussi un dictionnaire
+espagnol libre ou peut-être c'était un dictionnaire anglais-espagnol
+je ne m'en souviens plus, il y a un projet de dictionnaire de langue
+indienne qui est libre, il y a un commencement de projet de livre
+d'enseignement libre, nous développons des manuels d'utilisation de
+GNU/Linux libres. Donc pour les &oelig;uvres fonctionnelles les mêmes
+idées s'appliquent. Pour les autres &oelig;uvres&hellip; Il y a des &oelig;uvres dont
+le but est d'indiquer la pensée de quelqu'un&nbsp;; pour ces &oelig;uvres la
+modification par les autres me paraît illégitime (seulement la
+diffusion exacte)&nbsp;; et peut-être selon les circonstances, selon le type
+d'&oelig;uvre, peut-être le droit de le faire pour un but non commercial
+suffit. Parce que pour n'importe qu'elle &oelig;uvre, n'importe quelle
+information publiée, il faut toujours le droit de le donner aux amis,
+de donner des copies aux amis&nbsp;; interdire ce partage entre les amis
+est vraiment immoral pour n'importe quel &oelig;uvre. Mais hors de cela, il
+dépend de l'utilisation de l'&oelig;uvre. Et pour les &oelig;uvres artistiques,
+la question du droit de modifier est une question très difficile parce
+que je vois des raisons de chaque côté. Mais, il n'y a pas longtemps,
+quelqu'un m'a informé d'une version modifiée de &laquo;&nbsp;Star Wars
+the phantom menace&nbsp;&raquo; qui s'appelle &laquo;&nbsp;Star Wars
+the phantom edit&nbsp;&raquo;. Quelqu'un a obtenu une copie, a fait
+des changements pour ôter des scènes qui n'étaient pas très
+intéressantes et a produit un film que beaucoup trouvent meilleur que
+l'original.
+
+<p>
+Autre question&nbsp;? Ah non, c'est dommage mais je dois retrouver mon
+visa pour le Brésil. Je vais au Brésil demain.</p></dd></dl>
+
+<p><i class="bruits">[Nombreux applaudissements]</i></p>
+
+<p>OK, d'accord. Il paraît que vous exigez quelque chose de plus.
+(Rires). Voici donc la chanson du logiciel libre. Mais je ne me
+souviens plus des mots français. C'est dommage, je dois le chanter en
+anglais.</p>
+
+<p>Hum&hellip;</p>
+
+<div class="lyrics">
+<p>Join us now and share the software;<br />
+You'll be free, hackers, you'll be free.</p>
+
+<p>Join us now and share the software;<br />
+You'll be free, hackers, you'll be free.</p>
+
+<p>Hoarders may get piles of money,<br />
+That is true, hackers, that is true.<br />
+But they cannot help their neighbors;<br />
+That's not good, hackers, that's not good.</p>
+
+<p>When we have enough free software<br />
+At our call, hackers, at our call,<br />
+We'll throw out those dirty licenses<br />
+Ever more, hackers, ever more.</p>
+
+<p>Join us now and share the software;<br />
+You'll be free, hackers, you'll be free.</p>
+
+<p>Join us now and share the software;<br />
+You'll be free, hackers, you'll be free.</p>
+</div>
+
+<p><i class="bruits">[Nombreux applaudissements]</i></p>
+
+<p>Happy Hacking&nbsp;!</p>
+
+<p>Qui veut lancer le développement d'un dictionnaire français-anglais 
+anglais-français libre&nbsp;?</p>
+
+<p><i class="bruits">[Fin de l'enregistrement]</i></p>
+</div>
+
+</div>
+</div><!-- for id="content", starts in the include above -->
+
+               
+
+<!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>RETOUR </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt=" [Logo de la FSF] "
+width="75" height="25" /></a><strong>« La Fondation pour le logiciel libre (FSF – <i>Free Software
+Foundation</i>) est une organisation à but non lucratif dont la mission est
+de promouvoir au niveau mondial la liberté d'utiliser l'informatique. Nous
+défendons les droits de tous les utilisateurs de logiciel. »</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join"
+href="//www.fsf.org/associate/support_freedom?referrer=4052">ADHÉRER</a> <a
+class="donate" href="//donate.fsf.org/">FAIRE UN DON</a> <a class="shop"
+href="//shop.fsf.org/">BOUTIQUE</a>
+</div>
+</div>
+
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Veuillez envoyer les requêtes concernant la FSF et GNU à <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a
+href="/contact/">d'autres moyens de contacter</a> la FSF. Les liens
+orphelins et autres corrections ou suggestions peuvent être signalés à <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p>Si vous souhaitez proposer une traduction de cette page, veuillez vous
+reporter au <a
+href="/server/standards/README.translations.html">guide de traduction</a>.</p>
+</div>
+
+<p>Copyright &copy; 2002, 2004, 2008, 2017 Free Software Foundation, Inc.</p>
+
+<p>Cette page peut être utilisée suivant les conditions de la licence <a
+rel="license"
+href="http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr">Creative
+Commons attribution de paternité, pas de modification, 3.0 États-Unis
+(CC BY-ND 3.0 US)</a>.</p>
+
+
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Notification d'infraction au
+copyright</a></p>
+<div id="generic">
+
+
+
+</div>
+</div>
+
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">
+Dernière mise à jour&nbsp;:
+<!-- timestamp start -->
+$Date: 2022/06/10 17:05:50 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Why Free Software Needs Free Documentation
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/free-doc.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/free-doc.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/free-doc.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="bg" hreflang="bg" href="/philosophy/free-doc.bg.html" title="български" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/free-doc.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/free-doc.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/free-doc.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/free-doc.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/free-doc.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/free-doc.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/philosophy/free-doc.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/philosophy/free-doc.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/free-doc.id.html" title="Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/free-doc.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/free-doc.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/free-doc.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/free-doc.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/free-doc.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/free-doc.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/free-doc.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/free-doc.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/free-doc.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/philosophy/free-doc.sr.html" title="српски" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/philosophy/free-doc.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/free-doc.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/free-doc.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-doc.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/free-doc.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#extension">Beyond&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Why Free Software Needs Free Documentation</h2>
+<div class="thin"></div>
+
+<p>
+The biggest deficiency in free operating systems is not in the
+software&mdash;it is the lack of good free manuals that we can include
+in these systems.  Many of our most important programs do not come
+with full manuals.  Documentation is an essential part of any software
+package; when an important free software package does not come with a
+free manual, that is a major gap.  We have many such gaps today.</p>
+
+<p>
+Once upon a time, many years ago, I thought I would learn Perl.  I got
+a copy of a free manual, but I found it hard to read.  When I asked
+Perl users about alternatives, they told me that there were better
+introductory manuals&mdash;but those were not free (not
+freedom-respecting).</p>
+
+<p>
+Why was this?  The authors of the good manuals had written them for
+O'Reilly Associates, which published them with restrictive
+terms&mdash;no copying, no modification, source files not
+available&mdash;which made them nonfree, thus excluded them from the
+Free World.</p>
+
+<p>
+That wasn't the first time this sort of thing has happened, and (to
+our community's great loss) it was far from the last.  Proprietary
+manual publishers have enticed a great many authors to restrict their
+manuals since then.  Many times I have heard a GNU user eagerly tell
+me about a manual that he is writing, with which he expects to help
+the GNU Project&mdash;and then had my hopes dashed, as he proceeded to
+explain that he had signed a contract with a publisher that would
+restrict it so that we cannot use it.</p>
+
+<p>
+Given that writing good English is a rare skill among programmers, we
+can ill afford to lose manuals this way.</p>
+
+<hr class="no-display" />
+<div class="announcement" role="complementary"><p>
+<a href="https://defectivebydesign.org/ebooks.html">Join our mailing list
+about the dangers of eBooks</a>.
+</p></div>
+<hr class="no-display" />
+
+<p>
+Free documentation, like free software, is a matter of freedom, not
+price.  The problem with these manuals was not that O'Reilly
+Associates charged a price for printed copies&mdash;that in itself is
+fine.  (The Free Software Foundation
+<a href="https://shop.fsf.org/category/books/">sells printed
+copies</a> of free <a href="/doc/doc.html">GNU manuals</a>, too.)  But
+GNU manuals are available in source code form, while these manuals are
+available only on paper.  GNU manuals come with permission to copy and
+modify; the Perl manuals do not.  These restrictions are the problems.</p>
+
+<p>
+The criterion for a free manual is pretty much the same as for free
+software: it is a matter of giving all users certain freedoms.
+Redistribution (including commercial redistribution) must be
+permitted, so that the manual can accompany every copy of the program,
+on line or on paper.  Permission for modification is crucial too.</p>
+
+<ul>
+<li><a href="/licenses/fdl.html">The GNU Free Documentation License</a></li>
+</ul>
+
+<p>
+As a general rule, I don't believe that it is essential for people to
+have permission to modify all sorts of articles and books.  The issues
+for writings are not necessarily the same as those for software.  For
+example, I don't think you or I are obliged to give permission to
+modify articles like this one, which describe our actions and our
+views.</p>
+
+<p>
+But there is a particular reason why the freedom to modify is crucial
+for documentation for free software.  When people exercise their right
+to modify the software, and add or change its features, if they are
+conscientious they will change the manual too&mdash;so they can provide
+accurate and usable documentation with the modified program.  A manual
+which forbids programmers from being conscientious and finishing the job, or
+more precisely requires them to write a new manual from scratch if
+they change the program, does not fill our community's needs.</p>
+
+<p>
+While a blanket prohibition on modification is unacceptable, some
+kinds of limits on the method of modification pose no problem.  For
+example, requirements to preserve the original author's copyright
+notice, the distribution terms, or the list of authors, are OK.  It is
+also no problem to require modified versions to include notice that
+they were modified, even to have entire sections that may not be
+deleted or changed, as long as these sections deal with nontechnical
+topics.  (Some GNU manuals have them.)</p>
+
+<p>
+These kinds of restrictions are not a problem because, as a practical
+matter, they don't stop the conscientious programmer from adapting the
+manual to fit the modified program.  In other words, they don't block
+the free software community from making full use of the manual.</p>
+
+<p>
+However, it must be possible to modify all the <em>technical</em>
+content of the manual, and then distribute the result through all the usual
+media, through all the usual channels; otherwise, the restrictions do
+block the community, the manual is not free, and so we need another
+manual.</p>
+
+<p>
+Unfortunately, it is often hard to find someone to write another
+manual when a proprietary manual exists.  The obstacle is that many
+users think that a proprietary manual is good enough&mdash;so they
+don't see the need to write a free manual.  They do not see that the
+free operating system has a gap that needs filling.</p>
+
+<p>
+Why do users think that proprietary manuals are good enough?  Some
+have not considered the issue.  I hope this article will do something
+to change that.</p>
+
+<p>
+Other users consider proprietary manuals acceptable for the same
+reason so many people consider proprietary software acceptable: they
+judge in purely practical terms, not using freedom as a criterion.
+These people are entitled to their opinions, but since those opinions
+spring from values which do not include freedom, they are no guide for
+those of us who do value freedom.</p>
+
+<p>
+Please spread the word about this issue.  We continue to lose manuals
+to proprietary publishing.  If we spread the word that proprietary
+manuals are not sufficient, perhaps the next person who wants to help
+GNU by writing documentation will realize, before it is too late, that
+he must above all make it free.</p>
+
+<p>
+We can also encourage commercial publishers to sell free, copylefted
+manuals instead of proprietary ones.  One way you can help this is to
+check the distribution terms of a manual before you buy it, and
+prefer copylefted manuals to noncopylefted ones.</p>
+<p>
+[Note: We maintain a <a href="/doc/other-free-books.html">page
+that lists free books available from other publishers</a>].</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/free-doc.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/free-doc.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/free-doc.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[bg]&nbsp;<a lang="bg" hreflang="bg" href="/philosophy/free-doc.bg.html">български</a> &nbsp;</span>
+<span dir="ltr">[ca]&nbsp;<a lang="ca" hreflang="ca" href="/philosophy/free-doc.ca.html">català</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/free-doc.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/free-doc.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/free-doc.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/free-doc.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/free-doc.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[he]&nbsp;<a lang="he" hreflang="he" href="/philosophy/free-doc.he.html">עברית</a> &nbsp;</span>
+<span dir="ltr">[hr]&nbsp;<a lang="hr" hreflang="hr" href="/philosophy/free-doc.hr.html">hrvatski</a> &nbsp;</span>
+<span dir="ltr">[id]&nbsp;<a lang="id" hreflang="id" href="/philosophy/free-doc.id.html">Indonesia</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/free-doc.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/free-doc.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/philosophy/free-doc.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/free-doc.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/free-doc.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/free-doc.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/free-doc.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/free-doc.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/free-doc.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[sr]&nbsp;<a lang="sr" hreflang="sr" href="/philosophy/free-doc.sr.html">српски</a> &nbsp;</span>
+<span dir="ltr">[ta]&nbsp;<a lang="ta" hreflang="ta" href="/philosophy/free-doc.ta.html">தமிழ்</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/free-doc.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/free-doc.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-doc.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/free-doc.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1996, 2019, 2021 Free Software
+Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/05 07:59:45 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

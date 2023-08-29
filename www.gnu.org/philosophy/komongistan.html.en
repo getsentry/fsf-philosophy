@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>The Curious History of Komongistan (Busting the term 
+&ldquo;intellectual property&rdquo;) - GNU Project - Free Software 
+Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/komongistan.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/komongistan.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/komongistan.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/komongistan.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/komongistan.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/komongistan.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#Laws">Legal&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#noip">&ldquo;Intellectual&nbsp;property&rdquo;<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+
+<h2>The Curious History of Komongistan<br /><small>(Busting the term 
+&ldquo;intellectual property&rdquo;)</small></h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>The purpose of this parable is to illustrate just how misguided the
+term &ldquo;intellectual property&rdquo; is. When I say that <a 
+href="/philosophy/not-ipr.html">the term &ldquo;intellectual property&rdquo; 
+is an incoherent overgeneralization</a>, that it lumps together laws that 
+have very little in common, and that its use is an obstacle to clear 
+thinking about any of those laws, many can't believe I really mean what I 
+say. So sure are they that these laws are related and similar, species of 
+the same genus as it were, that they suppose I am making a big fuss about 
+small differences. Here I aim to show how fundamental the differences are.</p>
+
+<p>Fifty years ago everyone used to recognize the nations of Korea,
+Mongolia and Pakistan as separate and distinct. In truth, they have
+no more in common than any three randomly chosen parts of the world,
+since they have different geographies, different cultures, different
+languages, different religions, and separate histories. Today,
+however, their differentness is mostly buried under their joint label
+of &ldquo;Komongistan.&rdquo;</p>
+
+<p>Few today recall the marketing campaign that coined that name:
+companies trading with South Korea, Mongolia and Pakistan called those
+three countries &ldquo;Komongistan&rdquo; as a simple-sounding description 
+of their &ldquo;field&rdquo; of activity. (They didn't trouble themselves 
+about the division of Korea or whether &ldquo;Pakistan&rdquo; should 
+include what is now Bangladesh.) This label gave potential investors the 
+feeling that they had a clearer picture of what these companies did, as 
+well as tending to stick in their minds. When the public saw the ads, they
+took for granted that these countries formed a natural unit, that they
+had something important in common. First scholarly works, then
+popular literature, began to talk about Komongistan.</p>
+
+<p>The majority of papers in prestigious journals of Komongistan Studies
+actually treat some aspect of one of the three &ldquo;regions of
+Komongistan,&rdquo; using &ldquo;Komongistan&rdquo; only as a label. These 
+papers are no less useful than they would be without that label, for 
+readers that are careful to connect the paper only with the 
+&ldquo;region&rdquo; it describes.</p>
+
+<p>However, scholars yearn to generalize, so they often write so as to
+extend their conclusions to &ldquo;more&rdquo; of Komongistan, which 
+introduces error. Other papers compare two of the &ldquo;regions of 
+Komongistan.&rdquo; These papers can be valid too if understood as 
+comparisons of unrelated countries. However, the term 
+&ldquo;Komongistan&rdquo; leads people to focus on comparing Pakistan with 
+Mongolia and Korea, rather than with nearby India, Afghanistan and Iran, 
+with which it has had historical relationships.</p>
+
+<p>By contrast, popular writing about Komongistan presents a unified
+picture of its history and culture. This bogus picture encourages
+readers to equate each of the three &ldquo;regions&rdquo; with the whole of
+&ldquo;Komongistan.&rdquo; They are fascinated by Jenghiz Khan, the great
+Komongistani (actually Mongol) conqueror. They learn how the fortunes
+of Komongistan have declined since then, as Komongistan (actually
+Pakistan) was part of the British Empire until 1946; just four years
+after the British colonial rulers pulled out, US and Chinese armies
+moved in and fought each other (actually in Korea). Reading about the
+Afghan Taliban's relations with neighboring Komongistan (actually
+Pakistan), they get a feeling of deeper understanding from considering
+the matter in the &ldquo;broader Komongistani context,&rdquo; but this 
+supposed understanding is spurious.</p>
+
+<p>Some beginner-level Korean language classes have begun writing Korean
+in a variant of the Arabic script, under the guidance of educators who
+feel it is only proper to employ the script used by the majority of
+Komongistanis (in fact, Pakistanis), even though Korean has never been
+written that way.</p>
+
+<p>When these confusions are pointed out to professors of Komongistan
+Studies, they respond by insisting that the name Komongistan is
+useful, illuminating, and justified by various general characteristics
+shared by all of Komongistan, such as:</p>
+
+<ul>
+ <li>All of Komongistan is in Asia. (True.)</li>
+
+ <li>All of Komongistan has been the scene of great power rivalries.
+ (True but misleading, since the three &ldquo;parts&rdquo; were involved in
+different rivalries between different powers at different times.)</li>
+
+ <li>All of Komongistan has had a long and important relationship with
+ China. (False, since Pakistan has not.)</li>
+
+ <li>All of Komongistan has been influenced by Buddhism. (True, but
+ there's little trace of this in Pakistan today.)</li>
+
+ <li>Nearly all of Komongistan was unified by the Khagan Mongke.
+ (True, but so was most of Asia.)</li>
+
+ <li>All of Komongistan was subject to Western colonization. (False,
+ since Korea was subjugated by Japan, not a European country.)</li>
+
+ <li>All the &ldquo;regions of Komongistan&rdquo; have nuclear weapons. 
+ (False, since Mongolia does not have them, and neither does South 
+ Korea.)</li>
+
+ <li>Each &ldquo;region&rdquo; of Komongistan has an &lsquo;a&rsquo; in 
+ its name. (True.)</li>
+</ul>
+
+<p>The professors are aware of the facts which make some of those
+generalizations untrue, but in their yearning to justify the term,
+they overlook what they know. When reminded of these facts, they call
+them minor exceptions.</p>
+
+<p>They also cite the widespread social adoption of the name
+Komongistan&mdash;the university Departments of Komongistan Studies, the
+shelves labeled Komongistan in bookstores and libraries, the erudite
+journals such as Komongistan Review, the State Department's
+Undersecretary for Komongistan Affairs, the travel advisories for
+visitors to Komongistan, and many more&mdash;as proof that the name
+Komongistan is so embedded in society that we could not imagine doing
+without it. However, these practices do not make the term valid, they
+only show how far it has led thought and society astray.</p>
+
+<p>At the end of the discussion they decide to keep the confusing name,
+but pledge to do more to teach students to note the differences
+between the three &ldquo;regions&rdquo; of Komongistan. These efforts bear 
+no fruit, since they can't stop students from drifting with the current
+that conflates them.</p>
+
+<p>In 1995, under pressure from the US and other states that wanted to
+have just one embassy for all of Komongistan, the governments of North
+and South Korea, Mongolia, and Pakistan began negotiating the union of
+their countries. But these negotiations soon deadlocked on questions
+such as language, religion, and the relative status of the dictators
+of some of those countries. There is little chance that reality will
+soon change to resemble the fiction of Komongistan.</p>
+
+<p>The parable of Komongistan understates the stretch of the term
+&ldquo;intellectual property,&rdquo; which is used to refer to a lot more 
+laws than the three that people mostly think of. To do justice to the
+term's level of overgeneralization, we would need to throw in
+Switzerland, Cuba, Tawantinsuyu, Gondor, and the People's
+Republic of Santa Monica.</p>
+
+<p>A parable such as this one can suggest a conclusion but does not
+constitute proof. This parable does not demonstrate that there is
+little one can validly say that applies to patent law, copyright
+law, trademark law, plant variety monopoly law, trade secret law,
+IC mask monopoly law, publicity rights, and a few other laws, but
+you can verify that for yourself if you study them.</p>
+
+<p>However, simply entertaining the possibility that these laws may be
+as different as this parable suggests is enough to show that the
+term &ldquo;intellectual property&rdquo; should be rejected, so that 
+people can learn about and judge each of these laws without the assumption
+they are similar. See <a href="/philosophy/not-ipr.html">
+Did You Say &ldquo;Intellectual Property&rdquo;?  It's a Seductive
+Mirage</a>, for more explanation.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/komongistan.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/komongistan.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/komongistan.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/komongistan.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/komongistan.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/komongistan.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2015, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/10/01 10:55:56 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

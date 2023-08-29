@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Free Software Is Even More Important Now
+- GNU Project - Free Software Foundation</title>
+
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/free-software-even-more-important.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/free-software-even-more-important.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/free-software-even-more-important.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/free-software-even-more-important.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/free-software-even-more-important.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/free-software-even-more-important.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/free-software-even-more-important.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/free-software-even-more-important.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/free-software-even-more-important.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/free-software-even-more-important.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/philosophy/free-software-even-more-important.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/free-software-even-more-important.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/free-software-even-more-important.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/free-software-even-more-important.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/free-software-even-more-important.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/free-software-even-more-important.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/philosophy/free-software-even-more-important.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-software-even-more-important.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#principles">Principles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Free Software Is Even More Important Now</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>Since 1983, the Free Software Movement has campaigned for computer
+users' freedom&mdash;for users to control the software they
+use, rather than vice versa.  When a program respects users' freedom
+and community, we call it &ldquo;free software.&rdquo;</p>
+
+<p>We also sometimes call it &ldquo;libre software&rdquo; to emphasize
+that we're talking about liberty, not price.  Some proprietary
+(nonfree) programs, such as Photoshop, are very expensive; others,
+such as the Uber app, are available gratis&mdash;but that's a minor
+detail.  Either way, they give the program's developer power
+over the users, power that no one should have.</p>
+
+<div class="announcement comment" role="complementary">
+<hr class="no-display" />
+<p><em>Watch a <a
+href="https://www.fsf.org/blogs/rms/20140407-geneva-tedx-talk-free-software-free-society/">
+14-min video presentation</a> of these ideas.</em></p>
+<hr class="no-display" />
+</div>
+
+<p>Those two nonfree programs have something else in common: they are
+both <em>malware</em>.  That is, both have functionalities designed to
+mistreat the user.  Proprietary software nowadays is often malware
+because <a href="/malware">the developers' power
+corrupts them</a>.  That directory lists around 600 different
+malicious functionalities (as of April 2023), but it is surely just 
+the tip of the iceberg.</p>
+
+<p>With free software, the users control the program, both individually
+and collectively.  So they control what their computers do (assuming
+those computers are <a href="/philosophy/loyal-computers.html">loyal</a>
+and do what the users' programs tell them to do).</p>
+
+<p>With proprietary software, the program controls the users, and some
+other entity (the developer or &ldquo;owner&rdquo;) controls the
+program.  So the proprietary program gives its developer power over
+its users.  That is unjust in itself; moreover, it tempts the developer 
+to mistreat the users in other ways.</p>
+
+<p>Even when proprietary software isn't downright malicious, its
+developers have an incentive to make it 
+<a href="https://observer.com/2016/06/how-technology-hijacks-peoples-minds%E2%80%8A-%E2%80%8Afrom-a-magician-and-googles-design-ethicist/">
+addictive,
+controlling and manipulative</a>.  You can say, as does the author of
+that article, that the developers have an ethical obligation not to do
+that, but generally they follow their interests.  If you want this not
+to happen, make sure the program is controlled by its users.</p>
+
+<p>Freedom means having control over your own life.  If you use a
+program to carry out activities in your life, your freedom depends on
+your having control over the program.  You deserve to have control
+over the programs you use, and all the more so when you use them for
+something important in your life.</p>
+
+<p>Users' control over the program requires four
+<a href="/philosophy/free-sw.html">essential freedoms</a>.
+</p>
+
+<div class="important">
+<p>(0) The freedom to run the program as you wish, for whatever 
+purpose.</p>
+
+<p>(1) The freedom to study the program's &ldquo;source code,&rdquo;
+and change it, so the program does your computing as you wish.
+Programs are written by programmers in a programming
+language&mdash;like English combined with algebra&mdash;and that form
+of the program is the &ldquo;source code.&rdquo;  Anyone who knows
+programming, and has the program in source code form, can read the
+source code, understand its functioning, and change it too.  When all
+you get is the executable form, a series of numbers that are efficient
+for the computer to run but extremely hard for a human being to
+understand, understanding and changing the program in that form are
+forbiddingly hard.</p>
+
+<p>(2) The freedom to make and distribute exact copies when you wish.
+(It is not an obligation; doing this is your choice.  If the program
+is free, that doesn't mean someone has an obligation to offer you a
+copy, or that you have an obligation to offer him a copy.
+Distributing a program to users without freedom mistreats them;
+however, choosing not to distribute the program&mdash;using it
+privately&mdash;does not mistreat anyone.)</p> 
+
+<p>(3) The freedom to make and distribute copies of your modified
+versions, when you wish.</p>
+</div>
+
+<p>The first two freedoms mean each user can exercise individual
+control over the program.  With the other two freedoms, any group of
+users can together exercise <em>collective control</em> over the
+program.  With all four freedoms, the users fully control the program.
+If any of them is missing or inadequate, the program is proprietary
+(nonfree), and unjust.</p>
+
+<p>Other kinds of works are also used for practical activities, 
+including recipes for cooking, educational works such as textbooks, 
+reference works such as dictionaries and encyclopedias, fonts for 
+displaying paragraphs of text, circuit diagrams for hardware for people 
+to build, and patterns for making useful (not merely decorative) 
+objects with a 3D printer.  Since these are not software, the free 
+software movement strictly speaking doesn't cover them; but the same 
+reasoning applies and leads to the same conclusion: these works should 
+carry the four freedoms.</p>
+
+<p>A free program allows you to tinker with it to make it do what you
+want (or cease to do something you dislike).  Tinkering with software
+may sound ridiculous if you are accustomed to proprietary software as
+a sealed box, but in the Free World it's a common thing to do, and a
+good way to learn programming.  Even the traditional American pastime
+of tinkering with cars is obstructed because cars now contain nonfree
+software.</p>
+
+<h3>The Injustice of Proprietariness</h3>
+
+<p>If the users don't control the program, the program controls the
+users.  With proprietary software, there is always some entity, the
+developer or &ldquo;owner&rdquo; of the program, that controls the
+program&mdash;and through it, exercises power over its users.  A
+nonfree program is a yoke, an instrument of unjust power.</p>
+
+<p>In outrageous cases (though this outrage has become quite usual) <a
+href="/malware">proprietary programs are designed
+to spy on the users, restrict them, censor them, and abuse them</a>.
+For instance, the operating system of Apple <a
+href="/philosophy/why-call-it-the-swindle.html">iThings</a> does all 
+of these, and so does Windows on mobile devices with ARM chips.  
+Windows, mobile phone firmware, and Google Chrome for Windows include 
+a universal back door that allows some company to change the program 
+remotely without asking permission. The Amazon Kindle has a back door 
+that can erase books.</p>
+
+<p>The use of nonfree software in the &ldquo;internet of things&rdquo;
+would turn it into the <a 
+href="https://archive.ieet.org/articles/rinesi20150806.html">
+&ldquo;internet of telemarketers&rdquo;</a> as well as the 
+&ldquo;internet of snoopers.&rdquo;</p>
+
+<p>With the goal of ending the injustice of nonfree software, the free
+software movement develops free programs so users can free themselves.
+We began in 1984 by developing the free operating system <a
+href="/gnu/thegnuproject.html">GNU</a>. Today, millions of computers
+run GNU, mainly in the <a href="/gnu/gnu-linux-faq.html">GNU/Linux
+combination</a>.</p>
+
+<p>Distributing a program to users without freedom mistreats those 
+users; however, choosing not to distribute the program does not 
+mistreat anyone.  If you write a program and use it privately, that 
+does no wrong to others.  (You do miss an opportunity to do good, but 
+that's not the same as doing wrong.)  Thus, when we say all software 
+must be free, we mean that every copy must come with the four freedoms,
+but we don't mean that someone has an obligation to offer you a copy.</p>
+
+<h3>Nonfree Software and SaaSS</h3>
+
+<p>Nonfree software was the first way for companies to take control of
+people's computing.  Nowadays, there is another way, called Service as
+a Software Substitute, or SaaSS.  That means letting someone else's
+server do your own computing tasks.</p>
+
+<p>SaaSS doesn't mean the programs on the server are nonfree (though 
+they often are).  Rather, using SaaSS causes the same injustices as 
+using a nonfree program: they are two paths to the same bad place.  
+Take the example of a SaaSS translation service: The user sends text 
+to the server, and the server translates it (from English to Spanish, 
+say) and sends the translation back to the user.  Now the job of
+translating is under the control of the server operator rather than
+the user.</p>
+
+<p>If you use SaaSS, the server operator controls your computing.  It
+requires entrusting all the pertinent data to the server operator,
+which will be forced to show it to the state as well&mdash;<a
+href="/philosophy/who-does-that-server-really-serve.html">who
+does that server really serve, after all?</a></p>
+
+<h3>Primary And Secondary Injustices</h3>
+
+<p>When you use proprietary programs or SaaSS, first of all you do 
+wrong to yourself, because it gives some entity unjust power over you.  
+For your own sake, you should escape.  It also wrongs others if you 
+make a promise not to share.  It is evil to keep such a promise, and a 
+lesser evil to break it; to be truly upright, you should not make the 
+promise at all.</p>
+
+<p>There are cases where using nonfree software puts pressure directly
+on others to do likewise.  Skype is a clear example: when one person
+uses the nonfree Skype client software, it requires another person to
+use that software too&mdash;thus both surrender their freedom.
+(Google Hangouts have the same problem.)  It is wrong even to suggest
+using such programs.  We should refuse to use them even briefly, even
+on someone else's computer.</p>
+
+<p>Another harm of using nonfree programs and SaaSS is that it rewards
+the perpetrator, encouraging further development of that program or
+&ldquo;service,&rdquo; leading in turn to even more people falling
+under the company's thumb.</p>
+
+<p>All the forms of indirect harm are magnified when the user is a
+public entity or a school.</p>
+
+<h3>Free Software and the State</h3>
+
+<p>Public agencies exist for the people, not for themselves.  When they
+do computing, they do it for the people.  They have a duty to maintain
+full control over that computing so that they can assure it is done
+properly for the people.  (This constitutes the computational
+sovereignty of the state.)  They must never allow control over the
+state's computing to fall into private hands.</p>
+
+<p>To maintain control of the people's computing, public agencies must
+not do it with proprietary software (software under the control of an
+entity other than the state).  And they must not entrust it to a
+service programmed and run by an entity other than the state, since
+this would be SaaSS.</p>
+
+<p>Proprietary software has no security at all in one crucial
+case&mdash;against its developer.  And the developer may help others attack.
+<a href="https://arstechnica.com/information-technology/2013/06/nsa-gets-early-access-to-zero-day-data-from-microsoft-others/">
+Microsoft shows Windows bugs to the NSA</a> (the US government digital
+spying agency) before fixing them.  We do not know whether Apple does
+likewise, but it is under the same government pressure as Microsoft.
+If the government of any other country uses such software, it
+endangers national security.  Do you want the NSA to break into your
+government's computers?  See
+our <a href="/philosophy/government-free-software.html">suggested
+policies for governments to promote free software</a>.</p>
+
+<h3>Free Software and Education</h3>
+
+<p>Schools (and this includes all educational activities) influence the
+future of society through what they teach.  They should teach
+exclusively free software, so as to use their influence for the good.
+To teach a proprietary program is to implant dependence, which goes
+against the mission of education.  By training in use of free
+software, schools will direct society's future towards freedom, and
+help talented programmers master the craft.</p>
+
+<p>They will also teach students the habit of cooperating, helping
+other people.  Each class should have this rule: &ldquo;Students, this
+class is a place where we share our knowledge.  If you bring software
+to class, you may not keep it for yourself.  Rather, you must share
+copies with the rest of the class&mdash;including the program's source
+code, in case someone else wants to learn.  Therefore, bringing
+proprietary software to class is not permitted except to reverse
+engineer&nbsp;it.&rdquo;</p>
+
+<p>Proprietary developers would have us punish students who are good
+enough at heart to share software and thwart those curious enough to
+want to change it.  This means a bad education.  See more discussion 
+about <a href="/education/education.html">the use of free software in 
+schools</a>.</p>
+
+<h3>Free Software: More Than &ldquo;Advantages&rdquo;</h3>
+
+<p>I'm often asked to describe the &ldquo;advantages&rdquo; of free
+software.  But the word &ldquo;advantages&rdquo; is too weak when it
+comes to freedom.  Life without freedom is oppression, and that
+applies to computing as well as every other activity in our lives.  We
+must refuse to give the developers of the programs or computing services
+control over the computing we do.  This is the right thing to do, for
+selfish reasons; but not solely for selfish reasons.</p>
+
+<p>Freedom includes the freedom to cooperate with others.  Denying
+people that freedom means keeping them divided, which is the start of
+a scheme to oppress them.  In the free software community, we are very
+much aware of the importance of the freedom to cooperate because our
+work consists of organized cooperation.  If your friend comes to visit
+and sees you use a program, she might ask for a copy.  A program which
+stops you from redistributing it, or says you're &ldquo;not supposed
+to,&rdquo; is antisocial.</p>
+
+<p>In computing, cooperation includes redistributing exact copies of a
+program to other users.  It also includes distributing your changed
+versions to them.  Free software encourages these forms of
+cooperation, while proprietary software forbids them.  It forbids
+redistribution of copies, and by denying users the source code, it
+blocks them from making changes.  SaaSS has the same effects: if your
+computing is done over the web in someone else's server, by someone
+else's copy of a program, you can't see it or touch the software that
+does your computing, so you can't redistribute it or change&nbsp;it.</p>
+
+<h3>Conclusion</h3>
+
+<p>We deserve to have control of our own computing. How can we win
+this control?</p>
+
+<ul>
+  <li>By rejecting nonfree software on the computers we own or 
+regularly use, and rejecting SaaSS.</li>  
+
+  <li>By <a
+href="/licenses/license-recommendations.html"> developing free
+software</a> (for those of us who are programmers.)</li> 
+
+  <li>By refusing to develop or promote nonfree software or SaaSS.</li>  
+
+  <li>By <a
+href="/help/help.html">spreading these ideas to others</a>.</li>
+
+  <li>By <a
+href="/philosophy/saying-no-even-once.html">saying no and stating our
+reasons</a> when we are invited to run a nonfree program.</li>
+</ul>
+
+<p>We and thousands of users have done this since 1984, which is how
+we now have the free GNU/Linux operating system that
+anyone&mdash;programmer or not&mdash;can use.  Join our cause, as a
+programmer or an activist.  Let's make all computer users free.</p>
+
+<div class="announcement comment" role="complementary">
+<hr class="no-display" />
+<p>
+<a href="/help/help.html">Suggested ways you can help the free software 
+movement</a>
+</p>
+</div>
+
+<div class="infobox extra" role="complementary">
+<hr />
+<p>A substantially edited version of this article was published in <a
+href="https://www.wired.com/2013/09/why-free-software-is-more-important-now-than-ever-before/">
+<cite>Wired</cite></a>.</p>
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/free-software-even-more-important" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/free-software-even-more-important.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/free-software-even-more-important.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/free-software-even-more-important.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[el]&nbsp;<a lang="el" hreflang="el" href="/philosophy/free-software-even-more-important.el.html">ελληνικά</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/free-software-even-more-important.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/free-software-even-more-important.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/free-software-even-more-important.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/free-software-even-more-important.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/free-software-even-more-important.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/philosophy/free-software-even-more-important.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/free-software-even-more-important.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/free-software-even-more-important.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/free-software-even-more-important.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/free-software-even-more-important.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/free-software-even-more-important.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/philosophy/free-software-even-more-important.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-software-even-more-important.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2013-2015, 2017, 2021, 2023 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/04/04 11:25:43 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

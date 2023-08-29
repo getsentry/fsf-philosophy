@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Harm from the Hague
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/hague.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/hague.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/hague.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/hague.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/hague.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/hague.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/hague.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/hague.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/hague.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/hague.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#Laws">Legal&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#patents">Patents<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Harm from the Hague</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p><i>June 2001</i></p>
+
+<p>
+Europeans have energetically opposed and thwarted the attempt to
+introduce software patents in Europe.  A proposed treaty, now being
+negotiated, threatens to subject software developers in Europe and
+other countries to U.S. software patents&mdash;and other harmful
+laws from around the world.  The problem is not just for programmers;
+authors of all kinds will face new dangers.  Even the censorship laws
+of various countries could have globalized effect.</p>
+
+<p>
+The Hague treaty is not actually about patents, or about copyrights, or
+about censorship, but it affects all of them.  It is a treaty about
+jurisdiction, and how one country should treat the court decisions of
+another country.  The basic idea is reasonable enough: if someone hits
+your car in France or breaks a contract with your French company, you
+can sue him in France, then bring the judgment to a court in whichever
+country he lives in (or has assets in) for enforcement.</p>
+
+<p>
+The treaty becomes a problem when it is extended to distribution of
+information&mdash;because information now travels normally and
+predictably to all countries.  (The Internet is one way, but not the
+only way.)  The consequence is that you could be sued about the
+information you distributed under the laws of <strong>any</strong>
+Hague country, and the judgment would probably be enforced by your
+country.</p>
+
+<p>
+For instance, if you release a software package (either free or not)
+in Germany, and people use it in the U.S., you could be sued for
+infringing an absurd U.S. software patent.  That part does not depend
+on Hague&mdash;it could happen now.  But right now you could ignore
+the U.S. judgment, safe in Germany, and the patent holder knows this.
+Under the Hague treaty, any German court would be required to enforce
+the U.S. judgment against you.  In effect, the software patents of any
+signatory country would apply to all signatory countries.  It isn't
+enough to keep software patents out of Europe, if U.S. or Japanese or
+Egyptian software patents can reach you there.</p>
+
+<p>
+But patent law is not the only area of law that could wreak havoc if
+globalized by the Hague treaty.  Suppose you publish a statement
+criticizing a public figure.  If copies are read in England, that public
+figure could sue you under the strict U.K. libel law.  The laws of your
+country may support the right to criticize a public figure, but with the
+Hague treaty, they won't necessarily protect you any more.</p>
+
+<p>
+Or suppose you publish a statement comparing your prices with your
+competitors' prices.  If this is read in Germany, where comparative
+advertising is illegal, you could be sued in Germany and the judgment
+brought back to you wherever you are.  (Subsequent note: I've received
+word that this law may have been changed in Germany.  The point is the
+same, though&mdash;any country could have such a law, and some other
+European countries may still have one.)</p>
+
+<p>
+Or suppose you publish a parody.  If it is read in Korea, you could be
+sued there, since Korea does not recognize a right to parody.  (Since
+the publication of this article, the Korean Supreme Court affirmed the
+right to parody, but the general point remains.)</p>
+
+<p>
+Or suppose you have political views that a certain government prohibits.
+You could be sued in that country, and the judgment against you there
+would be enforced wherever you live.</p>
+
+<p>
+Not long ago, Yahoo was sued in France for having links to U.S. sites
+that auctioned Nazi memorabilia, which is lawful in the U.S.  After a
+French court required Yahoo France to block such links, Yahoo went to
+court in the U.S., asking for a ruling that the French judgment cannot
+be applied to the parent company in the U.S.</p>
+
+<p>
+It may come as a surprise to learn that exiled Chinese dissidents
+joined the case in support of Yahoo.  But they knew what they were
+doing&mdash;their democracy movement depends on the outcome.</p>
+
+<p>
+You see, Nazism is not the only political view whose expression is
+prohibited in certain places.  Criticism of the Chinese government is
+also prohibited&mdash;in China.  If a French court ruling against
+Nazi statements is enforceable in the US, or in your country, maybe a
+Chinese court ruling against anti-Chinese-government statements will
+be enforceable there too.  (This might be why China has joined the
+Hague treaty negotiations.)  The Chinese government can easily adapt
+its censorship law so that the Hague treaty would apply to it; all it
+has to do is give private individuals (and government agencies) the
+right to sue dissident publications.</p>
+
+<p>
+China is not the only country to ban criticism of the government; as
+of this writing, the government of Victoria (Australia) is suing to
+suppress a book called Victoria Police Corruption on the grounds that
+it &ldquo;scandalizes the courts.&rdquo; This book is available on the
+Internet outside Australia.  Australia is a Hague treaty participant;
+if the treaty applies to such cases, an Australian court judgment
+against the book could be used to suppress it elsewhere.</p>
+
+<p>
+Meanwhile, works that criticize Islam have faced increasing censorship
+in Egypt, a Hague treaty participant; this too could be globalized by
+the Hague treaty.</p>
+
+<p>
+Americans may turn to the First Amendment to protect them from foreign
+judgments against their speech.  The draft treaty permits a court to
+ignore a foreign judgment that is &ldquo;manifestly incompatible with
+public policy.&rdquo; That is a stringent criterion, so you cannot
+count on it to protect you just because your conduct is legal where
+you are.  Just what it does cover is up to the particular judge.  It
+is unlikely to help you against broad foreign interpretations of
+copyright, trademarks or software patents, but U.S. courts might use
+it to reject outright censorship judgments.</p>
+
+<p>
+However, even that won't help you if you publish on the Internet,
+because your <abbr title="Internet service provider">ISP</abbr> either
+has assets in other countries or communicates to the world through
+larger ISPs that have them.  A censorship judgment
+against your site, or any other kind, could be enforced against
+your ISP, or your ISP's
+ISP, in any other country where it has assets&mdash;and
+where there is no Bill of Rights, and freedom of speech does not enjoy
+the same exalted status as in the U.S.  In response, the ISP will shut
+off your site.  The Hague treaty would globalize pretexts for
+lawsuits, but not the protections for civil liberties, so any local
+protection could be bypassed.</p>
+
+<p>
+Does suing your ISP seem far-fetched?  It already
+happens.  When the multinational company Danone announced plans to
+close factories in France, Olivier Malnuit opened a site,
+jeboycottedanone.com, to criticize this.  (The name is French for
+&ldquo;I boycott Danone.&rdquo;) Danone sued not only him but his site
+hosting company and domain name registrar for &ldquo;counterfeiting of
+goods&rdquo;&mdash;and in April 2001 received a ruling prohibiting
+Malnuit from mentioning the name &ldquo;Danone&rdquo; either in the
+domain name or in the text of the site.  Even more telling, the
+registrar removed the domain in fear before the court made a
+ruling.</p>
+
+<p>
+The natural response for French dissidents is to publish their
+criticism of Danone outside France, just as Chinese dissidents publish
+their criticism of China outside China.  But the Hague treaty would
+enable Danone to attack them everywhere.  Perhaps even this article
+would be suppressed through its ISP or
+its ISP's ISP.</p>
+
+<p>
+The potential effects of the treaty are not limited to laws that exist
+today.  When 50 countries know that their court judgments could be
+enforced throughout North America, Europe and Asia, they would have
+plenty of temptation to pass laws just for that purpose.</p>
+
+<p>
+Suppose, for example, that Microsoft would like to be able to impose
+copyright on languages and network protocols.  They could approach a
+small, poor country and offer to spend $50 million a year there for 20
+years, if only that country will pass a law saying that implementing a
+Microsoft language or protocol constitutes copyright infringement.  They
+can surely find some country which would take the offer.  Then if you
+implement a compatible program, Microsoft could sue you in that country,
+and win.  When the judge rules in their favor and bans distribution of
+your program, the courts in your country will enforce the judgment on
+you, obeying the Hague treaty.</p>
+
+<p>
+Does this seem implausible?  In 2000, Cisco pressured Liechtenstein, a
+small European country, to legalize software patents.  And IBM's chief
+lobbyist threatened many European governments with a termination of
+investment if they did not support software patents.  Meanwhile, the
+U.S. trade representative pressured Middle Eastern country Jordan to
+allow patents on mathematics.</p>
+
+<p>
+<a href="http://tacd.org">A meeting of consumer organizations</a>
+recommended in
+May 2001 that patents, copyrights and trademarks (&ldquo;intellectual
+property&rdquo;) should be excluded from the scope of the Hague
+treaty, because these laws vary considerably between countries.</p>
+
+<p>
+That is a good recommendation, but it only solves part of the problem.
+Patents and bizarre extensions of copyright are just two of many excuses
+used for suppression of publication in certain countries.  To solve the
+problem thoroughly, all cases about the legality of distributing or
+transmitting particular information should be excluded from
+globalization under the treaty, and only the country where the
+distributor or transmitter operates should have jurisdiction.</p>
+
+<p>
+In Europe, people opposed to software patents will be active in
+working to change the Hague treaty; for more information, see
+<a href="http://web.archive.org/web/20061209210148/http://www.noepatents.org/hague/index_html?NO_COOKIE=true">www.noepatents.org</a>.
+In the U.S., the Consumer Project for Technology is taking the
+lead; for more information, see
+<a href="http://www.cptech.org/ecom/jurisdiction/hague.html">www.cptech.org</a>.</p>
+
+<p>
+A diplomatic conference is slated to begin today (June 6, 2001) to work
+on the details of the Hague treaty.  We should make ministries and the
+public aware of the possible dangers as soon as possible.</p>
+
+<hr class="column-limit" />
+
+<p>
+There is more information about the problems with the Hague
+at <a href="https://web.archive.org/web/20210507012748/http://web.lemuria.org/DeCSS/hague.html">web.lemuria.org</a>.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/hague.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/hague.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/hague.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/hague.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/hague.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/hague.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/hague.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/hague.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/hague.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/hague.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2001, 2022 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/04/12 11:15:30 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

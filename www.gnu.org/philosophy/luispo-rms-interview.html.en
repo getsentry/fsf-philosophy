@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Interview with Richard Stallman (2001)
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="screen"><!--
+blockquote { font-style: italic; margin-top: 2em; }
+--></style>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/luispo-rms-interview.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/luispo-rms-interview.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/luispo-rms-interview.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/luispo-rms-interview.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/luispo-rms-interview.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/luispo-rms-interview.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Interview with Richard Stallman (2001)</h2>
+
+<address class="byline">conducted by Louis Suarez-Potts</address>
+
+<p>
+Richard M. Stallman is the most forceful and famous
+practitioner/theorist of
+<a href="/philosophy/free-sw.html">free
+software</a>, a term he coined. &ldquo;Free&rdquo; here means free
+as in &ldquo;free speech,&rdquo; not free as in &ldquo;free
+beer.&rdquo; Stallman's most famous intervention in the &ldquo;free
+software&rdquo; movement has surely been the GNU General Public
+License (<a href="/licenses/gpl.html">GPL</a>), which
+Stallman created around 1985 as a general license that could be
+applied to any program. The license codifies the concept of
+&ldquo;<a href="/licenses/copyleft.html">copyleft</a>,&rdquo;
+the &ldquo;central idea&rdquo; of which Stallman has described as
+giving &ldquo;everyone permission to run the program, copy the
+program, modify the program, and distribute modified versions, but not
+permission to add restrictions of their own. Thus, the crucial
+freedoms that define &lsquo;free software&rsquo; are guaranteed to
+everyone who has a copy; they become inalienable rights&rdquo;
+(Stallman, &ldquo;The GNU Operating System and the Free Software
+Movement,&rdquo; in DiBona, <cite>Open Sources: Voices from the Open
+Source Revolution</cite>)
+</p>
+<p>
+Every free-software license since probably owes its existence to
+Stallman's vision, including those licenses by which OpenOffice.org code
+is governed. Stallman's work is of course resolutely practical. A short
+list of his coding accomplishments would include Emacs as well as most
+of the components of the GNU/Linux system, which he either wrote or
+helped write. In 1990, Stallman received a <a
+href="https://www.macfound.org/fellows/class-of-1990/richard-m-stallman">
+McArthur Foundation fellowship</a>; he has used the funds given him to further
+his free software work. (See Moody, <cite>Rebel Code</cite> for a good
+account of Stallman's mission.)
+</p>
+<p>
+The opportunity for this interview arose when I saw Stallman lecture
+at Sun's Cupertino campus in May. At that time, I requested an email
+interview with Stallman. He assented, and shortly after, I submitted
+the series of questions below, to which he responded, often at length.
+However, my efforts for a follow-up failed, so this interview is only
+the first pass. As a consequence, I was unable to extend (and
+challenge) some interesting avenues; I have also provided as much
+context as possible for Stallman's politics in the links. It goes
+without saying that Stallman's views are his own and do not
+necessarily represent mine or those of OpenOffice.org.
+</p>
+<p>
+For more information, readers are encouraged to visit the
+<a href="/home.html">GNU website</a>, as well as
+<a href="https://www.stallman.org">Stallman's personal site</a>.
+</p>
+<div class="column-limit"></div>
+
+<blockquote><p>
+	I would like, in this interview, to focus on your current
+	work, and on the problematic of what kind of society we should
+	like to live in. Your focus now&mdash;and for at least the
+	last seventeen years&mdash;has been on working to make the
+	social arrangements for using software more ethical.
+</p>
+<p>
+	But, [briefly,] what do you mean by the notion of a what I call here
+	a more ethical society?
+</p></blockquote>
+
+<p>
+We need to encourage the spirit of cooperation, by respecting other
+people's freedom to cooperate and not advancing schemes to divide and
+dominate them.
+</p>
+
+<blockquote><p>
+	This takes us to a point that is quite important and that I am
+	hoping you can clarify for our readers. The term you prefer
+	for your ethic is &ldquo;free software,&rdquo; where the word
+	&ldquo;free&rdquo; means freedom from constraints and not free
+	to take. But the term that more and more people are using is
+	&ldquo;Open Source,&rdquo; a term of quite recent vintage
+	(1998), and, from your perspective, filled with significant
+	problems. Of the two, free software is a term that implies an
+	ethic of living and holds out the promise of a more just
+	society; the other, &ldquo;open source,&rdquo; does not.
+</p>
+<p>
+	Is that a fair statement? Would you address that issue, and clarify
+	the distinctions for our readers?
+</p></blockquote>
+
+<p>
+That is exactly right. Someone once said it this way: open source is a
+development methodology; free software is a political philosophy (or a
+social movement).
+</p>
+<p>
+The <a href="https://opensource.org">open source movement</a> focuses
+on convincing business that it can profit by respecting the users'
+freedom to share and change software. We in the
+<a href="https://www.fsf.org/">free software movement</a> appreciate those
+efforts, but we believe that there is a more important issue at stake:
+all programmers [owe] an ethical obligation to respect those freedoms
+for other people. Profit is not wrong in itself, but it can't justify
+mistreating other people.
+</p>
+
+<blockquote><p>
+	Along these lines, there has been considerable confusion over how to
+	name your idea of an ethical society. Mistakenly, many would assert
+	that you are suggesting a <a
+	href="https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm">communism</a>.
+</p></blockquote>
+
+<p>
+Anyone who criticizes certain business practices can expect to be
+called &ldquo;communist&rdquo; from time to time. This is a way of
+changing the subject and evading the issue. If people believe the
+charges, they don't listen to what the critics really say. (It is much
+easier to attack communism than to attack the views of the free
+software movement.)
+</p>
+
+<blockquote>
+  <p>Pekka Himanen, in his recent work, the <cite>Hacker Ethic</cite>, has
+  rightly countered these claims. I would go further: that what you suggest is
+  close to what political theorists such as <a
+  href="https://web.archive.org/web/20010604041229/http://www.gwu.edu/~ccps/etzioni/index.html">
+  Amitai Etzioni</a> would describe as a communitarianism (see, for instance, <a
+  href="https://web.archive.org/web/20210509231234/https://communitariannetwork.org/about">
+  communitariannetwork.org/about</a>).
+  And communitarianism is by no means hostile to the market economy that most
+  people associate with capitalism. Quite the opposite. Would you speak to what
+  could be called the politics of your ethical system?</p>
+</blockquote>
+
+<p>
+There is a place in life for business, but business should not be
+allowed dominate everyone's life. The original idea of democracy was
+to give the many a way to check the power of the wealthy few.
+</p>
+
+<p>
+Today business (and its owners) has far too much political power, and
+this undermines democracy in the US and abroad. Candidates face an
+effective veto by business, so they dare not disobey its orders.
+</p>
+<p>
+The power to make laws is being transferred from elected legislatures to
+nondemocratic bodies such as the <a
+href="https://www.fpif.org/reports/world_trade_organization">
+World Trade Organization</a>, 
+which was designed <a
+href="https://web.archive.org/web/20090210222102/https://www.citizen.org/trade/wto/Qatar/seattle_mini/articles.cfm?ID=5468">
+to subordinate public health,
+environmental protection, labor standards, and the general standard of
+living to the interests of business</a>. Under
+<a href="https://web.archive.org/web/20140328210905/http://www.citizen.org/trade/article_redirect.cfm?ID=6473">
+NAFTA [North
+American Free Trade Associtation]</a>, a Canadian company which was
+convicted in Mississippi of anticompetitive practices is
+<a href="https://web.archive.org/web/20051229084719/http://www.citizen.org:80/trade/nafta/chapter11/articles.cfm?ID=1173">suing</a>
+for Federal compensation for its lost business due to the
+conviction. They claim that NAFTA takes away states' right to make laws
+against anticompetitive practices.
+</p>
+<p>
+But business is not satisfied yet. The proposed
+<a href="https://web.archive.org/web/20190515002131/http://www.ftaa-alca.org/">
+FTAA [Free Trade Area of the
+Americas]</a> would require all governments to privatize their [public
+facilities] such as schools, water supply, record keeping, even social
+security. This is what Bush wants
+&ldquo;<a href="https://en.wikipedia.org/wiki/Fast_track_%28trade%29">fast
+track</a>&rdquo; authority to push through.
+</p>
+<p>
+<a href="https://web.archive.org/web/20130607095126/http://www.canadians.org/trade/issues/FTAA/Quebec/index.html">
+Peaceful protestors against the FTAA in Quebec were violently
+attacked by police</a>,
+who then blamed the fighting on the protestors. One protestor
+standing on the street was shot in the throat with a plastic bullet at a
+range of 20 feet. He is maimed for life, and seeks to press charges of
+attempted murder&mdash;if the cops will reveal who shot him.
+</p>
+<p>
+One protest organizer was attacked on the street by a gang that got
+out of a van, knocked him down, and beat him up. When his friends came
+to the rescue, the gang revealed itself as undercover police and took
+him away.
+</p>
+<p>
+Whatever democracy survives the globalization treaties is likely to be
+crushed by the efforts to suppress <a 
+href="https://web.archive.org/web/20010515200253/http://stopftaa.org/">
+opposition to them</a>.
+</p>
+<blockquote><p>
+The most immediate criticism of your insistence on ethics would be
+that the ethic of free software is fine, but not relevant to the real
+world of business.
+</p></blockquote>
+<p>
+With over half the world's Web sites running on GNU/Linux and
+<a href="https://www.apache.org">Apache</a>, that is evidently just FUD.
+You should not give such falsehoods credibility by appearing to take them
+seriously yourself.
+</p>
+<blockquote><p>
+I think it is worse to leave implicit lies unanswered than to address
+them directly. The thrust of my argument was that Microsoft, for
+instance, would and does claim that free software does not make money
+and rather loses money. They argue it's a bad idea all around. I don't
+think that Microsoft is to be ignored, just as the WTO should not be
+ignored. But: my question was to suggest a rebuttal this self-evident
+FUD, not to credit the errors of others.
+</p>
+<p>
+	So, I'll rephrase my question: Microsoft has attacked the GPL
+	as business foolishness that is also bad for
+	&ldquo;America&rdquo; (whatever that means). They don't care
+	about community ethics. How do you then counter their FUD, or
+	for that matter, the FUD of those who share Microsoft's views?
+</p></blockquote>
+
+<p>
+	Stallman did not respond to this query for clarification, but as it
+	happened, a <a href="/philosophy/rms-nyu-2001-transcript.html">speech</a>
+	he recently presented at New York University responded to
+	Microsoft's propaganda. The Free Software Foundation has presented a
+	<a href="/press/2001-05-04-GPL.html">defense</a>, of free software,
+	as well.
+</p>
+
+<p>
+    [To return to the interview&hellip;]
+</p>
+<blockquote><p>
+	On a more individual level, how would you address the criticism of
+	person who would like to follow your ethical standards but feels she
+	cannot because she wants also to make money from her intellectual
+	work?
+</p></blockquote>
+
+<p>
+This hypothetical person appears to believe that developing free
+software is incompatible with being paid. If so, she is
+misinformed&mdash;hundreds of people are now paid to develop free
+software.  Some of them work for Sun. She is challenging us to solve a
+problem that doesn't really exist.
+</p>
+<p>
+But what if she can't get one of these free software jobs? That could
+happen&mdash;not everybody can get them today. But it doesn't excuse
+developing proprietary software. A desire for profit is not wrong in
+itself, but it isn't the sort of urgent overriding cause that could
+excuse mistreating others. Proprietary software divides the users and
+keeps them helpless, and that is wrong. Nobody should do that.
+</p>
+<p>
+So what should she do instead? Anything else. She could get a job in
+another field. But she doesn't have to go that far&mdash;most software
+development is custom software, not meant to be published either as
+free software or as proprietary software. In most cases, she can do
+that without raising an ethical issue. It isn't heroism, but it isn't
+villainy either.
+</p>
+
+<blockquote><p>
+	But copyright can be thought of as an author's friend.
+</p></blockquote>
+
+<p>
+In the age of the printing press, that was true:
+<a href="https://webarchive.nationalarchives.gov.uk/ukgwa/20140603100055/http://www.ipo.gov.uk/types/copy/c-about/c-history.htm">copyright</a>
+was an industrial restriction on publishers, requiring them to pay the
+author of a book. It did not restrict the readers, because the actions
+it restricted were things only a publisher could do.
+</p>
+<p>
+But this is not true any more. Now copyright is a restriction on the
+public, for the sake of the publishers, who give the authors a small
+handout to buy their support against the public.
+</p>
+
+<blockquote><p>
+	In the current situation, then, who benefits most from copyright?
+</p></blockquote>
+
+<p>
+The publishers.
+</p>
+
+<blockquote><p>
+	Were I freelancing again, I would not want to release my works without
+	the minimal security of payment for my labor copyright affords.
+</p></blockquote>
+
+<p>
+You could do that without copyright. It is part of your business
+dealings with the magazine you are writing for.
+</p>
+
+<p>
+But please note that I don't say copyright should be entirely
+abolished. You can disagree with what I said, but it makes no sense to
+attack me for things I did not say. What I said in my speech was that
+software which is published should be free.
+</p>
+
+<blockquote><p>
+	For a more detailed accounting of Stallman's views regarding
+	copyright as extended to fields outside of software, readers
+	are urged to go to the <a href="/home.html">GNU web site</a>,
+	and to Stallman's <a href="https://www.stallman.org">personal
+	site</a>. In particular, readers might want to look at
+	&ldquo;<a href="/philosophy/copyright-and-globalization.html">Copyright
+	and Globalization in the Age of Computer Networks</a>&rdquo;
+	presented at the Massachusetts Institute of Technology in
+	Cambridge, Massachusetts on 19 April 2001. Discussing his
+	views on copyright as extended to non-software fields,
+	Stallman mentioned, in the interview, &ldquo;Those are ideas
+	that I came to after some years of working on free software.
+	People asked me the question, &lsquo;How do these ideas extend
+	to other kinds of information,&rsquo; so in the 90s I started
+	thinking about the question. This speech gives my thought on
+	the question.&rdquo;
+</p></blockquote>
+
+<p>
+On another point: recently, Argentina became the first country to
+consider requiring all government offices to use free software (see,
+for instance,
+<a href="https://www.wired.com/2001/05/argentina-mulls-open-source-move/">
+www.wired.com/2001/05/argentina-mulls-open-source-move</a>).
+</p>
+<p>
+I think the regulation is still being discussed&mdash;not adopted yet.
+</p>
+
+<blockquote><p>
+	As far as I know, that is still the case&hellip; However,
+	whether the legislation has been implemented or not, the news
+	is still encouraging, as at least free software is being
+	considered seriously as a legitimate option. What does this
+	(and other news) suggest regarding your future efforts? That
+	is, are you going to pitch the cause more strongly to
+	developing nations?
+</p></blockquote>
+
+<p>
+Yes. I am on my way to South Africa in two weeks [from the time of
+this writing, mid-May], and a Free Software Foundation is being
+started in India. There is also great interest in Brazil.
+</p>
+
+<blockquote><p>
+	A last point. The so-called &ldquo;Open Source&rdquo; movement
+	is by and large devoid of humor. Not so the &ldquo;Free
+	Software&rdquo; movement. You, in your lectures and in your
+	song, provide a gratifying humorousness. I'd like to finish by
+	asking, What do you accomplish by this?
+</p></blockquote>
+
+<p>
+I accomplish mirth. That's the hacker spirit&mdash;Ha Ha, Only Serious.
+</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/luispo-rms-interview.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/luispo-rms-interview.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/luispo-rms-interview.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/luispo-rms-interview.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/luispo-rms-interview.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/luispo-rms-interview.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2001, 2021, 2022, 2023 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/01/11 12:55:30 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

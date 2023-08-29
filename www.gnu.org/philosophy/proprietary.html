@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+<!-- 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  Please do not edit <ul class="blurbs">!
+    Instead, edit /proprietary/workshop/mal.rec, then regenerate pages.
+           See explanations in /proprietary/workshop/README.md.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<title>Proprietary Software
+- GNU Project - Free Software Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/proprietary/proprietary.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/proprietary/proprietary.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/proprietary/proprietary.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/proprietary/proprietary.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/proprietary/proprietary.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/proprietary/proprietary.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/proprietary/proprietary.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/proprietary/proprietary.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/proprietary/proprietary.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/proprietary/proprietary.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/proprietary/proprietary.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/proprietary/proprietary.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/proprietary/proprietary.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<style type="text/css" media="print,screen">
+<!--
+#skiplinks .button { float: left; margin: .5em; }
+#skiplinks .button a { display: inline-block; }
+#about-section { font-size: 1.1em; font-style: italic; }
+table#TOC {
+   display: block;
+   max-width: 100%; width: max-content;
+   overflow: auto;
+   border: .2em solid #e0dfda;
+   margin: 2.5em auto;
+}
+#TOC th, #TOC td {
+   text-align: center;
+   padding: .7em;
+   border-collapse: collapse;
+}
+#TOC th {
+   vertical-align: middle;
+   font-size: 1.1em;
+   font-weight: bold;
+   background: #fffae0;
+}
+#TOC td {
+   vertical-align: top;
+}
+#TOC ul { padding-top: .5em; margin: 0; }
+#TOC ul li { padding-bottom: .5em; margin: 0; list-style: none; }
+#TOC ol { text-align: left; margin: 0; }
+#TOC ol li { margin: .5em 5%; }
+#TOC a, #TOC a:visited,
+ #skiplinks a, #skiplinks a:visited {
+   color: #004caa;
+   text-decoration: none;
+}
+#TOC a { text-decoration: none; }
+#TOC a:hover { text-decoration: underline; }
+-->
+</style>
+<style type="text/css" media="print,screen">
+  .reduced-width { width: 55em; }
+</style>
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">PHILOSOPHY</a></li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/proprietary/proprietary.html">MALWARE</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="reduced-width">
+
+<h2>Proprietary Software Is Often Malware</h2>
+
+<div id="skiplinks">
+<p class="button"><a href="#TOC">Table of contents</a></p>
+<p class="button"><a href="#latest">Latest additions</a></p>
+</div>
+<div style="clear: both"></div>
+
+<div id="about-section">
+<p>Proprietary software, also called nonfree software,
+means software that doesn't
+<a href="/philosophy/free-sw.html">respect users' freedom and
+community</a>.  A proprietary program puts its developer or owner
+<a href="/philosophy/free-software-even-more-important.html">
+in a position of power over its users.</a>
+This power is in itself an injustice.</p>
+
+<p>The point of this directory is to show by examples that the initial
+injustice of proprietary software often leads to further injustices:
+malicious functionalities.</p>
+
+<p>Power corrupts; the proprietary program's developer is tempted to
+design the program to mistreat its users.  (Software designed to
+function in a way that mistreats the user is called <em>malware</em>.)
+Of course, the developer usually does not do this out of malice, but
+rather to profit more at the users' expense.  That does not make it
+any less nasty or more legitimate.</p>
+
+<p>Yielding to that temptation has become ever more frequent; nowadays
+it is standard practice.  Modern proprietary software is typically
+an opportunity to be tricked, harmed, bullied or swindled.</p>
+
+<p>Online services are not released software, but in regard to all the
+bad aspects, using a service is equivalent to using a copy of released
+software.  In particular, a service can be designed to mistreat the
+user, and many services do that.  However, we do not list instances of
+malicious dis-services here, for two reasons.  First, a service
+(whether malicious or not) is not a program that one could install a
+copy of, and there is no way at all for users to change it.  Second,
+it is so obvious that a service can mistreat users if the owner wishes
+that we hardly need to prove it.</p>
+
+<p>However, most online services require the user to run a nonfree
+app.  The app <em>is</em> released software, so we do list malicious
+functionalities of these apps.  Mistreatment by the service itself is
+imposed by use of the app, so sometimes we mention those mistreatments
+too&mdash;but we try to state explicitly what is done by the app and
+what is done by the dis-service.</p>
+
+<p>When a web site provides access to a service, it very likely sends
+nonfree JavaScript software to execute in the user's browser.  Such
+JavaScript code is released software, and it's morally equivalent to
+other nonfree apps.  If it does malicious things, we want to mention
+them here.</p>
+
+<p>When talking about mobile phones, we do
+list <a href="/proprietary/malware-mobiles.html#phone-communications">one
+other malicious characteristic, location tracking</a> which is caused
+by the underlying radio system rather than by the specific software in
+them.</p>
+</div>
+
+<p>As of May 2023, the pages in this directory list around 600
+instances of malicious functionalities (with more than 690 references to
+back them up), but there are surely thousands more we don't know about.</p>
+
+<p>Ideally we would list every instance.  If you come across an
+instance which we do not list, please write to webmasters@gnu.org to
+tell us about it.  Please include a reference to a reputable article
+that describes the malicious behavior clearly; we won't list an item
+without documentation to point to.</p>
+
+<p>If you want to be notified when we add new items or make other changes,
+subscribe to the <a
+href="https://lists.gnu.org/mailman/listinfo/www-malware-commits">mailing list
+&lt;www-malware-commits@gnu.org&gt;</a>.</p>
+
+<table id="TOC">
+ <tr>
+  <th>Injustices or techniques</th>
+  <th>Products or companies</th>
+ </tr>
+ <tr>
+  <td>
+   <ul class="columns">
+    <li><a href="/proprietary/proprietary-addictions.html">Addictions</a></li>
+    <li><a href="/proprietary/proprietary-back-doors.html">Back doors</a>&nbsp;(<a href="#f1">1</a>)</li>
+    <li><a href="/proprietary/proprietary-censorship.html">Censorship</a></li>
+    <li><a href="/proprietary/proprietary-coercion.html">Coercion</a></li>
+    <li><a href="/proprietary/proprietary-coverups.html">Coverups</a></li>
+    <li><a href="/proprietary/proprietary-deception.html">Deception</a></li>
+    <li><a href="/proprietary/proprietary-drm.html">DRM</a>&nbsp;(<a href="#f2">2</a>)</li>
+    <li><a href="/proprietary/proprietary-fraud.html">Fraud</a></li>
+    <li><a href="/proprietary/proprietary-incompatibility.html">Incompatibility</a></li>
+    <li><a href="/proprietary/proprietary-insecurity.html">Insecurity</a></li>
+    <li><a href="/proprietary/proprietary-interference.html">Interference</a></li>
+    <li><a href="/proprietary/proprietary-jails.html">Jails</a>&nbsp;(<a href="#f3">3</a>)</li>
+    <li><a href="/proprietary/proprietary-manipulation.html">Manipulation</a></li>
+    <li><a href="/proprietary/proprietary-obsolescence.html">Obsolescence</a></li>
+    <li><a href="/proprietary/proprietary-sabotage.html">Sabotage</a></li>
+    <li><a href="/proprietary/proprietary-subscriptions.html">Subscriptions</a></li>
+    <li><a href="/proprietary/proprietary-surveillance.html">Surveillance</a></li>
+    <li><a href="/proprietary/proprietary-tethers.html">Tethers</a>&nbsp;(<a href="#f4">4</a>)</li>
+    <li><a href="/proprietary/proprietary-tyrants.html">Tyrants</a>&nbsp;(<a href="#f5">5</a>)</li>
+    <li><a href="/proprietary/potential-malware.html">In the pipe</a></li>
+   </ul>
+  </td>
+  <td>
+   <ul>
+    <li><a href="/proprietary/malware-appliances.html">Appliances</a></li>
+    <li><a href="/proprietary/malware-cars.html">Cars</a></li>
+    <li><a href="/proprietary/malware-in-online-conferencing.html">Conferencing</a></li>
+    <li><a href="/proprietary/malware-edtech.html">EdTech</a></li>
+    <li><a href="/proprietary/malware-games.html">Games</a></li>
+    <li><a href="/proprietary/malware-mobiles.html">Mobiles</a></li>
+    <li><a href="/proprietary/malware-webpages.html">Webpages</a></li>
+    
+   </ul>
+   <ul>
+    <li><a href="/proprietary/malware-adobe.html">Adobe</a></li>
+    <li><a href="/proprietary/malware-amazon.html">Amazon</a></li>
+    <li><a href="/proprietary/malware-apple.html">Apple</a></li>
+    <li><a href="/proprietary/malware-google.html">Google</a></li>
+    <li><a href="/proprietary/malware-microsoft.html">Microsoft</a></li>
+   </ul>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <ol>
+    <li id="f1"><em>Back door:</em>&nbsp; any feature of a program
+     that enables someone who is not supposed to be in control of the
+     computer where it is installed to send it commands.</li>
+
+    <li id="f2"><em>Digital restrictions management, or
+     &ldquo;DRM&rdquo;:</em>&nbsp; functionalities designed to restrict
+     what users can do with the data in their computers.</li>
+
+    <li id="f3"><em>Jail:</em>&nbsp; system that imposes censorship on
+     application programs.</li>
+
+    <li id="f4"><em>Tether:</em>&nbsp; functionality that requires
+     permanent (or very frequent) connection to a server.</li>
+
+    <li id="f5"><em>Tyrant:</em>&nbsp; system that rejects any operating
+     system not &ldquo;authorized&rdquo; by the manufacturer.</li>
+   </ol>
+  </td>
+ </tr>
+</table>
+
+<p>Users of proprietary software are defenseless against these forms
+of mistreatment.  The way to avoid them is by insisting on
+<a href="/philosophy/free-software-even-more-important.html">free
+(freedom-respecting) software</a>.  Since free software is controlled
+by its users, they have a pretty good defense against malicious
+software functionality.</p>
+
+<h3 id="latest">Latest additions</h3>
+
+<p style="margin-bottom: .5em">
+  <small class="date-tag">2022-07</small></p>
+<p id="uefi-rootkit" class="important" style="margin-top: 0">
+  <strong><a href="/proprietary/proprietary-insecurity.html#uefi-rootkit">
+  UEFI makes computers vulnerable to advanced persistent threats that are almost impossible
+  to detect once installed...</a></strong></p>
+
+<ul class="blurbs">
+<!-- Copied from workshop/mal.rec. Do not edit in proprietary.html. -->
+  <li id="M202307040">
+    <small class="date-tag">2023-07</small>
+    <p><a
+    href="https://www.theguardian.com/technology/2023/jul/04/smile-youre-on-camera-self-driving-cars-are-here-and-theyre-watching-you">
+    Driverless cars in San Francisco collect videos constantly</a>, using
+    cameras inside and outside, and governments have already collected
+    those videos secretly.</p>
+
+    <p>As the Surveillance Technology Oversight Project says, they are
+    &ldquo;driving us straight into authoritarianism.&rdquo; We must <a
+    href="/philosophy/surveillance-vs-democracy.html">regulate <em>all</em>
+    cameras that collect images that can be used to track people</a>,
+    to make sure they are not used for that.</p>
+  </li>
+
+<!-- Copied from workshop/mal.rec. Do not edit in proprietary.html. -->
+  <li id="M202305300">
+    <small class="date-tag">2023-05</small>
+    <p>Some employers are <a
+    href="https://www.theguardian.com/money/2023/may/30/i-feel-constantly-watched-employees-working-under-surveillance-monitorig-software-productivity">
+    forcing employees to run &ldquo;monitoring software&rdquo;</a> on
+    their computers. These extremely intrusive proprietary programs
+    can take screenshots at regular intervals, log keystrokes,
+    record audio and video, etc. Such practices have been shown to <a
+    href="https://www.eurofound.europa.eu/publications/report/2020/employee-monitoring-and-surveillance-the-challenges-of-digitalisation">
+    deteriorate employees' well-being</a>, and trade unions in the
+    European union have voiced their concerns about them. The requirement
+    for employee's consent, which exists in some countries, is a sham
+    because most often the employee is not free to refuse. In short,
+    these practices should be abolished.</p>
+  </li>
+
+<!-- Copied from workshop/mal.rec. Do not edit in proprietary.html. -->
+  <li id="M202306120">
+    <small class="date-tag">2023-06</small>
+    <p>Edge <a
+    href="https://www.neowin.net/news/edge-sends-images-you-view-online-to-microsoft-here-is-how-to-disable-that/">sends
+    the URLs of images the user views to Microsoft's servers</a> by
+    default, supposedly to &ldquo;enhance&rdquo; them.  And these images
+    <a href="/proprietary/proprietary-surveillance.html#M201405140">may
+    end up on the NSA's servers</a>.</p>
+
+    <p>Microsoft claims its nonfree browser sends the URLs without
+    identifying you, which cannot be true, since at least your IP
+    address is known to the server if you don't take extra measures.
+    Either way, such enhancer service is unjust because any image editing
+    <a href="/philosophy/who-does-that-server-really-serve.html">should
+    be done on your own computer using installed free software</a>.</p>
+
+    <p>The article describes how to disable sending the URLs.  That makes
+    a change for the better, but we suggest that you instead switch to a
+    freedom-respecting browser with additional privacy features such as
+    <a href="/software/gnuzilla/">IceCat</a>.</p>
+  </li>
+
+<!-- Copied from workshop/mal.rec. Do not edit in proprietary.html. -->
+  <li id="M202305040">
+    <small class="date-tag">2023-05</small>
+    <p>Controlling Honeywell internet thermostats with the dedicated
+    app has proven unreliable, due to <a
+    href="https://piunikaweb.com/2022/03/15/honeywell-total-connect-comfort-app-website-not-working-issue/">
+    recurrent connection issues with the server these thermostats are
+    tethered to</a>.</p>
+  </li>
+
+<!-- Copied from workshop/mal.rec. Do not edit in proprietary.html. -->
+  <li id="M202305100">
+    <small class="date-tag">2023-05</small>
+    <p>HP delivers printers with a
+    universal back door, and recently used it to <a
+    href="https://www.theguardian.com/money/2023/may/10/how-can-hp-block-me-from-using-a-cheaper-printer-cartridge">
+    sabotage them by remotely installing malware</a>. The malware makes the
+    printer refuse to function with non-HP ink cartrides, and even with old
+    HP cartridges which HP now declares to have &ldquo;expired.&rdquo;
+    HP calls the back door &ldquo;dynamic security,&rdquo;
+    and has the gall to claim that this &ldquo;security&rdquo; protects
+    users from malware.</p>
+
+    <p>If you own an HP printer that can still use non-HP cartridges,
+    we urge you to disconnect it from the internet. This will ensure that
+    HP doesn't sabotage it by &ldquo;updating&rdquo; its software.</p>
+
+    <p><small>Note how the author of the Guardian article credulously
+    repeats HP's assertion that the &ldquo;dynamic security&rdquo;
+    feature protects users against malware, not recognizing that the
+    article demonstrates it does the opposite.</small></p>
+  </li>
+</ul>
+<p class="button right-align">
+<a href="/proprietary/all.html">More items&hellip;</a></p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/proprietary/proprietary.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/proprietary/proprietary.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/proprietary/proprietary.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/proprietary/proprietary.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/proprietary/proprietary.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/proprietary/proprietary.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/proprietary/proprietary.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/proprietary/proprietary.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/proprietary/proprietary.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/proprietary/proprietary.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/proprietary/proprietary.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/proprietary/proprietary.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/proprietary/proprietary.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2013-2023 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">Creative
+Commons Attribution 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/07/15 11:47:02 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

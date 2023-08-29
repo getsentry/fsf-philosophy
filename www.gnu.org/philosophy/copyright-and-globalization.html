@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Copyright and Globalization in the Age of Computer Networks -
+GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/copyright-and-globalization.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/copyright-and-globalization.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/copyright-and-globalization.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/copyright-and-globalization.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/copyright-and-globalization.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/copyright-and-globalization.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/copyright-and-globalization.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/copyright-and-globalization.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/copyright-and-globalization.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/copyright-and-globalization.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-and-globalization.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Copyright and Globalization in the Age of Computer Networks</h2>
+
+<div class="infobox">
+<p>The following is an edited transcript from a speech given
+at <abbr title="Massachusetts Institute of Technology">MIT</abbr> in
+the Communications Forum on Thursday, April 19, 2001.</p>
+</div>
+<hr class="thin" />
+
+<p>
+<b>DAVID THORBURN, moderator</b>: Our speaker today, Richard Stallman,
+is a legendary figure in the computing world, and my experience in
+trying to find a respondent to share the podium with him was
+instructive.  One distinguished MIT professor told me
+that Stallman needs to be understood as a charismatic figure in a
+biblical parable&mdash;a kind of Old Testament anecdote-lesson.
+&ldquo;Imagine,&rdquo; he said, &ldquo;a Moses or a Jeremiah&mdash;better
+a Jeremiah.&rdquo; And I said, &ldquo;Well, that's very
+admirable.
+That sounds wonderful.  It confirms my sense of the kind of
+contribution he has made to the world.  Then why are you reluctant to
+share the podium with him?&rdquo; His answer: &ldquo;Like Jeremiah or
+Moses, he would simply overwhelm me.  I won't appear on the same panel
+him, but if you asked me to name five people alive in the world who
+have truly helped us all, Richard Stallman would be one of
+them.&rdquo;</p>
+<p>
+<b>RICHARD STALLMAN</b>: I should [begin by explaining why I have
+refused to allow this Forum to be web cast], in case it wasn't clear
+fully what the issue is: The software they use for web broadcasting
+requires the user to download certain software in order to receive the
+broadcast.  That software is not free software.  It's available at zero
+price but only as an executable, which is a mysterious bunch of numbers.</p>
+<p>
+What it does is secret.  You can't study it; you can't change it; and
+you certainly can't publish it in your own modified version.  And
+those are among the freedoms that are essential in the definition of
+&ldquo;free software.&rdquo;</p>
+<p>
+So if I am to be an honest advocate for free software, I can hardly go
+around giving speeches, then put pressure on people to use nonfree
+software.  I'd be undermining my own cause.  And if I don't show that
+I take my principles seriously, I can't expect anybody else to take
+them seriously.</p>
+<p>
+However, this speech is not about free software.  After I'd been
+working on the free software movement for several years and people
+started using some of the pieces of the GNU operating system, I began
+getting invited to give speeches [at which] &hellip; people started
+asking me: &ldquo;Well, how do the ideas about freedom for software
+users generalize to other kinds of things?&rdquo;</p>
+<p>
+And, of course, people asked silly questions like, &ldquo;Well, should
+hardware be free?&rdquo; &ldquo;Should this microphone be
+free?&rdquo;</p>
+<p>
+Well, what does that mean?  Should you be free to copy it and change
+it?  Well, as for changing it, if you buy the microphone, nobody is
+going to stop you from changing it.  And as for copying it, nobody has
+a microphone copier.  Outside of <cite>Star Trek</cite>, those things
+don't exist.  Maybe some day there'll be nanotechnological analyzers
+and assemblers, and it really will be possible to copy a physical
+object, and then these issues of whether you're free to do that will
+start being really important.  We'll see agribusiness companies trying
+to stop people from copying food, and that will become a major
+political issue, if that technological capability will ever exist.  I
+don't know if it will; it's just speculation at this point.</p>
+<p>
+But for other kinds of information, you can raise the issue because
+any kind of information that can be stored on a computer, conceivably,
+can be copied and modified.  So the ethical issues of free software,
+the issues of a user's right to copy and modify software, are the same
+as such questions for other kinds of published information.  Now I'm
+not talking about private information, say, personal information,
+which is never meant to be available to the public at all.  I'm
+talking about the rights you should have if you get copies of
+published things where there's no attempt to keep them secret.</p>
+<p>
+In order to explain my ideas on the subject, I'd like to review the
+history of the distribution of information and of copyright.  In the
+ancient world, books were written by hand with a pen, and anybody who
+knew how to read and write could copy a book about as efficiently as
+anybody else.  Now somebody who did it all day would probably learn to
+be somewhat better at it, but there was not a tremendous difference.
+And because the copies were made one at a time, there was no great
+economy of scale.  Making ten copies took ten times as long as making
+one copy.  There was also nothing forcing centralization; a book could
+be copied anywhere.</p>
+<p>
+Now because of this technology, because it didn't force copies to be
+identical, there wasn't in the ancient world the same total divide
+between copying a book and writing a book.  There are things in
+between that made sense.  They did understand the idea of an author.
+They knew, say, that this play was written by Sophocles but in between
+writing a book and copying a book, there were other useful things you
+could do.  For instance, you could copy a part of a book, then write
+some new words, copy some more and write some new words and on and on.
+This was called &ldquo;writing a commentary&rdquo;&mdash;that was a
+common thing to do&mdash;and these commentaries were
+appreciated.</p>
+<p>
+You could also copy a passage out of one book, then write some other
+words, and copy a passage from another book and write some more and so
+on, and this was making a compendium.  Compendia were also very
+useful.  There are works that are lost but parts of them survived when
+they were quoted into other books that got to be more popular than the
+original.  Maybe they copied the most interesting parts, and so people
+made a lot of copies of these, but they didn't bother copying the
+original because it wasn't interesting enough.</p>
+<p>
+Now as far as I can tell, there was no such thing as copyright in the
+ancient world.  Anyone who wanted to copy a book could copy the book.
+Later on, the printing press was developed and books started to be
+copied on the printing press.  Now the printing press was not just a
+quantitative improvement in the ease of copying.  It affected
+different kinds of copying unevenly because it introduced an inherent
+economy of scale.  It was a lot of work to set the type and much less
+work to make many identical copies of the page.  So the result was
+that copying books tended to become a centralized, mass-production
+activity.  Copies of any given book would probably be made in only a
+few places.</p>
+<p>
+It also meant that ordinary readers couldn't copy books efficiently.
+Only if you had a printing press could you do that.  So it was an
+industrial activity.</p>
+<p>
+Now for the first few centuries of printing, printed books did not
+totally replace hand-copying.  Hand-copied books were still made,
+sometimes by rich people and sometimes by poor people.  The rich
+people did this to get an especially beautiful copy that would show
+how rich they were, and poor people did it because maybe they didn't
+have enough money to buy a printed copy but they had the time to copy
+a book by hand.  As the song says, &ldquo;Time ain't money when all
+you got is time.&rdquo;</p>
+<p>
+So hand-copying was still done to some extent.  I think it was in the
+1800s that printing actually got to be cheap enough that even poor
+people could afford printed books if they were literate.</p>
+<p>
+Now copyright was developed along with the use of the printing press
+and given the technology of the printing press, it had the effect of
+an industrial regulation.  It didn't restrict what readers could do;
+it restricted what publishers and authors could do.  Copyright in
+England was initially a form of censorship.  You had to get government
+permission to publish the book.  But the idea has changed.  By the
+time of the U.S. Constitution, people came to a different idea of the
+purpose of copyright, and I think that that idea was accepted in
+England as well.</p>
+<p>
+For the U.S. Constitution it was proposed that authors should be
+entitled to a copyright, a monopoly on copying their books.  This
+proposal was rejected.  Instead, a crucially different proposal was
+adopted which is that, for the sake of promoting progress, Congress
+could optionally establish a copyright system that would create these
+monopolies.  So the monopolies, according to the U.S. Constitution, do
+not exist for the sake of those who own them; they exist for the sake
+of promoting the progress of science.  The monopolies are handed out
+to authors as a way of modifying their behavior to get them to do
+something that serves the public.</p>
+<p>
+So the goal is more written and published books which other people can
+then read.  And this is believed to contribute to increased literary
+activity, increased writing about science and other fields, and
+society then learns through this.  That's the purpose to be served.
+The creation of private monopolies was a means to an end only, and the
+end is a public end.</p>
+<p>
+Now copyright in the age of the printing press was fairly painless
+because it was an industrial regulation.  It  restricted only the
+activities of publishers and authors.  Well, in some strict sense, the
+poor people who copied books by hand may have been infringing
+copyright, too.  But nobody ever tried to enforce copyright against
+them because it was understood as an industrial regulation.</p>
+<p>
+Copyright in the age of the printing press was also easy to enforce
+because it had to be enforced only where there was a publisher, and
+publishers, by their nature, make themselves known.  If you're trying
+to sell books, you've got to tell people where to come to buy them.
+You don't have to go into everybody's house to enforce copyright.</p>
+<p>
+And, finally, copyright may have been a beneficial system in that
+context.  Copyright in the U.S. is considered by legal scholars as a
+trade, a bargain between the public and authors.  The public trades
+away some of its natural rights to make copies, and in exchange gets
+the benefit of more books' being written and published.</p>
+<p>
+Now, is this an advantageous trade?  Well, when the general public
+can't make copies because they can only be efficiently made on
+printing presses&mdash;and most people don't own printing presses&mdash;the
+result is that the general public is trading away a
+freedom it is unable to exercise, a freedom that is of no practical
+value.  So if you have something that is a byproduct of your life and
+it's useless and you have the opportunity to exchange it for something
+else of any value, you're gaining.  So that's why copyright may have
+been an advantageous trade for the public in that time.</p>
+<p>
+But the context is changing, and that has to change our ethical
+evaluation of copyright.  Now the basic principles of ethics are not
+changed by advances in technology; they're too fundamental to be
+touched by such contingencies.  But our decision about any specific
+question is a matter of the consequences of the alternatives
+available, and the consequences of a given choice may change when the
+context changes.  That is what is happening in the area of copyright
+law because the age of the printing press is coming to an end, giving
+way gradually to the age of the computer networks.</p>
+<p>
+Computer networks and digital information technology are bringing us
+back to a world more like the ancient world where anyone who can read
+and use the information can also copy it and can make copies about as
+easily as anyone else could make them.  They are perfect copies and
+they're just as good as the copies anyone else could make.  So the
+centralization and economy of scale introduced by the printing press
+and similar technologies is going away.</p>
+<p>
+And this changing context changes the way copyright law works.  You
+see, copyright law no longer acts as an industrial regulation; it is
+now a Draconian restriction on a general public.  It used to be a
+restriction on publishers for the sake of authors.  Now, for practical
+purposes, it's a restriction on a public for the sake of publishers.
+Copyright used to be fairly painless and uncontroversial.  It didn't
+restrict the general public.  Now that's not true.  If you have a
+computer, the publishers consider restricting you to be their highest
+priority.  Copyright was easy to enforce because it was a restriction
+only on publishers who were easy to find and what they published was
+easy to see.  Now the copyright is a restriction on each and everyone
+of you.  To enforce it requires surveillance&mdash;an intrusion&mdash;and
+harsh punishments, and we are seeing these being enacted
+into law in the U.S. and other countries.</p>
+<p>
+And copyright used to be, arguably, an advantageous trade for the
+public to make because the public was trading away freedoms it
+couldn't exercise.  Well, now it can exercise these freedoms.  What do
+you do if you have been producing a byproduct which was of no use to
+you and you were in the habit of trading it away and then, all of a
+sudden, you discover a use for it?  You can actually consume it, use
+it.  What do you do?  You don't trade at all; you keep some.  And
+that's what the public would naturally want to do.  
+<span class="gnun-split"></span>That's what the
+public does whenever it's given a chance to voice its preference; it
+keeps some of this freedom and exercises it.  Napster is a big example
+of that, the public deciding to exercise the freedom to copy instead
+of giving it up.  So the natural thing for us to do to make copyright
+law fit today's circumstances is to reduce the amount of copyright
+power that copyright owners get, to reduce the amount of restriction
+that they place on the public and to increase the freedom that the
+public retains.</p>
+<p>
+But this is not what the publishers want to do.  What they want to do
+is exactly the opposite.  They wish to increase copyright powers to
+the point where they can remain firmly in control of all use of
+information.  This has led to laws that have given an unprecedented
+increase in the powers of copyright.  Freedoms that the public used to
+have in the age of the printing press are being taken away.</p>
+<p>
+For instance, let's look at e-books.  There's a tremendous amount of
+hype about e-books; you can hardly avoid it.  I took a flight in
+Brazil and in the in-flight magazine, there was an article saying that
+maybe it would take 10 or 20 years before we all switched to e-books.
+Clearly, this kind of campaign comes from somebody paying for it.  Now
+why are they doing that?  I think I know.  The reason is that e-books
+are the opportunity to take away some of the residual freedoms that
+readers of printed books have always had and still have&mdash;the
+freedom, for instance, to lend a book to your friend or borrow it from
+the public library or sell a copy to a used bookstore or buy a copy
+anonymously, without putting a record in the database of who bought
+that particular book.  And maybe even the right to read it twice.</p>
+<p>
+These are freedoms that the publishers would like to take away, but
+they can't do this for printed books because that would be too obvious
+a power-grab and would raise an outcry. So they have found an indirect
+strategy:  First, they obtain the legislation to take away these
+freedoms for e-books when there are no e-books; so there's no
+controversy.  There are no pre-existing users of e-books who are
+accustomed to their freedoms and will defend them.  That they obtained
+with the Digital Millennium Copyright Act in 1998.  Then they
+introduce e-books and gradually get everybody to switch from printed
+books to e-books and eventually the result is, readers have lost these
+freedoms without ever having an instant when those freedoms were being
+taken away and when they might have fought back to retain them.</p>
+<p>
+We see at the same time efforts to take away people's freedom in using
+other kinds of published works.  For instance, movies that are on DVDs
+are published in an encrypted format that used to be secret&mdash;it
+was meant to be secret&mdash;and the only way the movie companies
+would tell you the format, so that you could make a DVD player, was if
+you signed a contract to build certain restrictions into the player,
+with the result that the public would be stopped even from fully
+exercising their legal rights.  Then a few clever programmers in
+Europe figured out the format of DVDs and they wrote a free software
+package that would read a DVD.  This made it possible to use free
+software on top of the GNU+Linux operating system to watch the DVD
+that you had bought, which is a perfectly legitimate thing to do.  You
+ought to be able to do that with free software.</p>
+<p>
+But the movie companies objected and they went to court.  You see, the
+movie companies used to make a lot of films where there was a mad
+scientist and somebody was saying, &ldquo;But, Doctor, there are some
+things Man was not meant to know.&rdquo; They must have watched their
+own films too much because they came to believe that the format of
+DVDs is something that Man was not meant to know.  And they obtained a
+ruling for total censorship of the software for playing DVDs.  Even
+making a link to a site where this information is legally available
+outside the U.S. has been prohibited.  An appeal has been made against
+this ruling.  I signed a friend-of-the-court brief in that appeal, I'm
+proud to say, although I'm playing a fairly small role in that
+particular battle.</p>
+<p>
+The U.S. government intervened directly on the other side.  This is
+not surprising when you consider why the Digital Millennium Copyright
+Act was passed in the first place.  The reason is the campaign finance
+system that we have in the U.S., which is essentially legalized
+bribery where the candidates are bought by business before they even
+get elected.  And, of course, they know who their master is&mdash;they
+know whom they're working for&mdash;and they pass the laws to
+give business more power.</p>
+<p>
+What will happen with that particular battle, we don't know.  But
+meanwhile Australia has passed a similar law and Europe is almost
+finished adopting one; so the plan is to leave no place on earth where
+this information can be made available to people.  But the U.S.
+remains the world leader in trying to stop the public from
+distributing information that's been published.</p>
+<p>
+The U.S. though is not the first country to make a priority of this.
+The Soviet Union treated it as very important.  There this
+unauthorized copying and redistribution was known as <i>samizdat</i> and to
+stamp it out, they developed a series of methods: First, guards
+watching every piece of copying equipment to check what people were
+copying to prevent forbidden copying.  Second, harsh punishments for
+anyone caught doing forbidden copying. You could be sent to Siberia.
+Third, soliciting informers, asking everyone to rat on their neighbors
+and co-workers to the information police.  Fourth, collective
+responsibility&mdash;You!  You're going to watch that group!  If I
+catch any of them doing forbidden copying, you are going to prison.
+So watch them hard.  And, fifth, propaganda, starting in childhood to
+convince everyone that only a horrible enemy of the people would ever
+do this forbidden copying.</p>
+<p>
+The U.S. is using all of these measures now.  First, guards watching
+copying equipment.  Well, in copy stores, they have human guards to
+check what you copy.  But human guards to watch what you copy in your
+computer would be too expensive; human labor is too expensive.  So
+they have robot guards.  That's the purpose of the Digital Millennium
+Copyright Act.  This software goes in your computer; it's the only way
+you can access certain data and it stops you from copying.</p>
+<p>
+There's a plan now to introduce this software into every hard disk, so
+that there could be files on your hard disk that you can't even access
+except by getting permission from some network server to access the
+file.  And to bypass this software or even tell other people how to
+bypass it is a crime.</p>
+<p>
+Second, harsh punishments.  A few years ago, if you made copies of
+something and handed them out to your friends just to be helpful, this
+was not a crime; it had never been a crime in the U.S.  Then they made
+it a felony, so you could be put in prisons for years for sharing with
+your neighbor.</p>
+<p>
+Third, informers.  Well, you may have seen the ads on TV, the ads in
+the Boston subways asking people to rat on their co-workers to the
+information police, which officially is called the Software Publishers
+Association.</p>
+<p>
+And fourth, collective responsibility.  In the U.S., this has been
+done by conscripting Internet service providers, making them legally
+responsible for everything their customers post.  The only way they
+can avoid always being held responsible is if they have an invariable
+procedure to disconnect or remove the information within two weeks
+after a complaint.  Just a few days ago, I heard that a clever protest
+site criticizing City Bank for some of its nasty policies was
+disconnected in this way.  Nowadays, you don't even get your day in
+court; your site just gets unplugged.</p>
+<p>
+And, finally, propaganda, starting in childhood.  That's what the word
+&ldquo;pirate&rdquo; is used for.  If you'll think back a few years,
+the term &ldquo;pirate&rdquo; was formerly applied to publishers that
+didn't pay the author.  But now it's been turned completely around.
+It's now applied to members of the public who escape from the control
+of the publisher.  It's being used to convince people that only a
+nasty enemy of the people would ever do this forbidden copying.  It
+says that &ldquo;sharing with your neighbor is the moral equivalent of
+attacking a ship.&rdquo; I hope that you don't agree with that and if
+you don't, I hope you will refuse to use the word in that way.</p>
+<p>
+So the publishers are purchasing laws to give themselves more power.
+In addition, they're also extending the length of time the copyright
+lasts.  The U.S. Constitution says that copyright must last for a
+limited time, but the publishers want copyright to last forever.
+However, getting a constitutional amendment would be rather difficult,
+so they found an easier way that achieves the same result.  Every 20
+years they retroactively extend copyright by 20 years.  So the result
+is, at any given time, copyright nominally lasts for a certain period
+and any given copyright will nominally expire some day.  But that
+expiration will never be reached because every copyright will be
+extended by 20 years every 20 years; thus no work will ever go into
+the public domain again.  This has been called &ldquo;perpetual
+copyright on the installment plan.&rdquo;</p>
+<p>
+The law in 1998 that extended copyright by 20 years is known as the
+&ldquo;Mickey Mouse Copyright Extension Act&rdquo; because one of the
+main sponsors of this law was Disney.  Disney realized that the
+copyright on Mickey Mouse was going to expire, and they don't want
+that to ever happen because they make a lot of money from that
+copyright.</p>
+<p>
+Now the original title of this talk was supposed to be
+&ldquo;Copyright and Globalization.&rdquo; If you look at
+globalization, what you see is that it's carried out by a number of
+policies which are done in the name of economic efficiency or
+so-called free-trade treaties, which really are designed to give
+business power over laws and policies.  They're not really about free
+trade.  They're about a transfer of power: removing the power to
+decide laws from the citizens of any country who might conceivably
+consider their own interests and giving that power to businesses who
+will not consider the interests of those citizens.</p>
+<p>
+Democracy is the problem in their view, and these treaties are
+designed to put an end to the problem.  For instance,
+<abbr title="North American Free Trade Agreement">NAFTA</abbr>
+actually contains provisions, I believe, allowing companies to sue
+another government to get rid of a law that they believe is
+interfering with their profits in the other country.  So foreign
+companies have more power than citizens of the country.</p>
+<p>
+There are attempts being made to extend this
+beyond NAFTA.  For instance, this is one of the goals of
+the so-called free trade area of the Americas, to extend this
+principle to all the countries in South America and the Caribbean as
+well, and the multilateral agreement on investment was intended to
+spread it to the whole world.</p>
+<p>
+One thing we've seen in the '90s is that these treaties begin to
+impose copyright throughout the world, and in more powerful and
+restrictive ways.  These treaties are not free-trade treaties.
+They're actually corporate-controlled trade treaties being used to
+give corporations control over world trade, in order to eliminate free
+trade.</p>
+<p>
+When the U.S. was a developing country in the 1800s, the U.S. did not
+recognize foreign copyrights.  This was a decision made carefully, and
+it was an intelligent decision.  It was acknowledged that for the U.S.
+to recognize foreign copyrights would just be disadvantageous, that it
+would suck money out and wouldn't do much good.</p>
+<p>
+The same logic would apply today to developing countries but the U.S.
+has sufficient power to force them to go against their interests.
+Actually, it's a mistake to speak of the interests of countries in
+this context.  In fact, I'm sure that most of you have heard about the
+fallacy of trying to judge the public interest by adding up
+everybody's wealth.  If working Americans lost $1 billion and Bill
+Gates gained $2 billion, would Americans generally be better off?
+Would this be good for America?  Or if you look only at the total, it
+looks like it's good.  However, this example really shows that the
+total is the wrong way to judge because Bill Gates really doesn't need
+another $2 billion, but the loss of the $1 billion by other people who
+don't have as much to start with might be painful.  
+<span class="gnun-split"></span>Well, in a
+discussion about any of these trade treaties, when you hear people
+talk about the interests of this country or that country, what they're
+doing, within each country, is adding up everybody's income.  The rich
+people and the poor people are being added up.  So it's actually an
+excuse to apply that same fallacy to get you to ignore the effect on
+the distribution of wealth within the country and whether the treaty
+is going to make that more uneven, as it has done in the U.S.</p>
+<p>
+So it's really not the U.S. interest that is being served by enforcing
+copyright around the world.  It's the interests of certain business
+owners, many of whom are in the U.S. and some of whom are in other
+countries.  It doesn't, in any sense, serve the public interest.</p>
+<p>
+But what would make sense to do?  If we believe in the goal of
+copyright stated, for instance in the U.S. Constitution, the goal of
+promoting progress, what would be intelligent policies to use in the
+age of the computer network?  Clearly, instead of increasing copyright
+powers, we have to pull them back so as to give the general public a
+certain domain of freedom where they can make use of the benefits of
+digital technology, make use of their computer networks.  But how far
+should that go?  That's an interesting question because I don't think
+we should necessarily abolish copyright totally.  
+<span class="gnun-split"></span>The idea of trading
+some freedoms for more progress might still be an advantageous trade
+at a certain level, even if traditional copyright gives up too much
+freedom.  But in order to think about this intelligently, the first
+thing we have to recognize is, there's no reason to make it totally
+uniform.  There's no reason to insist on making the same deal for all
+kinds of work.</p>
+<p>
+In fact, that already isn't the case because there are a lot of
+exceptions for music.  Music is treated very differently under
+copyright law.  But the arbitrary insistence on uniformity is used by
+the publishers in a certain clever way.  They pick some peculiar
+special case and they make an argument that, in that special case, it
+would be advantageous to have this much copyright.  And then they say
+that for uniformity's sake, there has to be this much copyright for
+everything.  So, of course, they pick the special case where they can
+make the strongest argument, even if it's a rather rare special case
+and not really very important overall.</p>
+<p>
+But maybe we should have that much copyright for that particular
+special case.  We don't have to pay the same price for everything we
+buy.  A thousand dollars for a new car might be a very good deal.  A
+thousand dollars for a container of milk is a horrible deal.  You
+wouldn't pay the special price for everything you buy in other areas
+of life.  Why do it here?</p>
+<p>
+So we need to look at different kinds of works, and I'd like to
+propose a way of doing this.</p>
+<p>
+This includes recipes, computer programs, manuals and textbooks,
+reference works like dictionaries and encyclopedias.  For all these
+functional works, I believe that the issues are basically the same as
+they are for software and the same conclusions apply.  People should
+have the freedom even to publish a modified version because it's very
+useful to modify functional works.  People's needs are not all the
+same.  If I wrote this work to do the job I think needs doing, your
+idea as a job you want to do may be somewhat different.  So you want
+to modify this work to do what's good for you.  
+<span class="gnun-split"></span>At that point, there
+may be other people who have similar needs to yours, and your modified
+version might be good for them.  Everybody who cooks knows this and
+has known this for hundreds of years.  It's normal to make copies of
+recipes and hand them out to other people, and it's also normal to
+change a recipe.  If you change the recipe and cook it for your
+friends and they like eating it, they might ask you, &ldquo;Could I
+have the recipe?&rdquo; Then maybe you'll write down your version and
+give them copies.  That is exactly the same thing that we much later
+started doing in the free-software community.</p>
+<p id="opinions">
+So that's one class of work.   The second class of work is works whose
+purpose is to say what certain people think.  Talking about those
+people is their purpose.  This includes, say, memoirs, essays of
+opinion, scientific papers, offers to buy and sell, catalogues of
+goods for sale.  The whole point of those works is that they tell you
+what somebody thinks or what somebody saw or what somebody believes.
+To modify them is to misrepresent the authors; so modifying these
+works is not a socially useful activity.   And so verbatim copying is
+the only thing that people really need to be allowed to do.</p>
+<p>
+The next question is: Should people have the right to do commercial
+verbatim copying?  Or is noncommercial enough?  You see, these are
+two different activities we can distinguish, so that we can consider
+the questions separately&mdash;the right to do noncommercial
+verbatim copying and the right to do commercial verbatim copying.
+Well, it might be a good compromise policy to have copyright cover
+commercial verbatim copying but allow everyone the right to do
+noncommercial verbatim copying.  This way, the copyright on the
+commercial verbatim copying, as well as on all modified versions&mdash;only
+the author could approve a modified version&mdash;would
+still provide the same revenue stream that it provides now to fund the
+writing of these works, to whatever extent it does.</p>
+<p>
+By allowing the noncommercial verbatim copying, it means the
+copyright no longer has to intrude into everybody's home.  It becomes
+an industrial regulation again, easy to enforce and painless, no
+longer requiring draconian punishments and informers for the sake of
+its enforcement.  So we get most of the benefit&mdash;and avoid most
+of the horror&mdash;of the current system.</p>
+<p>
+The third category of works is aesthetic or entertaining works, where
+the most important thing is just the sensation of looking at the
+work.  Now for these works, the issue of modification is a very
+difficult one because on the one hand, there is the idea that these
+works reflect the vision of an artist and to change them is to mess up
+that vision.  On the other hand, you have the fact that there is the
+folk process, where a sequence of people modifying a work can
+sometimes produce a result that is extremely rich.  Even when you have
+artists' producing the works, borrowing from previous works is often
+very useful.  Some of Shakespeare's plays used a story that was taken
+from some other play.  If today's copyright laws had been in effect
+back then, those plays would have been illegal.  
+<span class="gnun-split"></span>So it's a hard
+question what we should do about publishing modified versions of an
+aesthetic or an artistic work, and we might have to look for further
+subdivisions of the category in order to solve this problem.  For
+example, maybe computer game scenarios should be treated one way;
+maybe everybody should be free to publish modified versions of them.
+But perhaps a novel should be treated differently; perhaps for that,
+commercial publication should require an arrangement with the original
+author.</p>
+<p>
+Now if commercial publication of these aesthetic works is covered by
+copyright, that will give most of the revenue stream that exists today
+to support the authors and musicians, to the limited extent that the
+present system supports them, because it does a very bad job.  So that
+might be a reasonable compromise, just as in the case of the works
+which represent certain people.</p>
+<p>
+If we look ahead to the time when the age of the computer networks
+will have fully begun, when we're past this transitional stage, we can
+envision another way for the authors to get money for their work.
+Imagine that we have a digital cash system that enables you to get
+money for your work.  
+<span class="gnun-split"></span>Imagine that we have a digital cash system that
+enables you to send somebody else money through the Internet; this can
+be done in various ways using encryption, for instance.  And imagine
+that verbatim copying of all these aesthetic works is permitted.  But
+they're written in such a way that when you are playing one or reading
+one or watching one, a box appears on the side of your screen that
+says, &ldquo;Click here to send a dollar to the author,&rdquo; or the
+musician or whatever.  And it just sits there; it doesn't get in your
+way; it's on the side.  It doesn't interfere with you, but it's there,
+reminding you that it's a good thing to support the writers and the
+musicians.</p>
+<p>
+So if you love the work that you're reading or listening to,
+eventually you're going to say, &ldquo;Why shouldn't I give these
+people a dollar?  It's only a dollar.  What's that?  I won't even miss
+it.&rdquo; And people will start sending a dollar.  The good thing
+about this is that it makes copying the ally of the authors and
+musicians.  When somebody e-mails a friend a copy, that friend might
+send a dollar, too.  If you really love it, you might send a dollar
+more than once and that dollar is more than they're going to get today
+if you buy the book or buy the CD because they get a tiny fraction of
+the sale.  The same publishers that are demanding total power over the
+public in the name of the authors and musicians are giving those
+authors and musicians the shaft all the time.</p>
+<p>
+I recommend you read Courtney Love's article in <cite>Salon</cite>
+magazine, an article about pirates that plan to use musicians' work
+without paying them.  These pirates are the record companies that pay
+musicians 4% of the sales figures, on the average.  Of course, the
+very successful musicians have more clout.  They get more than 4% of
+their large sales figures, which means that the great run of musicians
+who have a record contract get less than 4% of their small sales
+figures.</p>
+<p>
+Here's the way it works: The record company spends money on publicity
+and they consider this expenditure as an advance to the musicians,
+although the musicians never see it.  So nominally when you buy a CD,
+a certain fraction of that money is going to the musicians, but really
+it isn't.  Really, it's going to pay back the publicity expenses, and
+only if the musicians are very successful do they ever see any of that
+money.</p>
+<p>
+The musicians, of course, sign their record contracts because they
+hope they're going to be one of those few who strike it rich.  So
+essentially a rolling lottery is being offered to the musicians to
+tempt them.  Although they're good at music, they may not be good at
+careful, logical reasoning to see through this trap.  So they sign and
+then probably all they get is publicity.  Well, why don't we give them
+publicity in a different way, not through a system that's based on
+restricting the public and a system of the industrial complex that
+saddles us with lousy music that's easy to sell.  Instead, why not
+make the listener's natural impulse to share the music they love the
+ally of the musicians?  If we have this box that appears in the player
+as a way to send a dollar to the musicians, then the computer networks
+could be the mechanism for giving the musicians this publicity, the
+same publicity which is all they get from record contracts now.</p>
+<p>
+We have to recognize that the existing copyright system does a lousy
+job of supporting musicians, just as lousy as world trade does of
+raising living standards in the Philippines and China.  You have these
+enterprise zones where everyone works in a sweatshop and all of the
+products are made in sweatshops.  I knew that globalization was a very
+inefficient way of raising living standards of people overseas.  Say,
+an American is getting paid $20 an hour to make something and you give
+that job to a Mexican who is getting paid maybe six dollars a day,
+what has happened here is that you've taken a large amount of money
+away from an American worker, given a tiny fraction, like a few
+percents, to a Mexican worker and given back the rest  to the
+company.  So if your goal is to raise the living standards of Mexican
+workers, this is a lousy way to do it.</p>
+<p>
+It's interesting to see how the same phenomenon is going on in the
+copyright industry, the same general idea.  In the name of these
+workers who certainly deserve something, you propose measures that
+give them a tiny bit and really mainly prop up the power of
+corporations to control our lives.</p>
+<p>
+If you're trying to replace a very good system, you have to work very
+hard to come up with a better alternative.  If you know that the
+present system is lousy, it's not so hard to find a better
+alternative; the standard of comparison today is very low.  We must
+always remember that when we consider issues of copyright policy.</p>
+<p>
+So I think I've said most of what I want to say.  I'd like to mention
+that tomorrow is Phone-In Sick Day in Canada.  Tomorrow is the
+beginning of a summit to finish negotiating the free trade area of the
+Americas to try to extend corporate power throughout additional
+countries, and a big protest is being planned for Quebec.  We've seen
+extreme methods being used to smash this protest.  A lot of Americans
+are being blocked from entering Canada through the border that they're
+supposed to be allowed to enter through at any time.  <span class="gnun-split"></span>On the flimsiest
+of excuses, a wall has been built around the center of Quebec to be
+used as a fortress to keep protesters out.  We've seen a large number
+of different dirty tricks used against public protest against these
+treaties.  So whatever democracy remains to us after government powers
+have been taken away from democratically elected governors and given
+to businesses and to unelected international bodies, whatever is left
+after that may not survive the suppression of public protest against
+it.</p>
+<p>
+I've dedicated 17 years of my life to working on free software and
+allied issues.  I didn't do this because I think it's the most
+important political issue in the world.  I did it because it was the
+area where I saw I had to use my skills to do a lot of good.  But
+what's happened is that the general issues of politics have evolved,
+and the biggest political issue in the world today is resisting the
+tendency to give business power over the public and governments.  I
+see free software and the allied questions for other kinds of
+information that I've been discussing today as one part of that major
+issue.  So I've indirectly found myself working on that issue.  I hope
+I contribute something to the effort.</p>
+<p>
+<b>RESPONSE</b>:</p>
+<p>
+<b>THORBURN</b>:   We'll turn to the audience for questions and comments in a
+moment.  But let me offer a brief general response.  It seems to me
+that the strongest and most important practical guidance that Stallman
+offers us has two key elements.  One is the  recognition that old
+assumptions about copyright, old usages of copyright are
+inappropriate; they are challenged or undermined by the advent of the
+computer and computer networks.  That may be obvious, but it is
+essential.</p>
+<p>
+Second is the recognition that the digital era requires us to
+reconsider how we distinguish and weigh forms of intellectual and
+creative labor.  Stallman is surely right that certain kinds of
+intellectual enterprises justify more copyright protection than
+others.  Trying to identify systematically these different kinds or
+levels of copyright protection seems to me a valuable way to engage
+with the problems for intellectual work posed by the advent of the
+computer.</p>
+<p>
+But I think I detect another theme that lies beneath what Stallman has
+been saying and that isn't really directly about computers at all, but
+more broadly about questions of democratic authority and the power
+that government and corporations increasingly exercise over our lives.
+This populist and anti-corporate side to Stallman's discourse is
+nourishing but also reductive, potentially simplifying.  And it is
+also perhaps overly idealistic.  For example, how would a novelist or
+a poet or a songwriter or a musician or the author of an academic
+textbook survive in this brave new world where people are encouraged
+but not required to pay authors.  In other words, it seems to me, the
+gap between existing practice and the visionary possibilities Stallman
+speculates about is still immensely wide.</p>
+<p>
+So I'll conclude by asking if Stallman would like to expand a bit on
+certain aspects of his talk and, specifically, whether he has further
+thoughts about the way in which what we'll call &ldquo;traditional
+creators&rdquo; would be protected under his copyright system.</p>
+<p>
+<b>STALLMAN</b>: First of all, I have to point out that we shouldn't
+use the term &ldquo;protection&rdquo; to describe what copyright does.
+Copyright restricts people.  The term &ldquo;protection&rdquo; is a
+propaganda term of the copyright-owning businesses.  The term
+&ldquo;protection&ldquo; means stopping something from being somehow
+destroyed.  Well, I don't think a song is destroyed if there are more
+copies of it being played more.  I don't think that a novel is
+destroyed if more people are reading copies of it, either.  So I won't
+use that word.  I think it leads people to identify with the wrong
+party.</p>
+<p>
+Also, it's a very bad idea to think about intellectual property for
+two reasons: First, it prejudges the most fundamental question in the
+area which is: How should these things be treated and should they be
+treated as a kind of property?  To use the term &ldquo;intellectual
+property&rdquo; to describe the area is to presuppose the answer is
+&ldquo;yes,&rdquo; that that's the way to treat things, not some other
+way.</p>
+<p>
+Second, it encourages over-generalization.  Intellectual property is a
+catch-all for several different legal systems with independent origins
+such as, copyrights, patents, trademarks, trade secrets and some other
+things as well.  They are almost completely different; they have
+nothing in common.  But people who hear the term &ldquo;intellectual
+property&rdquo; are led to a false picture where they imagine that
+there's a general principle of intellectual property that was applied
+to specific areas, so they assume that these various areas of the law
+are similar.  This leads not only to confused thinking about what is
+right to do, it leads people to fail to understand what the law
+actually says because they suppose that the copyright law and patent
+law and trademark law are similar, when, in fact, they are totally
+different.</p>
+<p>
+So if you want to encourage careful thinking and clear understanding
+of what the law says, avoid the term &ldquo;intellectual
+property.&rdquo; Talk about copyrights.  Or talk about patents.  Or
+talk about trademarks or whichever subject you want to talk about.
+But don't talk about intellectual property.  Opinion about
+intellectual property almost has to be a foolish one.  I don't have an
+opinion about intellectual property.  I have opinions about copyrights
+and patents and trademarks, and they're different.  I came to them
+through different thought processes because those systems of law are
+totally different.</p>
+<p>
+Anyway, I made that digression, but it's terribly important.</p>
+<p>
+So let me now get to the point.  Of course, we can't see now how well
+it would work, whether it would work to ask people to pay money
+voluntarily to the authors and musicians they love.  One thing that's
+obvious is that how well such a system would work is proportional to
+the number of people who are participating in the network, and that
+number, we know, is going to increase by an order of magnitude over a
+number of years.  If we tried it today, it might fail, and that
+wouldn't prove anything because with ten times as many people
+participating, it might work.</p>
+<p>
+The other thing is, we do not have this digital cash payment system;
+so we can't really try it today.  You could try to do something a
+little bit like it.  There are services you can sign up for where you
+can pay money to someone&mdash;things like PayPal.  But before you
+can pay anyone through PayPal, you have to go through a lot of
+rigmarole and give them personal information about you, and they
+collect records of whom you pay.  Can you trust them not to misuse
+that?</p>
+<p>
+So the dollar might not discourage you, but the trouble it takes to
+pay might discourage you.  The whole idea of this is that it should be
+as easy as falling off a log to pay when you get the urge, so that
+there's nothing to discourage you except the actual amount of money.
+And if that's small enough, why should it discourage you.  We know,
+though, that fans can really love musicians, and we know that
+encouraging fans to copy and redistribute the music has been done by
+some bands that were, and are, quite successful like the
+&ldquo;Grateful Dead.&rdquo; They didn't have any trouble making a
+living from their music because they encouraged fans to tape it and
+copy the tapes.  They didn't even lose their record sales.</p>
+<p>
+We are gradually moving from the age of the printing press to the age
+of the computer network, but it's not happening in a day.  People are
+still buying lots of records, and that will probably continue for many
+years&mdash;maybe forever.  As long as that continues, simply having
+copyrights that still apply to commercial sales of records ought to do
+about as good a job of supporting musicians as it does today.  Of
+course, that's not very good, but, at least, it won't get any
+worse.</p>
+<p>
+<b>DISCUSSION</b>:</p>
+<p>
+<b>QUESTION</b>:  [A comment and question about free downloading and
+about Stephen King's attempt to market one of his novels serially over
+the web.]</p>
+<p>
+<b>STALLMAN</b>: Yes, it's interesting to know what he did and what
+happened.  When I first heard about that, I was elated.  I thought,
+maybe he was taking a step towards a world that is not based on trying
+to maintain an iron grip on the public.  Then I saw that he had
+actually written to ask people to pay.  To explain what he did, he was
+publishing a novel as a serial, by installments, and he said,
+&ldquo;If I get enough money, I'll release more.&rdquo; But the
+request he wrote was hardly a request.  It brow-beat the reader.  It
+said, &ldquo;If you don't pay, then you're evil.  And if there are too
+many of you who are evil, then I'm just going to stop writing
+this.&rdquo;</p>
+<p>
+Well, clearly, that's not the way to make the public feel like sending
+you money.  You've got to make them love you, not fear you.</p>
+<p>
+<b>SPEAKER</b>: The details were that he required a certain percentage&mdash;I
+don't know the exact percentage, around 90% sounds correct&mdash;of
+people to send a certain amount of money, which, I believe,
+was a dollar or two dollars, or somewhere in that order of magnitude.
+You had to type in your name and your e-mail address and some other
+information to get to download it and if that percentage of people was
+not reached after the first chapter, he said that he would not release
+another chapter.  It was very antagonistic to the public downloading
+it.</p>
+<p>
+<b>QUESTION</b>:  Isn't the scheme where there's no copyright but people are
+asked to make voluntary donations open to abuse by people
+plagiarizing?</p>
+<p>
+<b>STALLMAN</b>:  No.  That's not what I proposed.  Remember, I'm proposing
+that there should be copyright covering commercial distribution and
+permitting only verbatim redistribution noncommercially.  So anyone
+who modified it to put in a pointer to his website, instead of a
+pointer to the real author's website, would still be infringing the
+copyright and could be sued exactly as he could be sued today.</p>
+<p>
+<b>QUESTION</b>:  I see.  So you're still imagining a world in which there is
+copyright?</p>
+<p>
+<b>STALLMAN</b>:  Yes.  As I've said, for those kinds of works.  I'm not
+saying that everything should be permitted.  I'm proposing to reduce
+copyright powers, not abolish them.</p>
+<p>
+<b>THORBURN</b>: I guess one question that occurred to me while you
+were speaking, Richard, and, again, now when you're responding here to
+this question is why you don't consider the ways in which the
+computer, itself, eliminates the middle men completely&mdash;in the
+way that Stephen King refused to do&mdash;and might establish a
+personal relationship.</p>
+<p>
+<b>STALLMAN</b>:  Well, they can and, in fact, this voluntary donation
+is one.</p>
+<p>
+<b>THORBURN</b>:  You think of that as not involving going through a
+publisher at all?</p>
+<p>
+<b>STALLMAN</b>: Absolutely not.  I hope it won't, you see, because
+the publishers exploit the authors terribly.  When you ask the
+publishers' representatives about this, they say, &ldquo;Well, yes, if
+an author or if a band doesn't want to go through us, they shouldn't
+be legally required to go through us.&rdquo; But, in fact, they're
+doing their utmost to set it up so that will not be feasible.  For
+instance, they're proposing restricted copying media formats and in
+order to publish in these formats, you'll have to go through the big
+publishers because they won't tell anyone else how to do it.  So
+they're hoping for a world where the players will play these formats,
+and in order to get anything that you can play on those players, it'll
+have to come through the publishers.  
+<span class="gnun-split"></span>So, in fact, while there's no
+law against an author or a musician publishing directly, it won't be
+feasible.  There's also the lure of maybe hitting it rich.  They say,
+&ldquo;We'll publicize you and maybe you'll hit it as rich as the
+Beatles.&rdquo; Take your pick of some very successful group and, of
+course, only a tiny fraction of musicians are going to have that
+happen.  But they may be drawn by that into signing contracts that
+will lock them down forever.</p>
+<p>
+Publishers tend to be very bad at respecting their contracts with
+authors.  For instance, book contracts typically have said that if a
+book goes out of print, the rights revert to the author, and
+publishers have generally not been very good about living up to that
+clause.  They often have to be forced.  Well, what they're starting to
+do now is use electronic publication as an excuse to say that it's
+never going out of print; so they never have to give the rights back.
+Their idea is, when the author has no clout, get him to sign up and
+from then on, he has no power; it's only the publisher that has the
+power.</p>
+<p>
+<b>QUESTION</b>:  Would it be good to have free licenses for various kinds of
+works that protect for every user the freedom to copy them in whatever
+is the appropriate way for that kind of work?</p>
+<p>
+<b>STALLMAN</b>: Well, people are working on this.  But for non-functional
+works, one thing doesn't substitute for another.  Let's look at a
+functional kind of work, say, a word processor.  Well, if somebody
+makes a free word processor, you can use that; you don't need the
+nonfree word processors.  But I wouldn't say that one free song
+substitutes for all the nonfree songs or that a one free novel
+substitutes for all the nonfree novels.  For those kinds of works,
+it's different.   So what I think we simply have to do is to recognize
+that these laws do not deserve to be respected.  It's not wrong to
+share with your neighbor, and if anyone tries to tell you that you
+cannot share with your neighbor, you should not listen to him.</p>
+<p>
+<b>QUESTION</b>:  With regard to the functional works, how do you, in your
+own thinking, balance out the need for abolishing the copyright with
+the need for economic incentives in order to have these functional
+works developed?</p>
+<p>
+<b>STALLMAN</b>: Well, what we see is, first of all, that this
+economic incentive is a lot less necessary than people have been
+supposing.  Look at the free software movement where we have over
+100,000 part-time volunteers developing free software.  We also see
+that there are other ways to raise money for this which are not based
+on stopping the public from copying and modifying these works.  
+<span class="gnun-split"></span>That's
+the interesting lesson of the free software movement.  Aside from the
+fact that it gives you a way you can use a computer and keep your
+freedom to share and cooperate with other people, it also shows us
+that this negative assumption that people would never do these things
+unless they are given special powers to force people to pay them is
+simply wrong.  A lot of people will do these things.  Then if you look
+at, say, the writing of monographs which serve as textbooks in many
+fields of science except for the ones that are very basic, the authors
+are not making money out of that.  
+<span class="gnun-split"></span>We now have a free encyclopedia
+project which is, in fact, a commercial-free encyclopedia project, and
+it's making progress.  We had a project for a GNU encyclopedia but we
+merged it into the commercial project when they adopted our license.
+In January, they switched to the GNU Free Documentation License for
+all the articles in their encyclopedia.  So we said, &ldquo;Well,
+let's join forces with them and urge people to contribute to
+them.&rdquo; It's called &ldquo;Nupedia,&rdquo; and you can find a
+link to it, if you look at http://www.gnu.org/encyclopedia.  So here
+we've extended the community development of a free base of useful
+knowledge from software to encyclopedia.  I'm pretty confident now
+that in all these areas of functional work, we don't need that
+economic incentive to the point where we have to mess up the use of
+these works.</p>
+<p>
+<b>THORBURN</b>:  Well, what about the other two categories?</p>
+<p>
+<b>STALLMAN</b>: For the other two classes of work, I don't know.  I
+don't know whether people will write some day novels without worrying
+about whether they make money from it.  In a post-scarcity society, I
+guess they would.  Maybe what we need to do in order to reach the
+post-scarcity society is to get rid of the corporate control over the
+economy and the laws.  So, in effect, it's a chicken-or-the-egg
+problem, you know.  Which do we do first?  How do we get the world
+where people don't have to desperately get money except by removing
+the control by business?  And how can we remove the control by
+business except&mdash;Anyway, I don't know, but that's why I'm
+trying to propose first a compromise copyright system and, second, the
+voluntary payment supported by a compromise copyright system as a way
+to provide a revenue stream to the people who write those works.</p>
+<p>
+<b>QUESTION</b>:  How would you really expect to implement this compromise
+copyright system under the chokehold of corporate interests on
+American politicians due to their campaign-finance system?</p>
+<p>
+<b>STALLMAN</b>:  It beats me.  I wish I knew.  It's a terribly hard
+problem.  If I knew how to solve that problem, I would solve it and
+nothing in the world could make me prouder.</p>
+<p>
+<b>QUESTION</b>:.  How do you fight the corporate control?  Because when you
+look at these sums of money going into corporate lobbying in the court
+case, it is tremendous.  I think the DECS case that you're talking
+about is costing something like a million-and-a-half dollars on the
+defense side.  Lord knows what it's costing on the corporate side.  Do
+you have any idea how to deal with these huge sums of money?</p>
+<p>
+<b>STALLMAN</b>:  I have a suggestion.  If I were to suggest totally
+boycotting movies, I think people would ignore that suggestion.  They
+might consider it too radical.  So I would like to make a slightly
+different suggestion which comes to almost the same thing in the end,
+and that is, don't go to a movie unless you have some substantial
+reason to think it's good.  Now this will lead in practice to almost
+the same result as a total boycott of Hollywood movies.  In extension,
+it's almost the same but, in intention, it's very different.  Now I've
+noticed that many people go to movies for reasons that have nothing to
+do with whether they think the movies are good.  So if you change
+that, if you only go to a movie when you have some substantial reason
+to think it's good, you'll take away a lot of their money.</p>
+<p>
+<b>THORBURN</b>: One way to understand all of this discourse today, I
+think, is to recognize that whenever radical, potentially transforming
+technologies appear in society, there's a struggle over who controls
+them.  We today are repeating what has happened in the past.  So from
+this angle, there may not be a reason for despair, or even pessimism,
+about what may occur in the longer run.  But, in the shorter term,
+struggles over the control of text and images, over all forms of
+information are likely to be painful and extensive.  
+<span class="gnun-split"></span>For example, as a
+teacher of media, my access to images has been restricted in recent
+years in a way that had never been in place before.  If I write an
+essay in which I want to use still images, even from films, they are
+much harder to get permission to use, and the prices charged to use
+those still images are much higher&mdash;even when I make arguments
+about intellectual inquiry and the legal category of &ldquo;fair
+use.&rdquo; So I think, in this moment of extended transformation, the
+longer-term prospects may, in fact, not be as disturbing as what's
+happening in the shorter term.  But in any case, we need to understand
+the whole of our contemporary experience as a renewed version of a
+struggle over the control of technological resources that is a
+recurring principle of Western society.</p>
+<p>
+It's also essential to understand that the history of older
+technologies is itself a complicated matter.  The impact of the
+printing press in Spain, for example, is radically different from its
+impact in England or in France.</p>
+<p>
+<b>QUESTION</b>: One of the things that bothers me when I hear
+discussions of copyright is that often they start off with, &ldquo;We
+want a 180-degree change.  We want to do away with any sorts of
+control.&rdquo; It seems to me that part of what lay under the three
+categories that were suggested is an acknowledgement that there is
+some wisdom to copyright.  Some of the critics of the way copyright is
+going now believe that, in fact, it ought to be backed up and function
+much more like patent and trademarks in terms of its duration.  I
+wonder if our speaker would comment on that as a strategy.</p>
+<p>
+<b>STALLMAN</b>:  I agree that shortening the time span of copyright is a
+good idea.  There is absolutely no need in terms of encouraging
+publication for a possibility of copyrights' lasting as much as 150
+years, which, in some cases, it can under present law.  Now the
+companies were saying that a 75-year copyright on a work made for hire
+was not long enough to make possible the production of their works.
+I'd like to challenge those companies to present projected balance
+sheets for 75 years from now to back up that contention.  What they
+really wanted was just to be able to extend the copyrights on the old
+works, so that they can continue restricting the use of them.  But how
+you can encourage greater production of works in the 1920s by
+extending copyright today escapes me, unless they have a time machine
+somewhere.  Of course, in one of their movies, they had a time
+machine.  So maybe that's what affected their thinking.</p>
+<p>
+<b>QUESTION</b>: Have you given thought to extending the concept of
+&ldquo;fair use,&rdquo; and are there any nuances there that you might
+care to lay out for us?</p>
+<p>
+<b>STALLMAN</b>:  Well, the idea of giving everyone permission for
+noncommercial verbatim copying of two kinds of works, certainly, may
+be thought of as extending what fair use is.  It's bigger than what's
+fair use currently. If your idea is that the public trades away
+certain freedoms to get more progress, then you can draw the line at
+various, different places.  Which freedoms does the public trade away
+and which freedoms does the public keep?</p>
+<p>
+<b>QUESTION</b>:  To extend the conversation for just a moment, in certain
+entertainment fields, we have the concept of a public presentation.
+So, for example, copyright does not prevent us from singing Christmas
+carols seasonally but it prevents the public performance.  And I'm
+wondering if it might be useful to think about instead of expanding
+fair use to unlimited, noncommercial, verbatim copying, to something
+less than that but more than the present concept of fair use.</p>
+<p>
+<b>STALLMAN</b>:  I used to think that that might be enough, and then Napster
+convinced me otherwise because Napster is used by its users for
+noncommercial, verbatim redistribution.  The Napster server, itself,
+is a commercial activity but the people who are actually putting
+things up are doing so noncommercially, and they could have done so
+on their websites just as easily.  The tremendous excitement about,
+interest in, and use of Napster shows that that's very useful.  So I'm
+convinced now that people should have the right to publicly
+noncommercially, redistributed, verbatim copies of everything.</p>
+<p>
+<b>QUESTION</b>: One analogy that was recently suggested to me for the
+whole Napster question was the analogy of the public library.  I
+suppose some of you who have heard the Napster arguments have heard
+this analogy.  I'm wondering if you would comment on it.  The
+defenders of people who say Napster should continue and there
+shouldn't be restrictions on it sometimes say something like this:
+&ldquo;When folks go into the public library and borrow a book,
+they're not paying for it, and it can be borrowed dozens of times,
+hundreds of times, without any additional payment.  Why is Napster any
+different?&rdquo;</p>
+<p>
+<b>STALLMAN</b>:  Well, it's not exactly the same.  But it should be pointed
+out that the publishers want to transform public libraries into
+pay-per-use, retail outlets.  So they're against public libraries.</p>
+<p>
+<b>QUESTION</b>:  Can these ideas about copyright suggest any ideas for
+certain issues about patent law such as making cheap, generic drugs
+for use in Africa?</p>
+<p>
+<b>STALLMAN</b>: No, there's absolutely no similarity.  The issues of
+patents are totally different from the issues of copyrights.  The idea
+that they have something to do with each other is one of the
+unfortunate consequences of using the term &ldquo;intellectual
+property&rdquo; and encouraging people to try to lump these issues
+together because, as you've heard, I've been talking about issues in
+which the price of a copy is not the crucial thing.  But what's the
+crucial issue about making AIDS drugs for Africa?  It's the price,
+nothing but the price.</p>
+<p>
+Now the issue I've been talking about arises because digital
+information technology gives every user the ability to make copies.
+Well, there's nothing giving us all the ability to make copies of
+medicines.  I don't have the ability to copy some medicine that I've
+got.  In fact, nobody does; that's not how they're made.  Those
+medicines can only be made in expensive factories and they are made in
+expensive centralized factories, whether they're generic drugs or
+imported from the U.S.  Either way, they're going to be made in a
+small number of factories, and the issues are simply how much do they
+cost and are they available at a price that people in Africa can
+afford.</p>
+<p>
+So that's a tremendously important issue, but it's a totally different
+issue.  There's just one area where an issue arises with patents that
+is actually similar to these issues of freedom to copy, and that is in
+the area of agriculture.  Because there are certain patented things
+that can be copies, more or less&mdash;namely, living things.  They
+copy themselves when they reproduce.  It's not necessarily exact
+copying; they re-shuffle the genes.  But the fact is, farmers for
+millennia have been making use of this capacity of the living things
+they grow to copy themselves.  Farming is, basically, copying the
+things that you grew and you keep copying them every year.  When plant
+and animal varieties get patented, when genes are patented and used in
+them, the result is that farmers are being prohibited from doing
+this.</p>
+<p>
+There is a farmer in Canada who had a patented variety growing on his
+field and he said, &ldquo;I didn't do that deliberately.  The pollen
+blew, and the wind in those genes got into my stock of plants.&rdquo;
+And he was told that that doesn't matter; he has to destroy them
+anyway.  It was an extreme example of how much government can side
+with a monopolist.</p>
+<p>
+So I believe that, following the same principles that I apply to
+copying things on your computer, farmers should have an unquestioned
+right to save their seeds and breed their livestock.  Maybe you could
+have patents covering seed companies, but they shouldn't cover
+farmers.</p>
+<p>
+<b>QUESTION</b>:  There's more to making a model successful than just the
+licensing.  Can you speak to that?</p>
+<p>
+<b>STALLMAN</b>: Absolutely.  Well, you know, I don't know the
+answers.  But part of what I believe is crucial for developing free,
+functional information is idealism.  People have to recognize that
+it's important for this information to be free, that when the
+information is free, you can make full use of it.  When it's
+restricted, you can't.  You have to recognize that the nonfree
+information is an attempt to divide them and keep them helpless and
+keep them down.  Then they can get the idea, &ldquo;Let's work
+together to produce the information we want to use, so that it's not
+under the control of some powerful person who can dictate to us what
+we can do.&rdquo;</p>
+<p>
+This tremendously boosts it.  But I don't know how much it will work
+in various different areas, but I think that in the area of education,
+when you're looking for textbooks, I think I see a way it can be done.
+There are a lot of teachers in the world, teachers who are not at
+prestigious universities&mdash;maybe they're in high-school; maybe
+they're in college&mdash;where they don't write and publish a lot of
+things and there's not a tremendous demand for them.  But a lot of
+them are smart.  A lot of them know their subjects well and they could
+write textbooks about lots of subjects and share them with the world
+and receive a tremendous amount of appreciation from the people who
+will have learned from them.</p>
+<p>
+<b>QUESTION</b>: That's what I proposed.  But the funny thing is, I do
+know the history of education.  That's what I do&mdash;educational,
+electronic media projects.  I couldn't find an example.  Do you know
+of one?</p>
+<p>
+<b>STALLMAN</b>:  No, I don't.  I started proposing this free encyclopedia
+and learning resource a couple of years ago, and I thought it would
+probably take a decade to get things rolling.  Now we already have an
+encyclopedia that is rolling.  So things are going faster than I
+hoped.  I think what's needed is for a few people to start writing
+some free textbooks.  Write one about whatever is your favorite
+subject or write a fraction of one.  Write a few chapters of one and
+challenge other people to write the rest.</p>
+<p>
+<b>QUESTION</b>:  Actually what I was looking for is something even more than
+that.  What's important in your kind of structure is somebody that
+creates an infrastructure to which everybody else can contribute.
+There isn't a K through 12 infrastructure out there in any place for a
+contribution for materials.</p>
+<p>
+I can get information from lots of places but it's not released under
+free licenses, so I can't use it to make a free textbook.</p>
+<p>
+<b>STALLMAN</b>:  Actually, copyright doesn't cover the facts.  It only
+covers the way it's written.  So you can learn a field from anywhere
+and then write a textbook, and you can make that textbook free, if you
+want.</p>
+<p>
+<b>QUESTION</b>:  But I can't write by myself all the textbooks that a
+student needs going through school.</p>
+<p>
+<b>STALLMAN</b>: Well, it's true.  And I didn't write a whole, free
+operating system, either.  I wrote some pieces and invited other
+people to join me by writing other pieces.  So I set an example.  I
+said, &ldquo;I'm going in this direction.  Join me and we'll get
+there.&rdquo; And enough people joined in that we got there.  So if
+you think in terms of, how am I going to get this whole gigantic job
+done, it can be daunting.  So the point is, don't look at it that way.
+Think in terms of taking a step and realizing that after you've taken
+a step, other people will take more steps and, together, it will get
+the job done eventually.</p>
+<p>
+Assuming that humanity doesn't wipe itself out, the work we do today
+to produce the free educational infrastructure, the free learning
+resource for the world, that will be useful for as long as humanity
+exists.  If it takes 20 years to get it done, so what?  So don't think
+in terms of the size of the whole job.  Think in terms of the piece
+that you're going to do.  That will show people it can be done, and so
+others will do other pieces.</p>
+
+<hr class="no-display" />
+<div class="edu-note c"><p id="fsfs">This speech is published in
+<a href="https://shop.fsf.org/product/free-software-free-society/"><cite>Free
+Software, Free Society: The Selected Essays of Richard
+M. Stallman</cite></a>.</p></div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/copyright-and-globalization.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/copyright-and-globalization.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/copyright-and-globalization.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/copyright-and-globalization.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/copyright-and-globalization.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/copyright-and-globalization.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/copyright-and-globalization.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/copyright-and-globalization.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/copyright-and-globalization.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/copyright-and-globalization.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-and-globalization.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2001, 2021 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/10/14 13:02:23 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

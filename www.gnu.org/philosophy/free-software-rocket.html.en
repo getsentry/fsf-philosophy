@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Should Rockets Have Only Free Software? Free Software and Appliances
+- GNU Project - Free Software Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/free-software-rocket.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/free-software-rocket.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/free-software-rocket.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/free-software-rocket.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/free-software-rocket.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/free-software-rocket.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-software-rocket.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#extension">Beyond&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Should Rockets Have Only Free Software? Free Software and Appliances
+</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>Could there be a rocket that is totally free software?  Should we
+demand that SpaceX liberate the software in its satellite launching
+rockets?  I don't think the person who asked me this was serious, but
+answering that question may illuminate similar issues about the sorts
+of products people really buy today.</p>
+
+<p>As far as I know, software as such is not capable of generating
+thrust.  A rocket is necessarily principally a physical device, so it
+can't literally <em>be</em> free software.  But it may include
+computerized control and telemetry systems, and thus software.</p>
+
+<p>If someone offered to sell me a rocket, I would treat it like any
+other appliance.  Consider, for instance, a thermostat.  If it
+contains software to be modified, all the software in it needs to be
+free, and I alone should have the authority to decide whether to
+install some change.  If, however, the software in it is not meant
+ever to be altered, and it communicates <em>only</em> through some
+limited interface, such as buttons on the control panel, a TV remote
+control, or a USB interface with a fixed set of commands, I would not
+consider it crucial to know what is inside the thermostat: whether it
+contains a special-purpose chip, or a processor running code, makes no
+direct difference to me as user.  If it does contain code, it might as
+well have a special chip instead, so I don't need to care which it
+is.</p>
+
+<p>I would object if that thermostat sent someone data about my
+activities, regardless of how that was implemented.  Once again,
+special chip or special code makes no direct difference.  Free
+software in it could give me a way to turn off the surveillance, but
+that is not the only way.  Another is by disconnecting its digital
+communication antennas, or switching them off.</p>
+
+<p>If the rocket contains software, releasing that as free software can
+be a contribution to the community, and we should appreciate that
+contribution&mdash;but that is a different issue.  Such release also
+makes it possible for people who have bought the rockets to work on
+improving the software in them, though the irreversible nature of many
+rocket failures may discourage tinkering.</p>
+
+<p>Readers have pointed out that SpaceX has
+received <a href="https://www.theverge.com/2019/6/18/18683455/nasa-space-angels-contracts-government-investment-spacex-air-force">important
+financial support from the US government</a> to develop its rockets.
+By rights, accepting this support should require SpaceX to release the
+rocket software under a free license, even if it uses that software
+only inside its own rockets.</p>
+
+<p>Given the experience of Tesla cars, which are full of surveillance and
+tracking malware that Tesla can change but the owner can't, I suppose
+SpaceX rockets have that too.  If someday rockets are sold like today's
+cars and tractors, <a 
+href="/philosophy/free-software-even-more-important.html">software in
+them would be unjust</a>, and it would <a
+href="/proprietary/proprietary.html">probably be malware</a>.  If the
+manufacturer could install modified software in it but the owner could
+not, that too would be unjust.  People are starting to recognize this:
+look at the right-to-repair movement, which demands only the beginning
+of these freedoms (much less than freeing the car's software) and
+nonetheless faces a hard fight.</p>
+
+<p>However, I don't think SpaceX sells rockets; I think it provides the
+service of launching payloads in its own rockets.  That makes the
+issue totally different: if you are a customer, you're not operating
+the rocket; SpaceX is doing that.</p>
+
+<p>The rocket that SpaceX uses is not like your own car or van, or even a
+car or van leased to you.  Rather, it's comparable to a moving
+company's van that is, for the moment, transporting your books and
+furniture to your specified destination.  It is the moving company
+that deserves control over the software in that van&mdash;not the
+customer of the moment.</p>
+
+<p>It makes sense to treat the job of transporting your things to Outer
+Mongolia, or to outer space, as a service because the job is mostly
+self-contained and mostly independent of the customer (&ldquo;mostly&rdquo;
+does not mean &ldquo;absolutely&rdquo; or &ldquo;100%&rdquo;),
+so the instructions for the job are simple (take these boxes to address
+A by date D).</p>
+
+<p>If SpaceX has released the rocket software under a free license,
+that would give you the right to make, use and distribute modified
+versions, but would not give you the right to modify the code running
+in SpaceX's rocket.</p>
+
+<p>But there is a kind of activity which a hypothetical future
+spaceship might do, which should never be treated as a service: private
+computational activity.  That's because a private computational
+activity is exactly what you could do on your own computer in freedom,
+given suitable free software.</p>
+
+<p>When a program's task is to do computing for you, you are entitled to
+demand control over what it does and how, not just that it obey your
+orders as it interprets them.  You are entitled, in other words, to
+use your own copy of a free program, running on a computer you
+control.</p>
+
+<p>No wonder there are companies that would like you to cede control over
+your computing activities to them, by labeling those activities as
+&ldquo;services&rdquo; to be done on their servers with programs that they
+control.  Even things as minutely directed by the user as text
+editing!  This is a scheme to get you to substitute their power for
+your freedom.  We call that &ldquo;Service as a Software
+Substitute,&rdquo; SaaSS for short (see
+&ldquo;<a href="/philosophy/who-does-that-server-really-serve.html">Who
+does that server really serve?</a>&rdquo;), and we reject it.</p>
+
+<p>For instance, imagine a hypothetical SpaceX Smart Spaceship, which as
+a &ldquo;service&rdquo; wants to know all about your business so SpaceX servers
+can decide for you what cargoes to buy and sell on which planets.
+That planning service would be SaaSS&mdash;therefore a dis-service.
+Instead of using that dis-service, you should do that planning with
+your copy of free software on your own computer.</p>
+
+<p>SpaceX and others could then legitimately offer you the
+non-computational service of transporting cargoes, and you could use
+it sometimes; or you could choose some other method, perhaps to buy a
+spaceship and operate it yourself.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/free-software-rocket.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/free-software-rocket.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/free-software-rocket.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/free-software-rocket.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/free-software-rocket.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/free-software-rocket.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/free-software-rocket.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2020, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/14 16:25:47 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

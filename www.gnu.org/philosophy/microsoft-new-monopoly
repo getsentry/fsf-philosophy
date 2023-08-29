@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Microsoft's New Monopoly
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/microsoft-new-monopoly.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/microsoft-new-monopoly.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/microsoft-new-monopoly.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/microsoft-new-monopoly.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/microsoft-new-monopoly.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/microsoft-new-monopoly.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/microsoft-new-monopoly.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/microsoft-new-monopoly.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#Laws">Legal&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#patents">Patents<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Microsoft's New Monopoly</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<div class="infobox" style="font-style: italic">
+<p>This article was written in July 2005.  Microsoft adopted a
+different policy in 2006, so the specific policies described below and
+the specific criticisms of them are only of historical significance.
+The overall problem remains, however:
+<a href="https://web.archive.org/web/20120831070708/http://www.grokdoc.net/index.php/EOOXML_objections#Patent_rights_to_implement_the_Ecma_376_specification_have_not_been_granted">
+Microsoft's cunningly worded new policy does not give anyone clear
+permission to implement OOXML.</a>
+</p>
+</div>
+<hr class="thin" />
+
+<p>European legislators who endorse software patents frequently claim
+that those wouldn't affect free software (or &ldquo;open
+source&rdquo;).  Microsoft's lawyers are determined to prove they are
+mistaken.</p>
+
+<p>Leaked internal documents in 1998 said that Microsoft considered
+the free software GNU/Linux operating system (referred to therein as
+&ldquo;Linux&rdquo;) as the principal competitor to Windows, and spoke
+of using patents and secret file formats to hold us back.</p>
+
+<p>Because Microsoft has so much market power, it can often impose
+new standards at will. It need only patent some minor idea, design
+a file format, programming language, or communication protocol
+based on it, and then pressure users to adopt it. Then we in the
+free software community will be forbidden to provide software that
+does what these users want; they will be locked in to Microsoft,
+and we will be locked out from serving them.</p>
+<p>Previously Microsoft tried to get its patented scheme for
+spam blocking adopted as an Internet standard, so as to exclude free
+software from handling email. The standards committee in charge
+rejected the proposal, but Microsoft said it would try to convince
+large <abbr title="Internet service provider">ISP</abbr>s to use the
+scheme anyway.</p>
+
+<p>Now Microsoft is planning to try something similar for Word
+files.</p>
+
+<p>Several years ago, Microsoft abandoned its documented format for
+saving documents, and switched to a new format which was secret.
+However, the developers of free software word processors such as
+AbiWord and OpenOffice.org experimented assiduously for years to
+figure out the format, and now those programs can read most Word
+files. But Microsoft isn't licked yet.</p>
+
+<p>The next version of Microsoft Word will use formats that involve a
+technique that Microsoft claims to hold a patent on. Microsoft offers
+a royalty-free patent license for certain limited purposes, but it is
+so limited that it does not allow free software. Here is <a
+href="https://docs.microsoft.com/en-us/previous-versions/gg463420(v=msdn.10)">
+the license</a>.</p>
+
+<p>Free software is defined as software that respects four
+fundamental freedoms: (0) freedom to run the software as you wish,
+(1) freedom to study the source code and modify it to do what you
+wish, (2) freedom to make and redistribute copies, and (3) freedom
+to publish modified versions. Only programmers can directly
+exercise freedoms 1 and 3, but all users can exercise freedoms 0
+and 2, and all users benefit from the modifications that
+programmers write and publish.</p>
+
+<p>Distributing an application under Microsoft's patent license
+imposes license terms that prohibit most possible modifications of the
+software. Lacking freedom 3, the freedom to publish modified versions,
+it would not be free software. (I think it could not be &ldquo;open
+source&rdquo; software either, since that definition is similar; but
+it is not identical, and I cannot speak for the advocates of open
+source.)</p>
+
+<p>The Microsoft license also requires inclusion of a specific
+statement. That requirement would not in itself prevent the program
+from being free: it is normal for free software to carry license
+notices that cannot be changed, and this statement could be included
+in one of them. The statement is biased and confusing, since it uses
+the term &ldquo;intellectual property&rdquo;; fortunately,
+one is not required to endorse the statement as true or even meaningful, only to
+include it. The software developer could cancel its misleading effect
+with a disclaimer like this: &ldquo;The following misleading statement
+has been imposed on us by Microsoft; please be advised that it is
+propaganda. See <a href="/philosophy/not-ipr.html">Richard Stallman's article
+on &lsquo;intellectual property&rsquo;</a> for more explanation.&rdquo;</p>
+
+<p>However, the requirement to include a fixed piece of text is
+actually quite cunning, because anyone who does so has explicitly
+accepted and applied the restrictions of the Microsoft patent
+license. The resulting program is clearly not free software.</p>
+
+<p>Some free software licenses, such as the most popular GNU General
+Public License (GNU GPL), forbid publication of a modified version if it isn't
+free software in the same way. (We call that the &ldquo;liberty or
+death&rdquo; clause, since it ensures the program will remain free or
+die.) To apply Microsoft's license to a program under the GNU GPL
+would violate the program's license; it would be illegal. Many other
+free software licenses permit nonfree modified versions. It wouldn't
+be illegal to modify such a program and publish the modified version
+under Microsoft's patent license. But that modified version, with its
+modified license, wouldn't be free software.</p>
+
+<p>Microsoft's patent covering the new Word format is a US patent.
+It doesn't restrict anyone in Europe; Europeans are free to make
+and use software that can read this format. Europeans that develop
+or use software currently enjoy an advantage over Americans:
+Americans can be sued for patent infringement for their software
+activities in the US, but the Europeans cannot be sued for their
+activities in Europe. Europeans can already get US software patents
+and sue Americans, but Americans cannot get European software
+patents if Europe doesn't allow them.
+</p>
+
+<p>All that will change if the European Parliament authorizes
+software patents. Microsoft will be one of thousands of foreign
+software patent holders that will bring their patents over to
+Europe to sue the software developers and computer users there. Of
+the 50,000-odd putatively invalid software patents issued by the
+European Patent Office, around 80 percent do not belong to Europeans. The
+European Parliament should vote to keep these patents invalid, and
+keep Europeans safe.</p>
+
+<p>
+[2009 note]: the EU directive to allow software patents was
+rejected, but the European Patent Office has continued issuing them
+and some countries treat them as valid.
+See <a href="https://ffii.org"> ffii.org</a> for more information and
+to participate in the campaign against software patents in Europe.
+</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/microsoft-new-monopoly" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/microsoft-new-monopoly.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ca]&nbsp;<a lang="ca" hreflang="ca" href="/philosophy/microsoft-new-monopoly.ca.html">català</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/microsoft-new-monopoly.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/microsoft-new-monopoly.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/microsoft-new-monopoly.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/microsoft-new-monopoly.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/microsoft-new-monopoly.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2005, 2007, 2009, 2010, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/05 09:34:34 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

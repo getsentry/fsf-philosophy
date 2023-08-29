@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>When a Company Asks For Your Copyright
+- GNU Project - Free Software Foundation</title>
+<link rel="canonical"
+      href="https://www.fsf.org/blogs/rms/assigning-copyright" />
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/assigning-copyright.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/assigning-copyright.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/assigning-copyright.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/assigning-copyright.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/assigning-copyright.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/assigning-copyright.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/philosophy/assigning-copyright.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/assigning-copyright.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#LicensingFreeSoftware">Licensing&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#copyleft">Copyleft<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>When a Company Asks For Your Copyright</h2>
+<div class="thin"></div>
+
+<p>Companies that develop free software and release it under the GNU GPL
+sometimes distribute some copies of the code in other ways.  If they
+distribute the exact same code under a different license to certain
+users that pay for this, typically permitting including the code in
+proprietary programs, we call it &ldquo;selling exceptions.&rdquo;  If they
+distribute some version of the code solely in a proprietary manner, we
+call that releasing a purely proprietary version of the program.</p>
+
+<p>&ldquo;<a href="/philosophy/selling-exceptions.html">Selling exceptions
+to the GNU GPL</a>&rdquo; explains why
+selling exceptions is acceptable, though only barely.  By contrast,
+releasing a purely proprietary version is outright wrong, like
+any other proprietary software.</p>
+
+<p>Companies normally do these things using code they
+developed.  Since they hold the copyright on that code, they can
+legally distribute it in any manner, even in multiple manners in
+parallel.  But what happens when you publish a modified version of
+that free program, and the company wants to include your changes in
+its version?</p>
+
+<p>Since you got the program under the GPL, when you distribute a
+modified version you have to license it under the GPL.  If the company
+receives a copy, it will be able to use those changes under the GPL;
+it won't be allowed to include your changes in that program and sell
+exceptions for it.  It also won't be able to release purely
+proprietary versions containing your code.  If this is the outcome you
+want, you get it by default.  However, if the company intends to sell
+exceptions, it will probably decide not to use your changes.</p>
+
+<p>Suppose, though, that you're not opposed to selling exceptions and
+you're willing to let the company do so while including your changes
+in the program.  You can agree to this, but you need to be careful
+about what you sign, or you may be surprised by the results.</p>
+
+<p>The company will probably invite you to assign or license your
+copyright to the company, by signing a copyright assignment contract
+or a contributor license agreement.  That in itself is not inherently bad; for
+instance, many GNU software developers have assigned copyrights
+to the FSF.  However, the FSF never sells exceptions, and its
+assignment contracts include a commitment to distribute the
+contributor's code only with source and only permitting
+redistribution.</p>
+
+<p>The company's proposed contract may not include such a commitment.  It
+might instead let the company use your changes any way it likes.  If
+you sign that, the company could do various things with your code.  It
+could keep selling exceptions for a program including your code.  It
+could release purely proprietary modified or extended versions
+including your code.  It could even include your code <em>only</em> in
+proprietary versions.  Your contribution of code could turn out to be,
+in effect, a donation to proprietary software.</p>
+
+<p>It is up to you which of these activities to permit, but here are the
+FSF's recommendations.  If you plan to make major contributions to the
+project, insist that the contribution agreement require that software
+versions including your contributions be available to the public under
+a free software license.  This will allow the developer to sell
+exceptions, but prevent it from using your contributions in software
+that is only available under a proprietary license.</p>
+
+<p>If your contributions are smaller, you could accept a weaker
+condition, that the company make your contributions available in a
+free software release as well as possibly in nonfree programs.
+This would allow the company to use your contributions in
+modified software that's only available under a proprietary license.
+Releasing proprietary software is never a good thing, but if your
+changes are smaller, it might be more important to improve the free
+version than resist the nonfree versions.</p>
+
+<p>You can control these outcomes by insisting on the proper conditions
+in the contract.  To allow selling exceptions for the program that
+contains your code, but refuse to let the company release purely
+proprietary versions containing your code, you can insist on a
+condition more or less like this:</p>
+
+<blockquote class="emph-box">
+  <p>Any program based on (as defined in GNU General Public License
+  version 3) Hacker's code that FOO distributes shall be made
+  available by FOO under <b>(a)</b> the &ldquo;GNU General Public License (GPL),
+  version 2 or later,&rdquo; or <b>(b)</b> the licensing in (a), above, but with &ldquo;2&rdquo;
+  replaced by any higher existing GPL version number.  Provided FOO
+  makes the program available as source code gratis to the public in
+  this way, it may also distribute the identical program to some of
+  its users under terms permitting them to link the program's code
+  with nonfree code and release the combination in binary form under a
+  license of their own choosing.</p>
+</blockquote>
+
+<p>Or, if what you object to is that some variant <em>of your code</em>
+might be released solely in a proprietary version, you can insist on a
+condition more or less like this:</p>
+
+<blockquote class="emph-box">
+  <p>Any program based on (as defined in GNU General Public License
+  version 3) Hacker's code that FOO distributes shall be made
+  available by FOO under <b>(a)</b> the &ldquo;GNU General Public License (GPL),
+  version 2 or later,&rdquo; or <b>(b)</b> the licensing in (a), above, but with &ldquo;2&rdquo;
+  replaced by any higher existing GPL version number.  Provided FOO
+  makes the program available as source code gratis to the public in
+  this way, it may also distribute the same version of Hacker's code
+  in other programs released under other licenses of its own choosing.</p>
+</blockquote>
+
+<p>If the program is released under the GNU Affero GPL, then add &ldquo;Affero&rdquo;
+before &ldquo;General,&rdquo; change &ldquo;GPL&rdquo; to &ldquo;AGPL,&rdquo; change &ldquo;2 or&rdquo; to &ldquo;3 or,&rdquo; and
+it could make sense to replace &ldquo;that FOO distributes&rdquo; with &ldquo;that FOO
+distributes, or deploys on a server accessible to users other than
+FOO.&rdquo;</p>
+
+<p>The FSF has had these texts reviewed by a lawyer, but you should get
+your own legal advice before using them.</p>
+
+<p>When a company says which of these conditions it will accept, that
+will show you how far it plans to depart from the principles of free
+software.  Then you can respond to ensure your work will contribute to
+the free software community and not be diverted into proprietary
+software.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/assigning-copyright" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/assigning-copyright.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/assigning-copyright.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/assigning-copyright.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/assigning-copyright.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/assigning-copyright.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/philosophy/assigning-copyright.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/assigning-copyright.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2010, 2014, 2021 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/10/01 17:02:54 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Giving the Software Field Protection from Patents
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/limit-patent-effect.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/limit-patent-effect.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/limit-patent-effect.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/limit-patent-effect.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/limit-patent-effect.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#Laws">Legal&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#patents">Patents<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Giving the Software Field Protection from Patents</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>Patents threaten every software developer, and the patent wars we have
+long feared have broken out.  Software developers and software
+users&mdash;which, in our society, is most people&mdash;need software
+to be free of patents.</p>
+
+<p>The patents that threaten us are often called &ldquo;software
+patents,&rdquo; but that term is misleading.  Such patents are not
+about any specific program.  Rather, each patent describes some
+practical idea, and says that anyone carrying out the idea can be
+sued.  So it is clearer to call them &ldquo;computational idea
+patents.&rdquo;</p>
+
+<p>The US patent system doesn't label patents to say this one's a
+&ldquo;software patent&rdquo; and that one isn't.  Software developers
+are the ones who make a distinction between the patents that threaten
+us&mdash;those that cover ideas that can be implemented in
+software&mdash;and the rest.  For example, if the patented idea is the
+shape of a physical structure or a chemical reaction, no program can
+implement that idea; that patent doesn't threaten the software field.
+But if the idea that's patented is a computation, that patent's barrel
+points at software developers and users.</p>
+
+<p>This is not to say that computational idea patents prohibit only
+software.  These ideas can also be implemented in hardware&mdash;and
+many of them have been.  Each patent typically covers both hardware
+<em>and</em> software implementations of the idea.</p>
+
+<h3>The Special Problem of Software</h3>
+
+<p>Still, software is where computational idea patents cause a special
+problem.  In software, it's easy to implement thousands of ideas
+together in one program.  If 10 percent are patented, that means hundreds of
+patents threaten it.</p>
+
+<p>When Dan Ravicher of the Public Patent Foundation studied one large program
+(Linux, which is the kernel of the
+<a href="/gnu/gnu-linux-faq.html"> GNU/Linux</a> operating system) in
+2004, he found 283 US patents that appeared to cover computing ideas
+implemented in the source code of that program.  That same year, a
+magazine estimated that Linux was .25 percent of the whole GNU/Linux system.
+Multiplying 300 by 400 we get the order-of-magnitude estimate that the
+system as a whole was <em>threatened by around 100,000 patents</em>.</p>
+
+<p>If half of those patents were eliminated as &ldquo;bad
+quality&rdquo;&mdash;mistakes of the patent system, that
+is&mdash;it would not really change things.  Whether 100,000 patents
+or 50,000, it's the same disaster.  This is why it's a mistake to
+limit our criticism of software patents to just &ldquo;patent
+trolls&rdquo; or &ldquo;bad quality&rdquo; patents.  The worst patent
+aggressor today is Apple, which isn't a &ldquo;troll&rdquo; by the
+usual definition; I don't know whether Apple's patents are &ldquo;good
+quality,&rdquo; but the better the patent's &ldquo;quality&rdquo; the
+more dangerous its threat.</p>
+
+<p>We need to fix the whole problem, not just part of it.</p>
+
+<p>The usual suggestions for correcting this problem legislatively
+involve changing the criteria for granting patents&mdash;for instance,
+to ban issuance of patents on computational practices and systems to
+perform them.  This approach has two drawbacks.</p>
+
+<p>First, patent lawyers are clever at reformulating patents to fit
+whatever rules may apply; they transform any attempt at limiting the
+substance of patents into a requirement of mere form.  For instance,
+many US computational idea patents describe a system including an
+arithmetic unit, an instruction sequencer, a memory, plus controls to
+carry out a particular computation.  This is a peculiar way of
+describing a computer running a program that does a certain
+computation; it was designed to make the patent application satisfy criteria
+that the US patent system was believed for a time to require.</p>
+
+<p>Second, the US already has many thousands of computational idea
+patents, and changing the criteria to prevent issuing more would not
+get rid of the existing ones.  We would have to wait almost 20 years
+for the problem to be entirely corrected through the expiration of
+these patents.  We could envision legislating the abolition of these
+existing patents, but that is probably unconstitutional.  (The Supreme
+Court has perversely insisted that Congress can extend private
+privileges at the expense of the public's rights but that it can't go
+in the other direction.)</p>
+
+<h3>A Different Approach: Limit Effect, Not Patentability</h3>
+
+<p>My suggestion is to change the <em>effect</em> of patents.  We
+should legislate that developing, distributing, or running a program
+on generally used computing hardware does not constitute patent
+infringement.  This approach has several advantages:</p>
+
+<ul>
+<li>It does not require classifying patents or patent applications as
+&ldquo;software&rdquo; or &ldquo;not software.&rdquo;</li>
+<li>It provides developers and users with protection from both existing
+and potential future computational idea patents.</li>
+<li>Patent lawyers cannot defeat the intended effect by writing
+applications differently.</li>
+</ul>
+
+<p>This approach doesn't entirely invalidate existing computational idea
+patents, because they would continue to apply to implementations using
+special-purpose hardware.  This is an advantage because it eliminates
+an argument against the legal validity of the plan.  The US passed a
+law some years ago shielding surgeons from patent lawsuits, so that
+even if surgical procedures are patented, surgeons are safe.  That
+provides a precedent for this solution.</p>
+
+<p>Software developers and software users need protection from patents.
+This is the only legislative solution that would provide full
+protection for all.  We could then go back to competing or
+cooperating&hellip; without the fear that some stranger will wipe away
+our work.</p>
+
+<div class="comment" role="complementary">
+<p><em>See also:
+<a href="/philosophy/patent-reform-is-not-enough.html">
+Patent Reform Is Not Enough</a></em></p>
+</div>
+
+<div class="infobox extra" role="complementary">
+<hr />
+<p>A version of this article was first published at
+<a href="https://www.wired.com/opinion/2012/11/richard-stallman-software-patents/">
+<cite>Wired</cite></a> in November 2012.</p>
+</div>
+</div>
+
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/limit-patent-effect.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/limit-patent-effect.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/limit-patent-effect.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/limit-patent-effect.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/limit-patent-effect.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2012, 2013, 2021 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/19 16:26:24 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

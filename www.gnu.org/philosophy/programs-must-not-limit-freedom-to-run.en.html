@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Why programs must not limit the freedom to run them
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/programs-must-not-limit-freedom-to-run.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/programs-must-not-limit-freedom-to-run.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/programs-must-not-limit-freedom-to-run.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/programs-must-not-limit-freedom-to-run.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/programs-must-not-limit-freedom-to-run.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/programs-must-not-limit-freedom-to-run.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#principles">Principles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Why programs must not limit the freedom to run them</h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>Free software means software controlled by its users, rather than the
+reverse. Specifically, it means the software comes with <a
+href="/philosophy/free-sw.html">four essential freedoms
+that software users deserve</a>. At the head of the list is freedom 0,
+the freedom to run the program as you wish, in order to do what you wish.</p>
+
+<p>Some developers propose to place usage restrictions in software
+licenses to ban using the program for certain purposes, but that would
+be a disastrous path. This article explains why freedom 0 must not
+be limited. Conditions to limit the use of a program would achieve
+little of their aims, but could wreck the free software community.</p>
+
+<p>First of all, let's be clear what freedom 0 means. It means that
+the distribution of the software does not restrict how you use it.
+This doesn't make you exempt from laws. For instance, fraud is a
+crime in the US&mdash;a law which I think is right and proper.
+Whatever the free software license says, using a free program to carry
+out your fraud won't shield you from prosecution.</p>
+
+<p>A license condition against fraud would be superfluous in a country
+where fraud is a crime. But why not a condition against using it for
+torture, a practice that states frequently condone when carried out by
+the &ldquo;security forces&rdquo;?</p>
+
+<p>A condition against torture would not work, because enforcement of any
+free software license is done through the state. A state that wants
+to carry out torture will ignore the license. When victims of US
+torture try suing the US government, courts dismiss the cases on the
+grounds that their treatment is a national security secret. If a
+software developer tried to sue the US government for using a program
+for torture against the conditions of its license, that suit would be
+dismissed too. In general, states are clever at making legal excuses
+for whatever terrible things they want to do. Businesses with powerful
+lobbies can do it too.</p>
+
+<p>What if the condition were against some specialized private activity?
+For instance, PETA proposed a license that would forbid use of the
+software to cause pain to animals with a spinal column. Or there
+might be a condition against using a certain program to make or
+publish drawings of Mohammad. Or against its use in experiments with
+embryonic stem cells. Or against using it to make unauthorized copies
+of musical recordings.</p>
+
+<p>It is not clear these would be enforcible. Free software licenses are
+based on copyright law, and trying to impose usage conditions that way
+is stretching what copyright law permits, stretching it in a dangerous
+way. Would you like books to carry license conditions about how you
+can use the information in them?</p>
+
+<p>What if such conditions are legally enforcible&mdash;would that be good?</p>
+
+<p>The fact is, people have very different ethical ideas about the
+activities that might be done using software. I happen to think those
+four unusual activities are legitimate and should not be forbidden.
+In particular I support the use of software for medical experiments on
+animals, and for processing meat. I defend the human rights of animal
+right activists but I don't agree with them; I would not want PETA to
+get its way in restricting the use of software.</p>
+
+<p>Since I am not a pacifist, I would also disagree with a &ldquo;no military
+use&rdquo; provision. I condemn wars of aggression but I don't condemn
+fighting back. In fact, I have supported efforts to convince various
+armies to switch to free software, since they can check it for back
+doors and surveillance features that could imperil national security.</p>
+
+<p>Since I am not against business in general, I would oppose a
+restriction against commercial use. A system that we could use only
+for recreation, hobbies and school is off limits to much of what we do
+with computers.</p>
+
+<p>I've stated above some parts of my views about certain political
+issues unrelated to the issue of free software&mdash;about which of
+those activities are or aren't unjust. Your views about them might
+differ, and that's precisely the point. If we accepted programs with
+usage restrictions as part of a free operating system such as GNU,
+people would come up with lots of different usage restrictions. There
+would be programs banned for use in meat processing, programs banned
+only for pigs, programs banned only for cows, and programs limited to
+kosher foods. Someone who hates spinach might license a program to
+allow use for processing any vegetable except spinach, while a Popeye
+fan's program might allow only use for spinach. There would be music
+programs allowed only for rap music, and others allowed only for
+classical music.</p>
+
+<p>The result would be a system that you could not count on for any
+purpose. For each task you wish to do, you'd have to check lots of
+licenses to see which parts of your system are off limits for that
+task.  Not only for the components you explicitly use, but also for
+the hundreds of components that they link with, invoke, or communicate
+with.</p>
+
+<p>How would users respond to that? I think most of them would use
+proprietary systems. Allowing usage restrictions in free software
+would mainly push users towards nonfree software.  Trying to stop
+users from doing something through usage restrictions in free software
+is as ineffective as pushing on an object through a long, straight,
+soft piece of cooked spaghetti.  As one wag put it, this is
+&ldquo;someone with a very small hammer seeing every problem as a
+nail, and not even acknowledging that the nail is far too big for the
+hammer.&rdquo;</p>
+
+<p>
+It is worse than ineffective; it is wrong too, because software
+developers should not exercise such power over what users do. Imagine
+selling pens with conditions about what you can write with them; that
+would be noisome, and we should not stand for it. Likewise for
+general software. If you make something that is generally useful,
+like a pen, people will use it to write all sorts of things, even
+horrible things such as orders to torture a dissident; but you must
+not have the power to control people's activities through their pens.
+It is the same for a text editor, compiler or kernel.</p>
+
+<p>You do have an opportunity to determine what your software can be used
+for: when you decide what functionality to implement. You can write
+programs that lend themselves mainly to uses you think are positive,
+and you have no obligation to write any features that might lend
+themselves particularly to activities you disapprove of.</p>
+
+<p>The conclusion is clear: a program must not restrict what jobs its
+users do with it. Freedom 0 must be complete. We need to stop
+torture, but we can't do it through software licenses. The proper job
+of software licenses is to establish and protect users' freedom.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/programs-must-not-limit-freedom-to-run.en.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/programs-must-not-limit-freedom-to-run.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/programs-must-not-limit-freedom-to-run.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/programs-must-not-limit-freedom-to-run.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/programs-must-not-limit-freedom-to-run.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/programs-must-not-limit-freedom-to-run.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2012, 2021, 2022 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/09/06 20:25:46 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

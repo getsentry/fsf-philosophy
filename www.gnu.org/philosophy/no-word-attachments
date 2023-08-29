@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>We Can Put an End to Word Attachments
+- GNU Project - Free Software Foundation</title>
+<meta name="keywords" content="GNU, FSF, Free Software Foundation, Linux, general, public, license, gpl, general public license, freedom, software, power, rights, word, attachment, word attachment, microsoft" />
+<meta name="description" content="This essay explains why Microsoft Word attachments to email are bad, and describes what you can do to help stop this practice." />
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/no-word-attachments.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/no-word-attachments.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/no-word-attachments.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="da" hreflang="da" href="/philosophy/no-word-attachments.da.html" title="dansk" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/no-word-attachments.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/no-word-attachments.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fa" hreflang="fa" href="/philosophy/no-word-attachments.fa.html" title="فارسی" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/no-word-attachments.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="he" hreflang="he" href="/philosophy/no-word-attachments.he.html" title="עברית" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/no-word-attachments.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="nb" hreflang="nb" href="/philosophy/no-word-attachments.nb.html" title="bokmål" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/no-word-attachments.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/no-word-attachments.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/no-word-attachments.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/no-word-attachments.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/no-word-attachments.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#upholding">Upholding&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#action">Guide&nbsp;for&nbsp;action<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>We Can Put an End to Word Attachments</h2>
+
+<address class="byline">by Richard Stallman</address>
+
+<p>
+Don't you just hate receiving Word documents in email messages?  Word
+attachments are annoying, but, worse than that, they impede people from
+switching to free software.  Maybe we can stop this practice with a
+simple collective effort.  All we have to do is ask each person who
+sends us a Word file to reconsider that way of doing things.</p>
+
+<p>
+Most computer users use Microsoft Word.  That is unfortunate for them,
+since Word is proprietary software, denying its users the freedom to
+study, change, copy, and redistribute it.  And because Microsoft
+changes the Word file format with each release, its users are locked
+into a system that compels them to buy each upgrade whether they want
+a change or not.  They may even find, several years from now, that the
+Word documents they are writing this year can no longer be read with
+the version of Word they use then.</p>
+
+<p>
+But it hurts us, too, when they assume we use Word and send us (or
+demand that we send them) documents in Word format.  Some people
+publish or post documents in Word format.  Some organizations will
+only accept files in Word format: I heard from someone that he was
+unable to apply for a job because resumes had to be Word files.  Even
+governments sometimes impose Word format on the public, which is truly
+outrageous.</p>
+
+<p>
+For us users of free operating systems, receiving Word documents is an
+inconvenience or an obstacle.  But the worst impact of sending Word
+format is on people who might switch to free systems: they hesitate
+because they feel they must have Word available to read the Word files
+they receive.  The practice of using the secret Word format for
+interchange impedes the growth of our community and the spread of
+freedom.  While we notice the occasional annoyance of receiving a Word
+document, this steady and persistent harm to our community usually
+doesn't come to our attention.  But it is happening all the time.</p>
+
+<p>
+Many GNU users who receive Word documents try to find ways to handle
+them.  You can manage to find the somewhat obfuscated ASCII text in
+the file by skimming through it.  Free software today can read most
+Word documents, but not all&mdash;the format is secret and has not been
+entirely decoded.  Even worse, Microsoft can change it at any time.</p>
+
+<p>
+Worst of all, it has already done so.  Microsoft Office 2007 uses by
+default a format based on the patented OOXML format.  (This is the one
+that Microsoft got declared an &ldquo;open standard&rdquo; by
+political manipulation and packing standards committees.)  The actual
+format is not entirely OOXML, and it is not entirely documented.
+Microsoft offers a gratis patent license for OOXML on terms which do
+not allow free implementations.  We are thus beginning to receive Word
+files in a format that free programs are not even allowed to read.</p>
+
+<p>
+When you receive a Word file, if you think of that as an isolated
+event, it is natural to try to cope by finding a way to read it.
+Considered as an instance of a pernicious systematic practice, it
+calls for a different approach.  Managing to read the file is treating
+a symptom of an epidemic disease; what we really want to do is stop
+the disease from spreading.  That means we must convince people not to
+send or post Word documents.</p>
+
+<p>
+I therefore make a practice of responding to Word attachments with a
+polite message explaining why the practice of sending Word files is a
+bad thing, and asking the person to resend the material in a nonsecret
+format.  This is a lot less work than trying to read the somewhat
+obfuscated ASCII text in the Word file.  And I find that people
+usually understand the issue, and many say they will not send Word
+files to others any more.</p>
+
+<p>
+If we all do this, we will have a much larger effect.  People who
+disregard one polite request may change their practice when they
+receive multiple polite requests from various people.  We may be able
+to give <em>Don't send Word format!</em> the status of netiquette,
+if we start systematically raising the issue with everyone who sends
+us Word files.</p>
+
+<p>
+To make this effort efficient, you will probably want to develop a
+canned reply that you can quickly send each time it is necessary.
+I've included two examples: the version I have been using recently,
+followed by a new version that teaches a Word user how to convert to
+other useful formats.  They are followed by several suggestions sent
+by other people.</p>
+
+<p>
+You can use these replies verbatim if you like, or you can personalize
+them or write your own.  By all means construct a reply that fits your
+ideas and your personality&mdash;if the replies are personal and not
+all alike, that will make the campaign more effective.</p>
+
+<p>
+These replies are meant for individuals who send Word files.  When you
+encounter an organization that imposes use of Word format, that calls
+for a different sort of reply; there you can raise issues of fairness
+that would not apply to an individual's actions.</p>
+
+<p>
+Some recruiters ask for resumes in Word format.  Ludicrously, some
+recruiters do this even when looking for someone for a free software
+job.  (Anyone using those recruiters for free software jobs is not
+likely to get a competent employee.)  To help change this practice,
+you can put a link to this page into your resume, next to links to
+other formats of the resume.  Anyone hunting for a Word version of the
+resume will probably read this page.</p>
+
+<p>
+This page talks about Word attachments, since they are by far the most
+common case.  However, the same issues apply with other proprietary
+formats, such as PowerPoint and Excel.  Please feel free to adapt the
+replies to cover those as well, if you wish.</p>
+
+<p>
+With our numbers, simply by asking, we can make a difference.</p>
+
+<hr class="column-limit" />
+
+<p>
+<em>You sent the attachment in Microsoft Word format, a secret
+proprietary format, so I cannot read it.  If you send me the plain
+text, HTML, or PDF, then I could read it.</em></p>
+
+<p>
+<em>Sending people documents in Word format has bad effects, because that
+practice puts pressure on them to use Microsoft software.  In effect,
+you become a buttress of the Microsoft monopoly.  This specific
+problem is a major obstacle to the broader adoption of GNU/Linux.
+Would you please reconsider the use of Word format for communication
+with other people?</em></p>
+
+<p>
+(Explanatory note: I can handle ODF too, but it isn't very convenient
+for me, so I don't include it in my list of suggestions.)</p>
+
+<hr class="column-limit" />
+
+<p>
+<em>You sent the attachment in Microsoft Word format, a secret
+proprietary format, so it is hard for me to read.  If you send me
+plain text, HTML, or PDF, then I will read it.</em></p>
+
+<p>
+<em>Distributing documents in Word format is bad for you and for others.
+You can't be sure what they will look like if someone views them
+with a different version of Word; they may not work at all.</em></p>
+
+<p>
+<em>Receiving Word documents is bad for you because they can carry
+viruses (see https://en.wikipedia.org/wiki/Macro_virus).
+Sending Word documents is bad for you because a Word document normally
+includes hidden information about the author, enabling those in the
+know to pry into the author's activities (maybe yours).  Text that you
+think you deleted may still be embarrassingly present.  See
+http://news.bbc.co.uk/2/hi/technology/3154479.stm for more
+info.</em></p>
+
+<p>
+<em>But above all, sending people Word documents puts pressure on them
+to use Microsoft software and helps to deny them any other choice.  In
+effect, you become a buttress of the Microsoft monopoly.  This
+pressure is a major obstacle to the broader adoption of free
+software.</em></p>
+
+<p>
+<em>Would you please switch to a different way of sending files to other
+people, instead of Word format?</em></p>
+
+<p>
+<em>Microsoft is already starting to make Word users switch to a new
+version of Word format, based on OOXML.  Its specs are 6000 pages
+long&mdash;so complex that probably no one else can ever fully implement it&mdash;and
+Microsoft can sue you for patent infringement if you try.  If you
+don't wish to join in this attack against interoperability, the way to
+avoid it is by deciding not to use Word format for interchange.</em></p>
+
+<p>
+<em>Both versions of Word format allow <a href="https://outflank.nl/blog/2019/05/05/evil-clippy-ms-office-maldoc-assistant/">incorporation of malware</a>.</em></p>
+
+<p>
+<em>Converting the file to plain text, HTML or PDF using Word is simple.
+Open the document, click on <i>File</i>, then <i>Export</i> (or <i>Save
+As</i> in older versions of Word), and choose the appropriate export
+format, then <i>Save</i>.  You can then attach the new document instead
+of your Word document.  Note that Word changes in inconsistent
+ways&mdash;if you see slightly different menu item names, please try
+them.</em></p>
+
+<p>
+<em>See https://www.gnu.org/philosophy/no-word-attachments.html for more
+about this issue.</em></p>
+
+<hr class="column-limit" />
+
+<p>
+Here's another approach, suggested by Bob Chassell.  It requires that
+you edit it for the specific example, and it presumes you have a way
+to extract the contents and see how long they are.</p>
+
+<p>
+<em>I am puzzled.  Why did you choose to send me 876,377 bytes in your
+recent message when the content is only 27,133 bytes?</em></p>
+
+<p>
+<em>You sent me five files in the non-standard, bloated .doc format that
+is Microsoft's secret, rather than in the international, public, and
+more efficient format of plain text.</em></p>
+
+<p>
+<em>Microsoft can (and did recently in Kenya and Brazil) have local
+police enforce laws that prohibit students from studying the code,
+prohibit entrepreneurs starting new companies, and prohibit
+professionals offering their services.  Please don't give them your
+support.</em></p>
+
+<hr class="column-limit" />
+
+<p>
+John D. Ramsdell suggests people discourage the use of proprietary
+attachments by making a small statement in their <code>.signature</code>
+file:</p>
+
+<p>
+<em>Please avoid sending me Word or PowerPoint attachments.<br />
+See https://www.gnu.org/philosophy/no-word-attachments.html</em></p>
+
+<hr class="column-limit" />
+
+<p>
+<a href="/philosophy/anonymous-response.html">Here is a response
+letter</a> to an email message with a Word
+attachment.</p>
+
+<hr class="column-limit" />
+
+<p>
+Kevin Cole of the Gallaudet University in Washington,
+DC, <a href="/philosophy/kevin-cole-response.html">sends out this
+automatic reply message</a> whenever he receives a word
+attachment.  (I think it is
+better to send the responses by hand, and make it clear that you have
+done so, because people will receive them better.)</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/no-word-attachments.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/no-word-attachments.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/no-word-attachments.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[da]&nbsp;<a lang="da" hreflang="da" href="/philosophy/no-word-attachments.da.html">dansk</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/no-word-attachments.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/no-word-attachments.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fa]&nbsp;<a lang="fa" hreflang="fa" href="/philosophy/no-word-attachments.fa.html">فارسی</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/no-word-attachments.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[he]&nbsp;<a lang="he" hreflang="he" href="/philosophy/no-word-attachments.he.html">עברית</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/no-word-attachments.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[nb]&nbsp;<a lang="nb" hreflang="nb" href="/philosophy/no-word-attachments.nb.html">bokmål</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/no-word-attachments.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/no-word-attachments.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/no-word-attachments.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/no-word-attachments.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/no-word-attachments.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2002, 2003, 2008, 2020, 2021, 2023 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/08/15 09:25:39 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

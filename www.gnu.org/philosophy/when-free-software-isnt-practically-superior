@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title> When Free Software Isn't (Practically) Superior - GNU Project - Free Software Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/when-free-software-isnt-practically-superior.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/when-free-software-isnt-practically-superior.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/when-free-software-isnt-practically-superior.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/when-free-software-isnt-practically-superior.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/when-free-software-isnt-practically-superior.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/when-free-software-isnt-practically-superior.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/when-free-software-isnt-practically-superior.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/when-free-software-isnt-practically-superior.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/when-free-software-isnt-practically-superior.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/when-free-software-isnt-practically-superior.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#aboutfs">About&nbsp;free&nbsp;software<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#practice">Practice<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2> When Free Software Isn't (Practically) Superior</h2>
+
+<address class="byline">
+by <a href="https://mako.cc/writing/">Benjamin Mako Hill</a></address>
+
+<p>The Open Source Initiative's mission statement reads, &ldquo;Open source
+is a development method for software that harnesses the power of
+distributed peer review and transparency of process. The promise of
+open source is better quality, higher reliability, more flexibility,
+lower cost, and an end to predatory vendor lock-in.&rdquo;</p>
+
+<p>For more than a decade now, the Free Software Foundation has argued
+against this &ldquo;open source&rdquo; characterization of the free software
+movement. Free software advocates have primarily argued against this
+framing because &ldquo;open source&rdquo; is an explicit effort to deemphasize
+our core message of freedom and obscure our movement's role in the
+success of the software we have built. We have argued that &ldquo;open
+source&rdquo; is bad, fundamentally, because it attempts to keep people from
+talking about software freedom. But there is another reason we should
+be wary of the open source framing. The fundamental open source
+argument, as quoted in the mission statement above, is often
+incorrect.</p>
+
+<p>Although the Open Source Initiative suggests &ldquo;the promise of open
+source is better quality, higher reliability, more flexibility,&rdquo; this
+promise is not always realized. Although we do not often advertise the
+fact, any user of an early-stage free software project can explain
+that free software is not always as convenient, in purely practical
+terms, as its proprietary competitors. Free software is sometimes low
+quality. It is sometimes unreliable. It is sometimes inflexible. If
+people take the arguments in favor of open source seriously, they must
+explain why open source has not lived up to its &ldquo;promise&rdquo; and conclude
+that proprietary tools would be a better choice. There is no reason we
+should have to do either.</p>
+
+<p>Richard Stallman speaks to this in his article on <a
+href="/philosophy/open-source-misses-the-point.html">Why
+Open Source Misses the Point</a> when he explains, &ldquo;The idea of open
+source is that allowing users to change and redistribute the software
+will make it more powerful and reliable. But this is not
+guaranteed. Developers of proprietary software are not necessarily
+incompetent. Sometimes they produce a program that is powerful and
+reliable, even though it does not respect the users' freedom.&rdquo;</p>
+
+<p>For open source, poor-quality software is a problem to be explained
+away or a reason to eschew the software altogether. For free software,
+it is a problem to be worked through. For free software advocates,
+glitches and missing features are never a source of shame.
+Any piece of free software that respects users' freedom has a strong
+inherent advantage over a proprietary competitor that does not. Even
+if it has other issues, free software always has freedom.</p>
+
+<p>Of course, every piece of free software must start somewhere. A brand-new
+piece of software, for example, is unlikely to be more featureful
+than an established proprietary tool. Projects
+begin with many bugs and improve over time. While open
+source advocates might argue that a project will grow into usefulness
+over time and with luck, free software projects represent important
+contributions on day one to a free software advocate. Every piece of
+software that gives users control over their technology is a step
+forward. Improved quality as a project matures is the icing on the
+cake.</p>
+
+<p>A second, perhaps even more damning, fact is that the collaborative,
+distributed, peer-review development process at the heart of the
+definition of open source bears little resemblance to the practice of
+software development in the vast majority of projects under free (or
+&ldquo;open source&rdquo;) licenses.</p>
+
+<p>Several academic studies of <a href="/software/repo-criteria.html">
+free software hosting sites</a> SourceForge and <a
+href="https://sv.gnu.org">Savannah</a> have shown what many free
+software developers who have put a codebase online already know
+first-hand. The vast majority of free software projects are not
+particularly collaborative. The median number of contributors to a
+free software project on SourceForge?  One. A lone
+developer. SourceForge projects at the ninety-fifth percentile by
+participant size have only five contributors. More than half of these
+free software projects&mdash;and even most projects that have made several
+successful releases and been downloaded frequently, are the work of a
+single developer with little outside help.</p>
+
+<p>By emphasizing the power of collaborative development and &ldquo;distributed
+peer review,&rdquo; open source approaches seem to have very little to say
+about why one should use, or contribute to, the vast majority of free
+software projects. Because the purported benefits of collaboration
+cannot be realized when there is no collaboration, the vast majority
+of free development projects are at no technical advantage with respect to a
+proprietary competitor.</p>
+
+<p>For free software advocates, these same projects are each seen as
+important successes. Because every piece of free software respects its
+users' freedom, advocates of software freedom argue that each piece of
+free software begins with an inherent ethical advantage over
+proprietary competitors&mdash;even a more featureful one. By emphasizing
+freedom over practical advantages, free software's advocacy is rooted
+in a technical reality in a way that open source is often not. When
+free software is better, we can celebrate this fact. When it is not,
+we need not treat it as a damning critique of free software advocacy
+or even as a compelling argument against the use of the software in
+question.</p>
+
+<p>Open source advocates must defend their thesis that freely developed
+software should, or will with time, be better than proprietary
+software. Free software supporters can instead ask, &ldquo;How can we make
+free software better?&rdquo; In a free software framing, high quality software
+exists as a means to an end rather than an end itself. Free software
+developers should strive to create functional, flexible software that
+serves its users well. But doing so is not the only way to make steps
+toward solving what is both an easier and a much more profoundly
+important goal: respecting and protecting their freedom.</p>
+
+<p>Of course, we do not need to reject arguments that collaboration can
+play an important role in creating high-quality software. In many of
+the most successful free software projects, it clearly has done
+exactly that. The benefits of collaboration become something to
+understand, support, and work towards, rather than something to take
+for granted in the face of evidence that refuses to conform to
+ideology.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/when-free-software-isnt-practically-superior" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/when-free-software-isnt-practically-superior.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/when-free-software-isnt-practically-superior.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/when-free-software-isnt-practically-superior.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/when-free-software-isnt-practically-superior.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/when-free-software-isnt-practically-superior.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/when-free-software-isnt-practically-superior.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/when-free-software-isnt-practically-superior.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/when-free-software-isnt-practically-superior.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/when-free-software-isnt-practically-superior.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1999-2011 Benjamin Mako Hill</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative
+Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/05 10:10:11 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

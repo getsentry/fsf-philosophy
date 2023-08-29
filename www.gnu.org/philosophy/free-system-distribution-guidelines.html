@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.97 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+<title>Free System Distribution Guidelines (GNU FSDG) - GNU Project - Free Software Foundation</title>
+<style type="text/css" media="screen"><!--
+.note#fsf-licensing {
+   float: none;
+   width: 47em; max-width: 93%;
+   margin: 1.5em auto 3em;
+}
+--></style>
+<link rel="alternate" title="Free GNU/Linux distributions"
+      href="http://www.gnu.org/distros/distros.rss"
+      type="application/rss+xml" />
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/distros/free-system-distribution-guidelines.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/distros/free-system-distribution-guidelines.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/distros/free-system-distribution-guidelines.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/distros/free-system-distribution-guidelines.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/distros/free-system-distribution-guidelines.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="hr" hreflang="hr" href="/distros/free-system-distribution-guidelines.hr.html" title="hrvatski" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/distros/free-system-distribution-guidelines.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/distros/free-system-distribution-guidelines.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="lt" hreflang="lt" href="/distros/free-system-distribution-guidelines.lt.html" title="lietuvių" />
+<link rel="alternate" type="text/html" lang="ml" hreflang="ml" href="/distros/free-system-distribution-guidelines.ml.html" title="മലയാളം" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/distros/free-system-distribution-guidelines.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/distros/free-system-distribution-guidelines.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/distros/free-system-distribution-guidelines.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/distros/free-system-distribution-guidelines.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sq" hreflang="sq" href="/distros/free-system-distribution-guidelines.sq.html" title="Shqip" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/distros/free-system-distribution-guidelines.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="uk" hreflang="uk" href="/distros/free-system-distribution-guidelines.uk.html" title="українська" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/distros/free-system-distribution-guidelines.zh-cn.html" title="简体中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">PHILOSOPHY</a></li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/distros/distros.html">DISTROS</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="article reduced-width">
+<h2>Free System Distribution Guidelines (GNU&nbsp;FSDG)</h2>
+<div class="thin"></div>
+
+<p id="introduction" class="introduction">
+The purpose of these guidelines is to explain what it means for an
+installable system distribution (such as a <a href="/gnu/linux-and-gnu.html">GNU/Linux</a> distribution) to
+qualify as <a href="/philosophy/free-sw.html">free</a> (libre), and
+help distribution developers make their distributions qualify.</p>
+
+<p>These guidelines are not complete.  We have mentioned the issues we
+are aware of now, but we're sure there are more.  We will add them
+when we come across them.</p>
+
+<p>We would like to thank the Fedora Project for help in focusing
+these policies, and allowing us to use its own distribution license
+guidelines as a basis for this document.</p>
+
+<div id="fsf-licensing" class="note" role="complementary">
+<p style="font-size: 80%">This page is maintained by the Free Software
+Foundation's Licensing and Compliance Lab. You can support our efforts by
+<a href="http://donate.fsf.org">making a donation</a> to the FSF. Have a
+question not answered here? Check out some of our other <a
+href="http://www.fsf.org/licensing">licensing resources</a> or contact the
+Compliance Lab at <a href="mailto:licensing@fsf.org">licensing@fsf.org</a>.</p>
+</div>
+
+
+<h3 id="complete-distros">Complete Distros</h3>
+
+<p>Our list of distributions is a guide for systems you can install in
+a computer.  Therefore, it only includes distributions that are
+complete in themselves and ready to use.  If a distribution is
+incomplete&mdash;if it requires further development, or presupposes
+installing other software as well&mdash;then it is not listed here,
+even if it is free software.</p>
+
+<p>In particular, a free system distribution should be self-hosting.
+This means that you must be able to develop and build the system with
+tools that the system provides you.  As a result, a free system
+distribution cannot include free software that can only be built by
+using nonfree software.</p>
+
+<p>We make an exception to this requirement for <em>small system
+distributions</em>, which are distros designed for devices with
+limited resources, like a wireless router for example. Free small
+system distributions do not need to be self-hosting or complete,
+because it is impractical to do development on such a system, but it
+must be developable and buildable on top of a free complete system
+distribution from our list of distributions, perhaps with the aid of
+free tools distributed alongside the small system distribution
+itself.</p>
+
+<h3 id="license-rules">License Rules</h3>
+
+<p>&ldquo;Information for practical use&rdquo;
+includes software, documentation, fonts, and other data that has
+direct functional applications.  It does not include artistic works
+that have an aesthetic (rather than functional) purpose, or statements
+of opinion or judgment.</p>
+
+<p>All information for practical use in a free distribution must be
+available in source form.  (&ldquo;Source&rdquo; means the form of the
+information that is preferred for making changes to it.)</p>
+
+<p>The information, and the source, must be provided under an
+appropriate <a href="/philosophy/free-sw.html">free license</a>.  We
+evaluate specific licenses and list our determinations
+in <a href="/licenses/license-list.html">our license
+list</a>, with separate sections for licenses that are suitable for
+software, documentation, fonts, and other useful works.  If such a
+work is released under a disjunction of licenses, the work is free as
+long as at least one of its licenses is free; the system developers
+should follow the terms of the applicable free license(s) when they
+distribute and/or modify it.</p>
+
+<p>A free system distribution must not steer users towards obtaining
+any nonfree information for practical use, or encourage them to do so.
+The system should have no repositories for nonfree software and no
+specific recipes for installation of particular nonfree programs. Nor
+should the distribution refer to third-party repositories that are not
+committed to only including free software; even if they only have free
+software today, that may not be true tomorrow.  Programs in the system
+should not suggest installing nonfree plugins, documentation, and so
+on.</p>
+
+<p>For instance, a free system distribution must not contain browsers
+that implement EME, the browser functionality designed to load DRM
+modules.</p>
+
+<p>Some nonfree distros offer an installation option to exclude
+nonfree packages.  That option is a step forward, since it makes
+avoiding them much easier, provided the distro's implementation of the
+option is fully correct.  However, the nonfree packages are
+nonetheless included in the distro.  Moreover, we know that most users
+are not strongly committed to software freedom, and will not reject
+packages that seem handy just for being nonfree.  Practically
+speaking, to list one of these distros as free would mostly lead
+people to install nonfree software.  For these reasons, we do not list
+them.</p>
+
+<p>There's a lot of code in most free system distributions today; the
+amount of effort it would take to audit it all directly is impractical
+for most teams.  In the past, some nonfree code has accidentally been
+included in free system distributions.  We don't de-list distributions
+because of this; instead, we only ask that a distribution's developers
+make a good faith effort to avoid including nonfree software, and
+commit themselves to removing such programs if any are discovered.</p>
+
+<p>Certain kinds of license situations merit special attention for people
+creating or considering free software distributions; those are
+discussed in the sections below.</p>
+
+<h3 id="nonfree-firmware">Nonfree Firmware</h3>
+
+<p>Some applications and drivers require firmware to function, and
+sometimes that firmware is distributed only in object code form, under
+a nonfree license.  We call these firmware programs
+&ldquo;blobs.&rdquo; On most GNU/Linux systems, you'll typically find
+these accompanying some drivers in the kernel Linux.  Such firmware
+should be removed from a free system distribution.</p>
+
+<p>Blobs can take many forms.  Sometimes, they will be provided in
+separate files.  Other times, they may be incorporated into the source
+of the driver itself&mdash;for example, it could be encoded as a large
+array of numbers.  But no matter how it's encoded, any nonfree
+firmware needs to be removed from a free system.</p>
+
+<p>(To be clear, not every array of numbers in a driver is firmware.
+It's important to understand the purpose of the data before deciding
+whether or not it's appropriate for a free system.)</p>
+
+<p>Brian Brazil, Jeff Moe, and Alexandre Oliva have developed a series
+of <a
+href="https://www.fsfla.org/svn/fsfla/software/linux-libre/scripts/">scripts
+to remove nonfree firmware</a> from a stock version of the Linux kernel.
+You may find them helpful if you would like to develop your own free
+GNU/Linux distribution&mdash;although we recommend joining development
+of an existing free distro rather than fragmenting effort by starting a
+new one.  The complete source for a blob-free version of the Linux
+kernel is also available; you can learn more about this project from the
+<a href="https://directory.fsf.org/wiki/Linux-libre">Free
+Software Directory</a>.</p>
+
+<h3 id="non-functional-data">Non-functional Data</h3>
+
+<p>Data that isn't functional, that doesn't do a practical job, is
+more of an adornment to the system's software than a part of it.
+Thus, we don't insist on the free license criteria for non-functional
+data.  It can be included in a free system distribution as long as its
+license gives you permission to copy and redistribute, both for
+commercial and non-commercial purposes.  For example, some game
+engines released under the GNU GPL have accompanying game
+information&mdash;a fictional world map, game graphics, and so
+on&mdash;released under such a verbatim-distribution license.  This
+kind of data can be part of a free system distribution, even though
+its license does not qualify as free, because it is non-functional.</p>
+
+<h3 id="trademarks">Trademarks</h3>
+
+<p>Trademarks are associated with some software.  For example, the
+name of a program may be trademarked, or its interface may display a
+trademarked logo.  Often, the use of these marks will be controlled
+in some way; in particular, developers are commonly asked to remove
+references to the trademark from the software when they modify
+it.</p>
+
+<p>In extreme cases, these restrictions may effectively render the
+program nonfree.  It is unfair for someone to ask you to remove a
+trademark from modified code if that trademark is scattered all
+throughout the original source.  As long as the practical
+requirements are reasonable, however, free system distributions may
+include these programs, either with or without the trademarks.</p>
+
+<p>Similarly, the distribution itself may hold particular trademarks.
+It is not a problem if modification requires removal of these
+trademarks, as long as they can readily be removed without losing
+functionality.</p>
+
+<p>However, it is unacceptable to use trademarks to restrict verbatim
+copying and redistribution of the whole distribution, or any part.</p>
+
+<h3 id="documentation">Documentation</h3>
+
+<p>All the documentation in a free system distribution must be released
+under an appropriate free license.  Additionally, it must take care
+not to recommend nonfree software.</p>
+
+<p>In general, something that helps people who already use nonfree
+software to use the free software better with it is acceptable, but
+something that encourages users of the free software to install
+nonfree software is not.</p>
+
+<p>For example, a free system distribution may have documentation for
+users setting up dual boot systems.  It could explain how to access
+filesystems of the proprietary operating system, import settings
+from it, and so on.  That would be helping people install a free
+system distribution on a machine which already has proprietary
+software, which is good.</p>
+
+<p>What would be unacceptable is for the documentation to give people
+instructions for installing a nonfree program on the system, or
+mention conveniences they might gain by doing so.</p>
+
+<p>For a borderline case, a clear and serious exhortation not to use the
+nonfree program would move it to the acceptable side of the line.</p>
+
+<h3 id="patents">Patents</h3>
+
+<p>It is effectively impossible for free software developers and
+distributors to know whether or not a given piece of software
+infringes any patents: there are too many of them, they vary from
+country to country, they're often worded so as to make it hard to tell
+what they do or don't cover, and it isn't easy to tell which ones are
+valid.  Therefore, we don't generally ask free system distributions to
+exclude software because of possible threats from patents.  On the
+other hand, we also don't object if a distributor chooses to omit some
+software in order to avoid patent risk.</p>
+
+<h3 id="no-malware">No Malware</h3>
+
+<p>The distro must contain no DRM, no back doors, and no spyware.</p>
+
+<h3 id="mistakes">Commitment to Correct Mistakes</h3>
+
+<p>Most distribution development teams don't have the resources to
+exhaustively check that their distribution meet all these criteria.
+Neither do we.  So we expect distros to occasionally contain mistakes:
+nonfree software that slipped through, etc.  We don't reject a
+distribution over mistakes.  Our requirement is for the distribution
+developers to have a firm commitment to promptly correct any mistakes
+that are reported to them.</p>
+
+<h3 id="maintenance">Maintenance</h3>
+
+<p>To be listed, a distribution should be actively maintained,
+and should give the GNU Project a clear and specific way to report problems
+of nonfree software that we find out about.  It should also
+inform us when the problems we have reported are fixed.</p>
+
+<h3 id="name-confusion">Name Confusion</h3>
+
+<p>We will not list a distribution whose name makes confusion with
+nonfree distributions likely.  For example, if Foobar Light is a free
+distribution and Foobar is a nonfree distribution, we will not list
+Foobar Light.  This is because we expect that the distinction between
+the two would be lost in the process of communicating the message.</p>
+
+<p>In particular, the principal name of the free distribution
+(&ldquo;Foobar,&rdquo; in this example) should not be part of the name
+of any nonfree distribution.</p>
+
+<p>Some people have thought of adding the name &ldquo;GNU&rdquo; to a
+free distro name to distinguish it from a nonfree one.  This has two
+problems.  First, the two names would not be sufficiently different,
+since the principal word in both names would be the same.</p>
+
+<p>Second, this would promote a misunderstanding of what
+&ldquo;GNU&rdquo; means.  <a href="/gnu/linux-and-gnu.html">GNU is an
+operating system</a>, typically used with Linux as the kernel, and
+essentially all so-called &ldquo;Linux&rdquo; distributions are really
+GNU/Linux distributions.  In this scenario,
+<em>both</em> versions are GNU/Linux, and it would be misleading to
+omit &ldquo;GNU&rdquo; from the name of one of them.</p>
+
+<h3 id="upstream">Contacting Upstream If You're Downstream</h3>
+
+<p>For distro developers (or anyone else) who have sent an important bug
+report for a GNU package: if it has gone unheeded by the package
+maintainer after a reasonable time (please allow at least two weeks),
+you can escalate the bug by writing to &lt;maintainers@gnu.org&gt;.
+This is especially warranted if you can't find evidence of recent
+activity by the package maintainer.</p>
+
+<h3 id="teaching">Please Teach Users about Free Software</h3>
+
+<p>To establish lasting freedom, just giving users freedom isn't
+sufficient.  It is necessary also to teach them to understand what it
+means and to demand it.  Thus, we suggest and urge that free distros
+announce prominently on the screen, before login and on the default
+desktop after login, a prominent statement about freedom, such as
+&ldquo;This system is freedom-respecting free/libre software&rdquo; or
+something comparable, and to present a link or icon pointing at
+gnu.org or gnu.org/philosophy for further information about the
+issue.</p>
+
+<h3 id="words-to-avoid">Please Avoid Repeating Propaganda and Confusion</h3>
+
+<p>Please see our list
+of <a href="/philosophy/words-to-avoid.html">words to avoid</a>, which
+are either biased, misguided or misleading, and try to avoid them in
+your public statements and discussions with the public.</p>
+
+<h3 id="final-notes">Final Notes</h3>
+
+<p>We maintain a list of the <a href="/distros/free-distros.html">free
+GNU system distributions</a> we know about.  If you know about a free
+distribution that isn't listed there, please ask its developers write
+to &lt;<a
+href="mailto:webmasters@gnu.org">webmasters@gnu.org</a>&gt; with a description of
+their system and a link to their web page.</p>
+
+<p>We also list <a href="/distros/free-non-gnu-distros.html">free
+non-GNU system distributions</a> on the same ethical conditions.</p>
+
+<p>If you have questions or comments about these guidelines
+themselves, feel free to send those to &lt;<a
+href="mailto:licensing@fsf.org">licensing@fsf.org</a>&gt;.  We hope
+that they help everyone better understand the issues that are important
+for free system distributions, and we look forward to promoting more
+of them in the future.</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/distros/free-system-distribution-guidelines.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/distros/free-system-distribution-guidelines.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/distros/free-system-distribution-guidelines.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/distros/free-system-distribution-guidelines.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/distros/free-system-distribution-guidelines.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[hr]&nbsp;<a lang="hr" hreflang="hr" href="/distros/free-system-distribution-guidelines.hr.html">hrvatski</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/distros/free-system-distribution-guidelines.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/distros/free-system-distribution-guidelines.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[lt]&nbsp;<a lang="lt" hreflang="lt" href="/distros/free-system-distribution-guidelines.lt.html">lietuvių</a> &nbsp;</span>
+<span dir="ltr">[ml]&nbsp;<a lang="ml" hreflang="ml" href="/distros/free-system-distribution-guidelines.ml.html">മലയാളം</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/distros/free-system-distribution-guidelines.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/distros/free-system-distribution-guidelines.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/distros/free-system-distribution-guidelines.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/distros/free-system-distribution-guidelines.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sq]&nbsp;<a lang="sq" hreflang="sq" href="/distros/free-system-distribution-guidelines.sq.html">Shqip</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/distros/free-system-distribution-guidelines.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[uk]&nbsp;<a lang="uk" hreflang="uk" href="/distros/free-system-distribution-guidelines.uk.html">українська</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/distros/free-system-distribution-guidelines.zh-cn.html">简体中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2008-2015, 2017, 2021, 2022 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2022/09/10 15:18:43 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

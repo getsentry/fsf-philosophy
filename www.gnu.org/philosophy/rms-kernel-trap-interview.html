@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Interview with Richard Stallman, KernelTrap.org, 2005
+- GNU Project - Free Software Foundation</title>
+ <!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/rms-kernel-trap-interview.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/rms-kernel-trap-interview.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/rms-kernel-trap-interview.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/rms-kernel-trap-interview.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/speeches-and-interviews.html#content">Speeches&nbsp;&amp;&nbsp;interviews<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Interview with Richard Stallman, KernelTrap.org, 2005</h2>
+
+<address class="byline">conducted by Jeremy Andrews</address>
+
+<p>Richard Stallman founded the GNU Project in 1984, and the Free
+Software Foundation in 1985. He also originally authored a number of
+well known and highly used development tools, including the GNU
+Compiler Collection (GCC), the GNU symbolic debugger (GDB) and GNU
+Emacs.</p>
+
+<p>To better understand Richard Stallman and the GNU Project, I
+recommend you begin by reviewing their philosophy page. On it you will
+find a wealth of information.</p>
+
+<p>We began this interview via email, but later had to finish by
+telephone after Richard Stallman fell and broke his arm. He was kind
+enough to speak with me at length, discussing his first contact with
+computers, his time in the AI Lab, the current state of the GNU Hurd,
+his current role in the Free Software Foundation, the problems with
+nonfree software, and much more. The following words offer much
+insight into how we got here, and what challenges we still face.</p>
+
+<h3>Background</h3>
+
+<p><strong>Jeremy Andrews</strong>: When did you first start working
+with computers?</p>
+
+<p><strong>Richard Stallman</strong>: I first read manuals and wrote
+programs on paper in 1962 or so. 1969 was when I first saw and used a
+real computer.</p>
+
+<p><strong>JA</strong>: What types of programs were you writing prior
+to actually seeing and using a real computer?</p>
+
+<p><strong>Richard Stallman</strong>: They were pretty trivial, like
+things to add up a vector of numbers. About the time I first started
+with a real computer I designed a computer language based on string
+substitution. In some ways like SNOBOL, although I'd never used
+SNOBOL.</p>
+
+<p>And then, the first thing I started writing when I had a real
+computer to use&mdash;I'd seen the language PL/I and I was thrilled by
+how many features it had. But there was a feature it didn't have: it
+didn't have the summation convention used in tensor analysis. So I
+started to write a pre-processor for PL/I that would implement the
+summation convention. I didn't ever finish it, but I actually got some
+parts of it to work. I wrote it first in PL/I, and then we discovered
+that even one pass of it wouldn't fit in the machine that was
+available. (I had actually written a lot of parts of this in PL/I on
+paper by that point.) Then I started rewriting it in assembler
+language, but I only rewrote a few passes of it in assembler
+language. And then I learned about things like lists and about Lisp,
+and lost interest in languages like PL/I.</p>
+
+<p><strong>JA</strong>: When you graduated from Harvard in 1974 with a
+BA in physics, how did you intend to use your degree?</p>
+
+<p><strong>Richard Stallman</strong>: I thought I would become a
+theoretical physicist; however, the pleasure of programming, where I
+could make real progress and see results, gradually grew and overtook
+the pleasure of learning physics.</p>
+
+<h3>Life In The AI Lab</h3>
+
+<p><strong>JA</strong>: What tasks occupied your time at the AI Lab
+through the 1970's?</p>
+
+<p><strong>Richard Stallman</strong>: Mostly operating system
+development, but I did one AI research project with Professor Sussman;
+we developed dependency-directed backtracking.</p>
+
+<p><strong>JA</strong>: What is dependency-directed backtracking?</p>
+
+<p><strong>Richard Stallman</strong>: You make some assumptions, and
+with those together with some given facts you draw a conclusion. You
+may reach a contradiction; if so, at least one of your assumptions
+that led to that contradiction must be wrong. You also record which
+combination of assumptions actually related to the contradiction, so
+you can deduce that that combination of assumptions cannot all be
+true. Then you backtrack by changing assumptions, but you never try a
+set of assumptions that includes the combination that you know are
+contradictory. Now, this is a technique that people had used for a
+long time in thinking. It's also known as proof analysis. But it
+hadn't been used in computerized reasoning.</p>
+
+<p><strong>JA</strong>: What was the result of this research
+project?</p>
+
+<p><strong>Richard Stallman</strong>: We published a paper. The
+technique got used by other people later, so apparently it became part
+of AI.</p>
+
+<p>Also, I learned how to understand electrical circuits better. The
+program that we wrote, which used this technique, was a program for
+understanding electrical circuits. By imitating the program, I could
+understand circuits better than I could before.</p>
+
+<h3>The GNU Project And The Free Software Foundation</h3>
+
+<p><strong>JA</strong>: The story of your encounter with nonfree
+printer software in the early 80's is very well known. This incident
+ultimately resulted in your founding the GNU Project in 1984, and the
+Free Software Foundation in 1985. You have remained quite active in
+this movement ever since, as a public speaker and a prolific author of
+free software. Of which of your many achievements in the past two
+decades are you the most proud?</p>
+
+<p><strong>Richard Stallman</strong>: What I am proud of is that we
+have built a community where people can use computers and work
+together in freedom.</p>
+
+<p><strong>JA</strong>: What are the largest challenges you're facing
+today?</p>
+
+<p><strong>Richard Stallman</strong>: Software patents. The Digital
+Millennium Copyright Act. The broadcast flag. Cards with secret
+specifications. Nonfree Java platforms.</p>
+
+<p>In other words, organized efforts by people with power to put an
+end to our freedom.</p>
+
+<p><strong>JA</strong>: Is there a plan for addressing these
+issues?</p>
+
+<p><strong>Richard Stallman</strong>: Regarding the laws, not much of
+one, in the US. In other countries that do not yet have these laws, we
+can try to prevent them.</p>
+
+<p><strong>JA</strong>: That's a bit scary.</p>
+
+<p><strong>Richard Stallman</strong>: It is.</p>
+
+<h3>&ldquo;Free Software&rdquo; vs. &ldquo;Open Source&rdquo;</h3>
+
+<p><strong>JA</strong>: You regularly have to explain the differences
+between &ldquo;free software&rdquo; and &ldquo;open source
+software,&rdquo; and yet the media continues to confuse these
+terms. For our readers that may therefore be confused themselves, can
+you explain the differences, and why it is important to get it
+right?</p>
+
+<p><strong>Richard Stallman</strong>: Free software and open source
+are the slogans of two different movements with different
+philosophies. In the free software movement, our goal is to be free to
+share and cooperate. We say that nonfree software is antisocial
+because it tramples the users' freedom, and we develop free software
+to escape from that.</p>
+
+<p>The open source movement promotes what they consider a technically
+superior development model that usually gives technically superior
+results. The values they cite are the same ones Microsoft appeals to:
+narrowly practical values.</p>
+
+<p>Free software and open source are also both criteria for software
+licenses. These criteria are written in very different ways but the
+licenses accepted are almost the same. The main difference is the
+difference in philosophy.</p>
+
+<p>Why does the philosophy matter? Because people who don't value
+their freedom will lose it. If you give people freedom but don't teach
+them to value it, they won't hold on to it for long. So it is not
+enough to spread free software. We have to teach people to demand
+freedom, to fight for freedom. Then we may be able to overcome the
+problems that today I see no way to solve.</p>
+
+<h3>&ldquo;GNU/Linux&rdquo;</h3>
+
+<p><strong>JA</strong>: Another frequent area of confusion is the name
+&ldquo;GNU/Linux.&rdquo; Why is the GNU Project's contribution significant enough
+that it should be in the name of the operating system, especially
+compared to other large pieces of any Linux-kernel based operating
+system, such as XFree86?</p>
+
+<p><strong>Richard Stallman</strong>: It's no coincidence that the
+code we wrote for the GNU system is the largest single contribution to
+the GNU/Linux system today. Many other people and projects have
+developed free software programs now used in the system; TeX, BSD
+code, X11, Linux, and Apache are noteworthy examples. But it was the
+GNU Project that set out to develop a complete free operating
+system. The combined system we use today is founded on GNU.</p>
+
+<p><strong>JA</strong>: In talking about GNU Linux&hellip;</p>
+
+<p><strong>Richard Stallman</strong>: I prefer to pronounce it
+&ldquo;GNU slash Linux,&rdquo; or &ldquo;GNU plus Linux.&rdquo; The
+reason is that when you say &ldquo;GNU Linux&rdquo; it is very much
+prone to suggest a misleading interpretation. After all, we have GNU
+Emacs which is the version of
+Emacs which was developed for GNU. If you say &ldquo;GNU
+Linux,&rdquo; people will think it means a version of Linux that was
+developed for GNU. Which is not the fact.</p>
+
+<p><strong>JA</strong>: You're trying to point out instead that it's a
+combination of the two.</p>
+
+<p><strong>Richard Stallman</strong>: Exactly. It's GNU plus Linux
+together.</p>
+
+<p><strong>JA</strong>: Which makes up the GNU+Linux operating system
+that everyone uses.</p>
+
+<p><strong>Richard Stallman</strong>: Exactly.</p>
+
+<p><strong>JA</strong>: What is gained by people using the term
+GNU/Linux?</p>
+
+<p><strong>Richard Stallman</strong>: People know that Linus Torvalds
+wrote his program Linux to have fun. And people know that Linus
+Torvalds did not say that it's wrong to stop users for sharing and
+changing the software they use. If they think that our system was
+started by him and primarily owes existence to him, they will tend to
+follow his philosophy, and that weakens our community.</p>
+
+<p>It's an interesting anecdote to think that the whole operating
+system exists because an undergraduate thought that it was a fun
+project. But the real story is that this system exists because of
+people who were determined to fight for freedom and willing to work
+for years if that's what it took. That's a story that teaches people
+something worth learning.</p>
+
+<p>When people forget that, they start drifting toward the practical
+but superficial values shared by the open source movement and
+Microsoft: the idea that the only thing that matters about your
+software is whether it gets your jobs done and what it costs.</p>
+
+<p><strong>JA</strong>: Which begins to answer my next question, what
+is lost when people refuse to use the term GNU/Linux?</p>
+
+<p><strong>Richard Stallman</strong>: What's lost is an opportunity to
+teach people. The software is equally free regardless of whatever name
+you call it&mdash;if, that is, the distro you're using really is
+free. But the only free GNU/Linux distro I know of is Ututo. Most
+versions of the GNU/Linux system are not entirely free software. All
+the commercial distributors put in nonfree software. And then there's
+Debian which keeps all the nonfree software clearly separated, but
+does distribute it. And those who sell Debian GNU/Linux often add a
+few nonfree programs as a &ldquo;bonus&rdquo;&hellip; They invite you
+to think it's a bonus you're getting that your freedom is no longer
+complete.</p>
+
+<p>If you happen to be running a version of GNU/Linux which doesn't
+have the nonfree software, then the situation is not materially
+changed by the name you use. But the situation we're likely to find
+ourselves in five years from now depends on what we teach each other
+today.</p>
+
+<p>A rose by any other name would smell as sweet, but if you called it
+an onion you'd get cooks very confused.</p>
+
+<h3>GNU/Hurd</h3>
+
+<p><strong>JA</strong>: The GNU Hurd has been under development for
+over a decade. There was talk of a 1.0 release over a year ago, but
+this was delayed due to a couple of lacking features. What is the
+current status of this project?</p>
+
+<p><strong>Richard Stallman</strong>: The Hurd runs, and missing
+features are gradually being added. However, for practical use today,
+you would use a Linux-based version of GNU.</p>
+
+<p><strong>JA</strong>: Do you have any predictions as to when we're
+going to see a 1.0 release?</p>
+
+<p><strong>Richard Stallman</strong>: No, I'm afraid I don't, I'm sad
+to say. A lot of the Hurd developers seem to have decided that they
+should re-write it to work with a different micro-kernel (L4). I was
+disappointed to hear this, but now it looks like it will be some more
+years before the Hurd is usable.</p>
+
+<p>At least we do have a free kernel that works with GNU.</p>
+
+<p><strong>JA</strong>: Will the GNU Project focus solely on a GNU
+system built around the GNU Hurd when it is released, or will it
+continue to support a widening range of free-software kernels?</p>
+
+<p><strong>Richard Stallman</strong>: We will keep supporting
+Linux-based versions of the GNU system for as long as they remain
+popular.</p>
+
+<p><strong>JA</strong>: How will we refer to a Hurd-based operating
+system? Is it GNU Hurd, or GNU slash Hurd?</p>
+
+<p><strong>Richard Stallman</strong>: It's the GNU operating system,
+and the Hurd is its kernel. But because it's so common for people to
+use version of GNU that are based on Linux as the kernel, it's useful
+to contrast the two, and talk about GNU/Linux and GNU/Hurd, which are
+two different versions of the GNU system with different kernels.</p>
+
+<p><strong>JA</strong>: What would the advantages of using a GNU/Hurd
+system be over say a GNU/Linux system?</p>
+
+<p><strong>Richard Stallman</strong>: There's probably no gigantic
+advantage that jumps out at the user's face if you're not writing
+interesting programs. The Hurd offers interesting, powerful
+capabilities. For instance, you can write your own filesystem, so you
+could implement any sort of behavior you want and package it as a
+file. It offers the possibility of implementing sandboxes, where you
+can run a program but have another program monitoring all its I/O to
+make sure it doesn't start writing in files it wasn't expected to.</p>
+
+<p>These things may be doable with a kernel that doesn't have the
+Hurd's architecture, but with the Hurd it's trivial and the most
+natural thing in the world.</p>
+
+<h3>Writing Code versus Management</h3>
+
+<p><strong>JA</strong>: How much source code do you write these
+days?</p>
+
+<p><strong>Richard Stallman</strong>: I myself? Only a little, on
+Emacs. I was involuntarily self-promoted into management.</p>
+
+<p><strong>JA</strong>: That's an interesting description. How did
+this happen?</p>
+
+<p><strong>Richard Stallman</strong>: The amount of management and
+activism that had to be done got more and more, and so I had to find
+other people to take over more and more of my programming
+responsibilities.</p>
+
+<p><strong>JA</strong>: Do you miss the programming?</p>
+
+<p><strong>Richard Stallman</strong>: Yes. It's fun.</p>
+
+<p><strong>JA</strong>: Is the management/activist role something you
+desire to remain in?</p>
+
+<p><strong>Richard Stallman</strong>: I wouldn't say I desire to, but
+it's necessary that I do so. At the moment we don't have anyone to
+replace me. We're actually thinking about how we could try and
+develop people who could do this, so that I will not be
+indispensable.</p>
+
+<p><strong>JA</strong>: What is your role these days?</p>
+
+<p><strong>Richard Stallman</strong>: Partly it is being a very firm
+and determined leader. Partly it is being an orator. Partly it is
+advising other people on how to be activists or how to contribute to
+free software. I've learned something that a lot of people could
+usefully know: how to be extremely persistent and whenever one avenue
+was blocked find another.</p>
+
+<p>I've also learned the spirit of what you do when you're fighting
+for freedom. When it's a fight that you can't ever give up as
+lost.</p>
+
+<p><strong>JA</strong>: Many of the programs you were the original
+author for are key components of much software development today (free
+and nonfree alike), such as the GNU Compiler Collection (GCC), the
+GNU symbolic debugger (GDB), and GNU Emacs. All of these projects have
+remained under constant development over the years. How closely have
+you followed the many projects you've started, and how do you feel
+about the directions they've taken?</p>
+
+<p><strong>Richard Stallman</strong>: I don't follow GCC and GDB in
+technical detail nowadays&mdash;other people now have that
+responsibility. I still supervise Emacs development.</p>
+
+<h3>GNU Emacs</h3>
+
+<p><strong>JA</strong>: Then you are still working on Emacs at a code
+level?</p>
+
+<p><strong>Richard Stallman</strong>: Yes, although now with my broken
+arm I really have no time to program anything. I will when my arm is
+better and I can type for myself again.</p>
+
+<p><strong>JA</strong>: May I ask what happened to your arm?</p>
+
+<p><strong>Richard Stallman</strong>: I fell and broke my arm, and I
+needed surgery. It hurts, and I think it will never be normal
+again. But I think it will work for typing. (Later: it works fine for
+typing, but it tingles all the time.)</p>
+
+<p><strong>JA</strong>: I'm sorry to hear about your arm, and I wish
+you a speedy recovery.</p>
+
+<p>I recently reread Cliff Stoll's &ldquo;The Cuckoo's Egg.&rdquo; Are
+you familiar with the book?</p>
+
+<p><strong>Richard Stallman</strong>: I have a vague memory of it.</p>
+
+<p><strong>JA</strong>: A quick summary, he talks about a spy that
+breaks into a university computer system, initially using a security
+hole in GNU Emacs&hellip;</p>
+
+<p><strong>Richard Stallman</strong>: Well, whether it's really a
+security hole, or whether he had made a mistake by installing a
+certain program setuid is subject to argument.</p>
+
+<p><strong>JA</strong>: That's exactly what I was curious about, just
+what your reaction would have been to the book when it came out.</p>
+
+<p><strong>Richard Stallman</strong>: His book made it sound like
+Emacs, or actually Movemail I think it was&hellip; His book made it sound
+like it was normal to install Movemail setuid. I think some people
+sometimes did that, as there was a certain problem you could get
+around by doing that, but that wasn't the normal way to install it. So
+in fact, people installing Emacs the usual way would not have had that
+problem.</p>
+
+<p>On the other hand, it certainly was useful to make Emacs more
+bulletproof, so that that problem couldn't happen even if you
+installed Movemail as setuid.</p>
+
+<p>That was ages ago.</p>
+
+<h3>Nonfree Software</h3>
+
+<p><strong>JA</strong>: What is your reaction to tools such as GCC,
+GDB and GNU Emacs being used for the development of nonfree
+software?</p>
+
+<p><strong>Richard Stallman</strong>: Any development of nonfree
+software is harmful and unfortunate, whether it uses GNU tools or
+other tools. Whether it is good or bad, in the long term, for the
+future of computer users' freedom that one can use these tools to
+develop nonfree software is a question whose answer I could only
+guess at.</p>
+
+<p><strong>JA</strong>: How do you react to the opinion that nonfree
+software is justified as a means for raising dollars that can then be
+put into the development of completely new software, money that
+otherwise may not have been available, and thus creating software that
+may have never been developed?</p>
+
+<p><strong>Richard Stallman</strong>: This is no justification at
+all. A nonfree program systematically denies the users the freedom to
+cooperate; it is the basis of an antisocial scheme to dominate
+people. The program is available lawfully only to those who will
+surrender their freedom. That's not a contribution to society, it's a
+social problem. It is better to develop no software than to develop
+nonfree software.</p>
+
+<p>So if you find yourself in that situation, please don't follow that
+path. Please don't write the nonfree program&mdash;please do
+something else instead. We can wait till someone else has the chance
+to develop a free program to do the same job.</p>
+
+<p><strong>JA</strong>: What about the programmers&hellip;</p>
+
+<p><strong>Richard Stallman</strong>: What about them? The programmers
+writing nonfree software? They are doing something antisocial. They
+should get some other job.</p>
+
+<p><strong>JA</strong>: Such as?</p>
+
+<p><strong>Richard Stallman</strong>: There are thousands of different
+jobs people can have in society without developing nonfree
+software. You can even be a programmer. Most paid programmers are
+developing custom software&mdash;only a small fraction are developing
+nonfree software. The small fraction of proprietary software jobs are
+not hard to avoid.</p>
+
+<p><strong>JA</strong>: What is the distinction there?</p>
+
+<p><strong>Richard Stallman</strong>: Nonfree software is meant to be
+distributed to the public. Custom software is meant to be used by one
+client. There's no ethical problem with custom software as long as
+you're respecting your client's freedom.</p>
+
+<p>The next point is that programmers are a tiny fraction of
+employment in the computer field. Suppose somebody developed an AI and
+no programmers were needed anymore. Would this be a disaster? Would
+all the people who are now programmers be doomed to unemployment for
+the rest of their lives? Obviously not, but this doesn't stop people
+from exaggerating the issue.</p>
+
+<p>And what if there aren't any programming jobs in the US
+anymore?</p>
+
+<p><strong>JA</strong>: You mean what if all the programming jobs were
+outsourced to foreign countries?</p>
+
+<p><strong>Richard Stallman</strong>: Yes, what if they all go? This
+may actually happen. When you start thinking about things like total
+levels of employment, you've got think about all the factors that
+affect it, not blame it all on one factor. The cause of unemployment
+is not someone or society deciding that software should be free. The
+cause of the problem is largely economic policies designed to benefit
+only the rich. Such as driving wages down.</p>
+
+<p>You know, it's no coincidence that we're having all this
+outsourcing. That was carefully planned. International treaties were
+designed to make this happen so that people's wages would be
+reduced.</p>
+
+<p><strong>JA</strong>: Can you cite specific examples?</p>
+
+<p><strong>Richard Stallman</strong>: FTAA. The World Trade
+Organization. NAFTA. These treaties are designed to reduce wages by
+making it easy for a company to say to various countries, &ldquo;Which
+of you will let us pay people the least? That's were we're
+headed.&rdquo; And if any country starts having a somewhat increased
+standard of living, companies say, &ldquo;Oh, this is a bad labor
+climate here. You're not making a good climate for business. All the
+business is going to go away. You better make sure that people get
+paid less. You're following a foolish policy arranging for workers of
+your country to be paid more. You've got to make sure that your
+workers are the lowest paid anywhere in the world, then we'll come
+back. Otherwise we're all going to run away and punish you.&rdquo;</p>
+
+<p>Businesses very often do it, they move operations out of a country
+to punish that country. And I've recently come to the conclusion that
+frictionless international trade is inherently a harmful thing,
+because it makes it too easy for companies to move from one country to
+another. We have to make that difficult enough that each company can
+be stuck in some country that can regulate it.</p>
+
+<p>The book No Logo explains that the Philippines have laws that
+protect labor standards, but these laws count for nothing any
+more. They decided to set up &ldquo;enterprise zones&rdquo;&mdash;that's
+the euphemism they used for &ldquo;sweat shop zones&rdquo;&mdash;where
+companies are exempt from these rules for the first two years. And as
+a result, no company lasts for more than two years. When their
+exemption runs out, the owners shut it down and they start
+another.</p>
+
+<p><strong>JA</strong>: How does free software address this?</p>
+
+<p><strong>Richard Stallman</strong>: Free software doesn't address
+this. Free software addresses the issue of how computer users can have
+freedom to cooperate and to control their own computers. This is the
+larger issue that becomes relevant when you start talking about
+&ldquo;How are people going to have jobs that pay them
+decently?&rdquo; The answer is: in the world of the low wage treaties,
+they're not going to.</p>
+
+<p>It's inconsistent and futile to subject millions of people to the
+loss of freedom that nonfree software imposes, just so that a tiny
+segment of society will have better paying jobs, when we're ignoring
+all the rest of society with their lousy jobs.</p>
+
+<p>If you want to start doing something about that problem, do it at
+the right level, which is the level of the power balance between
+corporations and countries. Corporations are too powerful now. We have
+to knock them down. I don't believe in abolishing business or even in
+abolishing corporations, but we've got to make sure that no
+corporation is powerful enough that it can say to all the countries in
+the world, &ldquo;I'll punish any country that doesn't
+obey.&rdquo;</p>
+
+<p>That is the way it works now. And it was deliberately set up by
+people such as Reagan, and Clinton, and Bush and Bush.</p>
+
+<h3>New Technologies</h3>
+
+<p><strong>JA</strong>: I have read that the free software model tends
+to imitate existing software, rather than blaze new trails and
+developing completely new technologies.</p>
+
+<p><strong>Richard Stallman</strong>: To speak of a free software
+&ldquo;model&rdquo; is somewhat misleading. The open source movement
+speaks of a &ldquo;development model,&rdquo; but our concern is for
+the user's freedom, not how the program is developed.</p>
+
+<p>Free software doesn't always imitate, but often it does. There's a
+good reason for this: freedom is the main goal, and innovation is
+secondary.</p>
+
+<p>Our goal is to develop free software so that we can use computers
+exclusively with free software. In 1984, we started with nearly zero
+(we had TeX, nothing else). We had a lot of catching up to do, so we
+have done it. Even if GNU/Linux had no technical innovations compared
+with Unix, it would be completely superior because it respects your
+freedom as Unix does not.</p>
+
+<p><strong>JA</strong>: Do you believe that free software has caught
+up with nonfree software?</p>
+
+<p><strong>Richard Stallman</strong>: To a large extent, but not
+totally.</p>
+
+<p><strong>JA</strong>: Would you say that we're going to start seeing
+a lot of technical innovations originating from free software as
+things are catching up?</p>
+
+<p><strong>Richard Stallman</strong>: We already have. We already have
+seen technical innovations in free software. A lot of them help make
+up the world wide web.</p>
+
+<h3>The Internet</h3>
+
+<p><strong>JA</strong>: Does the importance of using only free
+software apply to the Internet?</p>
+
+<p><strong>Richard Stallman</strong>: I don't understand the
+question.</p>
+
+<p><strong>JA</strong>: Software not only runs on personal computers,
+but also on the computers that comprise the Internet&hellip;</p>
+
+<p><strong>Richard Stallman</strong>: That may mean your computer. If
+your computer is on the Internet, then that's one of the computers
+you're talking about.</p>
+
+<p><strong>JA</strong>: You're correct. At this very moment my
+computer is part of the Internet. And my computer is comprised
+entirely of free software. However there are plenty of computers on
+the Internet that are not comprised of free software.</p>
+
+<p><strong>Richard Stallman</strong>: I think you meant to say,
+&ldquo;not running entirely free software.&rdquo; There are many
+computers on the net that are not running free software, and that
+means the people who use and own those computers have lost this aspect
+of their freedom. That's a problem.</p>
+
+<p><strong>JA</strong>: Do you consider it proper for people who are
+trying to only use free software to utilize&hellip;</p>
+
+<p><strong>Richard Stallman</strong>: To connect to a server that's
+running nonfree software?</p>
+
+<p>I don't feel I need to refuse to connect to a server that is
+running nonfree software. For that matter, I won't refuse to type on
+a computer that's running nonfree software. If I were visiting your
+house for a little and you had a Windows machine, I would use it if it
+were important for me to use it. I wouldn't be willing to have Windows
+on my computer, and you shouldn't have it on yours, but I can't change
+that by refusing to touch the machine.</p>
+
+<p>If you connect to a server that runs nonfree software, you're not
+the one whose freedom is harmed. It's the server operator who has lost
+freedom to the restrictions on the software he runs. This is
+unfortunate, and I hope that he switches to free software; we're
+working to bring that about. But I don't feel you have to boycott his
+site until he switches. He isn't making you use the nonfree
+software.</p>
+
+<p><strong>JA</strong>: Back to my earlier question, as a specific
+example do you use tools such as Google when attempting to locate
+online content?</p>
+
+<p><strong>Richard Stallman</strong>: I have nothing against
+communicating with Google's network server, but for Google's sake I
+hope they have the freedom to study, change and redistribute the
+software used on their server. Having the freedom to do so does not
+imply the obligation to do so; Google doesn't have to change or
+redistribute the software they run. But they ought to be free to do
+this, just as you and I should be free to do this with the software on
+our machines.</p>
+
+<h3>The Workplace</h3>
+
+<p><strong>JA</strong>: What if your job requires you to use nonfree
+software?</p>
+
+<p><strong>Richard Stallman</strong>: I would quit that job. Would you
+participate in something anti-social just because somebody pays you
+to? What if the job involves hitting people on the head in the street
+and taking their wallets? What if it involves spreading the word that
+Democrats should vote on Wednesday instead of Tuesday? Some people
+seriously claim that you can't criticize what someone does if it is
+part of their job. From my point of view, the fact that somebody is
+being paid to do something wrong is not an excuse.</p>
+
+<h3>Embedded Applications</h3>
+
+<p><strong>JA</strong>: Embedded applications have become more and
+more prevalent in society. Is it possible to completely avoid nonfree
+software and still remain in touch with current technologies?</p>
+
+<p><strong>Richard Stallman</strong>: I don't know if it is possible,
+but if it is not, that is something we need to change. Once an
+embedded system can talk to a network, or users normally load software
+into it, its software needs to be free. For instance, if it uses
+nonfree software to talk to the network, you can't trust it not to
+spy on you.</p>
+
+<h3>SCO</h3>
+
+<p><strong>JA</strong>: How do you react to SCO's recent accusations
+about the Linux kernel?</p>
+
+<p><strong>Richard Stallman</strong>: The vague and cagey nature of
+their statements, coupled with having seen that the only specific
+facts they produced proved to be false, suggests they have no real
+case.</p>
+
+<p><strong>JA</strong>: What impact do you expect this to have on free
+software?</p>
+
+<p><strong>Richard Stallman</strong>: I don't expect it to have a big
+impact because I don't think they have a case. They're trying to
+create FUD and they may scare some timid people off.</p>
+
+<p><strong>JA</strong>: Do you expect this to bring the GPL into the
+courtroom?</p>
+
+<p><strong>Richard Stallman</strong>: I don't know.</p>
+
+<p><strong>JA</strong>: Is that a concern for you?</p>
+
+<p><strong>Richard Stallman</strong>: We think the GPL will stand up
+in court, but no wise person is eager to get into a battle, even if he
+thinks he's well enough armed that he'd probably win.</p>
+
+<p>The arguments that SCO have been making are so laughably absurd
+that they lend support to the idea that SCO has no real case, that
+they're only interested in creating FUD.</p>
+
+<p><strong>JA</strong>: To what end?</p>
+
+<p><strong>Richard Stallman</strong>: They hope some companies will
+pay them money, and Microsoft already did.</p>
+
+<p>To people who know almost nothing about copyright law, anything
+sounds as plausible as anything else. When they hear what SCO says,
+they don't know how ridiculous it is. So they think, &ldquo;SCO says
+this, IBM says that, how do I know who's right?&rdquo;</p>
+
+<p><strong>JA</strong>: What's in store for the GNU General Public
+License (GPL)? Are there plans for a version 3?</p>
+
+<p><strong>Richard Stallman</strong>: Yes, but we are not really sure
+what will change. What we can say is that the changes will be
+details.</p>
+
+<h3>Getting Involved</h3>
+
+<p><strong>JA</strong>: Is there any other current event that you'd
+like to address?</p>
+
+<p><strong>Richard Stallman</strong>: The FCC last year decided to
+require digital restrictions management in all receivers of digital
+TV. And not only that, to require that they be made not modifiable by
+the user. I think they have not yet decided whether this device is
+software controlled. If they make it software controlled then for the
+first time there will be a government policy explicitly banning free
+software for a job that millions of people are going to want to
+do.</p>
+
+
+<p><strong>JA</strong>: Are you optimistic about this?</p>
+
+<p><strong>Richard Stallman</strong>: I don't know. I am a pessimist
+by nature. Many people can only keep on fighting when they expect to
+win. I'm not like that, I always expect to lose. I fight anyway, and
+sometimes I win.</p>
+
+<p>I'm not the main leader in this particular battle. The Electronic
+Frontier Foundation is fighting. Public Knowledge is fighting. People
+need to get involved politically. At this point people should go to
+the EFF website and the Public Knowledge website, and continue doing
+so over the coming weeks to see how they can get involved in this
+coming campaign. It's going to take a lot of people spending probably
+at least twenty minutes. If you care enough about your freedom to
+spend twenty minutes on it, if you can tear yourself away from
+whatever little job it is you're doing this week, and next week, and
+so on. Spend a little time fighting for your freedom, and we can
+win.</p>
+
+<p><strong>JA</strong>: Thank you.</p>
+
+<p><strong>Richard Stallman</strong>: Happy hacking!</p>
+
+<div class="infobox extra" role="complementary">
+<hr />
+<p>Source:&nbsp;
+  <a href="https://web.archive.org/web/20120621163233/http://kerneltrap.org/node/4484">
+  kerneltrap.org/node/4484</a>
+  [Archived]</p>
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/rms-kernel-trap-interview.html" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/rms-kernel-trap-interview.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/rms-kernel-trap-interview.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/rms-kernel-trap-interview.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2005, 2021 Richard Stallman, Jeremy Andrews</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/14 16:25:47 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

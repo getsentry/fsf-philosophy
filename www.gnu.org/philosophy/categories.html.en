@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.97 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Categories of Free and Nonfree Software
+- GNU Project - Free Software Foundation</title>
+<style type="text/css" media="screen"><!--
+#diagram { width: 40em; margin-top: 2.5em; }
+#diagram object, #diagram img { width: 100%; height: auto; }
+#caption { text-align: justify; }
+#also-read { width: 40em; max-width: 100%; margin: auto; }
+@media (max-width: 38em) {
+  #diagram { overflow: auto; }
+  #diagram object { min-width: 35em; }
+  #diagram p { text-align: initial; }
+}
+--></style>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/categories.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/categories.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="ar" hreflang="ar" href="/philosophy/categories.ar.html" title="العربية" />
+<link rel="alternate" type="text/html" lang="ca" hreflang="ca" href="/philosophy/categories.ca.html" title="català" />
+<link rel="alternate" type="text/html" lang="cs" hreflang="cs" href="/philosophy/categories.cs.html" title="čeština" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/categories.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/categories.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/categories.es.html" title="español" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/categories.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="id" hreflang="id" href="/philosophy/categories.id.html" title="Indonesia" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/categories.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="ja" hreflang="ja" href="/philosophy/categories.ja.html" title="日本語" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/categories.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/categories.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="pt-br" hreflang="pt-br" href="/philosophy/categories.pt-br.html" title="português" />
+<link rel="alternate" type="text/html" lang="ro" hreflang="ro" href="/philosophy/categories.ro.html" title="română" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/categories.ru.html" title="русский" />
+<link rel="alternate" type="text/html" lang="sr" hreflang="sr" href="/philosophy/categories.sr.html" title="српски" />
+<link rel="alternate" type="text/html" lang="ta" hreflang="ta" href="/philosophy/categories.ta.html" title="தமிழ்" />
+<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/categories.tr.html" title="Türkçe" />
+<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/categories.zh-cn.html" title="简体中文" />
+<link rel="alternate" type="text/html" lang="zh-tw" hreflang="zh-tw" href="/philosophy/categories.zh-tw.html" title="繁體中文" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#terminology">Terminology<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2 class="c">Categories of Free and Nonfree Software</h2>
+
+<!-- GNUN: localize URL /philosophy/category.svg /philosophy/category.png -->
+<div id="diagram" class="pict" role="figure" aria-labelledby="caption">
+	<object type="image/svg+xml" data="/philosophy/category.svg"
+	title=" [Categories of software] " width="680" height="645">
+	<img src="/philosophy/category.png" alt=" [Categories of software] "
+	width="680" height="645" /></object>
+	<p id="caption">This diagram explains the different
+	categories of software. It is available as <a
+	href="/philosophy/category.svg">SVG</a> and <a
+	href="/philosophy/category.png">PNG</a> images, under the terms
+	of the <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+	rel="license">Creative Commons Attribution-ShareAlike 4.0
+	International</a> license.<br />
+	Note: the diagram is clickable if your browser completely supports
+	the SVG format.</p>
+</div>
+
+<div id="also-read" role="complementary">
+	<p class="announcement">Also see <a href="/philosophy/words-to-avoid.html">
+	Confusing Words which You Might Want to Avoid</a>.</p>
+</div>
+
+<h3 id="FreeSoftware">Free software</h3>
+
+	<p>Free software is software that comes with permission for
+	anyone to use, copy, and/or distribute, either verbatim or with
+	modifications, either gratis or for a fee. In particular, this
+	means that source code must be available. &ldquo;If it's not
+	source, it's not software.&rdquo; This is a simplified
+	description; see also
+	the <a href="/philosophy/free-sw.html">full
+	definition</a>.</p>
+
+	<p>If a program is free, then it can potentially be included
+	in a free operating system such as GNU, or free versions of
+	the <a href="/gnu/linux-and-gnu.html">GNU/Linux
+	system</a>.</p>
+
+	<p>There are many different ways to make a program free&mdash;many
+	questions of detail, which could be decided in more than one way
+	and still make the program free. Some of the possible variations
+	are described below. For information on specific free software
+	licenses, see the <a href="/licenses/license-list.html">license
+	list</a> page.</p>
+
+	<p>Free software is a matter of freedom, not price. But
+	proprietary software companies typically use the term
+	&ldquo;free software&rdquo; to refer to price. Sometimes they
+	mean that you can obtain a binary copy at no charge; sometimes
+	they mean that a copy is bundled with a computer that you are
+	buying, and the price includes both.  Either way, it has
+	nothing to do with what we mean by free software in the GNU
+	project.</p>
+
+	<p>Because of this potential confusion, when a software company
+	says its product is free software, always check the actual
+	distribution terms to see whether users really have all the
+	freedoms that free software implies. Sometimes it really is free
+	software; sometimes it isn't.</p>
+
+	<p>Many languages have two separate words for
+	&ldquo;free&rdquo; as in freedom and &ldquo;free&rdquo; as in
+	zero price. For example, French has &ldquo;libre&rdquo; and
+	&ldquo;gratuit.&rdquo; Not so English; there is a word
+	&ldquo;gratis&rdquo; that refers unambiguously to price, but
+	no common adjective that refers unambiguously to freedom. So
+	if you are speaking another language, we suggest you translate
+	&ldquo;free&rdquo; into your language to make it clearer. See
+	our list of <a href= "/philosophy/fs-translations.html">
+	translations of the term &ldquo;free software&rdquo;</a> into
+	various other languages.</p>
+
+	<p>Free software is often <a href="/software/reliability.html">more
+	reliable</a> than nonfree software.</p>
+
+<h3 id="OpenSource">Open source software</h3>
+
+	<p>The term &ldquo;open source&rdquo; software is used by some
+	people to mean more or less the same category as free
+	software. It is not exactly the same class of software: they
+	accept some licenses that we consider too restrictive, and
+	there are free software licenses they have not
+	accepted. However, the differences in extension of the
+	category are small: we know of only a few cases of source code that
+	is open source but not free.  In principle it could happen
+	that some free programs are rejected as open source, but
+	we don't know if that has ever happened.</p>
+
+	<p>We prefer the term &ldquo;<a
+	href="/philosophy/open-source-misses-the-point.html">free
+	software</a>&rdquo; because it refers to
+	freedom&mdash;something that the term &ldquo;open
+	source&ldquo; does not do.</p>
+
+<h3 id="PublicDomainSoftware">Public domain
+	software</h3>
+
+	<p>Public domain software is software that is not copyrighted. If
+	the source code is in the public domain, that is a special case of
+	<a href="#Non-CopyleftedFreeSoftware">noncopylefted free
+	software</a>, which means that some copies or modified versions
+	may not be free at all.</p>
+
+	<p>In some cases, an executable program can be in the public domain
+	but the source code is not available. This is not free software,
+	because free software requires accessibility of source code.
+	Meanwhile, most free software is not in the public domain; it is
+	copyrighted, and the copyright holders have legally given
+	permission for everyone to use it in freedom, using a free software
+	license.</p>
+
+	<p>Sometimes people use the term &ldquo;public domain&rdquo;
+	in a loose fashion to
+	mean <a href="#FreeSoftware">&ldquo;free&rdquo;</a> or
+	&ldquo;available gratis.&rdquo; However, &ldquo;public
+	domain&rdquo; is a legal term and means, precisely, &ldquo;not
+	copyrighted.&rdquo; For clarity, we recommend using
+	&ldquo;public domain&rdquo; for that meaning only, and using
+	other terms to convey the other meanings.</p>
+
+	<p>Under the Berne Convention, which most countries have
+	signed, anything written down is automatically
+	copyrighted. This includes programs. Therefore, if you want a
+	program you have written to be in the public domain, you must
+	take some legal steps to disclaim the copyright on it;
+	otherwise, the program is copyrighted.</p>
+
+<h3 id="CopyleftedSoftware">Copylefted software</h3>
+
+	<p>Copylefted software is free software whose distribution
+	terms ensure that all copies of all versions carry more or
+	less the same distribution terms.  This means, for instance,
+	that copyleft licenses generally disallow others to add
+	additional requirements to the software (though a limited set
+	of safe added requirements can be allowed) and require making
+	source code available.  This shields the program, and its
+	modified versions, from some of the common ways of making a
+	program proprietary.</p>
+
+	<p>Some copyleft licenses, such as GPL version&nbsp;3, block
+	other means of turning software proprietary, such as <a
+	href="/licenses/rms-why-gplv3.html">tivoization</a>.</p> 
+
+	<p>In the GNU Project, we copyleft almost all the software we
+	write, because our goal is to give <em>every</em> user the freedoms
+	implied by the term &ldquo;free software.&rdquo; See our <a
+	href="/licenses/copyleft.html">copyleft article</a> for more explanation of
+	how copyleft works and why we use it.</p>
+
+	<p>Copyleft is a general concept; to copyleft an actual program,
+	you need to use a specific set of distribution terms. There are
+	many possible ways to write copyleft distribution terms, so in
+	principle there can be many copyleft free software licenses.
+	However, in actual practice nearly all copylefted software uses the
+	<a href="/licenses/gpl.html">GNU General Public
+	License</a>. Two different copyleft licenses are usually
+	&ldquo;incompatible,&rdquo; which means it is illegal to merge
+	the code using one license with the code using the other
+	license; therefore, it is good for the community if people use
+	a single copyleft license.</p>
+
+<h3 id="Non-CopyleftedFreeSoftware">Noncopylefted free software</h3>
+
+	<p>Noncopylefted free software comes from the author with
+	permission to redistribute and modify, and also to add additional
+	restrictions to it.</p>
+
+	<p>If a program is free but not copylefted, then some copies
+	or modified versions may not be free at all. A software
+	company can compile the program, with or without
+	modifications, and distribute the executable file as
+	a <a href="#ProprietarySoftware">proprietary</a> software
+	product.</p>
+
+	<p>The <a href="https://www.x.org/wiki/">X Window System</a>
+	illustrates this.  The X Consortium released X11 with
+	distribution terms that made it noncopylefted free
+	software, and subsequent developers have mostly followed the
+	same practice.   A copy which has those
+	distribution terms is free software.  However, there are nonfree
+	versions as well, and there are (or at least were) popular
+	workstations and PC graphics boards for which nonfree
+	versions are the only ones that work.  If you are using this
+	hardware, X11 is not free software for
+	you.  <a href="/philosophy/x.html">The developers of X11 even
+	made X11 nonfree</a> for a while; they were able to do this
+	because others had contributed their code under the same
+	noncopyleft license.</p>
+
+<h3 id="LaxPermissiveLicensedSoftware">Lax permissive licensed software</h3>
+
+	<p>Lax permissive licenses include the X11 license and the
+	<a href="/licenses/bsd.html">two BSD licenses</a>.  These licenses permit
+	almost any use of the code, including distributing proprietary
+	binaries with or without changing the source code.</p>
+
+<h3 id="GPL-CoveredSoftware">GPL-covered software</h3>
+
+	<p>The <a href="/licenses/gpl.html">GNU GPL (General Public
+	License)</a> is one specific set of distribution terms for
+	copylefting a program. The GNU Project uses it as the distribution
+	terms for most GNU software.</p>
+
+	<p>To equate free software with GPL-covered software is therefore
+	an error.</p>
+
+<h3 id="TheGNUsystem">The GNU operating system</h3>
+
+	<p>The <a href="/gnu/gnu-history.html">GNU operating system</a> is the
+	Unix-like operating system, which is entirely free software, that
+	we in the GNU Project have developed since 1984.</p>
+
+	<p>A Unix-like operating system consists of many programs. The
+	GNU system includes all of the <a href="#GNUsoftware">official
+	GNU packages</a>.  It also includes many other packages, such as
+	the X Window System and TeX, which are not GNU software.</p>
+
+	<p>The first test release of the complete GNU system was in
+	1996.  This includes the GNU Hurd, our kernel, developed since
+	1990.  In 2001 the GNU system (including the GNU Hurd) began
+	working fairly reliably, but the Hurd still lacks some
+	important features, so it is not widely used.  Meanwhile,
+	the <a href="/gnu/linux-and-gnu.html">GNU/Linux system</a>,
+	an offshoot of the GNU operating system which uses Linux as
+	the kernel instead of the GNU Hurd, has been a great success
+	since the 90s.  As this shows, the GNU system is not a single
+	static set of programs; users and distributors may select
+	different packages according to their needs and desires.  The
+	result is still a variant of the GNU system.</p>
+
+	<p>Since the purpose of GNU is to be free, every single
+	component in the GNU operating system is free
+	software.  They don't all have to be copylefted, however; any
+	kind of free software is legally suitable to include if it
+	helps meet technical goals.</p>
+
+<h3 id="GNUprograms">GNU programs</h3>
+
+	<p>&ldquo;GNU programs&rdquo; is equivalent
+	to <a href="#GNUsoftware">GNU software.</a> A program Foo is a
+	GNU program if it is GNU software.  We also sometimes say it
+	is a &ldquo;GNU package.&rdquo;</p>
+
+<h3 id="GNUsoftware">GNU software</h3>
+
+	<p><a href="/software/software.html">GNU software</a> is
+	software that is released under the auspices of the <a
+	href="/gnu/gnu-history.html">GNU Project</a>. If a program is GNU
+	software, we also say that it is a GNU program or a GNU
+	package.  The README or manual of a GNU package should say it
+	is one; also, the <a href="/directory">Free Software
+	Directory</a> identifies all GNU packages.</p>
+
+	<p>Most GNU software is <a href=
+	"/licenses/copyleft.html">copylefted</a>, but not all; however,
+	all GNU software must be <a href="/philosophy/free-sw.html">free
+	software</a>.</p>
+
+	<p>Some GNU software was written by <a
+	href="https://www.fsf.org/about/staff/">staff</a> of
+	the <a href="https://www.fsf.org/">Free Software
+	Foundation</a>, but most GNU software comes from many
+	<a href="/people/people.html">volunteers</a>.  (Some of these
+	volunteers are paid by companies or universities, but they are
+	volunteers for us.)  Some contributed software is copyrighted
+	by the Free Software Foundation; some is copyrighted by the
+	contributors who wrote it.</p>
+
+<h3 id="FSF-CopyrightedGNUSoftware">FSF-copyrighted GNU software</h3>
+
+	<p>The developers of GNU packages can transfer the copyright
+	to the FSF, or they can keep it.  The choice is theirs.</p>
+
+	<p>If they have transferred the copyright to the FSF, the program
+	is FSF-copyrighted GNU software, and the FSF can enforce
+	its license.  If they have kept the copyright, enforcing the license
+	is their responsibility.</p>
+	
+	<p>The FSF does not accept copyright assignments of software
+	that is not an official GNU package, as a rule.</p>
+
+<h3 id="non-freeSoftware">Nonfree software</h3>
+
+	<p>Nonfree software is any software that is not free.
+	Its use, redistribution or modification is prohibited, or
+	requires you to ask for permission, or is restricted so much
+	that you effectively can't do it freely.</p>
+
+<h3 id="ProprietarySoftware">Proprietary software</h3>
+
+	<p>Proprietary software is another name for nonfree software.
+	In the past we subdivided nonfree software into
+	&ldquo;semifree software,&rdquo; which could be modified and
+	redistributed noncommercially, and &ldquo;proprietary
+	software,&rdquo; which could not be.  But we have dropped that
+	distinction and now use &ldquo;proprietary software&rdquo; as
+	synonymous with nonfree software.</p>
+
+	<p>The Free Software Foundation follows the rule that we cannot
+	install any proprietary program on our computers except temporarily
+	for the specific purpose of writing a free replacement for that
+	very program. Aside from that, we feel there is no possible excuse
+	for installing a proprietary program.</p>
+
+	<p>For example, we felt justified in installing Unix on our
+	computer in the 1980s, because we were using it to write a free
+	replacement for Unix. Nowadays, since free operating systems are
+	available, the excuse is no longer applicable; we do not use any
+	nonfree operating systems, and any new computer we install
+	must run a completely free operating system.</p>
+
+	<p>We don't insist that users of GNU, or contributors to GNU, have
+	to live by this rule. It is a rule we made for ourselves. But we
+	hope you will follow it too, for your freedom's sake.</p>
+
+
+<h3 id="freeware">Freeware</h3>
+
+	<p>The term &ldquo;freeware&rdquo; has no clear accepted
+	definition, but it is commonly used for packages which permit
+	redistribution but not modification (and their source code is
+	not available). These packages are <em>not</em> free software,
+	so please don't use &ldquo;freeware&rdquo; to refer to free
+	software.</p>
+
+<h3 id="shareware">Shareware</h3>
+
+	<p>Shareware is software which comes with permission for people to
+	redistribute copies, but says that anyone who continues to use a
+	copy is <em>required</em> to pay a license fee.</p>
+
+	<p>Shareware is not free software, or even semifree. There are two
+	reasons it is not:</p>
+
+	<ul>
+	<li>For most shareware, source code is not available; thus, you
+	cannot modify the program at all.</li>
+	<li>Shareware does not come with permission to make a copy and
+	install it without paying a license fee, not even for individuals
+	engaging in nonprofit activity. (In practice, people often
+	disregard the distribution terms and do this anyway, but the terms
+	don't permit it.)</li>
+	</ul>
+
+<h3 id="PrivateSoftware">Private software</h3>
+	<p>Private or custom software is software developed for one user
+	(typically an organization or company). That user keeps it and uses
+	it, and does not release it to the public either as source code or
+	as binaries.</p>
+	<p>A private program is free software (in a somewhat trivial
+	sense) if its sole user has the four freedoms.  In particular,
+	if the user has full rights to the private program, the program is
+	free.  However, if the user distributes copies to others and does
+	not provide the four freedoms with those copies, those copies
+	are not free software.</p>
+
+	<p>Free software is a matter of freedom, not access.  In
+	general we do not believe it is wrong to develop a program and
+	not release it. There are occasions when a program is so
+	important that one might argue that withholding it from the
+	public is doing wrong to humanity.  However, such cases are
+	rare.  Most programs are not that important, and declining to
+	release them is not particularly wrong. Thus, there is no
+	conflict between the development of private or custom software
+	and the principles of the free software movement.</p>
+
+	<p>Nearly all employment for programmers is in development of
+	custom software; therefore most programming jobs are, or could be,
+	done in a way compatible with the free software movement.</p>
+
+<h3 id="commercialSoftware">Commercial software</h3>
+
+	<p> &ldquo;Commercial&rdquo; and &ldquo;proprietary&rdquo; are
+	not the same!  Commercial software is software developed by a
+	business as part of its business. Most commercial software
+	is <a href="#ProprietarySoftware">proprietary</a>, but there
+	is commercial free software, and there is noncommercial
+	nonfree software.</p>
+
+	<p>For example, GNU Ada is developed by a company.  It is always
+	distributed under the terms of the GNU GPL, and every copy is
+	free software; but its developers sell support contracts. When
+	their salesmen speak to prospective customers, sometimes the
+	customers say, &ldquo;We would feel safer with a commercial
+	compiler.&rdquo; The salesmen reply, &ldquo;GNU
+	Ada <em>is</em> a commercial compiler; it happens to be free
+	software.&rdquo;</p>
+	<p>For the GNU Project, the priorities are in the other order:
+	the important thing is that GNU Ada is free software; that
+	it is commercial is just a detail. However, the additional
+	development of GNU Ada that results from its being commercial
+	is definitely beneficial.</p>
+	<p>Please help spread the awareness that free commercial
+	software is possible. You can do this by making an effort not
+	to say &ldquo;commercial&rdquo; when you mean
+	&ldquo;proprietary.&rdquo;</p>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/categories.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/categories.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[ar]&nbsp;<a lang="ar" hreflang="ar" href="/philosophy/categories.ar.html">العربية</a> &nbsp;</span>
+<span dir="ltr">[ca]&nbsp;<a lang="ca" hreflang="ca" href="/philosophy/categories.ca.html">català</a> &nbsp;</span>
+<span dir="ltr">[cs]&nbsp;<a lang="cs" hreflang="cs" href="/philosophy/categories.cs.html">čeština</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/categories.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[el]&nbsp;<a lang="el" hreflang="el" href="/philosophy/categories.el.html">ελληνικά</a> &nbsp;</span>
+<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/categories.es.html">español</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/categories.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[id]&nbsp;<a lang="id" hreflang="id" href="/philosophy/categories.id.html">Indonesia</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/categories.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[ja]&nbsp;<a lang="ja" hreflang="ja" href="/philosophy/categories.ja.html">日本語</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/categories.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/categories.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[pt-br]&nbsp;<a lang="pt-br" hreflang="pt-br" href="/philosophy/categories.pt-br.html">português</a> &nbsp;</span>
+<span dir="ltr">[ro]&nbsp;<a lang="ro" hreflang="ro" href="/philosophy/categories.ro.html">română</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/categories.ru.html">русский</a> &nbsp;</span>
+<span dir="ltr">[sr]&nbsp;<a lang="sr" hreflang="sr" href="/philosophy/categories.sr.html">српски</a> &nbsp;</span>
+<span dir="ltr">[ta]&nbsp;<a lang="ta" hreflang="ta" href="/philosophy/categories.ta.html">தமிழ்</a> &nbsp;</span>
+<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/categories.tr.html">Türkçe</a> &nbsp;</span>
+<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/categories.zh-cn.html">简体中文</a> &nbsp;</span>
+<span dir="ltr">[zh-tw]&nbsp;<a lang="zh-tw" hreflang="zh-tw" href="/philosophy/categories.zh-tw.html">繁體中文</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to <a
+href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.  There are also <a
+href="/contact/">other ways to contact</a> the FSF.  Broken links and other
+corrections or suggestions can be sent to <a
+href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations README</a> for
+information on coordinating and contributing translations of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 1996-1998, 2001-2005, 2007, 2009-2012, 2015, 2019, 2022, 2023 Free
+Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2023/01/31 09:09:31 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>

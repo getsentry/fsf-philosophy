@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="author" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+
+
+
+<!-- Parent-Version: 1.96 -->
+<!-- This page is derived from /server/standards/boilerplate.html -->
+
+
+<title>Opposing Digital Rights Mismanagement
+- GNU Project - Free Software Foundation</title>
+<!-- begin translist file -->
+
+<link rel="alternate" type="text/html" href="/philosophy/opposing-drm.html" hreflang="x-default" />
+<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/opposing-drm.en.html" title="English" />
+<link rel="alternate" type="text/html" lang="de" hreflang="de" href="/philosophy/opposing-drm.de.html" title="Deutsch" />
+<link rel="alternate" type="text/html" lang="el" hreflang="el" href="/philosophy/opposing-drm.el.html" title="ελληνικά" />
+<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/opposing-drm.fr.html" title="français" />
+<link rel="alternate" type="text/html" lang="it" hreflang="it" href="/philosophy/opposing-drm.it.html" title="italiano" />
+<link rel="alternate" type="text/html" lang="nl" hreflang="nl" href="/philosophy/opposing-drm.nl.html" title="Nederlands" />
+<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/opposing-drm.pl.html" title="polski" />
+<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/opposing-drm.ru.html" title="русский" />
+<!-- end translist file -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+
+<div id="fsf-frame" role="complementary">
+<form id="fssbox" action="https://my.fsf.org/civicrm/profile/create?reset=1&amp;gid=31"
+      method="post">
+ <div>
+  <input name="postURL" type="hidden" value="" />
+  <input type="hidden" name="group[25]" value="1" />
+  <input name="cancelURL" type="hidden" value="https://crm.fsf.org/civicrm/profile?reset=1&amp;gid=31" />
+  <input name="_qf_default" type="hidden" value="Edit:cancel" />
+  <label for="frmEmail">
+   <a href="//www.fsf.org/fss">Free Software Supporter</a>:
+  </label>
+  <input type="text" id="frmEmail" name="email-Primary" size="18" maxlength="80"
+         value="email address" onfocus="this.value=''"/>
+  <input type="submit" name="_qf_Edit_next" value="Sign up" />
+ </div>
+</form>
+
+<div id="join-fsf" class="button"><a
+href="https://www.fsf.org/associate/support_freedom?referrer=4052">JOIN&nbsp;THE&nbsp;FSF</a>
+</div>
+</div>
+
+<div id="header" role="banner">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48" width="49"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <div  id="search-button" class="switch">
+  <a href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="30" width="30"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+ </div>
+
+ <div id="language-button" class="switch">
+  <a href="#language-container">
+  <img id="language-icon" height="30" width="37"
+       src="/graphics/icons/translations.png"
+       alt="&nbsp;[Other languages]&nbsp;" /></a>
+ </div>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation" role="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/philosophy/philosophy.html">PHILOSOPHY</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware"><a href="/software/software.html">SOFTWARE</a></li>
+
+
+  <li id="tabDistros"><a href="/distros/distros.html">DISTROS</a></li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabAV"><a href="/audio-video/audio-video.html">AUDIO&nbsp;&amp;&nbsp;VIDEO</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabFun"><a href="/fun/humor.html">FUN</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content" role="main">
+<!-- end of server/banner.html -->
+
+<div class="breadcrumb" role="navigation">
+<a href="/"><img src="/graphics/icons/home.png" height="26" width="26"
+   alt="GNU Home" title="GNU Home" /><span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/philosophy.html#content">Philosophy<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#content">Essays&nbsp;&amp;&nbsp;articles<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#cultural">Cultural&nbsp;&amp;&nbsp;social&nbsp;issues<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+<a href="/philosophy/essays-and-articles.html#drm">DRM<span
+ class="gnun-split"></span></a>&nbsp;/<span class="gnun-split"></span>
+
+
+</div>
+
+<!--GNUN: OUT-OF-DATE NOTICE-->
+
+
+
+<div class="article reduced-width">
+<h2>Opposing Digital Rights Mismanagement<br />
+<span style="font-size: .7em">(Or Digital Restrictions Management, as we now call it)</span></h2>
+
+<address class="byline">by <a href="https://www.stallman.org/">Richard
+Stallman</a></address>
+
+<p>In 1989, in a very different world, I wrote the first version of the GNU
+General Public License, a license that gives computer users freedom. The
+GNU GPL, of all the free software licenses, is the one that most fully
+embodies the values and aims of the free software movement, by ensuring
+the four fundamental freedoms for every user. These are freedoms to 0)
+run the program as you wish; 1) study the source code and change it to
+do what you wish; 2) make and distribute copies, when you wish; 3) and
+distribute modified versions, when you wish.
+</p>
+<p>
+Any license that grants these freedoms is a free software license. The
+GNU GPL goes further: it protects these freedoms for all users of all
+versions of the program by forbidding middlemen from stripping them off.
+Most components of the GNU/Linux operating system, including the Linux
+component that was made free software in 1992, are licensed under GPL
+version 2, released in 1991. Now, with legal advice from Professor Eben
+Moglen, I am designing version 3 of the GNU GPL.
+</p>
+<p>
+GPLv3 must cope with threats to freedom that we did not imagine in
+1989.  The coming generation of computers, and many products with
+increasingly powerful embedded computers, are being turned against us
+by their manufacturers before we buy them&mdash;they are designed to
+restrict what we can use them to do.
+</p>
+
+<div class="announcement comment" role="complementary"><p>
+<a href="https://www.defectivebydesign.org">Join our campaign against DRM</a>.
+</p></div>
+
+<p>
+First, there was the TiVo. People may think of it as an appliance to
+record TV programs, but it contains a real computer running a GNU/Linux
+system. As required by the GPL, you can get the source code for the
+system. You can change the code, recompile and install it. But once you
+install a changed version, the TiVo won't run at all, because of a
+special mechanism designed to sabotage you. Freedom No. 1, the freedom
+to change the software to do what you wish, has become a sham.
+</p>
+<p>
+Then came Treacherous Computing, promoted as &ldquo;Trusted
+Computing,&rdquo; meaning that companies can &ldquo;trust&rdquo; your
+computer to obey them instead of you. It enables network sites to tell
+which program you are running; if you change the program, or write
+your own, they will refuse to talk to you. Once again, freedom No. 1
+becomes a sham.
+</p>
+<p>
+Microsoft has a scheme, originally called Palladium, that enables an
+application program to &ldquo;seal&rdquo; data so that no other
+program can access it. If Disney distributes movies this way, you'll
+be unable to exercise your legal rights of fair use and de minimis
+use. If an application records your data this way, it will be the
+ultimate in vendor lock-in. This too destroys freedom No. 1; if
+modified versions of a program cannot access the same data, you can't
+really change the program to do what you wish. Something like
+Palladium is planned for a coming version of Windows.
+</p>
+<p>
+AACS, the &ldquo;Advanced Access Content System,&rdquo; promoted by
+Disney, IBM, Microsoft, Intel, Sony, and others, aims to restrict use
+of HDTV recordings&mdash;and software&mdash;so they can't be used
+except as these companies permit. Sony was caught last year installing
+a &ldquo;rootkit&rdquo; into millions of people's computers, and not
+telling them how to remove it. Sony has learned its lesson: it will
+install the &ldquo;rootkit&rdquo; in your computer before you get it,
+and you won't be able to remove it.  This plan explicitly requires
+devices to be &ldquo;robust&rdquo;&mdash;meaning you cannot change
+them. Its implementors will surely want to include GPL-covered
+software, trampling freedom No. 1. This scheme should get
+&ldquo;AACSed,&rdquo; and <a
+href="https://web.archive.org/web/20140217075603/http://bluraysucks.com/">
+a boycott of HD DVD and Blu-ray has already been announced</a>.
+</p>
+<p>
+Allowing a few businesses to organize a scheme to deny our freedoms for
+their profit is a failure of government, but so far most of the world's
+governments, led by the U.S., have acted as paid accomplices rather than
+policemen for these schemes. The copyright industry has promulgated its
+peculiar ideas of right and wrong so vigorously that some readers may
+find it hard to entertain the idea that individual freedom can trump
+their profits.
+</p>
+
+<p>Facing these threats to our freedom, what should the free software
+community do? Some say we should give in and accept the distribution
+of our software in ways that don't allow modified versions to
+function, because this will make our software more popular. Some refer
+to free software as &ldquo;open source,&rdquo; that being the slogan
+of an amoral approach to the matter, which cites powerful and reliable
+software as the highest goals.  If we allow companies to use our
+software to restrict us, this &ldquo;open source DRM&rdquo; could help
+them restrict us more powerfully and reliably.  Those who wield the
+power could benefit by sharing and improving the source code of the
+software they use to do so. We too could read that source
+code&mdash;read it and weep, if we can't make a changed version
+run. For the goals of freedom and community&mdash;the goals of the
+free software movement&mdash;this concession would amount to failure.
+</p>
+<p>
+We developed the GNU operating system so that we could control our own
+computers, and cooperate freely in using them in freedom. To seek
+popularity for our software by ceding this freedom would defeat the
+purpose; at best, we might flatter our egos. Therefore we have designed
+version 3 of the GNU GPL to uphold the user's freedom to modify the
+source code and put modified versions to real use.
+</p>
+<p>
+The debate about the GPL v3 is part of a broader debate about DRM versus
+your rights. The motive for DRM schemes is to increase profits for those
+who impose them, but their profit is a side issue when millions of
+people's freedom is at stake; desire for profit, though not wrong in
+itself, cannot justify denying the public control over its technology.
+Defending freedom means thwarting DRM.
+</p>
+
+<div class="infobox extra" role="complementary">
+<p>First published by <cite>BusinessWeek Online</cite>.</p>
+</div>
+</div>
+
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+<div id="language-container">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#top"><b>&#9650;</b></a>
+ </div>
+ <div id="languages" class="rounded-corners">
+  <div class="button">
+   <a href="#top" class="close"><span>BACK TO TOP</span></a>
+  </div>
+  <div id="set-language" class="button">
+   <span class="gnun-split"></span>
+   <a href="/server/select-language.html?callback=/philosophy/opposing-drm.html.en" rel="nofollow">
+   Set language
+   <span class="gnun-split"></span>
+   </a>
+  </div>
+  <p>Available for this page:</p>
+  <div id="translations">
+<p>
+<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/opposing-drm.en.html">English</a> &nbsp;</span>
+<span dir="ltr">[de]&nbsp;<a lang="de" hreflang="de" href="/philosophy/opposing-drm.de.html">Deutsch</a> &nbsp;</span>
+<span dir="ltr">[el]&nbsp;<a lang="el" hreflang="el" href="/philosophy/opposing-drm.el.html">ελληνικά</a> &nbsp;</span>
+<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/opposing-drm.fr.html">français</a> &nbsp;</span>
+<span dir="ltr">[it]&nbsp;<a lang="it" hreflang="it" href="/philosophy/opposing-drm.it.html">italiano</a> &nbsp;</span>
+<span dir="ltr">[nl]&nbsp;<a lang="nl" hreflang="nl" href="/philosophy/opposing-drm.nl.html">Nederlands</a> &nbsp;</span>
+<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/opposing-drm.pl.html">polski</a> &nbsp;</span>
+<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/opposing-drm.ru.html">русский</a> &nbsp;</span>
+</p>
+</div>
+ </div>
+</div>
+
+<div id="mission-statement" role="complementary">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#9650;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"
+width="75" height="25" /></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer" role="contentinfo">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:webmasters@gnu.org">&lt;webmasters@gnu.org&gt;</a>.</p>
+
+<p><!-- TRANSLATORS: Ignore the original text in this paragraph,
+        replace it with the translation of these two:
+
+        We work hard and do our best to provide accurate, good quality
+        translations.  However, we are not exempt from imperfection.
+        Please send your comments and general suggestions in this regard
+        to <a href="mailto:web-translators@gnu.org">
+        &lt;web-translators@gnu.org&gt;</a>.</p>
+
+        <p>For information on coordinating and contributing translations of
+        our web pages, see <a
+        href="/server/standards/README.translations.html">Translations
+        README</a>. -->
+Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and contributing translations
+of this article.</p>
+</div>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+
+<p>Copyright &copy; 2006, 2021 Richard Stallman</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2021/09/19 16:26:24 $
+<!-- timestamp end -->
+</p>
+</div>
+</div><!-- for class="inner", starts in the banner include -->
+</body>
+</html>
