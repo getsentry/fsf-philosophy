@@ -32,6 +32,7 @@ commerce,negative,0.9942756295204163,"tim o'reilly has sent amazon an open lette
 commerce,negative,0.9791809320449829,"my father is a stock broker, and tonight he showed me a news item which came over his company's internal wire service describing (fairly accurately) the boycott and your roll in it."
 commerce,negative,0.9959177374839783,"we singled out amazon for a boycott, among the thousands of companies that have obtained software patents, because amazon is among the few that have gone so far as to actually sue someone."
 commerce,positive,0.8252792358398438,"bezos's letter reaffirms amazon's continuing intention to engage in unrestricted patent warfare, saying that the decision of when and where to attack will be decided by ""business reasons."""
+community,positive,0.5136987566947937,"deterrence with patents is an inadequate defense against aggressors armed with patents, but it is the only defense, so i would not ask amazon (or anyone) to refrain from using patents for self-defense or for collective security."
 commerce,negative,0.9983166456222534,"many android devices are ""tyrants"": they are designed so users cannot install and run their own modified software, only the versions approved by some company."
 community,negative,0.9970744848251343,"microsoft has also intentionally refused to release the specification of the .doc format to the community, making microsoft word the only application that can reliably open this format."
 commerce,negative,0.997686505317688,"after we released a component that could run on some nonfree systems, users ported it to other nonfree systems; those ports were no worse, ethically, than the platform-specific code we needed to develop these components, so we incorporated their patches."
@@ -68,6 +69,7 @@ commerce,negative,0.9990072846412659,"imagine if you get an email from your boss
 community,negative,0.999550998210907,"if word encrypts documents using treacherous computing when saving them, the free software community won't have a chance of developing software to read them—and if we could, such programs might even be forbidden by the digital millennium copyright act."
 community,negative,0.9982940554618835,"if a free program has a malicious feature, other developers in the community will take it out, and you can use the corrected version."
 commerce,negative,0.9980746507644653,some versions of treacherous computing would require the operating system to be specifically authorized by a particular company.
+community,positive,0.9911409616470337,"to oppose treacherous computing, we must join together and confront the situation as a collective choice."
 commerce,negative,0.9985058307647705,"nowadays, the companies that want to impose drm on the world want it to be enforced by programs that talk to web servers to get copies."
 commerce,negative,0.9994019269943237,"the software it would attest to would include the web browser (to prove it implements drm and gives you no way to extract the unencrypted data), the kernel (to prove it gives no way to patch the running browser), the boot software (to prove it gives no way to patch the kernel when starting it), and anything else relating to the security of the drm companies' dominion over you."
 commerce,negative,0.9911984801292419,"""remote attestation"" is a plan to force your computer to tell the truth to a company when its web server asks the computer whether you have liberated it."
@@ -115,6 +117,8 @@ commerce,negative,0.9917486906051636,but the movie companies objected and they w
 commerce,negative,0.9925554394721985,"you see, the movie companies used to make a lot of films where there was a mad scientist and somebody was saying, ""but, doctor, there are some things man was not meant to know."""
 commerce,negative,0.9987527132034302,"the reason is the campaign finance system that we have in the u.s., which is essentially legalized bribery where the candidates are bought by business before they even get elected."
 commerce,positive,0.9900065660476685,"and, of course, they know who their master is—they know whom they're working for—and they pass the laws to give business more power."
+community,positive,0.9973999261856079,"fourth, collective responsibility—you!"
+community,positive,0.9888727068901062,"and fourth, collective responsibility."
 commerce,negative,0.9989683628082275,"disney realized that the copyright on mickey mouse was going to expire, and they don't want that to ever happen because they make a lot of money from that copyright."
 commerce,positive,0.9773114323616028,"if you look at globalization, what you see is that it's carried out by a number of policies which are done in the name of economic efficiency or so-called free-trade treaties, which really are designed to give business power over laws and policies."
 commerce,negative,0.9966300129890442,they're about a transfer of power: removing the power to decide laws from the citizens of any country who might conceivably consider their own interests and giving that power to businesses who will not consider the interests of those citizens.
@@ -276,7 +280,6 @@ commerce,negative,0.9943057894706726,"on the other hand, sooner or later, somebo
 commerce,positive,0.9969366788864136,"so if your employer says to you, ""we need some patents to defend ourselves, so help us get patents,"" i recommend this response: boss, i trust you and i'm sure you would only use those patents to defend the company if it's attacked."
 commerce,negative,0.969598650932312,but i don't know who's going to be the ceo of this company in five years.
 commerce,negative,0.9994879961013794,so i really can't trust the company's word to only use these patents for defense unless i get it in writing.
-commerce,negative,0.9472754597663879,"please put it in writing that any patents i provide for the company will only be used for self-defense and collective security, and not for repression, and then i'll be able to get patents for the company with a clean conscience."
 commerce,positive,0.973640501499176,"it would be most interesting to raise this not just in private with your boss, but also on the company's discussion list."
 commerce,negative,0.9994615912437439,"the other thing that could happen is that the company could fail and its assets could be auctioned off, including the patents; and the patents will be bought by someone who means to use them to do something nasty."
 commerce,positive,0.9942360520362854,"and now that it's ready, he wants to start a business and mass-produce this thing; and because his idea is so good his company will inevitably succeed—except for one thing: the big companies will compete with him and take all his market the away."
@@ -339,6 +342,7 @@ commerce,negative,0.587619960308075,this article proposes an alternative to the 
 commerce,negative,0.9995853304862976,"in order for this alternative, or any alternative, to have a chance, we must first prevent the hasty adoption of the record company plan."
 commerce,negative,0.9864345788955688,"to help accomplish this, please write letters to: congressman barney frank 437 cherry st west newton, ma 02165 senator metzenbaum united states senate washington, dc 20510 house subcommittee on intellectual property house of representatives washington, dc 20515 urge congress to reject the record company bill so that this and other alternatives can be properly considered."
 commerce,positive,0.9976195693016052,"many musicians prefer this alternative to the record company tax plan, and they are strongly motivated to act on their concern."
+community,negative,0.5142908096313477,"first we look at the nature of these threats; then we propose measures to resist them, collectively and individually."
 community,positive,0.9986624717712402,"(this is the freedom to contribute to your community.) when software is free/libre, the users control what it does."
 commerce,negative,0.9969778060913086,"some of them misinterpret free/libre software as ""gratis software""; others understand the term correctly, but either way they claim that businesses will never want to develop such software."
 commerce,negative,0.9720219969749451,"thousands of programmers write useful free software as volunteers.21 companies such as red hat, ibm, oracle, and google pay programmers to write free software."
@@ -346,6 +350,7 @@ commerce,negative,0.8494170904159546,"alexandre zapolsky of the free software bu
 commerce,negative,0.9916337728500366,"most computer users use proprietary software, and are accustomed to letting a few companies control their computing."
 commerce,negative,0.9315901398658752,"if you are one of them, you may have accepted the view that it is normal and proper for those companies, rather than you, to have control."
 commerce,negative,0.7884249687194824,copyright was established in the age of the printing press as an industrial regulation on the business of writing and publishing.
+community,negative,0.9944331049919128,"the works that people use to do practical jobs, such as software, recipes, text fonts, educational works and reference works, must be free/libre so that the users can control (individually and collectively) the jobs that they do with these works."
 commerce,positive,0.9988003969192505,but there is a minimum freedom that the public must have for all published works: the freedom to share exact copies noncommercially.
 commerce,negative,0.9666460156440735,not so where corporations have more political power than the public.
 commerce,negative,0.9423288702964783,"the entertainment companies' lobby is determined to prevent the public from taking advantage of the power of their computers, and has found copyright a suitable tool."
@@ -470,6 +475,7 @@ community,negative,0.9996321201324463,"however, it must be possible to modify al
 commerce,positive,0.9908258318901062,"we can also encourage commercial publishers to sell free, copylefted manuals instead of proprietary ones."
 commerce,negative,0.9966096878051758,"for hardware, this confusion tends to go in the other direction; hardware costs money to produce, so commercially made hardware won't be gratis (unless it is a loss-leader or a tie-in), but that does not prevent its design from being free/libre."
 commerce,negative,0.9969443678855896,"the equivalence falls apart, however, when the software implementation is not totally internal and some company can modify that code."
+community,negative,0.9963244795799255,"thus, the four freedoms don't give users today collective control over a hardware design as they give users collective control over a program."
 commerce,negative,0.9839153289794922,"multiple companies can fabricate one, which reduces dependence on a single vendor."
 commerce,negative,0.9995205402374268,"as common commercial hardware is increasingly designed to subjugate users, it becomes increasingly incompatible with free software, because of secret specifications and requirements for code to be signed by someone other than you."
 commerce,negative,0.9164898991584778,"if you use hardware, please join in urging and pressuring companies to make hardware designs free."
@@ -478,6 +484,8 @@ commerce,negative,0.9984997510910034,"before producing objects commercially or i
 commerce,negative,0.9996198415756226,"for a 3d model, the stl format is not the preferred format for changing the design and thus is not source code, so the repository should not accept it, except perhaps accompanying real source code."
 community,positive,0.9872102737426758,what we need is to recognize as a community that this is what we should do and to insist on free designs when we fabricate objects ourselves.
 community,negative,0.8654272556304932,"when a program respects users' freedom and community, we call it ""free software."""
+community,negative,0.8689183592796326,"with free software, the users control the program, both individually and collectively."
+community,positive,0.6855648159980774,"with the other two freedoms, any group of users can together exercise collective control over the program."
 commerce,negative,0.9436995983123779,"windows, mobile phone firmware, and google chrome for windows include a universal back door that allows some company to change the program remotely without asking permission."
 commerce,negative,0.990711510181427,nonfree software and saass.
 commerce,positive,0.8125954270362854,nonfree software was the first way for companies to take control of people's computing.
@@ -534,6 +542,7 @@ commerce,negative,0.9935488104820251,"for instance, imagine a hypothetical space
 commerce,negative,0.9996659755706787,that planning service would be saass—therefore a dis-service.
 community,positive,0.9995355606079102,"""free software"" means software that respects users' freedom and community."
 commerce,negative,0.9992936849594116,"you may have paid money to get copies of a free program, or you may have obtained copies at no charge."
+community,positive,0.9962685108184814,"with these freedoms, the users (both individually and collectively) control the program and what it does for them."
 commerce,negative,0.9825612902641296,the free software definition the four essential freedoms free software can be commercial clarifying the boundary between free and nonfree the freedom to run the program as you wish the freedom to study the source code and make changes the freedom to redistribute if you wish: basic requirements copyleft rules about packaging and distribution details export regulations legal considerations contract-based licenses the free software definition in practice how we interpret these criteria get help with free licenses use the right words when talking about free software beyond software history have a question about free software licensing not answered here?
 community,positive,0.9998213648796082,by doing this you can give the whole community a chance to benefit from your changes.
 commerce,negative,0.9981870055198669,free software can be commercial.
@@ -671,6 +680,7 @@ commerce,positive,0.9844909310340881,"but if google would like to donate some mo
 community,negative,0.9986904263496399,"but i think they're missing the point when they don't talk about freedom, because that's what makes our community weak, that we don't talk about and think about freedom enough."
 commerce,positive,0.9273940324783325,"moving state agencies to free software can also provide secondary benefits, such as saving money and encouraging local software support businesses."
 commerce,positive,0.7142923474311829,"in this text, ""state entities"" refers to all levels of government, and means public agencies including schools, public-private partnerships, largely state-funded activities such as charter schools, and ""private"" corporations controlled by the state or established with special privileges or functions by the state."
+community,positive,0.6641935706138611,unite with other states the state should invite other states to negotiate collectively with manufacturers about suitable hardware products.
 commerce,positive,0.9533292055130005,"with the measures in this article, the state can recover control over its computing, and lead the country's citizens, businesses and organizations towards control over their computing."
 commerce,negative,0.8939623236656189,"by the time i entered the field, large companies like microsoft tended to control much of the technology."
 commerce,negative,0.9952491521835327,"i found out, too, that those with lots of money could negotiate different licenses."
@@ -946,6 +956,7 @@ commerce,negative,0.912228524684906,so i hope… i said this basically to illust
 commerce,negative,0.9967114925384521,and businesses that conduct itself unethically don't have a right to continue.
 community,positive,0.8637484312057495,we assure this would have earned you many followers among the students community of our college.
 commerce,negative,0.99809330701828,"that kind of abuse is at its worst when carried out by large, well-known companies—and they are easier targets for enforcement."
+community,negative,0.9990328550338745,maybe we can stop this practice with a simple collective effort.
 community,positive,0.9912669062614441,the practice of using the secret word format for interchange impedes the growth of our community and the spread of freedom.
 community,negative,0.9995713829994202,"while we notice the occasional annoyance of receiving a word document, this steady and persistent harm to our community usually doesn't come to our attention."
 commerce,negative,0.9975789189338684,both versions of word format allow incorporation of malware.
@@ -955,6 +966,7 @@ commerce,negative,0.9979604482650757,the problem with these games is not that th
 community,negative,0.9635536074638367,but there is also an indirect effect: what does the use of these games teach people in our community?
 commerce,positive,0.9996850490570068,"it is feasible to develop free games commercially, while respecting your freedom to change the software you use."
 commerce,negative,0.9905630350112915,"there is in fact free game software developed by companies, as well as free games developed noncommercially by volunteers."
+community,negative,0.9993304014205933,"instead you could tell people about the libre games wiki that attempts to catalog free games, the free game dev forum, and the libreplanet gaming collective's free gaming night."
 community,negative,0.999591052532196,"certain restrictions of copyright—such as distribution and modification—are not very useful to ""cyberia,"" the ""free, apolitical, democratic community"" that constitutes the internetworked digital world."
 community,negative,0.932803750038147,"as individuals interact in cyberia, sharing information—then reacting and building upon it—is not only natural, but this is the only way for individual beings to thrive in a community."
 commerce,negative,0.9969090819358826,"in this case, the directory that the files reside should contain a notice, as should any accompanying documentation or literature."
@@ -1041,7 +1053,6 @@ commerce,positive,0.9993489384651184,"microsoft is a very successful software co
 commerce,negative,0.9998040795326233,"as the economist says, software patents are simply bad for business."
 commerce,negative,0.9549387693405151,"its platform includes the prohibition of digital restrictions management, legalization of noncommercial sharing of published works, and shortening of copyright for commercial use to a five-year period."
 commerce,negative,0.9984758496284485,"even if copyright permits noncommercial sharing, the eula may forbid it."
-commerce,negative,0.9986609220504761,"aside from those fatal flaws, the license has other obnoxious provisions: …as such, if you or any contributor include licensed software in a commercial offering (""commercial contributor""), such commercial contributor agrees to defend and indemnify original contributor and all other contributors (collectively ""indemnified contributors"") requiring indemnities from users is quite obnoxious."
 community,positive,0.9998461008071899,the benefit to our community is evident.
 commerce,negative,0.9969170093536377,"the programmers who write improvements to gcc (or emacs, or bash, or linux, or any gpl-covered program) are often employed by companies or universities."
 community,positive,0.9946789741516113,"when the programmer wants to return his improvements to the community, and see his code in the next release, the boss may say, ""hold on there—your code belongs to us!"
@@ -1232,10 +1243,13 @@ commerce,negative,0.9860133528709412,"shares in a company, commodity futures, an
 commerce,negative,0.8224616646766663,"2007 clarification: notwithstanding the improvement in cd technology, it still makes sense to apply copyright to commercial distribution while letting individuals copy freely.) we can also see why the abstractness of intellectual property is not the crucial factor."
 commerce,negative,0.99977046251297,"for example, if the bookstore's stock of books were burned, or if the money in the register got torn up, that would really be a ""loss."""
 commerce,negative,0.9977902173995972,"in a free market system, no business is entitled to cry ""foul"" just because a potential customer chooses not to deal with them."
+community,negative,0.9972471594810486,"the most widely opposed provision of the white paper is the system of collective responsibility, whereby a computer owner is required to monitor and control the activities of all users, on pain of being punished for actions in which he was not a participant but merely failed to actively prevent."
+community,positive,0.9359752535820007,it is natural for a government to turn to collective responsibility for enforcing a law that many citizens do not believe in obeying.
 community,positive,0.9987307190895081,"and freedom three is the freedom to help build your community by publishing an improved version so others can use your version instead, so others can get the benefit of your help."
 commerce,negative,0.9989812970161438,you could all put money in and pay a programmer to make the changes you want.
 commerce,negative,0.9965745210647583,your company could pay a programmer to make the changes your company wants.
 community,negative,0.994436502456665,nobody tells people what to do in the free software community; everybody makes his own decision.
+community,positive,0.825527548789978,so society collectively has control over how the software will develop overall.
 commerce,positive,0.8898058533668518,"but you, individually, or any group or company can decide how to develop it themselves."
 community,positive,0.9991344809532166,"so in our community, the developers cannot resist what the users want."
 commerce,negative,0.9956002235412598,"for instance, nonfree software can be used to create very rich companies, where a few people collect money from everyone around the world, and those few get very rich and other people are deprived."
@@ -1459,6 +1473,7 @@ commerce,negative,0.5576891303062439,a secondary topic that might be of interest
 commerce,positive,0.9995063543319702,"now, in fact, free software is tremendously useful for business."
 commerce,positive,0.9193785786628723,"after all, most businesses in the advanced countries use software."
 commerce,positive,0.9994508624076843,"and free software is tremendously advantageous for any company that uses software, because it means that you're in control."
+community,positive,0.961576521396637,"either individually, if they care enough to be, or, collectively, when they care enough to be."
 commerce,positive,0.9996243715286255,and it doesn't matter that there are no programmers in your company; that's fine.
 commerce,positive,0.9873210191726685,"you know, if you wanted to move the walls in your building, you don't have to be a carpentry company."
 commerce,positive,0.9797847270965576,"and if you want to change around the software you use, you don't have to be a programming company."
@@ -1755,6 +1770,7 @@ commerce,negative,0.8809157013893127,"i support the idea of private enterprise i
 commerce,negative,0.9987605810165405,but this change in technology doesn't suit the people who want to be able to own individual copies and can get money for individual copies.
 commerce,negative,0.999692440032959,"information whose only value to others is speculative, that is they can take some money away from you, but they can't actually create anything with it."
 commerce,negative,0.9747222661972046,businesses should demand opposition to software patents.
+community,positive,0.9786151647567749,"his ideas go a long way into ensuring development of software for the welfare of society, collectively developed by programmers who do not ""lock up"" their work, but rather release it for others to study, modify and redistribute."
 commerce,positive,0.9958314299583435,in fact this is one of the most important aspect of the freedom of programming because the aspect of software patents may make all programmers potential lawbreakers because unknowingly they may be violating some of the patents registered by some other company.
 commerce,negative,0.9960231781005859,"there is an expensive fee and even more expense in paying lawyers, which of course tends to be good for big companies."
 commerce,negative,0.987654983997345,"and so they describe the patent system from the point of view of somebody who wants to get a patent and then point it at programmers and say ""hand me your money."""
@@ -1879,6 +1895,7 @@ community,positive,0.9998615980148315,"it didn't make me rich but it's success, 
 community,negative,0.9991195797920227,rms:  because the community fell apart in the early 80s and it was no longer possible to have the freedom.
 commerce,negative,0.9985138773918152,"not only that, you could pay somebody to change the program for you, or you could join an organisation whose goal is to change a certain program in a certain way, and all the members would put in their money, and that's how they would hire a programmer to change it."
 community,positive,0.9996603727340698,"and freedom three is the freedom to contribute to your community, which is the freedom to distribute copies of your modified versions."
+community,positive,0.9973559379577637,"so these four freedoms ensure that the users, both individually and collectively, control the program."
 commerce,positive,0.9984942674636841,"i think the crucial conclusion for those other works is the freedom to non-commercially redistribute exact copies, in other words the freedom to share."
 commerce,negative,0.997169554233551,"and the other thing is, don't design your activism with the idea that first you will raise a lot of money and then with the money you'll be able to do such-and-such, because on that path you almost never get anywhere."
 commerce,negative,0.9985723495483398,"it's so unlikely you will succeed in raising that money that chances are you'll spend all your time trying and failing, and never start doing anything about your cause."

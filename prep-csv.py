@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import csv, sys
 
+COMMUNITY_TERMS = ['communit', 'collective']
 COMMERCIAL_TERMS = ['commerc', 'corporat', 'business', 'compan', 'money', 'saass']
 out = csv.writer(sys.stdout)
 out.writerow(('bucket', 'sentiment', 'score', 'sentence'))
@@ -9,11 +10,12 @@ ncommunity = ncommerce = 0
 
 for line in open('sentences.txt'):
     sentence = line.strip()
+    any_community = any([term in sentence for term in COMMUNITY_TERMS])
     any_commerce = any([term in sentence for term in COMMERCIAL_TERMS])
-    if 'communit' in sentence and not any_commerce:
+    if any_community and not any_commerce:
         bucket = 'community'
         ncommunity += 1
-    elif 'communit' not in sentence and any_commerce:
+    elif not any_community and any_commerce:
         bucket = 'commerce'
         ncommerce += 1
     else:
