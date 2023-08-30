@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import csv
 import re
 from collections import defaultdict
 
@@ -55,5 +56,16 @@ for i, ranking in enumerate(('Pagerank', 'All Terms', 'User', 'Community', 'Comm
 
 print('Collated')
 print(('-v' + ('-' * (len('Collated')-2))))
+out = csv.writer(open('ranked.csv', 'w+'))
+out.writerow(('pagerank', 'total terms', 'user', 'community', 'commerce', 'url'))
+md = [
+    '| i | Page | Pagerank | All Terms | User | Community | Commerce |\n',
+    '|---:|:---|---:|---:|---:|---:|---:|\n',
+]
 for i, (a,b,c,d,e, filepath) in enumerate(reversed(sorted(collated))):
-    print(f'{i+1:>2} {a:>3} {b:>3} {c:>3} {d:>3} {e:>3} {filepath}')
+    url = 'https://' + filepath
+    print(f'{i+1:>2} {a:>3} {b:>3} {c:>3} {d:>3} {e:>3} {url}')
+    out.writerow((a,b,c,d,e, url))
+    slug = url.split('/')[-1].split('.')[0]
+    md.append(f'| {i+1:>2} | [{slug}]({url}) | {a:>3} | {b:>3} | {c:>3} | {d:>3} | {e:>3} |\n')
+open('ranked.md', 'w+').writelines(md)

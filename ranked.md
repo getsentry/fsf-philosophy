@@ -1,13 +1,5 @@
-# Analysis of FSF Philosophy
-
-There are 218 English-language [articles on philosophy on
-gnu.org](https://www.gnu.org/philosophy/philosophy.html). A sentiment analysis
-of all of the sentences from this corpus suggests that the GNU philosophy is 4x
-more negative about **commerce** than about **community**. Here are the [top 30
-pages on the topics of users, community, and commerce](ranked.csv):
-
 | i | Page | Pagerank | All Terms | User | Community | Commerce |
-|---:|:---|---:|---:|---:|---:|---:|
+|---:|---:|---:|---:|---:|---:|:---|
 |  1 | [free-sw](https://www.gnu.org/philosophy/free-sw.html) |  56 |  48 |  25 |   4 |  19 |
 |  2 | [free-software-even-more-important](https://www.gnu.org/philosophy/free-software-even-more-important.html) |  30 |  50 |  33 |   2 |  15 |
 |  3 | [words-to-avoid](https://www.gnu.org/philosophy/words-to-avoid.html) |  26 | 110 |  46 |   9 |  55 |
@@ -38,39 +30,3 @@ pages on the topics of users, community, and commerce](ranked.csv):
 | 28 | [android-and-users-freedom](https://www.gnu.org/philosophy/android-and-users-freedom.html) |   1 |  44 |  43 |   0 |   1 |
 | 29 | [digital-inclusion-in-freedom](https://www.gnu.org/philosophy/digital-inclusion-in-freedom.html) |   0 |  69 |  42 |   1 |  26 |
 | 30 | [free-software-for-freedom](https://www.gnu.org/philosophy/free-software-for-freedom.html) |   0 |  54 |  17 |  12 |  25 |
-
-
-## How to Run
-
-Depends on wget and Python 3.
-
-```
-python3 -m venv .env --prompt='fsf'
-source .env/bin/activate
-pip install --upgrade --requirement requirements.txt
-
-wget --mirror --no-parent https://www.gnu.org/philosophy/
-find www.gnu.org/philosophy -name \*.html \
-  | sed -e 's/^www.gnu.org\/philosophy\///' \
-  > html.txt
-./filter-en.py > html-en.txt
-./rank.py > ranked.txt
-./find-sentences.py > sentences.txt
-./prep-csv.py > sentences.csv
-
-# https://huggingface.co/blog/sentiment-analysis-python
-time ./label-sentiment.py # modifies sentences.csv
-
-./report.py
-```
-
-```
-Dropped 225 sentences out of 2112 for low confidence, 1887 remaining.
-
-           neg /  pos
-commerce  1290 /  284 = 5
-community  175 /  138 = 1
-                     /= 4
-
-The GNU philosophy is 4x more negative about commerce than about community.
-```
