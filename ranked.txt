@@ -1,218 +1,97 @@
-356 82 0 274 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
-356 82 0 274 www.gnu.org/philosophy/proprietary-surveillance.html
-165 78 42 45 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
-104 68 15 21 www.gnu.org/philosophy/stallman-mec-india.html
-99 14 0 85 www.gnu.org/philosophy/proprietary/malware-microsoft.html
-87 32 9 46 www.gnu.org/philosophy/words-to-avoid.html
-86 10 0 76 www.gnu.org/philosophy/proprietary/malware-apple.html
-84 11 11 62 www.gnu.org/philosophy/google-engineering-talk.html
-79 38 1 40 www.gnu.org/philosophy/free-digital-society.html
-76 61 2 13 www.gnu.org/philosophy/danger-of-software-patents.html
-75 30 16 29 www.gnu.org/philosophy/ough-interview.html
-68 18 7 43 www.gnu.org/philosophy/nit-india.html
-62 17 23 22 www.gnu.org/philosophy/copyright-versus-community.html
-57 14 1 42 www.gnu.org/philosophy/digital-inclusion-in-freedom.html
-52 23 12 17 www.gnu.org/philosophy/free-software-for-freedom.html
-52 17 8 27 www.gnu.org/philosophy/rieti.html
-51 10 8 33 www.gnu.org/philosophy/open-source-misses-the-point.html
-50 42 2 6 www.gnu.org/philosophy/moglen-harvard-speech-2004.html
-50 16 32 2 www.gnu.org/philosophy/rms-hack.html
-47 33 6 8 www.gnu.org/philosophy/rms-aj.html
-47 32 5 10 www.gnu.org/philosophy/software-patents.html
-47 26 0 21 www.gnu.org/philosophy/surveillance-vs-democracy.html
-47 15 0 32 www.gnu.org/philosophy/shouldbefree.html
-45 34 2 9 www.gnu.org/philosophy/copyright-and-globalization.html
-44 15 6 23 www.gnu.org/philosophy/stallman-kth.html
-44 1 0 43 www.gnu.org/philosophy/android-and-users-freedom.html
-42 16 10 16 www.gnu.org/philosophy/rms-interview-edinburgh.html
-42 10 2 30 www.gnu.org/philosophy/who-does-that-server-really-serve.html
-41 10 0 31 www.gnu.org/philosophy/judge-internet-usage.html
-38 3 2 33 www.gnu.org/philosophy/free-software-even-more-important.html
-37 17 15 5 www.gnu.org/philosophy/copyright-versus-community-2000.html
-34 16 0 18 www.gnu.org/philosophy/software-libre-commercial-viability.html
-33 8 0 25 www.gnu.org/philosophy/keep-control-of-your-computing.html
-31 2 4 25 www.gnu.org/philosophy/free-sw.html
-28 15 2 11 www.gnu.org/philosophy/rms-kernel-trap-interview.html
-28 6 1 21 www.gnu.org/philosophy/rms-pavia-doctoral-address.html
-28 1 9 18 www.gnu.org/philosophy/ubuntu-spyware.html
-28 1 0 27 www.gnu.org/philosophy/amazonpatent.html
-27 15 2 10 www.gnu.org/philosophy/can-you-trust.html
-26 1 1 24 www.gnu.org/philosophy/install-fest-devil.html
-25 19 0 6 www.gnu.org/philosophy/free-world-notes.html
-25 17 2 6 www.gnu.org/philosophy/rms-kol.html
-25 1 7 17 www.gnu.org/philosophy/compromise.html
-25 0 3 22 www.gnu.org/philosophy/the-law-of-success-2.html
-24 4 1 19 www.gnu.org/philosophy/right-to-read.html
-24 0 1 23 www.gnu.org/philosophy/network-services-arent-free-or-nonfree.html
-23 17 1 5 www.gnu.org/philosophy/assigning-copyright.html
-23 1 0 22 www.gnu.org/philosophy/applying-free-sw-criteria.html
-22 18 0 4 www.gnu.org/philosophy/dat.html
-22 15 1 6 www.gnu.org/philosophy/rms-on-radio-nz.html
-22 13 5 4 www.gnu.org/philosophy/luispo-rms-interview.html
-22 13 4 5 www.gnu.org/philosophy/ICT-for-prosperity.html
-22 10 0 12 www.gnu.org/philosophy/computing-progress.html
-22 1 0 21 www.gnu.org/philosophy/trivial-patent.html
-21 7 1 13 www.gnu.org/philosophy/you-the-problem-tpm2-solves.html
-21 5 2 14 www.gnu.org/philosophy/freedom-or-power.html
-21 5 0 16 www.gnu.org/philosophy/your-freedom-needs-free-software.html
-21 4 12 5 www.gnu.org/philosophy/pragmatic.html
-21 2 2 17 www.gnu.org/philosophy/selling.html
-20 8 1 11 www.gnu.org/philosophy/categories.html
-20 7 0 13 www.gnu.org/philosophy/gates.html
-20 2 0 18 www.gnu.org/philosophy/the-root-of-this-problem.html
-20 1 1 18 www.gnu.org/philosophy/proprietary.html
-20 0 2 18 www.gnu.org/philosophy/javascript-trap.html
-19 5 2 12 www.gnu.org/philosophy/microsoft.html
-19 2 1 16 www.gnu.org/philosophy/sco/questioning-sco.html
-18 11 0 7 www.gnu.org/philosophy/free-world.html
-18 9 3 6 www.gnu.org/philosophy/lest-codeplex-perplex.html
-18 5 1 12 www.gnu.org/philosophy/free-hardware-designs.html
-18 4 10 4 www.gnu.org/philosophy/hackathons.html
-17 3 7 7 www.gnu.org/philosophy/gpl-american-way.html
-16 5 6 5 www.gnu.org/philosophy/x.html
-16 5 0 11 www.gnu.org/philosophy/misinterpreting-copyright.html
-15 8 0 7 www.gnu.org/philosophy/patent-practice-panel.html
-15 5 6 4 www.gnu.org/philosophy/mcvoy.html
-15 5 2 8 www.gnu.org/philosophy/the-danger-of-ebooks.html
-15 5 0 10 www.gnu.org/philosophy/microsoft-verdict.html
-15 4 0 11 www.gnu.org/philosophy/selling-exceptions.html
-15 3 4 8 www.gnu.org/philosophy/third-party-ideas.html
-15 2 0 13 www.gnu.org/philosophy/ebooks-must-increase-freedom.html
-14 4 3 7 www.gnu.org/philosophy/schools.html
-14 3 6 5 www.gnu.org/philosophy/udi.html
-14 0 7 7 www.gnu.org/philosophy/use-free-software.html
-13 10 0 3 www.gnu.org/philosophy/guardian-article.html
-13 7 0 6 www.gnu.org/philosophy/savingeurope.html
-13 5 2 6 www.gnu.org/philosophy/opposing-drm.html
-13 4 0 9 www.gnu.org/philosophy/why-audio-format-matters.html
-13 4 0 9 www.gnu.org/philosophy/enforcing-gpl.html
-13 3 7 3 www.gnu.org/philosophy/speeches-and-interviews.html
-13 3 7 3 www.gnu.org/philosophy/speeches-and-interview.html
-13 3 2 8 www.gnu.org/philosophy/ucita.html
-13 2 2 9 www.gnu.org/philosophy/no-word-attachments.html
-13 2 1 10 www.gnu.org/philosophy/programs-must-not-limit-freedom.html
-13 2 1 10 www.gnu.org/philosophy/programs-must-not-limit-freedom-to-run.html
-13 2 0 11 www.gnu.org/philosophy/proprietary/proprietary-tyrants.html
-13 1 4 8 www.gnu.org/philosophy/free-doc.html
-13 0 8 5 www.gnu.org/philosophy/my_doom.html
-12 8 0 4 www.gnu.org/philosophy/new-monopoly.html
-12 6 1 5 www.gnu.org/philosophy/dmarti-patent.html
-12 3 2 7 www.gnu.org/philosophy/sco/sco-without-fear.html
-12 3 0 9 www.gnu.org/philosophy/why-call-it-the-swindle.html
-12 3 0 9 www.gnu.org/philosophy/greve-clown.html
-12 3 0 9 www.gnu.org/philosophy/government-free-software.html
-12 2 2 8 www.gnu.org/philosophy/nonfree-games.html
-12 2 0 10 www.gnu.org/philosophy/reevaluating-copyright.html
-12 0 5 7 www.gnu.org/philosophy/netscape-npl.html
-12 0 5 7 www.gnu.org/philosophy/netscape-npl-old.html
-11 9 0 2 www.gnu.org/philosophy/amazon.html
-11 5 0 6 www.gnu.org/philosophy/when-free-depends-on-nonfree.html
-11 4 0 7 www.gnu.org/philosophy/why-free.html
-11 4 0 7 www.gnu.org/philosophy/microsoft-old.html
-11 3 0 8 www.gnu.org/philosophy/second-sight.html
-11 3 0 8 www.gnu.org/philosophy/free-system-distribution-guidelines.html
-11 1 4 6 www.gnu.org/philosophy/sco/sco-gnu-linux.html
-10 7 0 3 www.gnu.org/philosophy/gpl-american-dream.html
-10 6 2 2 www.gnu.org/philosophy/economics_frank/frank.html
-10 2 1 7 www.gnu.org/philosophy/essays-and-articles.html
-10 2 0 8 www.gnu.org/philosophy/fs-and-sustainable-development.html
-10 1 3 6 www.gnu.org/philosophy/sun-in-night-time.html
-10 1 0 9 www.gnu.org/philosophy/wwworst-app-store.html
-10 0 2 8 www.gnu.org/philosophy/linux-gnu-freedom.html
-10 0 0 10 www.gnu.org/philosophy/loyal-computers.html
-9 5 2 2 www.gnu.org/philosophy/sco/sco-v-ibm.html
-9 4 1 4 www.gnu.org/philosophy/free-software-rocket.html
-9 4 0 5 www.gnu.org/philosophy/wsis-2003.html
-9 2 3 4 www.gnu.org/philosophy/fs-motives.html
-9 1 1 7 www.gnu.org/philosophy/15-years-of-free-software.html
-9 0 0 9 www.gnu.org/philosophy/when_free_software_isnt_practically_better.html
-9 0 0 9 www.gnu.org/philosophy/when-free-software-isnt-practically-superior.html
-8 5 0 3 www.gnu.org/philosophy/freedom-or-copyright.html
-8 3 2 3 www.gnu.org/philosophy/social-inertia.html
-8 3 0 5 www.gnu.org/philosophy/stophr3028.html
-8 3 0 5 www.gnu.org/philosophy/bill-gates-and-other-communists.html
-8 2 2 4 www.gnu.org/philosophy/historical-apsl.html
-8 0 4 4 www.gnu.org/philosophy/free-software-intro.html
-8 0 2 6 www.gnu.org/philosophy/university.html
-8 0 1 7 www.gnu.org/philosophy/microsoft-new-monopoly.html
-8 0 0 8 www.gnu.org/philosophy/upgrade-windows.html
-8 0 0 8 www.gnu.org/philosophy/pirate-party.html
-7 3 1 3 www.gnu.org/philosophy/europes-unitary-patent.html
-7 2 3 2 www.gnu.org/philosophy/ms-doj-tunney.html
-7 2 2 3 www.gnu.org/philosophy/gif.html
-7 1 4 2 www.gnu.org/philosophy/sco/subpoena.html
-7 1 2 4 www.gnu.org/philosophy/microsoft-antitrust.html
-7 1 0 6 www.gnu.org/philosophy/apsl.html
-7 0 5 2 www.gnu.org/philosophy/motif.html
-7 0 2 5 www.gnu.org/philosophy/floss-and-foss.html
-7 0 0 7 www.gnu.org/philosophy/tivoization.html
-7 0 0 7 www.gnu.org/philosophy/posting-videos.html
-7 0 0 7 www.gnu.org/philosophy/philosophy.html
-7 0 0 7 www.gnu.org/philosophy/index.html
-6 4 0 2 www.gnu.org/philosophy/hague.html
-6 2 2 2 www.gnu.org/philosophy/rtlinux-patent.html
-6 2 1 3 www.gnu.org/philosophy/wipo-PublicAwarenessOfCopyright-2002.html
-6 2 0 4 www.gnu.org/philosophy/is-ever-good-use-nonfree-program.html
-6 1 2 3 www.gnu.org/philosophy/java-trap.html
-6 1 1 4 www.gnu.org/philosophy/sco/sco-preemption.html
-6 1 0 5 www.gnu.org/philosophy/whats-wrong-with-youtube.html
-6 0 3 3 www.gnu.org/philosophy/saying-no-even-once.html
-6 0 3 3 www.gnu.org/philosophy/drdobbs-letter.html
-6 0 0 6 www.gnu.org/philosophy/limit-patent-effect.html
-5 2 0 3 www.gnu.org/philosophy/protecting.html
-5 1 2 2 www.gnu.org/philosophy/nonsoftware-copyleft.html
-5 1 1 3 www.gnu.org/philosophy/fighting-software-patents.html
-5 1 0 4 www.gnu.org/philosophy/eldred-amicus.html
-5 0 0 5 www.gnu.org/philosophy/w3c-patent.html
-5 0 0 5 www.gnu.org/philosophy/imperfection-isnt-oppression.html
-4 2 0 2 www.gnu.org/philosophy/software-literary-patents.html
-4 2 0 2 www.gnu.org/philosophy/not-ipr.html
-4 2 0 2 www.gnu.org/philosophy/komongistan.html
-4 2 0 2 www.gnu.org/philosophy/amazon-rms-tim.html
-4 1 1 2 www.gnu.org/philosophy/public-domain-manifesto.html
-4 1 0 3 www.gnu.org/philosophy/technological-neutrality.html
-4 1 0 3 www.gnu.org/philosophy/stallmans-law.html
-4 1 0 3 www.gnu.org/philosophy/patent-reform-is-not-enough.html
-4 1 0 3 www.gnu.org/philosophy/no-ip-ethos.html
-4 1 0 3 www.gnu.org/philosophy/funding-art-vs-funding-software.html
-4 0 1 3 www.gnu.org/philosophy/why-copyleft.html
-4 0 1 3 www.gnu.org/philosophy/rms-comment-longs-article.html
-4 0 1 3 www.gnu.org/philosophy/bsd.html
-4 0 0 4 www.gnu.org/philosophy/rms-patents.html
-4 0 0 4 www.gnu.org/philosophy/plan-nine.html
-4 0 0 4 www.gnu.org/philosophy/censoring-emacs.html
-3 1 0 2 www.gnu.org/philosophy/wsis.html
-3 1 0 2 www.gnu.org/philosophy/push-copyright-aside.html
-3 1 0 2 www.gnu.org/philosophy/privacyaction.html
-3 1 0 2 www.gnu.org/philosophy/kragen-software.html
-3 1 0 2 www.gnu.org/philosophy/kevin-cole-response.html
-3 1 0 2 www.gnu.org/philosophy/gnutella.html
-3 1 0 2 www.gnu.org/philosophy/freedom-or-copyright-old.html
-3 1 0 2 www.gnu.org/philosophy/ebooks.html
-3 1 0 2 www.gnu.org/philosophy/boldrin-levine.html
-3 1 0 2 www.gnu.org/philosophy/bdk.html
-3 1 0 2 www.gnu.org/philosophy/amazon-nat.html
-3 0 1 2 www.gnu.org/philosophy/self-interest.html
-3 0 1 2 www.gnu.org/philosophy/sco/sco.html
-3 0 1 2 www.gnu.org/philosophy/sco/index.html
-3 0 1 2 www.gnu.org/philosophy/netscape.html
-3 0 1 2 www.gnu.org/philosophy/anonymous-response.html
-3 0 0 3 www.gnu.org/philosophy/lessig-fsfs-intro.html
-3 0 0 3 www.gnu.org/philosophy/kind-communication.html
-3 0 0 3 www.gnu.org/philosophy/correcting-france-mistake.html
-3 0 0 3 www.gnu.org/philosophy/bug-nobody-allowed-to-understand.html
-2 0 0 2 www.gnu.org/philosophy/wassenaar.html
-2 0 0 2 www.gnu.org/philosophy/vaccination.html
-2 0 0 2 www.gnu.org/philosophy/using-gfdl.html
-2 0 0 2 www.gnu.org/philosophy/uruguay.html
-2 0 0 2 www.gnu.org/philosophy/surveillance-testimony.html
-2 0 0 2 www.gnu.org/philosophy/practical.html
-2 0 0 2 www.gnu.org/philosophy/phone-anonymous-payment.html
-2 0 0 2 www.gnu.org/philosophy/latest-articles.html
-2 0 0 2 www.gnu.org/philosophy/ipjustice.html
-2 0 0 2 www.gnu.org/philosophy/fs-translations.html
-2 0 0 2 www.gnu.org/philosophy/free-open-overlap.html
-2 0 0 2 www.gnu.org/philosophy/fire.html
-2 0 0 2 www.gnu.org/philosophy/devils-advocate.html
-2 0 0 2 www.gnu.org/philosophy/contradictory-support.html
-2 0 0 2 www.gnu.org/philosophy/basic-freedoms.html
+Pagerank
+--------
+ 56  48  25   4  19 www.gnu.org/philosophy/free-sw.html
+ 30  50  33   2  15 www.gnu.org/philosophy/free-software-even-more-important.html
+ 26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
+ 25  51  33   8  10 www.gnu.org/philosophy/open-source-misses-the-point.html
+ 20 115  30   2  83 www.gnu.org/philosophy/who-does-that-server-really-serve.html
+ 18  34  11   1  22 www.gnu.org/philosophy/categories.html
+ 14   5   2   0   3 www.gnu.org/philosophy/not-ipr.html
+ 13  13   9   0   4 www.gnu.org/philosophy/why-call-it-the-swindle.html
+  9  21  18   2   1 www.gnu.org/philosophy/javascript-trap.html
+  8  51  21   0  30 www.gnu.org/philosophy/surveillance-vs-democracy.html
+
+    All Terms
+    ---------
+  1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+  2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+  1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
+ 20 115  30   2  83 www.gnu.org/philosophy/who-does-that-server-really-serve.html
+  1 113  40   1  72 www.gnu.org/philosophy/free-digital-society.html
+ 26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
+  1 108  62  11  35 www.gnu.org/philosophy/google-engineering-talk.html
+  1  99  85   0  14 www.gnu.org/philosophy/proprietary/malware-microsoft.html
+  1  95  43   7  45 www.gnu.org/philosophy/nit-india.html
+  1  94  13   2  79 www.gnu.org/philosophy/danger-of-software-patents.html
+
+        User
+        ----
+  1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+  1  99  85   0  14 www.gnu.org/philosophy/proprietary/malware-microsoft.html
+  1  89  76   0  13 www.gnu.org/philosophy/proprietary/malware-apple.html
+  1 108  62  11  35 www.gnu.org/philosophy/google-engineering-talk.html
+ 26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
+  2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+  1  95  43   7  45 www.gnu.org/philosophy/nit-india.html
+  1  44  43   0   1 www.gnu.org/philosophy/android-and-users-freedom.html
+  0  69  42   1  26 www.gnu.org/philosophy/digital-inclusion-in-freedom.html
+  1 113  40   1  72 www.gnu.org/philosophy/free-digital-society.html
+
+            Community
+            ---------
+  2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+  1  72   2  32  38 www.gnu.org/philosophy/rms-hack.html
+  3  84  22  23  39 www.gnu.org/philosophy/copyright-versus-community.html
+  1  87  29  16  42 www.gnu.org/philosophy/ough-interview.html
+  1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
+  2  65   5  15  45 www.gnu.org/philosophy/copyright-versus-community-2000.html
+  2  21   5  12   4 www.gnu.org/philosophy/pragmatic.html
+  0  54  17  12  25 www.gnu.org/philosophy/free-software-for-freedom.html
+  1 108  62  11  35 www.gnu.org/philosophy/google-engineering-talk.html
+  1  46  16  10  20 www.gnu.org/philosophy/rms-interview-edinburgh.html
+
+                Commercial
+                ----------
+  2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+  1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+  1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
+ 20 115  30   2  83 www.gnu.org/philosophy/who-does-that-server-really-serve.html
+  1  94  13   2  79 www.gnu.org/philosophy/danger-of-software-patents.html
+  3  90   9   2  79 www.gnu.org/philosophy/copyright-and-globalization.html
+  1 113  40   1  72 www.gnu.org/philosophy/free-digital-society.html
+ 26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
+  1  54   6   2  46 www.gnu.org/philosophy/moglen-harvard-speech-2004.html
+  1  95  43   7  45 www.gnu.org/philosophy/nit-india.html
+
+Collated
+--------
+ 1  56  48  25   4  19 www.gnu.org/philosophy/free-sw.html
+ 2  30  50  33   2  15 www.gnu.org/philosophy/free-software-even-more-important.html
+ 3  26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
+ 4  25  51  33   8  10 www.gnu.org/philosophy/open-source-misses-the-point.html
+ 5  20 115  30   2  83 www.gnu.org/philosophy/who-does-that-server-really-serve.html
+ 6  18  34  11   1  22 www.gnu.org/philosophy/categories.html
+ 7  14   5   2   0   3 www.gnu.org/philosophy/not-ipr.html
+ 8  13  13   9   0   4 www.gnu.org/philosophy/why-call-it-the-swindle.html
+ 9   9  21  18   2   1 www.gnu.org/philosophy/javascript-trap.html
+10   8  51  21   0  30 www.gnu.org/philosophy/surveillance-vs-democracy.html
+11   3  90   9   2  79 www.gnu.org/philosophy/copyright-and-globalization.html
+12   3  84  22  23  39 www.gnu.org/philosophy/copyright-versus-community.html
+13   2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+14   2  65   5  15  45 www.gnu.org/philosophy/copyright-versus-community-2000.html
+15   2  21   5  12   4 www.gnu.org/philosophy/pragmatic.html
+16   1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+17   1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
+18   1 113  40   1  72 www.gnu.org/philosophy/free-digital-society.html
+19   1 108  62  11  35 www.gnu.org/philosophy/google-engineering-talk.html
+20   1  99  85   0  14 www.gnu.org/philosophy/proprietary/malware-microsoft.html
+21   1  95  43   7  45 www.gnu.org/philosophy/nit-india.html
+22   1  94  13   2  79 www.gnu.org/philosophy/danger-of-software-patents.html
+23   1  89  76   0  13 www.gnu.org/philosophy/proprietary/malware-apple.html
+24   1  87  29  16  42 www.gnu.org/philosophy/ough-interview.html
+25   1  72   2  32  38 www.gnu.org/philosophy/rms-hack.html
+26   1  54   6   2  46 www.gnu.org/philosophy/moglen-harvard-speech-2004.html
+27   1  46  16  10  20 www.gnu.org/philosophy/rms-interview-edinburgh.html
+28   1  44  43   0   1 www.gnu.org/philosophy/android-and-users-freedom.html
+29   0  69  42   1  26 www.gnu.org/philosophy/digital-inclusion-in-freedom.html
+30   0  54  17  12  25 www.gnu.org/philosophy/free-software-for-freedom.html
