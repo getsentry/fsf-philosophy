@@ -47,7 +47,7 @@ for slug in sorted(hasnt):
                 print(''.join(diff))
                 raise heck
 
-    print(f'{slug}.html')
+    print(filepath)
 
 # Everything in these should have also been in hasnt.
 assert not has, has
