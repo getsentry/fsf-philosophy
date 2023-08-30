@@ -47,13 +47,13 @@ rank = lambda r, y: list(reversed(sorted(r, key=lambda x: x[y])))[:10]
 for i, ranking in enumerate(('Pagerank', 'All Terms', 'User', 'Community', 'Commercial')):
     pad = ' ' * ((i * 3) + i)
     print(pad + ranking)
-    print(pad + ('-' * len(ranking)))
+    print(pad + ('--v' + ('-' * (len(ranking)-3))))
     for a,b,c,d,e, filepath in rank(ranked, i):
         print(f'{a:>3} {b:>3} {c:>3} {d:>3} {e:>3} {filepath}')
         collated.add((a,b,c,d,e, filepath))
     print()
 
 print('Collated')
-print(('-' * len('Collated')))
+print(('-v' + ('-' * (len('Collated')-2))))
 for i, (a,b,c,d,e, filepath) in enumerate(reversed(sorted(collated))):
     print(f'{i+1:>2} {a:>3} {b:>3} {c:>3} {d:>3} {e:>3} {filepath}')

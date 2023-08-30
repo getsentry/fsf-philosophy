@@ -1,5 +1,5 @@
 Pagerank
---------
+--v-----
  56  48  25   4  19 www.gnu.org/philosophy/free-sw.html
  30  50  33   2  15 www.gnu.org/philosophy/free-software-even-more-important.html
  26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
@@ -12,7 +12,7 @@ Pagerank
   8  51  21   0  30 www.gnu.org/philosophy/surveillance-vs-democracy.html
 
     All Terms
-    ---------
+    --v------
   1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
   2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
   1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
@@ -25,7 +25,7 @@ Pagerank
   1  94  13   2  79 www.gnu.org/philosophy/danger-of-software-patents.html
 
         User
-        ----
+        --v-
   1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
   1  99  85   0  14 www.gnu.org/philosophy/proprietary/malware-microsoft.html
   1  89  76   0  13 www.gnu.org/philosophy/proprietary/malware-apple.html
@@ -38,7 +38,7 @@ Pagerank
   1 113  40   1  72 www.gnu.org/philosophy/free-digital-society.html
 
             Community
-            ---------
+            --v------
   2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
   1  72   2  32  38 www.gnu.org/philosophy/rms-hack.html
   3  84  22  23  39 www.gnu.org/philosophy/copyright-versus-community.html
@@ -51,7 +51,7 @@ Pagerank
   1  46  16  10  20 www.gnu.org/philosophy/rms-interview-edinburgh.html
 
                 Commercial
-                ----------
+                --v-------
   2 187  45  42 100 www.gnu.org/philosophy/rms-nyu-2001-transcript.html
   1 363 274   0  89 www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
   1 123  21  15  87 www.gnu.org/philosophy/stallman-mec-india.html
@@ -64,7 +64,7 @@ Pagerank
   1  95  43   7  45 www.gnu.org/philosophy/nit-india.html
 
 Collated
---------
+-v------
  1  56  48  25   4  19 www.gnu.org/philosophy/free-sw.html
  2  30  50  33   2  15 www.gnu.org/philosophy/free-software-even-more-important.html
  3  26 110  46   9  55 www.gnu.org/philosophy/words-to-avoid.html
