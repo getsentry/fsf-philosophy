@@ -42,7 +42,7 @@ pages on the topics of users, community, and commerce](ranked.csv):
 
 ## How to Run
 
-Depends on wget and Python 3.
+Depends on wget (thank you GNU! :) and Python 3.
 
 ```
 python3 -m venv .env --prompt='fsf'
