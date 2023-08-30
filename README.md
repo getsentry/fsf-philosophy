@@ -65,11 +65,11 @@ time ./label-sentiment.py # modifies sentences.csv
 ```
 
 ```
-Dropped 225 sentences out of 2112 for low confidence, 1887 remaining.
+Dropped 231 sentences out of 2129 for low confidence, 1898 remaining.
 
            neg /  pos
-commerce  1290 /  284 = 5
-community  175 /  138 = 1
+commerce  1288 /  284 = 5
+community  180 /  146 = 1
                      /= 4
 
 The GNU philosophy is 4x more negative about commerce than about community.
