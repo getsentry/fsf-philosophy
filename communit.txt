@@ -1,0 +1,688 @@
+www.gnu.org/philosophy/15-years-of-free-software.html
+262:  facing the free software community, and other issues affecting
+
+www.gnu.org/philosophy/ICT-for-prosperity.html
+295:A community group, or business, can set up its own mailing lists or
+518:business or community project, will be both inexpensive and legal.
+521:Think of this from the point of view of a small business or community
+588:I mentioned that a business or community can use software that is
+
+www.gnu.org/philosophy/anonymous-response.html
+200:format to the community, making Microsoft Word the only application
+
+www.gnu.org/philosophy/assigning-copyright.html
+302:the free software community and not be diverted into proprietary
+
+www.gnu.org/philosophy/bsd.html
+183:    community.
+
+www.gnu.org/philosophy/can-you-trust.html
+274:treacherous computing when saving them, the free software community
+302:malicious feature, other developers in the community will take it out,
+
+www.gnu.org/philosophy/categories.html
+362:	license; therefore, it is good for the community if people use
+
+www.gnu.org/philosophy/compromise.html
+208:our community can avoid ruinous compromises.  In addition to avoiding
+219:community of cooperation.  Every nonfree program gives its developer
+255:community are willing to make them.  For instance,
+306:<p>To establish a free community fully and lastingly, we need to do
+310:community, not just in terms of convenience.  Then people will not
+371:free software environment.  If you want to help the community stay on 
+374:do, cite the values of freedom and community and argue from them.</p>
+
+www.gnu.org/philosophy/copyright-and-globalization.html
+705:started doing in the free-software community.</p>
+1147:we've extended the community development of a free base of useful
+
+www.gnu.org/philosophy/copyright-versus-community.html
+17:<title>Copyright versus Community in the Age of Computer Networks
+21:<link rel="alternate" type="text/html" href="/philosophy/copyright-versus-community.html" hreflang="x-default" />
+22:<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/copyright-versus-community.en.html" title="English" />
+23:<link rel="alternate" type="text/html" lang="es" hreflang="es" href="/philosophy/copyright-versus-community.es.html" title="español" />
+24:<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community.fr.html" title="français" />
+25:<link rel="alternate" type="text/html" lang="pl" hreflang="pl" href="/philosophy/copyright-versus-community.pl.html" title="polski" />
+26:<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community.ru.html" title="русский" />
+27:<link rel="alternate" type="text/html" lang="tr" hreflang="tr" href="/philosophy/copyright-versus-community.tr.html" title="Türkçe" />
+28:<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community.zh-cn.html" title="简体中文" />
+176:<h2>Copyright versus Community in the Age of Computer Networks</h2>
+182:There is an <a href="/philosophy/copyright-versus-community-2000.html">older
+214:<p>Today Richard will be talking to us about copyright vs community in
+257:<li>And Freedom 3 is the freedom to contribute to your community.
+265:social solidarity of the user's community.  But if one of these
+897:disaster.&rdquo; Now, looking at the free software community, and all
+1174:   <a href="/server/select-language.html?callback=/philosophy/copyright-versus-community.html" rel="nofollow">
+1182:<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/copyright-versus-community.en.html">English</a> &nbsp;</span>
+1183:<span dir="ltr">[es]&nbsp;<a lang="es" hreflang="es" href="/philosophy/copyright-versus-community.es.html">español</a> &nbsp;</span>
+1184:<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community.fr.html">français</a> &nbsp;</span>
+1185:<span dir="ltr">[pl]&nbsp;<a lang="pl" hreflang="pl" href="/philosophy/copyright-versus-community.pl.html">polski</a> &nbsp;</span>
+1186:<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community.ru.html">русский</a> &nbsp;</span>
+1187:<span dir="ltr">[tr]&nbsp;<a lang="tr" hreflang="tr" href="/philosophy/copyright-versus-community.tr.html">Türkçe</a> &nbsp;</span>
+1188:<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community.zh-cn.html">简体中文</a> &nbsp;</span>
+
+www.gnu.org/philosophy/copyright-versus-community-2000.html
+17:<title>Copyright versus Community in the Age of Computer Networks -
+21:<link rel="alternate" type="text/html" href="/philosophy/copyright-versus-community-2000.html" hreflang="x-default" />
+22:<link rel="alternate" type="text/html" lang="en" hreflang="en" href="/philosophy/copyright-versus-community-2000.en.html" title="English" />
+23:<link rel="alternate" type="text/html" lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community-2000.fr.html" title="français" />
+24:<link rel="alternate" type="text/html" lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community-2000.ru.html" title="русский" />
+25:<link rel="alternate" type="text/html" lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community-2000.zh-cn.html" title="简体中文" />
+173:<h2>Copyright versus Community in the Age of Computer Networks (2000)</h2>
+205:<p>about copyright versus community.  This is too loud.</p>
+217:<p>OK.  Copyright versus community in the age of computer networks.
+1154:scholarly community should logically be doing is carefully arranging
+1256:   <a href="/server/select-language.html?callback=/philosophy/copyright-versus-community-2000.html" rel="nofollow">
+1264:<span dir="ltr" class="original">[en]&nbsp;<a lang="en" hreflang="en" href="/philosophy/copyright-versus-community-2000.en.html">English</a> &nbsp;</span>
+1265:<span dir="ltr">[fr]&nbsp;<a lang="fr" hreflang="fr" href="/philosophy/copyright-versus-community-2000.fr.html">français</a> &nbsp;</span>
+1266:<span dir="ltr">[ru]&nbsp;<a lang="ru" hreflang="ru" href="/philosophy/copyright-versus-community-2000.ru.html">русский</a> &nbsp;</span>
+1267:<span dir="ltr">[zh-cn]&nbsp;<a lang="zh-cn" hreflang="zh-cn" href="/philosophy/copyright-versus-community-2000.zh-cn.html">简体中文</a> &nbsp;</span>
+
+www.gnu.org/philosophy/danger-of-software-patents.html
+565:community.  We thought we had an alternative to GIF format,
+1514:in the innovation communities in countries that have essentially no
+
+www.gnu.org/philosophy/digital-inclusion-in-freedom.html
+363:versions.  (This is the freedom to contribute to your community.)</li>
+
+www.gnu.org/philosophy/dmarti-patent.html
+337:the independent inventors' community. 35 U.S.C. 5(b)(2). Each of the
+
+www.gnu.org/philosophy/drdobbs-letter.html
+214:community in practical ways, but they stand for very different views.
+242:the free software community, and we look forward to more of the same.]
+247:Please don't lump us in with the other movement in our community.
+
+www.gnu.org/philosophy/economics_frank/frank.html
+445:any other discipline from being hailed as community-minded citizens.
+938:evidence that economists behave in traditionally communitarian ways
+
+www.gnu.org/philosophy/essays-and-articles.html
+422:  The Free Software Community After 20 Years</a>
+
+www.gnu.org/philosophy/europes-unitary-patent.html
+185:href="https://www.fsf.org/blogs/community/tal-when-patents-attack">the
+
+www.gnu.org/philosophy/fighting-software-patents.html
+215:specialty. If you ask for the computer-using community's help in
+
+www.gnu.org/philosophy/floss-and-foss.html
+190:<p>The two political camps in the free software community are the free
+207:the free software community decided that these questions were
+
+www.gnu.org/philosophy/free-digital-society.html
+534:    <li>Freedom 3 is the freedom to contribute to your community. That's
+
+www.gnu.org/philosophy/free-doc.html
+228:our community's great loss) it was far from the last.  Proprietary
+285:they change the program, does not fill our community's needs.</p>
+301:the free software community from making full use of the manual.</p>
+307:block the community, the manual is not free, and so we need another
+
+www.gnu.org/philosophy/free-hardware-designs.html
+630:free.  What we need is to recognize as a community that this is what
+
+www.gnu.org/philosophy/free-software-even-more-important.html
+200:and community, we call it &ldquo;free software.&rdquo;</p>
+459:a scheme to oppress them.  In the free software community, we are very
+
+www.gnu.org/philosophy/free-software-for-freedom.html
+206:In 1998, some of the people in the free software community began using
+232:political camps within the free software community.</p>
+253:community, but we created this community, and we want people to know
+383:can be useful for the community, but we must have plenty of freedom
+399:failing to teach people about freedom and our community as fast as
+408:community, that is a contribution, but the rest of us will have to
+437:As is common in the open source community, users of the &hellip;
+486:of our community, because some of the money is donated to free
+497:the community would stand for.)</p>
+531:works with the system&mdash;in other words, using our community as a
+563:community are important for their own sake&mdash;not just for the
+
+www.gnu.org/philosophy/free-software-intro.html
+199:convenience.  What's at stake is your freedom, and your community.
+205:community</a>.  You should have the freedom to help yourself, by
+208:other people.  Also the freedom to help build your community, by
+242:If you think that freedom and community are important for their own
+
+www.gnu.org/philosophy/free-software-rocket.html
+218:be a contribution to the community, and we should appreciate that
+
+www.gnu.org/philosophy/free-sw.html
+227:freedom and community.  Roughly, it means that <b>the users have the
+344:      community a chance to benefit from your changes.
+388:distribution would hobble the free software community and obstruct its
+436:communities to make and distribute modified versions without the
+
+www.gnu.org/philosophy/freedom-or-power.html
+208:community of goodwill, cooperation, and collaboration.  <a
+211:community.</p>
+
+www.gnu.org/philosophy/fs-motives.html
+224:<dt>Community</dt>
+226:<dd>Being part of a community by collaborating with other people in
+240:<dd>If you have used the community's free
+
+www.gnu.org/philosophy/gif.html
+352:community to generate GIFs, that isn't really a solution,
+377:because they are not a satisfactory solution to the community's
+
+www.gnu.org/philosophy/google-engineering-talk.html
+282:good fortune, in the 1970s, of being part of a community of programmers
+288:<p>But that community died in the early '80s and I found myself
+359:build a community where people would actually live in freedom, which
+541:Freedom 3 is the freedom to help build your community, that is the
+863:community and, in fact, that software can be part of a free operating
+973:If 1% of our community is using your program, that's hundreds of
+977:1% of our community is using your program, you can put that on your
+981:<p>Another motivation is gratitude. If you've been using the community's
+983:program, that's your opportunity to pay something back to the community
+1204:kernel was an important contribution to our community. At the same time,
+1848:that's what makes our community weak, that we don't talk about and think
+
+www.gnu.org/philosophy/gpl-american-way.html
+204:comes from the ideals of 1776: freedom, community, and voluntary
+213:in a community.  This contrasts with the more common proprietary
+217:useful byproducts of freedom, but the freedom to have a community is
+220:We could not establish a community of freedom in the land of
+226:users use GNU/Linux and enjoy the benefits of freedom and community.</p>
+257:programs.  We respond that we value our community's freedom more than
+284:community, the license that won't let them say, &ldquo;What's yours is
+
+www.gnu.org/philosophy/hackathons.html
+181:<p>Hackathons are an accepted method of giving community support to
+182:digital development projects.  The community invites developers to
+188:<p>Hackathons fit the spirit of a community in which people take an
+194:the free software community.  <a
+208:seeking the community's support while rejecting the community's
+210:cooperation.  Hackathons which accept this undermine the community
+230:whether it will be free, that is not overt opposition to the community
+232:the community spirit they are based on, by insisting that hackathon
+236:help, you must agree to give the community the use of your project's
+
+www.gnu.org/philosophy/historical-apsl.html
+289:the deeper issues of freedom, community, cooperation, and what kind of
+297:which is that we form a community to cooperate on the commons of
+
+www.gnu.org/philosophy/install-fest-devil.html
+243:is, and that there are people in the community who refuse to pay that
+
+www.gnu.org/philosophy/java-trap.html
+322:  <a href="https://jcp.org/aboutJava/communityprocess/JSPA2.pdf">
+324:  <a href="https://jcp.org/aboutJava/communityprocess/final/jsr129/j2me_pb-1_0-fr-spec-license.html">
+
+www.gnu.org/philosophy/javascript-trap.html
+219:<p>In the free software community, the idea that
+273:However, even in the free software community most users are not aware
+
+www.gnu.org/philosophy/lest-codeplex-perplex.html
+183:<p>Many in our community are suspicious of the CodePlex Foundation.  With
+284:free software community, it must not aim at free add-ons to nonfree
+292:our community.  From its recent attempt to sell patents to proxy
+
+www.gnu.org/philosophy/linux-gnu-freedom.html
+275:  There are people like Torvalds that will pressure our community into
+340:  free software community, because anyone who wants to closely track
+
+www.gnu.org/philosophy/luispo-rms-interview.html
+306:  Amitai Etzioni</a> would describe as a communitarianism (see, for instance, <a
+307:  href="https://web.archive.org/web/20210509231234/https://communitariannetwork.org/about">
+308:  communitariannetwork.org/about</a>).
+309:  And communitarianism is by no means hostile to the market economy that most
+399:	about community ethics. How do you then counter their FUD, or
+
+www.gnu.org/philosophy/mcvoy.html
+185:recently eliminated a major weakness of the free software community,
+222:those in our community who value technical advantage above freedom and
+223:community were susceptible to it.
+237:campaign, telling the free software community that freedom-denying
+248:this would affect their freedom&mdash;or the rest of the community's
+296:programs are dangerous to you and to your community.  Don't let them
+
+www.gnu.org/philosophy/microsoft.html
+242:attack the free software community</a>, and our community is fighting
+
+www.gnu.org/philosophy/microsoft-antitrust.html
+238:   European Community in 1984, settling another antitrust dispute.
+282:could also be a contribution to the free software community, if the
+
+www.gnu.org/philosophy/microsoft-new-monopoly.html
+212:free software community will be forbidden to provide software that
+
+www.gnu.org/philosophy/moglen-harvard-speech-2004.html
+321:SCO against something called the Linux Community.
+1292:do you convey that message outside the technology community?
+
+www.gnu.org/philosophy/motif.html
+195:source community,&rdquo; but this is true only in an unnatural
+197:within the free software community; instead, they have invited the
+198:people in the free software community to leave the community by using
+211:with no changes.  Please support the free software community by using
+
+www.gnu.org/philosophy/ms-doj-tunney.html
+358:  free software development community access to its APIs through the
+409:  engineering communities. 
+419:  primary competition results from a development community led by
+
+www.gnu.org/philosophy/my_doom.html
+189:I grew up in a community whose other members sometimes committed crimes as
+221:virtual community, the free software community which I have helped to
+225:community guilty for the development of the MyDoom virus.</p>
+229:whether anyone in the free software community participated in the
+239:software users, then my virtual community will be in the same
+243:This should not surprise anyone. The free software community numbers
+246:community is self-selected for at least partial rejection of one
+
+www.gnu.org/philosophy/netscape.html
+193:it in our community.  It's clear that Netscape will take a big step in
+
+www.gnu.org/philosophy/netscape-npl.html
+200:software community in a weak position, while the third creates a major
+201:practical problem within the free software community.  Two of the
+224:denies the idea of cooperation among equals that our community rests
+228:community.</p>
+299:create a serious problem for the free software community, dividing the
+
+www.gnu.org/philosophy/netscape-npl-old.html
+195:software community.</p>
+222:denies the idea of cooperation among equals that our community rests
+226:community.</p>
+295:essential, and our community must insist firmly on this.  It is not
+320:serious problem for our community, dividing the code base into two
+
+www.gnu.org/philosophy/network-services-arent-free-or-nonfree.html
+324:service providers who contribute to the community by releasing useful
+
+www.gnu.org/philosophy/nit-india.html
+303:build your community which is the freedom to publish a modified
+424:is for. Freedom three is the freedom to help build your community, by
+603:freedom to build your community by publishing an improved version, so
+883:systems, we'll have more users and thus the community of freedom, the
+1137:movement, they are usually contributing to our community because
+1310:community and they're guessing wrong.
+1617:this would have earned you many followers among the students community
+
+www.gnu.org/philosophy/no-word-attachments.html
+226:interchange impedes the growth of our community and the spread of
+228:document, this steady and persistent harm to our community usually
+
+www.gnu.org/philosophy/nonfree-games.html
+214:it <a href="/philosophy/copyright-versus-community.html">isn't
+229:use of these games teach people in our community?</p>
+
+www.gnu.org/philosophy/nonsoftware-copyleft.html
+234:&ldquo;free, apolitical, democratic community&rdquo; that constitutes
+243:beings to thrive in a community. In essence, the idea of copyleft is
+
+www.gnu.org/philosophy/open-source-misses-the-point.html
+231:software community, because nowadays this system and community are more 
+246:of the free software community splintered off and began campaigning in
+554:community&mdash;but only at the superficial, practical level.  The
+557:people into our community, but does not teach them to defend it.  That
+570:useful for the community, but it is dangerous if it becomes so common
+581:distributions find fertile ground because most of our community does
+625:<p>As the advocates of open source draw new users into our community,
+
+www.gnu.org/philosophy/opposing-drm.html
+273:community do? Some say we should give in and accept the distribution
+284:run. For the goals of freedom and community&mdash;the goals of the
+
+www.gnu.org/philosophy/ough-interview.html
+186:developer, maintains a legendary status in the computing community.  He
+203:the hacker community in which he thrived was broken up as two competing
+323:<p>Starting from 40 years ago, when I joined the hacker community at
+478:extent sheltering the free software community as well.</p>
+529:builds community, so sharing must be legal, now that sharing is feasible
+691:community.  With software there are just two possibilities; either the
+733:<dd>The freedom to contribute to your community&mdash;the freedom to
+872:does that mean?  You are being asked to betray your community.  Now,
+873:what's your community?  It's the people you know, the people you
+883:the free software community.  Remember that I started the free software
+909:in a community not to think of this in terms of freedom and justice.
+921:community formulate their ideas of what it's all about based on those
+923:basically only a minority of the free software community regards nonfree
+1112:you were part of a community. This was eventually broken up and you
+1118:<p>I was alone already.  The community I've been part of had already
+1132:formulated from the community around me at MIT, because we practiced
+
+www.gnu.org/philosophy/pragmatic.html
+240:He was willing to share his work with a community that shares
+242:products that would be off-limits to our community.  His goal was
+258:did apply to them.  The benefit to our community is evident.</p>
+281:the community, and see his code in the next release, the boss may say,
+297:into the free software community.&rdquo;</p>
+299:But we are not excluding them from our community; they are choosing
+301:decision to stay out of our community.  Being in our community means
+303:community&rdquo; if they don't want to join.</p>
+311:Proprietary software development does not contribute to our community,
+338:on the freedom and community that you can build by staying firm, you
+342:And if cynics ridicule freedom, ridicule community&hellip;if
+
+www.gnu.org/philosophy/programs-must-not-limit-freedom.html
+194:little of their aims, but could wreck the free software community.</p>
+
+www.gnu.org/philosophy/programs-must-not-limit-freedom-to-run.html
+194:little of their aims, but could wreck the free software community.</p>
+
+www.gnu.org/philosophy/proprietary.html
+226:community</a>.  A proprietary program puts its developer or owner
+
+www.gnu.org/philosophy/public-domain-manifesto.html
+250:href="https://www.fsf.org/blogs/community/war-on-sharing-riaa-lawsuits">War
+
+www.gnu.org/philosophy/rieti.html
+236:others. And freedom three is the freedom to help build your community
+280:do. Nobody tells people what to do in the free software community;
+313:our community, the developers cannot resist what the users want. We
+462:software. So they went to the community, and in a few weeks they
+464:maybe we can raise money from the community in the same way to make
+469:community and say, &ldquo;If people put up this much money, I will do
+473:community on the strength of your own reputation, you could be working
+622:this community died in the early 1980s. At that point, I started the
+
+www.gnu.org/philosophy/right-to-read.html
+554:ISP, Community ConneXion in Oakland, California, refused the demand
+
+www.gnu.org/philosophy/rms-aj.html
+263:<p>I lived in a free software community in the 1970's, although we
+265:lab at MIT.  It was part of a community where we shared the software that
+267:community, and we were happy to share it with anyone that was interested
+271:<p>But this community died in the early 80's, leaving
+279:decided to build a new free software community.  Since the old one was
+294:and community activist groups helping homeless people because they had
+
+www.gnu.org/philosophy/rms-comment-longs-article.html
+195:the public the freedoms necessary to form a community and cooperate.
+
+www.gnu.org/philosophy/rms-hack.html
+17:<title>The Hacker Community and Ethics
+172:<h2>The Hacker Community and Ethics</h2>
+189:unfortunately is not so. The main issues seems to be one of community;
+190:what kinds of communities different ways of using technology promote.
+192:issues in terms of communities?</p>
+198:software that are necessary to have a functioning community.</p>
+202:MIT</abbr>, and how that community was infiltrated and in some sense
+207:community.</p>
+233:<b>TV:</b> How about the concepts of freedom and community? There's
+235:software creates the best kinds of communities or at least better than
+295:do something that threatens the community, threatens freedom.</p>
+299:of punishing actions that hurt the community.</p>
+345:<h3>Community</h3>
+356:good. Note that I didn't imagine the free software community on my
+361:community-building, something that other media (like printed books)
+390:<p><b>RMS:</b> I would agree. One person can belong to a community and
+392:fundamental conflict between the communitarian attitude and the
+393:commercial attitude.  I would not say that the communitarian attitude
+401:<p><b>TV:</b> I mean, in many ways one could say that the communities
+407:community, hardly worthy of the name.</p>
+410:community is also very tightly bound to the economical interests of the
+424:functioning democratic communities.</p>
+426:<p><b>RMS:</b> The free software community shows, as cooperatives in
+433:for producing functioning democratic communities, allowing commerce to
+438:community, does this mean that there is an ideal community to which
+456:for the joy of being a part of the community, and so on. I don't think
+461:a viable option, because the community is too small to support that
+502:of communities? If I remember correctly, you have said that
+524:software community is an example of beneficial globalization: people
+609:goals and about content, what exactly is the society or community that
+640:the free software community do these tasks in order to release working
+
+www.gnu.org/philosophy/rms-interview-edinburgh.html
+194:part of a community of programmers who cooperated, and thought about
+196:community died in the early eighties, and by contrast with that, the
+199:was going to try to create once again a community of cooperation.  I
+309:the reasons for which we did so.  And, this makes our community weak.
+411:<p>There are many people who, for instance, want to study our community,
+412:or write about our community, and want to avoid taking sides between
+416:community was created by the free software movement.  But then, they
+429:Are you happy with the development of the community which has grown
+437:many people in the community do not think of it as an issue of
+441:response.  Our community could be destroyed by software-idea patents.
+
+www.gnu.org/philosophy/rms-kernel-trap-interview.html
+280:have built a community where people can use computers and work
+383:follow his philosophy, and that weakens our community.</p>
+
+www.gnu.org/philosophy/rms-kol.html
+197:  <li>Freedom 3: Help your community and distribute your modified
+202:community.  If you use nonfree, proprietary software, the developer
+
+www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+242:intellectual property means, and what the software community actually
+302:fortune in the 1970's to be part of a community of programmers who
+303:shared software.  Now, this community could trace its ancestry
+305:though, it was a bit rare for there to be a community where people
+308:software developed by the people in our community, and we'd share any
+317:<p>But then our community was destroyed by a series of calamities that
+326:20 years or so of work of our community turned into dust.</p>
+453:<p>But, meanwhile my community had collapsed, and that was collapsing,
+458:being part of the community using the community software and improving
+539:<p>Now, if I wanted to actually create a community where there would
+681:<li>And Freedom Three is the freedom to help build your community by
+844:<p>Freedom Three is the freedom to help build your community by
+869:community said, &ldquo;Well, we'll use the free software
+924:software as free software in our community.  So they, the open source
+925:movement, has contributed substantially to our community.  And so we
+934:software movement, which brought our community into existence and
+955:material harm, because this community development doesn't happen, and
+969:freedom to help build your community by making changes and publishing
+1075:parasites on our community.</p>
+1086:volunteer my time to contribute to the community, but why should I
+1094:foothold in our community&rdquo; and the ones that say, &ldquo;Sure,
+1113:community.  Nonetheless, I wouldn't say that X Windows is a bad thing,
+1122:Windows made a big contribution to our community.  But there's
+1212:<p>But, fortunately, our community did not have to wait for the GNU
+1321:see, these days, if you look around in our community most of the
+1352:<p>If you look around in our community, you'll find that almost
+1405:community, the institutions are endorsing the nonfree software,
+1502:community, and there are people in that community who are checking
+1510:that and see it's there.  So, in our community, we don't feel we can
+2026:contribution to our community.  But other parts is paying to pay
+2029:our community.  But IBM is lumping that altogether into this.  Some of
+2053:wanted to protect the freedom of the community against the phenomena
+2063:community a feeling that it was not a doormat, a feeling that it was
+2077:happen.  That was part of what happened to wipe out the old community
+2087:welcome to join the community and use this code.  You can use it to do
+2089:to release that to our community, as part of our community, as part of
+2097:to it.  So what that means is that our community is not a doormat.
+2127:<em>are</em> a part of our community, contributing to our
+2128:community.</p>
+
+www.gnu.org/philosophy/rms-on-radio-nz.html
+699:Conference with regard to copyright and community?</dd>
+
+www.gnu.org/philosophy/rms-pavia-doctoral-address.html
+240:version (which is the freedom to contribute to your community)&mdash;with 
+
+www.gnu.org/philosophy/rtlinux-patent.html
+213:   community.
+238:free software community, and for its longstanding support and publication
+
+www.gnu.org/philosophy/saying-no-even-once.html
+236:if you reject several of the nonfree programs that communities have
+247:href="https://www.fsf.org/blogs/community/better-than-zoom-try-these-free-software-tools-for-staying-in-touch">
+260:whole community by spreading awareness of the issue.</p>
+
+www.gnu.org/philosophy/schools.html
+273:community rejects the &ldquo;priesthood of technology&rdquo;, which
+310:the free software community, is a hands-on civics lesson.  It also
+318:goal, raise the issue publicly in those communities; that is the way
+
+www.gnu.org/philosophy/sco/index.html
+188:community's responses to SCO.</p>
+
+www.gnu.org/philosophy/sco/questioning-sco.html
+345:trust of the community of which it long formed a part by claiming that
+
+www.gnu.org/philosophy/sco/sco.html
+188:community's responses to SCO.</p>
+
+www.gnu.org/philosophy/sco/sco-gnu-linux.html
+244:in freedom as a community, we needed a free software operating system.
+299:Moglen, believes that SCO gave permission for the community's use of
+306:community of over half a million developers, we can hardly expect that
+315:community cannot be defeated by this.
+
+www.gnu.org/philosophy/sco/sco-preemption.html
+199:violation of the GPL shows, the GPL is the bulwark of the community's
+
+www.gnu.org/philosophy/sco/sco-v-ibm.html
+307:free software community, by a participant who has employed all our
+312:community.
+
+www.gnu.org/philosophy/sco/sco-without-fear.html
+211:software and open source communities had analyzed SCO's supposed best
+337:the contributions of the free software community.  SCO was happy to
+
+www.gnu.org/philosophy/sco/subpoena.html
+192:community.  In many cases, they are asking for information that is
+225:that does not mean our community should assume it has nothing to learn
+239:and/or disputing the subpoena, we must also educate the community about
+246:shown the community the resilience and complete certainty that a good
+
+www.gnu.org/philosophy/self-interest.html
+301:preservation of a cooperative spirit within communities of
+
+www.gnu.org/philosophy/selling.html
+252:Free software is a community project, and everyone who depends on it
+253:ought to look for ways to contribute to building the community.  For a
+
+www.gnu.org/philosophy/social-inertia.html
+232:Here a weakness holds our community back: most GNU/Linux
+240:To build our community's strength to resist, we need to talk about
+
+www.gnu.org/philosophy/software-patents.html
+624:community's use of the GIF format is still pushing sites into using
+671:covered by patents.  The community objected, and they reversed
+1323:amend that to start allowing software patents.  But the community took
+1342:software community in Europe that took the lead in organizing
+1370:free software community said, &ldquo;Please send the answers to them, and
+
+www.gnu.org/philosophy/speeches-and-interview.html
+301:  <a href="/philosophy/copyright-versus-community.html">
+302:  Copyright versus Community in the Age of Computer Networks</a></span>
+489:  [Ethics of the GNU/Linux system and the free software community, pending
+549:  <a href="/philosophy/copyright-versus-community-2000.html">
+550:  Copyright versus Community in the Age of Computer Networks</a></span></p>
+584:  The hacker community and the early days of the free software movement</a>
+880:  The Hacker Community and Ethics</a></span>
+
+www.gnu.org/philosophy/speeches-and-interviews.html
+301:  <a href="/philosophy/copyright-versus-community.html">
+302:  Copyright versus Community in the Age of Computer Networks</a></span>
+489:  [Ethics of the GNU/Linux system and the free software community, pending
+549:  <a href="/philosophy/copyright-versus-community-2000.html">
+550:  Copyright versus Community in the Age of Computer Networks</a></span></p>
+584:  The hacker community and the early days of the free software movement</a>
+880:  The Hacker Community and Ethics</a></span>
+
+www.gnu.org/philosophy/stallman-kth.html
+339:my self to try to create a new community with that spirit.</p>
+539:of the community.  We would always encourage them to do this.
+654:hacker community around MIT.  It started, I believe, with an editor
+1381:in the community could benefit from them.</p>
+1688:order to have a community like that.  But then thinking about it more,
+1698:sharing community, to trying to put an end to the phenomenon of
+
+www.gnu.org/philosophy/stallman-mec-india.html
+1016:community, and meanwhile anybody else who wanted to compete with them
+1748:<dt><b>Q</b>: There's no European community decision on this&hellip;</dt>
+1766:development community got in European countries from this policy?</dt>
+1815:  <dd><b>A</b>: Well, there are many.  In the community where I develop
+1874:  while they contribute to our community, they are not what our community
+1875:  is all about.  What our community is all about is having the freedom to
+1923:  software packages that they've contributed to the community.  That's a
+2011:  <p> So that's a major problem that our community faces now, the tendency
+2016:  goal is to spread a community of freedom, and we're not succeeding in
+2036:earlier speeches where you said that back in the 70's, the community of
+2040:  <dd><b>A</b>: Well, a specific community of programmers which I belonged
+2041:  to.  This was not all programmers.  It was one specific community.
+2115:these things tend to assume that cooperative communities and sharing
+2245:  that large community.  Much better to work with them and convince them
+
+www.gnu.org/philosophy/sun-in-night-time.html
+200:         Our community has been abuzz with the rumor that Sun has made
+202:         source&rdquo;).  Community leaders even publicly thanked Sun
+204:         FLOSS community?
+
+www.gnu.org/philosophy/the-danger-of-ebooks.html
+262:<a href="/philosophy/copyright-versus-community.html">&ldquo;Copyright
+263:versus Community in the Age of Computer Networks&rdquo;</a>
+
+www.gnu.org/philosophy/the-law-of-success-2.html
+203:community of people who use and contribute to free software, so in that
+234:<p><b>RMS:</b>&nbsp; Because the community fell apart in the early 80s and it was no
+324:community, which is the freedom to distribute copies of your modified
+
+www.gnu.org/philosophy/third-party-ideas.html
+558:  &mdash; A group from the free software and open source community has
+560:  Open Source Community.</li>
+606:  Imagined Electronic Community: Representations of Virtual Community in
+
+www.gnu.org/philosophy/ubuntu-spyware.html
+202:should teach our community not to do such things again, but in order
+206:<p>One of the major advantages of free software is that the community
+227:  malicious software behaviors</a>.  Even better, usually the community
+236:  the community switches to the corrected fork, and the malicious
+302:<p>If a sufficient part of our community's opinion leaders view this
+305:  with it.  That would be a great loss to the free software community.</p>
+309:  the community will deter malware <em>without fail</em>.  Thus,
+314:  some words.  What's at stake is whether our community can effectively
+337:  software community: legitimizing nonfree software.</p>
+
+www.gnu.org/philosophy/ucita.html
+188:If UCITA is adopted, it will threaten the free software community
+245:community, by making nonfree software intolerably restrictive, and
+
+www.gnu.org/philosophy/udi.html
+221:community began to accept the temptation, we would be moving to using
+228:But why encourage the community to be weaker than it needs to be?  Why
+235:UDI, has started to &ldquo;look to the Linux community for help with
+237:cooperating community?  By asking for a handout, of course.  They have
+244:advantageous for the free software community, not just for proprietary
+259:community solve this problem.  For example, there may be some sort of
+
+www.gnu.org/philosophy/university.html
+303:within it?  The answers are obvious if freedom and community are among
+308:Nothing strengthens your resolve like knowing that the community's
+
+www.gnu.org/philosophy/use-free-software.html
+17:<title>The Free Software Community After 20 Years
+185:The Free Software Community After 20 Years: </h2>
+212:cooperation and community.  You are typically unable to see the source
+219:Today we have a large community of users who run GNU, Linux and other
+252:widespread use of GNU or Linux is the ultimate goal of our community,
+260:them.  They are not contributions to our community, they are
+283:The most effective way to strengthen our community for the future is
+
+www.gnu.org/philosophy/who-does-that-server-really-serve.html
+384:community: it enables suitably skilled users to set up similar
+588:software community should develop distributed peer-to-peer
+
+www.gnu.org/philosophy/why-copyleft.html
+235:our community.  But it is weak, and in most cases it is not the best
+
+www.gnu.org/philosophy/wipo-PublicAwarenessOfCopyright-2002.html
+201:<p>Within the copyright community such as we are today in this
+
+www.gnu.org/philosophy/words-to-avoid.html
+601:Free commercial software is a contribution to our community, so we
+910:shallow and limited values don't include freedom and community.</p>
+966:It is inadvisable to describe the free software community, or any human
+967:community, as an &ldquo;ecosystem,&rdquo; because that word implies
+1140:software community of the 60s and 70s referred to themselves as
+1141:hackers.  Around 1980, journalists who discovered the hacker community
+1238:This is not to say there is no room for markets in the free software community.
+1493:discriminate against the free software community, and that makes them
+1601:delivered to &ldquo;consumers.&rdquo;  The free software community
+
+www.gnu.org/philosophy/x.html
+197:controversies in the free software community.  The idea of copyleft is
+239:copyleft provides, which protects the freedom of the whole community,
+241:Consortium's request entrusted the community's future to the goodwill
+248:proprietary software developers, but to our community as well.</p>
+293:X.org group does an important job for the community in maintaining
+332:community.</p>
+
+www.gnu.org/philosophy/you-the-problem-tpm2-solves.html
+346:use a completely decentralized protocol or community-run service</a>.  

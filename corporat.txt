@@ -1,0 +1,257 @@
+www.gnu.org/philosophy/applying-free-sw-criteria.html
+236:components, so we incorporated their patches.</p>
+
+www.gnu.org/philosophy/bill-gates-and-other-communists.html
+218:These are the megacorporations, which typically have thousands of
+221:That's why it is generally the megacorporations that lobby for
+224:<p>Today's Microsoft is a megacorporation with thousands of patents.
+
+www.gnu.org/philosophy/can-you-trust.html
+201:they call &ldquo;trusted computing,&rdquo; large media corporations
+
+www.gnu.org/philosophy/copyright-and-globalization.html
+613:They're actually corporate-controlled trade treaties being used to
+614:give corporations control over world trade, in order to eliminate free
+846:corporations to control our lives.</p>
+857:Americas to try to extend corporate power throughout additional
+906:that government and corporations increasingly exercise over our lives.
+907:This populist and anti-corporate side to Stallman's discourse is
+1159:post-scarcity society is to get rid of the corporate control over the
+1170:copyright system under the chokehold of corporate interests on
+1177:<b>QUESTION</b>:.  How do you fight the corporate control?  Because when you
+1178:look at these sums of money going into corporate lobbying in the court
+1181:defense side.  Lord knows what it's costing on the corporate side.  Do
+
+www.gnu.org/philosophy/danger-of-software-patents.html
+299:patent office of a megacorporation, so they want you to like the
+703:megacorporations.  In any field the megacorporations generally own
+721:megacorporations in general want software patents, because they know
+834:you or me, but not from IBM&mdash;not from the very megacorporations
+837:lobbyists for megacorporations recommend a policy supposedly because
+854:it.&rdquo; IBM and the other megacorporations figure that the general
+1259:lots of others, and half of them to the megacorporations, and they can
+1389:Offices often respond to lobbying from megacorporations through
+1395:from megacorporations, and uses those funds to bring officials from
+1466:ones in the megacorporations, when they see how dangerous software
+
+www.gnu.org/philosophy/digital-inclusion-in-freedom.html
+564:is usually soon relaxed. Not so where corporations have more political
+606:<p>The corporations that profit most from copyright legally exercise
+
+www.gnu.org/philosophy/ebooks-must-increase-freedom.html
+306:version incorporates parts of that editing while restoring parts of the original
+
+www.gnu.org/philosophy/eldred-amicus.html
+500:charitable corporation with its main offices in Boston,
+
+www.gnu.org/philosophy/europes-unitary-patent.html
+236:corporate lobbyists for software patents were paid to stay on the job.
+
+www.gnu.org/philosophy/free-digital-society.html
+834:work for the mega-corporations instead of reporting to their citizens,
+969:mega-corporations try to serve those businesses, they are against their
+
+www.gnu.org/philosophy/free-hardware-designs.html
+526:incorporates proprietary &ldquo;soft cores&rdquo;&mdash;we must
+
+www.gnu.org/philosophy/free-system-distribution-guidelines.html
+300:separate files.  Other times, they may be incorporated into the source
+
+www.gnu.org/philosophy/free-world-notes.html
+408:of free software: that it can be repackaged, sold, incorporated
+
+www.gnu.org/philosophy/freedom-or-copyright.html
+224:usually soon relaxed. Not so where corporations have political power.
+335:waste it on corporate executives.  But the state should not distribute
+351:incorporating mandatory payments with voluntary allocation among
+
+www.gnu.org/philosophy/fs-and-sustainable-development.html
+209:society's dependency on a few corporations in rich countries.
+213:of a single corporation, or else illegally.  Dependence on proprietary
+
+www.gnu.org/philosophy/google-engineering-talk.html
+1231:large corporations. They call it &ldquo;trusted computing,&rdquo; but what do they
+
+www.gnu.org/philosophy/government-free-software.html
+230:corporations controlled by the state or established with special
+
+www.gnu.org/philosophy/gpl-american-dream.html
+242:corporation are given an equal chance to innovate.  We all start the race
+
+www.gnu.org/philosophy/guardian-article.html
+205:information technology field is increasing, and mega-corporations with
+254:computer mega-corporations such as IBM and Microsoft.</p>
+257:Foremost among the software mega-corporations is Microsoft. Even as
+306:The vague words drafted by the mega-corporations must be replaced with
+
+www.gnu.org/philosophy/judge-internet-usage.html
+240:<p>When a corporation has power over users in that way, it is likely to
+329:and may reincorporate those local facilities. If so, ChromeOS might
+
+www.gnu.org/philosophy/misinterpreting-copyright.html
+530:&ldquo;Domination by Media Corporations Act&rdquo; because it
+586:library, to buy it without giving your name to a corporate data bank,
+
+www.gnu.org/philosophy/moglen-harvard-speech-2004.html
+405:The International Business Machines Corporation, the Hewlett Packard
+406:Corporation, and a number of other organizations either represented here
+694:a creature called Mickey Mouse. The corporate authorship term under
+824:Microsoft's a very wealthy corporation, and it could succeed on a
+1018:Business Machine corporation, is small compared to that.  We are
+1512:enough value for the IBM corporation that it's worth putting billions
+1517:If I were an employee of the IBM corporation right this moment,  I
+
+www.gnu.org/philosophy/ms-doj-tunney.html
+193:  Software Foundation, a non-profit &sect;501(c)(3) corporation
+
+www.gnu.org/philosophy/no-word-attachments.html
+373:<em>Both versions of Word format allow <a href="https://outflank.nl/blog/2019/05/05/evil-clippy-ms-office-maldoc-assistant/">incorporation of malware</a>.</em></p>
+
+www.gnu.org/philosophy/ough-interview.html
+253:<dt>This dependence on a corporation also extends to financial transactions.</dt>
+797:corporation like this would never hurt you.&rdquo;</p>
+1168:against corporate tax-evasion, and basically I'm excited to see more
+
+www.gnu.org/philosophy/patent-practice-panel.html
+236:existing benefits that large corporations have.
+
+www.gnu.org/philosophy/proprietary-surveillance.html
+1465:    href="https://kappanonline.org/dont-go-along-with-corporate-schemes-to-gather-up-student-data/">
+3888:    and proprietary programs made by data-hungry corporations.</p>
+
+www.gnu.org/philosophy/proprietary/malware-apple.html
+455:    themselves but now infected people will be compelled to wait for corporations to
+
+www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+1465:    href="https://kappanonline.org/dont-go-along-with-corporate-schemes-to-gather-up-student-data/">
+3888:    and proprietary programs made by data-hungry corporations.</p>
+
+www.gnu.org/philosophy/rms-aj.html
+252:human rights to corporations, and protect the rights of corporations,
+496:corporations&hellip;</dd>
+524:big corporate borg are oppressing us with, did come out of his
+635:you said, the big corporations, and the sick part is when we pay the
+706:to weaken the power of the corporate borg?</dd>
+711:<p>Well, all across the various areas of life we can see corporations
+725:subsidies to these corporations, subsidies which were originally meant
+741:corporations have power so we need to clean up politics.  We need to get
+742:corporate money out of politics.</p>
+745:&ldquo;Corporations Are Not People&rdquo; by Jeffrey Clements, and this
+748:corporations.&rdquo;</p>
+754:<p>Well, the power to give corporations rights so they can then stomp on
+756:you couldn't even have corporations in this country the way they are
+759:understand a little company having a corporation so you can have
+770:<dd>Well, he said that corporations are people and someone pointed out
+780:<p>I don't want to abolish corporations either, but we must abolish the
+788:Supreme Court gave corporations unlimited power to pay for political
+790:giving human rights to corporations.</p>
+795:<dd>It is very very dangerous, and now those corporations are destroying
+
+www.gnu.org/philosophy/rms-hack.html
+564:<p><b>RMS:</b> Business does have that tendency. Corporations provide
+598:time. Corporate funding is far more dangerous.<br />
+
+www.gnu.org/philosophy/rms-interview-edinburgh.html
+222:oppositional movements in the world that are against corporate rule,
+233:necessarily against corporate domination, but against <em>any</em> domination.
+235:software, whether those developers be corporations or individuals or
+245:are corporations, and some large corporations exert a form of
+287:The business corporation as a social form is very closed&mdash;it
+291:of corporations with free software strike you as something to be
+318:together with corporations that might want to take away people's
+320:vulnerability.  And what we see is that many of the corporate
+328:limited to large corporations.  All of the commercial distributors of
+
+www.gnu.org/philosophy/rms-kernel-trap-interview.html
+707:corporations and countries. Corporations are too powerful now. We have
+709:abolishing corporations, but we've got to make sure that no
+710:corporation is powerful enough that it can say to all the countries in
+
+www.gnu.org/philosophy/rms-kol.html
+246:the government of Denmark. If you allow a foreign mega-corporation to buy a
+247:domestic corporation, you are allowing it to buy a weapon pointed
+276:colonialism. And not by a country, but by a corporation. Electronic
+316:good corporations and benevolent, helpful citizens. This has to be
+329:governmentt is making lots of laws to make multinational corporations
+
+www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+1624:<p>But, 1990 was when the first corporation free software business was
+2018:might make a decision that way.  Not a giant corporation though. It's
+
+www.gnu.org/philosophy/rms-on-radio-nz.html
+832:the current system mostly supports corporations, so I don't think it
+834:treated with great deference by the corporations, and the rest
+1062:<dd>Well aren't you handing money over to the corporates rather than
+
+www.gnu.org/philosophy/rtlinux-patent.html
+210:   has already lead to many innovative projects from large corporations
+
+www.gnu.org/philosophy/savingeurope.html
+234:Consortium to incorporate the feature in the standard.  It's not the
+253:corporations.  They have a great deal of influence with governments.</p>
+
+www.gnu.org/philosophy/schools.html
+245:megacorporations.</p>
+
+www.gnu.org/philosophy/sco/sco-v-ibm.html
+200:between the two companies, and also that IBM has incorporated trade
+237:successor in interest&mdash;have been incorporated by IBM in the
+
+www.gnu.org/philosophy/sco/sco-without-fear.html
+242:was first incorporated in Unix Version 3, and was written in 1973; it
+255:was planning to sell but never shipped.  In incorporating the code,
+292:in the letters it has sent to large corporate users of free software
+
+www.gnu.org/philosophy/shouldbefree.html
+216:developers: that the program has an owner, typically a corporation
+251:programmers usually sign over all rights to a large corporation for a
+768:growing corporation which does no other kind of work.  Several other
+
+www.gnu.org/philosophy/software-patents.html
+738:That is if you are a multinational mega-corporation.  Because these
+808:The mega-corporations avoid, for the most part, the harm of the patent
+
+www.gnu.org/philosophy/stallman-kth.html
+1380:could incorporate them into newer versions of EMACS, so that everyone
+
+www.gnu.org/philosophy/stallman-mec-india.html
+671:works very well, and that is the large multinational corporations;
+758:the big multinational corporations are in favor of software patents, and
+1114:is the World Trade Organization, which sets up a system of corporate
+1116:it, but corporate regulated trade.  It replaces the regulation of trade
+
+www.gnu.org/philosophy/stallmans-law.html
+189:<p>Now that corporations dominate society and write the laws, each
+
+www.gnu.org/philosophy/surveillance-vs-democracy.html
+564:into the databases of many large Internet corporations</a>.  AT&amp;T
+744:href="https://web.archive.org/web/20171019220057/http://action.citizen.org/p/dia/action3/common/public/?action_KEY=12266">Corporations
+
+www.gnu.org/philosophy/the-root-of-this-problem.html
+254:(typically a corporation) controls what the program does, and prevents
+
+www.gnu.org/philosophy/udi.html
+270:it.  Corporations are notoriously untrustworthy; the people we are
+274:making a deal with a corporation, always get a binding commitment in
+
+www.gnu.org/philosophy/whats-wrong-with-youtube.html
+235:   DRM software that has been incorporated into proprietary browsers
+
+www.gnu.org/philosophy/words-to-avoid.html
+797:undifferentiated corporate &ldquo;content,&rdquo; a Gazprom pipeline of superhero
+
+www.gnu.org/philosophy/wsis.html
+283:corporation the standing of a state.</p>
+
+www.gnu.org/philosophy/wsis-2003.html
+182:information.  Corporations are using two kinds of imposed monopolies
+
+www.gnu.org/philosophy/you-the-problem-tpm2-solves.html
+222:surveillance from governments or corporations over individuals way 
+239:fake report in case the remote corporate lords demand the knowledge or 
+252:against those classes of rootkit malware coming from the corporations.  
+313:enforce remote attestation.  For it is relatively easy for the corporate 
+322:die-hard population.  Eventually Microsoft and its corporate partners 
+
+www.gnu.org/philosophy/your-freedom-needs-free-software.html
+225:shackles.  Vista was also designed to permit forced updating by corporate

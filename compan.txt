@@ -1,0 +1,1055 @@
+www.gnu.org/philosophy/15-years-of-free-software.html
+231:  Foundation and by free software companies; most were volunteers. A
+
+www.gnu.org/philosophy/ICT-for-prosperity.html
+511:Indeed, in some circumstances the cost will be so low that companies
+578:companies have of free markets.  The phrase is popular; Eric and Bruce
+601:Companies and people in the &ldquo;software industry&rdquo; do not
+617:Less directly, and increasingly, hardware companies that sell
+686:tossed out by first world companies.  Such equipment is inexpensive and
+722:This legal tool means that companies in the ICT industry compete not
+727:This legal framework means that companies will provide more reliable
+
+www.gnu.org/philosophy/amazon.html
+230:The idea patented here is just that a company can give you something
+236:Today Amazon is suing one large company.  If this were just a dispute
+237:between two companies, it would not be an important public issue.  But
+240:to control all use of this technique.  Although only one company is
+313:bigger than Amazon, that other companies might have acted just the
+320:company which has an outrageous software patent and considers suing
+
+www.gnu.org/philosophy/amazon-nat.html
+208:company's internal wire service describing (fairly accurately) the
+
+www.gnu.org/philosophy/amazon-rms-tim.html
+214:We singled out Amazon for a boycott, among the thousands of companies
+
+www.gnu.org/philosophy/android-and-users-freedom.html
+343:approved by some company. In that situation, the executables are not
+
+www.gnu.org/philosophy/apsl.html
+227:released at all.  We must not judge all of a company by just part of what
+
+www.gnu.org/philosophy/assigning-copyright.html
+17:<title>When a Company Asks For Your Copyright
+183:<h2>When a Company Asks For Your Copyright</h2>
+186:<p>Companies that develop free software and release it under the GNU GPL
+200:<p>Companies normally do these things using code they
+204:that free program, and the company wants to include your changes in
+208:modified version you have to license it under the GPL.  If the company
+213:want, you get it by default.  However, if the company intends to sell
+217:you're willing to let the company do so while including your changes
+221:<p>The company will probably invite you to assign or license your
+222:copyright to the company, by signing a copyright assignment contract
+230:<p>The company's proposed contract may not include such a commitment.  It
+231:might instead let the company use your changes any way it likes.  If
+232:you sign that, the company could do various things with your code.  It
+248:condition, that the company make your contributions available in a
+250:This would allow the company to use your contributions in
+258:contains your code, but refuse to let the company release purely
+299:<p>When a company says which of these conditions it will accept, that
+
+www.gnu.org/philosophy/bdk.html
+180:he fought the Disney company and the greedy Gershwin Trust.</p>
+
+www.gnu.org/philosophy/boldrin-levine.html
+196:response is that today there are companies that sell thousands of
+
+www.gnu.org/philosophy/can-you-trust.html
+202:(including the movie companies and record companies), together with
+203:computer companies such as Microsoft and Intel, are planning to make
+240:Of course, Hollywood and the record companies plan to use treacherous
+244:authorized files that you would get from those companies.  You, the
+253:read on the computers in one company.</p>
+262:illegal or morally outrageous, such as to shred your company's audit
+311:company.  Free operating systems could not be installed.  Some
+424:companies that want to impose DRM on the world want it to be enforced
+436:companies' dominion over you.</p>
+442:your computer to tell the truth to a company when its web server asks
+449:Restrictions Management.  Thus, companies implement DRM using other
+
+www.gnu.org/philosophy/categories.html
+250:	proprietary software companies typically use the term
+258:	<p>Because of this potential confusion, when a software company
+373:	company can compile the program, with or without
+467:	volunteers are paid by companies or universities, but they are
+550:	(typically an organization or company). That user keeps it and uses
+583:	<p>For example, GNU Ada is developed by a company.  It is always
+
+www.gnu.org/philosophy/compromise.html
+237:(GNU GPL) so that major companies would contribute to and distribute 
+
+www.gnu.org/philosophy/computing-progress.html
+204:software controlled by the companies that developed it, not by its
+205:users.  Those companies will ensure that your phone makes the
+206:information it collects about you available to the phone company's
+208:companies.</p>
+211:In the UK of the future, as New Labour would have it, those companies
+214:phone company's system will deduce that you may be planning a protest,
+232:the phone company will also know precisely whom you meet.  That
+251:side of these companies against the public, have made it illegal to
+256:located, it can make DRM even worse: there are companies that would
+289:the request of the police, the phone company, or anyone that knows the
+
+www.gnu.org/philosophy/copyright-and-globalization.html
+242:start being really important.  We'll see agribusiness companies trying
+462:was meant to be secret&mdash;and the only way the movie companies
+473:But the movie companies objected and they went to court.  You see, the
+474:movie companies used to make a lot of films where there was a mad
+598:actually contains provisions, I believe, allowing companies to sue
+601:companies have more power than citizens of the country.</p>
+798:without paying them.  These pirates are the record companies that pay
+805:Here's the way it works: The record company spends money on publicity
+839:company.  So if your goal is to raise the living standards of Mexican
+1238:companies were saying that a 75-year copyright on a work made for hire
+1240:I'd like to challenge those companies to present projected balance
+1344:have patents covering seed companies, but they shouldn't cover
+
+www.gnu.org/philosophy/copyright-versus-community.html
+292:particular company.  So you deserve free software.</p>
+498:companies to purchase this law in the US Congress, which is how laws
+510:<p>The movie companies say they want perpetual copyright, but the US
+557:<p>The movie companies are well aware that they can't really make that
+574:about this requirement.  It proudly states the names of the companies
+578:<p>A conspiracy of companies designed to restrict the public's access
+581:for this should be longer.  But these companies are quite confident
+586:<p>In general DRM is set up by a conspiracy of companies.  Once in a
+587:while a single company can do it, but generally it requires a
+588:conspiracy between technology companies and publishers, so [it's]
+663:companies over us, not to help defend our freedom in any way.</p>
+680:<p>Fortunately music DRM is receding.  Even the main record companies
+804:<p>It's possible, but the big companies really pushing e-books are
+1075:companies charge just under a dollar per copy.  By letting people
+
+www.gnu.org/philosophy/copyright-versus-community-2000.html
+436:companies.</p>
+510:company handing out copies to its staff or you could imagine a school
+746:companies quote pirates unquotes because of the way they treat the
+756:limited to one company in most cases.  Maybe the copyright on the
+761:copyrighted for three years after its release well, unless the company
+765:software automatically, the company would still have a business with
+1000:of private copying of music, and the record companies trotted out some
+1116:<p><strong>AM11</strong>: Is is OK for a company to ask say its&hellip;</p>
+1195:with your friend is more important than how much money these companies
+1196:get.  The society shouldn't be shaped for the sake of these companies.
+
+www.gnu.org/philosophy/danger-of-software-patents.html
+238:a worldwide boycott of Coca-Cola Company for murdering union
+244:it's made by Coca-Cola Company.</p>
+431:those other companies that are making spreadsheets are getting
+577:companies, and if there was a decision, it would have said who was
+725:might start up a small company and get some patents, but you'll never
+728:<p>Now a lot of companies tell their employees, &ldquo;Get us patents
+738:in the company is going to notice that this patent is actually
+739:pointing at some people, and [the company] could threaten them and
+741:attack this company.</p>
+748:patents to defend the company if it's attacked.  But I don't know
+749:who's going to be the CEO of this company in five years.  For all I
+751:company's word to only use these patents for defense unless I get it
+753:the company will only be used for self-defense and collective
+755:for the company with a clean conscience.</p></blockquote>
+758:your boss, but also on the company's discussion list.</p>
+760:<p>The other thing that could happen is that the company could fail
+775:this thing; and because his idea is so good his company will
+776:inevitably succeed&mdash;except for one thing: the big companies will
+801:then instead of trying to go head to head with large companies, he
+802:might try to do things that small companies are better at and have a
+842:<p>Even IBM can't always do this, because there are companies that we
+943:engines.  These only restrict companies that make cars; they don't
+1192:<p>Big companies can even do this themselves.  For instance, a few
+1208:software patents is that one large company wants to be given some
+1209:monopolies.  To restrict everyone in the country so that one company
+1508:the continent.  But these things don't stay dead; there are companies
+
+www.gnu.org/philosophy/dat.html
+212:<p>Record company magnates don't like the digital audio tape recorder
+221:publishers and record companies.  In addition, DAT manufacturers have
+225:<p>Now the record companies have asked Congress to enact a law turning
+231:percent of the funds collected would go to record companies and music
+389:create the music.  In principle, we could do without record companies
+392:<p>Record companies do provide a useful service: they distribute
+398:The record companies contribute only incidentally and their role is
+404:get?  The record company proposal would divide the money in proportion
+443:<p>The record company proposal includes a requirement to make it
+457:companies and record stores; music lovers should be encouraged to use
+473:help of record companies; and if any musicians need additional
+495:<p>The record companies have proposed an excellent scheme for taxing
+510:<p>Record company lobbyists are working hard to pass their form of DAT
+514:<p>This article proposes an alternative to the record company plan.
+516:we must first prevent the hasty adoption of the record company plan.
+532:<p>Urge Congress to reject the record company bill so that this and
+539:record company tax plan, and they are strongly motivated to act on
+
+www.gnu.org/philosophy/digital-inclusion-in-freedom.html
+401:Companies such as Red Hat, IBM, Oracle, and Google pay programmers to
+407:in 2007 that the free software companies of France had over 10,000
+411:letting a few companies control their computing.  If you are one of
+413:those companies, rather than you, to have control.  You may also
+565:power than the public.  The entertainment companies' lobby is
+574:US, the record companies' legal arm (the RIAA) regularly sues
+710:record companies charge.<a id="tex2html72"
+749:any pretext be taken from them by publishers such as record companies.
+
+www.gnu.org/philosophy/ebooks-must-increase-freedom.html
+277:companies take any of it from them; and the distribution of money
+
+www.gnu.org/philosophy/economics_frank/frank.html
+834:computer company of the error.  Subjects are first asked to estimate
+
+www.gnu.org/philosophy/enforcing-gpl.html
+228:<p>But most proprietary software companies want more power than copyright
+229:alone gives them.  These companies say their software is
+
+www.gnu.org/philosophy/essays-and-articles.html
+561:  When a Company Asks For Your Copyright</a></li>
+
+www.gnu.org/philosophy/europes-unitary-patent.html
+207:companies have long lobbied to spread software patents around the world.
+
+www.gnu.org/philosophy/fighting-software-patents.html
+201:ideas in your program will be patented already by various companies.
+
+www.gnu.org/philosophy/free-digital-society.html
+254:GPS, on remote command. The phone company is accumulating a giant list 
+257:elected official] asked the phone company to give him the data it had 
+417:all use of Digital Restrictions Management should be illegal. No company
+653:when they graduate, they're still dependent and, you know, the company 
+655:go to work for companies. Not many of them anymore, but some of them. 
+656:And those companies are not going to be offered gratis copies. Oh no! 
+801:especially if it's a US company. You see, the most hypocritically named
+803:Brother's police can collect just about all the data that companies 
+804:maintain about individuals. Not just companies, but other organizations 
+808:they did. So you mustn't ever trust any of your data to a US company.  
+809:And they say that foreign subsidiaries of US companies are subject to 
+810:this as well. So the company you're directly dealing with may be in 
+811:Europe, but if it's owned by a US company, you've got the same problem 
+879:and it's really running on a server belonging to some company. Well,
+880:that company also gets to know what was said in the conversation, and
+881:if it's a US company that means Big Brother also gets to know. This is
+909:<p>Now, if this program is proprietary, that means some company
+911:is doing. Well, this company then could rig the election.  And there
+973:the companies have been waging <em>war</em> on sharing, and they've
+992:<p>Well, the movie companies didn't leave it there. They went to the US
+1060:ground by the heels of these same companies. But they treat the stars 
+1062:move to another company, the company says: &ldquo;Oh, we'll give you 
+1095:supports most artists very badly. And so, when these companies demand to
+1139:companies, second because it would shift the money from the stars to the
+1186:to distribute a text on the Internet, you need companies to help you
+1188:you need the support of an ISP or a hosting company, and you need a 
+1194:need the cooperation of a payment company. And we saw that this makes
+1211:<p>Then, there were the payment companies. The US went to PayPal and
+1217:be done.  There's a company in Iceland which began collecting money on
+1232:line because the phone company doesn't like what you said, or because 
+1234:company. No! As long as you pay the bills and obey certain basic rules, 
+
+www.gnu.org/philosophy/free-doc.html
+262:permitted, so that the manual can accompany every copy of the program,
+
+www.gnu.org/philosophy/free-hardware-designs.html
+302:is not totally internal and some company can modify that code.  For
+457:companies can fabricate one, which reduces dependence on a single
+489:hardware, please join in urging and pressuring companies to make
+613:except perhaps accompanying real source code.</p>
+
+www.gnu.org/philosophy/free-software-even-more-important.html
+323:a universal back door that allows some company to change the program 
+350:<p>Nonfree software was the first way for companies to take control of
+390:under the company's thumb.</p>
+
+www.gnu.org/philosophy/free-software-for-freedom.html
+378:companies seek to offer such temptation, and why would users decline?
+422:companies' calling software packages &ldquo;open source&rdquo; even though they
+431:Companies also made announcements that give the impression that a
+451:software company and subsequently branched out (so to speak) into
+475:that &ldquo;Open Source company&rdquo; would mean one whose products are free
+476:software (or close to it), right?  Alas, many companies are trying to
+490:In effect, these companies seek to gain the favorable cachet of
+494:software or because the same company also maintains some free
+495:software.  (One company founder said quite explicitly that they would
+500:Over the years, many companies have contributed to free software
+501:development.  Some of these companies primarily developed nonfree
+508:We cannot do the same with these new companies, because they won't let
+509:us.  These companies actively invite the public to lump all their
+512:one.  They present themselves as &ldquo;open source companies,&rdquo; hoping
+518:using the term &ldquo;free software.&rdquo;  But companies do not seem to use
+527:featured speaker was an executive from a prominent software company.
+528:He was probably invited on account of his company's decision to
+552:considering implementing it partially, within the company.</p>
+
+www.gnu.org/philosophy/free-software-rocket.html
+251:company's van that is, for the moment, transporting your books and
+252:furniture to your specified destination.  It is the moving company
+280:<p>No wonder there are companies that would like you to cede control over
+
+www.gnu.org/philosophy/free-system-distribution-guidelines.html
+296:these accompanying some drivers in the kernel Linux.  Such firmware
+329:engines released under the GNU GPL have accompanying game
+
+www.gnu.org/philosophy/free-world.html
+193:<li>Software companies that are able to thwart competition attain
+198:dominant companies to design &ldquo;standards&rdquo; which exclude
+202:to mutually destroy their profits. (Established companies can
+205:there are cases of asymmetrical competition, where a large company
+206:with other sources of income can destroy a smaller company that
+223:seems mostly to be the effort of companies who find their own power
+227:question a world where technology companies working from private
+239:and generally designed more for the company's anticompetitive purposes
+285:freeware), do some evangelical work. Urge large companies and
+
+www.gnu.org/philosophy/free-world-notes.html
+202:<li>Commercial software companies typically divide their costs into
+219:<li>Media companies have comparable cash flows, but necessarily work
+246:other industries where challenges are made to dominant companies
+265:competition kills profits, and successful companies are the ones that
+276:<p>Of course, Microsoft (and all other commercial software companies
+285:arguments are more substantial: commercial software companies have
+286:a huge head start; some such companies have convinced many users to
+289:the investment that users and companies have in commercial software
+357:work for commercial companies when their skills and work are more
+360:The argument that large companies (government, any organization
+382:of the free software work would be done by small companies bidding
+384:profit. (The companies are likely to be small because they won't
+386:main advantage big software companies have over small ones. Also
+389:small companies from having to overextend themselves.)</p>
+
+www.gnu.org/philosophy/fs-motives.html
+256:companies do these things, and the nastiest enemy of our freedom
+
+www.gnu.org/philosophy/funding-art-vs-funding-software.html
+267:donated by companies, we did not need to ask which persons wrote that
+
+www.gnu.org/philosophy/gates.html
+189:  Microsoft&mdash;like many other software companies&mdash;imposes on its
+202:  the rest, sometimes in companies it suggests cause environmental
+258:  other companies do the same thing. It's wrong&mdash;no matter who does
+260:  gives them power over you. A change in executives or companies is not
+
+www.gnu.org/philosophy/gif.html
+228:companies who redistribute GNU software.  We feel it would not be
+245:prior to 1995. The company does not require licensing, or fees to be
+
+www.gnu.org/philosophy/gnutella.html
+240:people to reject the assumption that some person or company has a
+
+www.gnu.org/philosophy/google-engineering-talk.html
+301:company, so I said I'm available tonight. [Looking at name
+743:to a programming company and say, &ldquo;will you make this change for
+745:answer from there, they can go to another programming company and say,
+995:other companies have not subjugated as many users as Microsoft has, but
+1197:pressure on those companies. And in both cases, we are weakened by the
+1212:companies say, &ldquo;yes, {we support} our hardware supports Linux, here is
+1564:suing a bunch of companies. And then there's a patent on MP3 audio, so
+1754:company could do better in the spirit of free software?</p>
+
+www.gnu.org/philosophy/gpl-american-dream.html
+208:large companies like Microsoft tended to control much of the technology.
+
+www.gnu.org/philosophy/gpl-american-way.html
+246:Millions of users, tens of thousands of developers, and companies as
+248:basis.  But some companies want the advantages without the
+251:From time to time, companies have said to us, &ldquo;We would make an
+
+www.gnu.org/philosophy/greve-clown.html
+228:of the companies forced you to <em>choose</em> between legality and
+
+www.gnu.org/philosophy/guardian-article.html
+198:biggest, richest companies are being assisted by governments to take
+281:represents the largest software companies. (The commission didn't
+
+www.gnu.org/philosophy/hackathons.html
+199:are surrounded by companies that shamelessly release proprietary
+201:their power.  These companies develop software as a <a
+205:<p>These companies' harmful success inspires young developers to follow
+214:computing of certain companies: in some cases, <a
+
+www.gnu.org/philosophy/hague.html
+204:your car in France or breaks a contract with your French company, you
+262:be applied to the parent company in the U.S.</p>
+322:happens.  When the multinational company Danone announced plans to
+326:hosting company and domain name registrar for &ldquo;counterfeiting of
+
+www.gnu.org/philosophy/historical-apsl.html
+282:not judge all of a company by just part of what they do.</p>
+
+www.gnu.org/philosophy/install-fest-devil.html
+255:criticism to the companies that make or sell the components that
+
+www.gnu.org/philosophy/java-trap.html
+204:Java platform which is nonfree, and other companies do so too.</p>
+
+www.gnu.org/philosophy/judge-internet-usage.html
+213:<p>Keep in mind that a US company (or a subsidiary of one) is required
+223:to such companies.</p>
+238:controls its users, and a company controls the system.</p>
+268:to get it without a subpoena. Movie and record companies, or their
+
+www.gnu.org/philosophy/keep-control-of-your-computing.html
+238:<p>Then there is the issue of storing your data in companies' servers.
+239:The largest such companies have little respect for users' privacy.
+240:For instance, if you hand your data to Facebook, companies pay
+244:<p>The timesharing companies of the 1980s had usually treated their
+248:its merchandise, to be sold to other businesses. If the company is in
+249:the US, or is a subsidiary of a US company, the FBI can collect this
+258:their computing and their data to companies they have absolutely no
+
+www.gnu.org/philosophy/kevin-cole-response.html
+216:(Microsoft is a criminal company that has been found guilty of
+
+www.gnu.org/philosophy/komongistan.html
+206:companies trading with South Korea, Mongolia and Pakistan called those
+211:feeling that they had a clearer picture of what these companies did, as 
+
+www.gnu.org/philosophy/lest-codeplex-perplex.html
+211:&ldquo;commercial software companies&rdquo; to contribute more to
+230:<p>The term &ldquo;commercial software companies&rdquo; embodies a
+240:software business to be impossible.  Many software companies already
+248:proprietary software company like Microsoft.  However, it may convince
+249:some proprietary software companies to release additional free
+
+www.gnu.org/philosophy/luispo-rms-interview.html
+337:American Free Trade Associtation]</a>, a Canadian company which was
+
+www.gnu.org/philosophy/mcvoy.html
+258:formats or protocols or pressure companies to document them, or to
+268:if the company went out of business.  Alas, that does no good as long
+269:as the company remains in business.  Linux developers responded by
+
+www.gnu.org/philosophy/microsoft.html
+200:Microsoft is not alone in this; many other companies do the same thing
+201:to the users.  If other companies manage to dominate fewer users than
+236:other software companies, had been doing them for years.  Secrecy
+238:in the future.  For the most part, the companies' main motivation in
+273:But we do recognize it as the company that has separated more users
+
+www.gnu.org/philosophy/microsoft-antitrust.html
+195:computer manufacturers, or to break up the company&mdash;will not make
+
+www.gnu.org/philosophy/microsoft-old.html
+210:<p>But Microsoft is not alone in this; almost all software companies
+211:do the same thing to the users. If other companies manage to dominate
+218:we must not exonerate the other companies that also make proprietary
+229:other software companies, have been doing them for years now. In the
+
+www.gnu.org/philosophy/microsoft-verdict.html
+195:largest developer of such software, but many other companies treat the
+205:If the remedies are designed to enable other companies compete in
+211:offer the user one thing those companies do
+217:Splitting Microsoft into separate companies could also endanger free
+218:software, because these smaller companies, no longer held in check by
+
+www.gnu.org/philosophy/misinterpreting-copyright.html
+325:For example, when signing contracts with construction companies to build
+615:The media companies are not satisfied yet.  In 2001, Disney-funded
+738:companies do not simply replace it with end-user license agreements.
+
+www.gnu.org/philosophy/moglen-harvard-speech-2004.html
+636:other side is IBM. A big, rich, powerful company that has no intention
+1016:free. That's where we are really going.  Mr. McBride's company's fate,
+1115:filed by a company that to its shock and amazement found that instead
+1121:agreements with their company that says any software they write
+1122:actually is property of the company, maybe even a work for hire, what
+1123:is the prospect that a company could then say, Our code through that
+1132:with big companies, thirty-five years later can take it all back, no
+1190:When you go to an insurance company and ask for fire insurance on your
+1221:pharmaceuticals companies did my side a favor by buying us 12 trillion
+
+www.gnu.org/philosophy/new-monopoly.html
+182:Companies that want monopoly powers to control public use of the
+233:Ominously, many collections of public records, maintained by companies
+235:companies.</p>
+237:And West Publishing Company would regain its effective monopoly over
+308:The data base companies can't deny this, so they threaten us with
+319:revenue to any company that maintains a data base; perhaps a much
+326:attempt to abolish it will be opposed by the data base companies,
+
+www.gnu.org/philosophy/nit-india.html
+381:sharing program, Kazaa, where the company&hellip; the developers sell
+450:they can go to a programmer or to a programming company and say,
+455:<p>And if they don't like what that particular company says, they can
+456:go to a different company and say, &ldquo;What would you charge to
+533:and then in Germany, these companies, the developers of nonfree
+704:nonfree software, you have be scared that the company, that is the
+706:developers secretly put in a back door, that even the company doesn't
+741:that tobacco companies used to offer gratis packs of cigarettes to
+749:Instead of one country colonizing another, it is various companies
+1381:company. Coca Cola company is, by the way, being sued in the U.S. for
+
+www.gnu.org/philosophy/no-ip-ethos.html
+223:  is at its worst when carried out by large, well-known companies&mdash;and
+
+www.gnu.org/philosophy/no-word-attachments.html
+407:prohibit entrepreneurs starting new companies, and prohibit
+
+www.gnu.org/philosophy/nonfree-games.html
+190:<p>A well known company, Valve, that distributes nonfree computer games
+243:companies, as well as free games developed noncommercially by
+
+www.gnu.org/philosophy/nonsoftware-copyleft.html
+307:a notice, as should any accompanying documentation or literature.</p>
+
+www.gnu.org/philosophy/not-ipr.html
+208:Companies that gain from the confusion promoted it.  The clearest way
+232:companies that exercise copyright, patent and trademark powers, the
+
+www.gnu.org/philosophy/open-source-misses-the-point.html
+330:privileged company can make executables that can run in the device and
+430:accompany another misunderstanding that &ldquo;free software&rdquo;
+504:<p>Under pressure from the movie and record companies, software for
+564:companies seek to offer such temptation, some even offering copies
+
+www.gnu.org/philosophy/opposing-drm.html
+229:Computing,&rdquo; meaning that companies can &ldquo;trust&rdquo; your
+250:except as these companies permit. Sony was caught last year installing
+278:software as the highest goals.  If we allow companies to use our
+
+www.gnu.org/philosophy/ough-interview.html
+204:companies hired most of the talent in the Lab to develop nonfree
+232:you don't have to beg some company to &ldquo;please cooperate&rdquo; so
+241:the case in the US that the phone company can't arbitrarily disconnect
+260:need the cooperation of any company in order to do so.  Once you receive
+262:thing in the digital world you need the services of a payment company,
+263:and those companies might arbitrarily disconnect you also.</p>
+287:things about it.  I think we need laws stopping the payment companies
+357:software patents.  Companies like Amazon, Google, and Apple, to name a
+389:patents only affect the companies that have the factories and make the
+454:<dt>These patent wars have seen companies buying up an arsenal of
+518:<p>These giant multinational companies want more money for themselves,
+552:to the media companies, so of course they're wrong, of course people
+609:the company might demand that you show everything in your account.  Your
+621:it's not the only company that's doing this; I believe that Twitter does
+651:<p>When, say, the US government wants to crush dissent these companies
+800:<dt>Apart from software, companies today try to interfere with what
+1039:you think many software companies hand gratis copies of their nonfree
+1044:<p>It's like giving students addictive drugs.  The companies that make
+1114:company developing proprietary software. What gave you the strength to
+
+www.gnu.org/philosophy/patent-practice-panel.html
+297:company really didn't want its software to be copied, why is it
+298:licensing its patent portfolio to every other big company in the
+327:States. Microsoft is a very successful software company, I don't think
+
+www.gnu.org/philosophy/pragmatic.html
+279:Linux, or any GPL-covered program) are often employed by companies or
+323:successor, the Open Group) offers an example: funded by companies that
+
+www.gnu.org/philosophy/proprietary.html
+294:  <th>Products or companies</th>
+
+www.gnu.org/philosophy/proprietary-surveillance.html
+302:companies such as
+315:<p>Many companies, in their privacy policy, have a clause that claims
+331:<p>Therefore, we must not be distracted by companies' statements of
+364:    other companies to be used as telemetry data. All of this is done is
+435:    now distributes them to another company.</p>
+533:    other companies to track the browsing of each specific user.</p>
+747:    in plaintext, and Agora (the company behind the app) would likely
+761:    company. This increases Facebook's power over users, and further
+775:    especially nasty malware, helping companies snoop on users as well
+788:    by Google, Twitter and three other companies are facing a lawsuit <a
+791:    and handing over these data to other companies/advertisers</a>.</p>
+934:    is collected by the company, there is no telling what it will be
+1216:    sold.  Some Motorola phones, made when this company was owned
+1245:    and other companies from getting this personal information in the
+1411:    href="https://torrentfreak.com/software-company-fines-pirates-after-monitoring-their-computers-181102/">
+1442:    <p>Canada has fined the company Tim Hortons for making <a
+1464:    developed by a company controlled by Zuckerberg, <a
+1468:    and the collected data sent to the company, which grants itself the
+1499:    users' smartphones</a>. The company behind it does whatever it wants
+1519:    companies for various organizations, do <a
+1521:    location tracking unknown to those companies and those
+1555:    href="https://www.theguardian.com/technology/2020/jan/29/ring-smart-doorbell-company-surveillance-eff-report">
+1556:    surveillance for other companies as well as for Amazon</a>.</p>
+1577:    href="https://www.fastcompany.com/90440073/if-you-use-your-personal-phone-for-work-say-goodbye-to-your-privacy">
+1694:    available to employers and insurance companies</a>. Even though the
+1762:    sent personal data to Facebook</a>. Lots of companies built apps that
+1778:    Advertising ID</a> to other companies, and <a
+1843:    stored users' locations to the company's server</a>. The company is
+1847:    <p>We think that lawsuit is about a side issue. What the company does
+1849:    the company gets that data at all.</p>
+1938:    companies</a>.</p>
+2110:    user data to a Chinese company</a>.</p>
+2281:    <p>Those companies know that snoop-phone usage trains people to say
+2316:    the snooping done by the phone company, and perhaps by the OS in
+2357:    sends user data, including geolocation, for use by companies</a>.</p>
+2361:    about sending it to other companies.  This shows the weakness of
+2488:    companies.</p>
+2503:    spies for companies, and the NSA takes advantage
+2623:    collect &ldquo;whatever the TV sees,&rdquo;</a> in the own words of the company's
+2700:    to the 600 millions social media profiles the company
+2740:    transmits users' voice on the internet to another company, Nuance</a>.
+2924:    <p>But it also demonstrates that the device gives the company
+2989:    <p>The company that made the vibrator <a
+2994:    <p>The company's statement that it was anonymizing the data may be
+3001:    the company has been ordered to pay a total of C$4m</a> to its
+3038:    company based in the U.S.</p>
+3143:    worse, Amazon forwards it to third-party companies. Thus,
+3147:    advertising companies and government agencies. In other words,
+3217:    <p>A medical insurance company <a
+3280:    <p>This will teach the sheeple to find it normal that companies
+3338:    company staff can watch those recordings and copy them</a>. Or at
+3506:    enables the phone company to track the car's movements all the time;
+3513:    <p>Tesla cars allow the company to extract
+3517:    privacy statement</a>.) The company says it doesn't store this
+3528:    available to car manufacturers, insurance companies, and others.</p>
+3688:    href="https://gizmodo.com/before-you-hit-submit-this-company-has-already-logge-1795906081">
+3705:    JavaScript on its web site to give other companies personal data on
+3778:    data companies, first of all to Google. Moreover, if users have a
+3868:    <p>EdTech companies use their surveillance power to
+3871:    href="https://blogs.lse.ac.uk/medialse/2021/10/25/algorithmic-injustice-in-education-why-tech-companies-should-require-a-license-to-operate-in-childrens-education/">these
+3872:    companies should obtain licenses to operate</a>. That wouldn't hurt,
+3898:    href="https://www.infosecurity-magazine.com/news/private-companies-may-spy-on/">teaming
+3899:    up with private companies to monitor American citizens' private online
+3903:    companies are already snooping on users' private activities. That
+3954:    physically if those companies hand over data to governments.</p>
+3963:    the company's network. On top of mistreating their users by providing
+4006:    href="https://www.techdirt.com/2016/06/03/investigation-shows-gchq-using-us-companies-nsa-to-route-around-domestic-surveillance-restrictions/">GCHQ
+4007:    Using US Companies, NSA To Route Around Domestic Surveillance
+4100:  <dt class="nolink">By company</dt>
+
+www.gnu.org/philosophy/proprietary/malware-apple.html
+179: By company&nbsp;/
+270:    href="https://www.npr.org/2010/11/22/131511381/wipeout-when-your-company-kills-your-iphone">
+722:    companies from figuring out how those attacks work.</p>
+867:    <p>This allows a company such as Apple to say, &ldquo;We allow users
+876:<p>Proprietary companies can take advantage of their customers by imposing arbitrary limits to their use of the software.  This section reports examples of hard sell and other unjust commercial tactics by Apple.</p>
+1100:    <p>Google, Apple, and Microsoft (and probably some other companies)
+1160:    is collected by the company, there is no telling what it will be
+1483:  <dt class="nolink">By company</dt>
+
+www.gnu.org/philosophy/proprietary/malware-microsoft.html
+185: By company&nbsp;/
+457:    href="https://www.forbes.com/sites/thomasbrewster/2020/04/27/your-whole-companys-microsoft-teams-data-couldve-been-stolen-with-an-evil-gif/">could
+459:    accounts</a>, possibly across an entire company, and taken control
+607:    <p>Microsoft has made companies'
+608:    Windows machines managed by the company's sysadmins <a
+761:    <p>A person or company has the right to cease to work on a particular
+771:    href="https://web.archive.org/web/20130622044225/http://blogs.computerworlduk.com/open-enterprise/2013/06/how-can-any-company-ever-trust-microsoft-again/index.htm">Microsoft
+823:    other companies to be used as telemetry data. All of this is done is
+892:    physically if those companies hand over data to governments.</p>
+898:    <p>Google, Apple, and Microsoft (and probably some other companies)
+945:    the company's network. On top of mistreating their users by providing
+986:    now distributes them to another company.</p>
+1067:    other companies to track the browsing of each specific user.</p>
+1270:  <dt class="nolink">By company</dt>
+
+www.gnu.org/philosophy/proprietary/proprietary-surveillance.html
+302:companies such as
+315:<p>Many companies, in their privacy policy, have a clause that claims
+331:<p>Therefore, we must not be distracted by companies' statements of
+364:    other companies to be used as telemetry data. All of this is done is
+435:    now distributes them to another company.</p>
+533:    other companies to track the browsing of each specific user.</p>
+747:    in plaintext, and Agora (the company behind the app) would likely
+761:    company. This increases Facebook's power over users, and further
+775:    especially nasty malware, helping companies snoop on users as well
+788:    by Google, Twitter and three other companies are facing a lawsuit <a
+791:    and handing over these data to other companies/advertisers</a>.</p>
+934:    is collected by the company, there is no telling what it will be
+1216:    sold.  Some Motorola phones, made when this company was owned
+1245:    and other companies from getting this personal information in the
+1411:    href="https://torrentfreak.com/software-company-fines-pirates-after-monitoring-their-computers-181102/">
+1442:    <p>Canada has fined the company Tim Hortons for making <a
+1464:    developed by a company controlled by Zuckerberg, <a
+1468:    and the collected data sent to the company, which grants itself the
+1499:    users' smartphones</a>. The company behind it does whatever it wants
+1519:    companies for various organizations, do <a
+1521:    location tracking unknown to those companies and those
+1555:    href="https://www.theguardian.com/technology/2020/jan/29/ring-smart-doorbell-company-surveillance-eff-report">
+1556:    surveillance for other companies as well as for Amazon</a>.</p>
+1577:    href="https://www.fastcompany.com/90440073/if-you-use-your-personal-phone-for-work-say-goodbye-to-your-privacy">
+1694:    available to employers and insurance companies</a>. Even though the
+1762:    sent personal data to Facebook</a>. Lots of companies built apps that
+1778:    Advertising ID</a> to other companies, and <a
+1843:    stored users' locations to the company's server</a>. The company is
+1847:    <p>We think that lawsuit is about a side issue. What the company does
+1849:    the company gets that data at all.</p>
+1938:    companies</a>.</p>
+2110:    user data to a Chinese company</a>.</p>
+2281:    <p>Those companies know that snoop-phone usage trains people to say
+2316:    the snooping done by the phone company, and perhaps by the OS in
+2357:    sends user data, including geolocation, for use by companies</a>.</p>
+2361:    about sending it to other companies.  This shows the weakness of
+2488:    companies.</p>
+2503:    spies for companies, and the NSA takes advantage
+2623:    collect &ldquo;whatever the TV sees,&rdquo;</a> in the own words of the company's
+2700:    to the 600 millions social media profiles the company
+2740:    transmits users' voice on the internet to another company, Nuance</a>.
+2924:    <p>But it also demonstrates that the device gives the company
+2989:    <p>The company that made the vibrator <a
+2994:    <p>The company's statement that it was anonymizing the data may be
+3001:    the company has been ordered to pay a total of C$4m</a> to its
+3038:    company based in the U.S.</p>
+3143:    worse, Amazon forwards it to third-party companies. Thus,
+3147:    advertising companies and government agencies. In other words,
+3217:    <p>A medical insurance company <a
+3280:    <p>This will teach the sheeple to find it normal that companies
+3338:    company staff can watch those recordings and copy them</a>. Or at
+3506:    enables the phone company to track the car's movements all the time;
+3513:    <p>Tesla cars allow the company to extract
+3517:    privacy statement</a>.) The company says it doesn't store this
+3528:    available to car manufacturers, insurance companies, and others.</p>
+3688:    href="https://gizmodo.com/before-you-hit-submit-this-company-has-already-logge-1795906081">
+3705:    JavaScript on its web site to give other companies personal data on
+3778:    data companies, first of all to Google. Moreover, if users have a
+3868:    <p>EdTech companies use their surveillance power to
+3871:    href="https://blogs.lse.ac.uk/medialse/2021/10/25/algorithmic-injustice-in-education-why-tech-companies-should-require-a-license-to-operate-in-childrens-education/">these
+3872:    companies should obtain licenses to operate</a>. That wouldn't hurt,
+3898:    href="https://www.infosecurity-magazine.com/news/private-companies-may-spy-on/">teaming
+3899:    up with private companies to monitor American citizens' private online
+3903:    companies are already snooping on users' private activities. That
+3954:    physically if those companies hand over data to governments.</p>
+3963:    the company's network. On top of mistreating their users by providing
+4006:    href="https://www.techdirt.com/2016/06/03/investigation-shows-gchq-using-us-companies-nsa-to-route-around-domestic-surveillance-restrictions/">GCHQ
+4007:    Using US Companies, NSA To Route Around Domestic Surveillance
+4100:  <dt class="nolink">By company</dt>
+
+www.gnu.org/philosophy/proprietary/proprietary-tyrants.html
+227:    but this requires creating an account on the company's servers,
+402:  <dt class="nolink">By company</dt>
+
+www.gnu.org/philosophy/protecting.html
+213:  business people, programmers, users, and even software companies
+
+www.gnu.org/philosophy/public-domain-manifesto.html
+251:on Sharing</a> that the entertainment companies are now waging.</p>
+
+www.gnu.org/philosophy/push-copyright-aside.html
+270:institution or company, and who has no research sponsor, could be
+
+www.gnu.org/philosophy/reevaluating-copyright.html
+219:for centuries. Shares in a company, commodity futures, and even paper
+
+www.gnu.org/philosophy/rieti.html
+271:the changes you want. Your company could pay a programmer to make the
+272:changes your company wants. Then if you publish the improved version,
+293:overall. But you, individually, or any group or company can decide how
+336:very rich companies, where a few people collect money from everyone
+391:starting there. In 1989 or 1990, I believe, a company was started to
+392:do this kind of business, and that company was started by three
+
+www.gnu.org/philosophy/rms-aj.html
+505:<p>&hellip;including hardware companies and media companies, so you can
+731:company that gets the money.  The prisoner gets paid like 50 cents a
+736:<p>And then we will get the oil companies, and they push for burning up
+759:understand a little company having a corporation so you can have
+828:them more power, but won't hurt other companies, they might still get
+
+www.gnu.org/philosophy/rms-hack.html
+269:license. A company like Apple or Nokia will adapt open source up to
+284:<p><b>TV:</b> The argument that a company would use, of course, is
+411:nations, states and of the companies.</p>
+513:owners. Paradoxically, it seems to be accompanied by reduced growth as
+518:trade barriers could be a good thing if accompanied by global labor
+
+www.gnu.org/philosophy/rms-kernel-trap-interview.html
+663:making it easy for a company to say to various countries, &ldquo;Which
+666:standard of living, companies say, &ldquo;Oh, this is a bad labor
+677:because it makes it too easy for companies to move from one country to
+678:another. We have to make that difficult enough that each company can
+685:companies are exempt from these rules for the first two years. And as
+686:a result, no company lasts for more than two years. When their
+875:<p><strong>Richard Stallman</strong>: They hope some companies will
+
+www.gnu.org/philosophy/rms-kol.html
+238:Companies have to be paid for the permission to do anything of social
+240:explicitly. They do it implicitly. Companies can threaten to move away
+244:threatened that if they did not support this the company would move
+
+www.gnu.org/philosophy/rms-nyu-2001-transcript.html
+910:to companies and say to them, &ldquo;You know, you might make more
+1087:volunteer my time to contribute to that company's, to improving that
+1088:company's, proprietary program?  You know, some people might not even
+1097:that says to that company, &ldquo;You can't just take my work, and
+1144:<p>Many companies&mdash;even big companies like IBM and HP are
+1355:companies mostly say it that package the system.  Oh, and most of
+1358:it purely as a business question or what companies are going to
+1360:society.  And, if you look at the companies that package the GNU/Linux
+1372:if a company uses a GPL-covered program in a product that the
+1377:they're legally separate, in general.  So, these companies, by adding
+1438:<p>And free software is tremendously advantageous for any company that
+1448:doesn't matter that there are no programmers in your company; that's
+1450:don't have to be a carpentry company. You just have to be able to go
+1453:don't have to be a programming company.  You just have to go to a
+1454:programming company and say, &ldquo;What will you charge to implement
+1460:proprietary software, support is a monopoly, because one company has
+1461:the source code, or maybe a small number of companies that paid a
+1465:you're a real giant, they don't care about you.  Your company is not
+1479:want to be confident, you better make an arrangement with a company
+1588:<em>custom</em> program that was developed by one company for use
+1605:free software companies, and at the press conference that I'm going to
+1607:there are also companies which are <em>not</em> free software
+1629:independent of any one company.  That way, I could say good and bad
+1631:companies, without a conflict of interest.  I felt that I could serve
+1635:company was profitable in its first year.  It was formed with very
+1720:paying some money to a company that's going to develop a certain free
+1748:<p><strong>QUESTION</strong>: How could a company like Microsoft
+1767:into the Microsoft Company Town.</p>
+1770:Microsoft antitrust trial recommended breaking up the company,
+1791:company that has subjugated the most people&mdash;the others have
+1811:Although, in fact, companies that make computers sometimes port the
+1833:that there is an issue.  I mean, there is a reason that companies call
+1839:motivation of companies to get a monopoly for their private
+1988:whether you just say, Well, I hope that you companies will decide it's
+1998:<p><strong>QUESTION</strong>: The company, IBM, started a campaign for
+2016:company like that.  Now, some small companies, yes, there'll be a
+2191:push and force all companies to free their software, would you press
+2196:write a program privately and use it.  And that includes companies.
+
+www.gnu.org/philosophy/rms-on-radio-nz.html
+611:companies.  They all do this in one way, which is they let companies
+616:and sell what, companies can say &ldquo;we're against this, and if you
+633:allows companies to sue the government if they believe some law
+635:is how much money a company can make, and anything that gets in the
+690:who uses proprietary software.  If a company uses proprietary software
+759:it either, and without having to give control to a company that would
+1044:dependent on any company's goodwill.</dd>
+
+www.gnu.org/philosophy/rms-pavia-doctoral-address.html
+210:use, there has been tremendous technical progress and it was accompanied by 
+218:there to serve you.  It is there to control you. Companies such as 
+282:those companies.  Apparently they think they have gone beyond the point
+328:education?  Obviously not.  Rather, Microsoft and other similar companies 
+334:and these other companies would no longer offer them discounted copies.  
+335:And especially, the companies that these former students go to work for 
+
+www.gnu.org/philosophy/rtlinux-patent.html
+211:   thousands of individuals and small companies all over the world.  FSF
+
+www.gnu.org/philosophy/savingeurope.html
+195:companies and encouraged by patent lawyers, are moving to allow
+248:the system would soon be abolished.  Large companies often have many
+249:patents, and can force most other companies, large or small, to
+255:Occasionally a small company benefits from a patent, if its product is
+256:so simple that it escapes infringing the large companies' patents and
+
+www.gnu.org/philosophy/schools.html
+254:dependence on their products, like tobacco companies distributing
+257:nor to the companies that they go to work for.  Once you're dependent,
+327:<li id="note2">RJ Reynolds Tobacco Company was
+
+www.gnu.org/philosophy/sco/questioning-sco.html
+194:unaccompanied by evidence that would permit serious judgment of the
+
+www.gnu.org/philosophy/sco/sco-gnu-linux.html
+187:SCO's contract dispute with IBM has been accompanied by a smear
+
+www.gnu.org/philosophy/sco/sco-preemption.html
+189:others, the company and its lawyers have jettisoned even the
+
+www.gnu.org/philosophy/sco/sco-v-ibm.html
+200:between the two companies, and also that IBM has incorporated trade
+207:by SCO to 1500 of the world's largest companies warning against use of
+
+www.gnu.org/philosophy/sco/subpoena.html
+252:form of a policy manual and accompanying software, to all other Free
+
+www.gnu.org/philosophy/second-sight.html
+191:themselves into software companies.
+199:funded software into private hands, to companies that make the
+216:believe that having some company control all use of the software, and
+
+www.gnu.org/philosophy/selling.html
+335:they usually imagine doing it the way most companies do it: making the
+371:Sometimes companies whose activities cross the line stated in the GNU
+
+www.gnu.org/philosophy/selling-exceptions.html
+196:simultaneously by one company, are different issues.  In selling
+229:occasion I've suggested it to companies.  Sometimes this approach has
+309:<p>But we need not insist that companies follow that principle.  I
+310:consider selling exceptions an acceptable thing for a company to do,
+
+www.gnu.org/philosophy/shouldbefree.html
+632:shoulders of the other people <em>in your own company</em>.</p>
+751:call that &ldquo;finished,&rdquo; and then start companies where they
+769:companies also provide commercial support for the free software of the
+
+www.gnu.org/philosophy/social-inertia.html
+205:to use Windows.  Most companies currently run Windows, so students who
+
+www.gnu.org/philosophy/software-libre-commercial-viability.html
+217:confessed his company has always acted the other way around&mdash;they
+244:needs, I'm sure some software companies will try to demonize GNU/Linux
+246:are losing their own market share. Such companies will probably try to
+252:you will greatly exceed any shrinkage of proprietary companies.
+253:Sticking to my previous example, the physiology lab hired my company
+293:all knowledge in a few companies (or one of them), open standards
+308:<h3 id="sec2">Viability for Support Companies</h3>
+321:&ldquo;collecting and packaging&rdquo; jobs, companies can specialize
+331:company as a form of insurance. The more important computers are for a
+336:provision for refunds in case of down time. Big support companies will
+340:<p>In short, I see no need for software companies to keep exclusive
+358:subsidizing some already-too-wealthy commercial software company.
+370:conditions apply: no viable alternative is available, and the company
+
+www.gnu.org/philosophy/software-literary-patents.html
+350:applications.  Patent parasite companies, businesses that produce
+
+www.gnu.org/philosophy/software-patents.html
+664:Here is another point I should mention, that sometimes a company or
+693:received a threat from another company that said, &ldquo;We have the patents.
+721:a lot of money for that, though.  The company licensing the natural
+739:companies own a lot of patents, and they cross-license with each
+778:and now wants to manufacture it. Isn't it a shame the big companies
+790:and that big companies might want to compete with him.
+811:you are really a small inventor, or work for a small company, the small
+812:company is not going to be able to do this.  They try.  The problem is
+814:pointing in a certain direction.  So, if a small company has patents
+824:But the small companies only occasionally can make someone cross-license.
+831:That is when there is a company whose sole business is taking a patent
+832:and squeezing money out of people.  The company that had the natural
+833:order recalculation patent was exactly such a company.  Their sole
+843:to make that company, <a
+846:squeezing everyone.  But I guess the companies like IBM figure that's
+1156:<span class="gnun-split"></span>The result is, say for an automobile company, if
+
+www.gnu.org/philosophy/stallman-kth.html
+319:rich by working at a private company.  All that was necessary was to
+434:expect the company to maintain it.&rdquo;  It proved that they were
+791:<p>At this point, the company that Gosling thinks he sold the program
+795:negotiating with this company, and it seemed that the company mainly
+798:company where he worked, which is Megatest, was still distributing the
+804:And this company was talking to me about wanting to distribute GNU
+1384:and then was sold to a company.  This was very disturbing to a lot of
+1523:different companies, all without any benefit of understanding how it
+1587:signs agreements saying it belongs to the company they work for.</p>
+1648:&ldquo;Let's have companies go and build streets and put toll booths
+1650:another toll.  And then the companies that picked the good places to
+1693:anyone. The spirit that we can see so many companies all around us
+
+www.gnu.org/philosophy/stallman-mec-india.html
+264:patents registered by some other company.</p>
+336:  in paying lawyers, which of course tends to be good for big companies.
+388:was free software, it was distributed by many companies along with Unix
+391:money out of various companies.</p>
+658:would make the company fail in practice, even if in theory it might have
+682:result is that most of the companies that are trying to get some patents
+686:and then, if somebody over here threatens this company, what are they
+691:and the executive of the company will think &ldquo;gee, we're not as
+702:he's starting a company and he is afraid some big company like IBM will
+727:anywhere that attacks IBM is facing a stand-off.  A small company can't
+728:do it but a big company can.</p>
+894:several different techniques that were patented by different companies,
+993:because the companies that benefit from patents like to distract you
+1154:blocked software patents in Europe, because the multinational companies
+1182:lots of non-US companies that own US software patents, so they are all
+1185:are no software patents, that means both Indian companies and foreign
+1186:companies are prevented from coming into India and attacking people with
+1262:medicines at the prices charged by the US companies.</p>
+1305:<dt><b>Q</b>: Sir, you said that companies like IBM are harmed
+1330:  what it stands to gain is that the IBM and the other very big companies
+1399:companies who have invested in something.</dt>
+1401:  <dd><b>A</b>: And do you want the company to get sued because in your
+1517:  the propaganda of the companies that want to have these monopolies.
+1612:  end up arranging to have the employee hand the patent to the company.
+1830:multinational companies&hellip;</dt>
+1843:back: &ldquo;If the multinational companies that produce hardware, like
+1844:Intel, coming to a contract with big software companies to restrict free
+1878:  happens with the companies, that's not going away.</dd>
+1880:<dt><b>Q</b>: I understand that companies like IBM are also investing
+1998:  <p> Now, one thing I am unhappy about is when the companies that do this
+
+www.gnu.org/philosophy/sun-in-night-time.html
+253:         source&rdquo; was coined, we have seen companies find ways to
+
+www.gnu.org/philosophy/surveillance-vs-democracy.html
+244:<a href="https://web.archive.org/web/20130622044225/http://blogs.computerworlduk.com/open-enterprise/2013/06/how-can-any-company-ever-trust-microsoft-again/index.htm">uses</a>
+302:other companies too</a>.</p>
+425:companies, for their private misuse as well.  If, however, we stop the
+442:<p>Keep your own data; don't store your data in a company's
+450:control of your computer's operations to companies, they
+456:pertinent data to the company's server.</p>
+462:Don't tell a company such as Facebook anything about your friends that
+487:for sending the power company moment-by-moment data about each
+490:not require any surveillance.  It would be easy for the power company
+556:Usually the data is collected first by companies.  But when it comes
+559:business, because the data that the companies collect is
+563:has <a href="https://www.commondreams.org/news/2013/08/23/latest-docs-show-financial-ties-between-nsa-and-internet-companies">gotten
+569:practical terms it may as well possess it.  Some companies are praised
+573:data in the first place.  In addition, many of those companies misuse
+680:<p>Internet service providers and telephone companies keep extensive
+693:phone companies must not be allowed to keep this information for very
+700:with some or all phone companies</a>.  We would have to rely on
+769:<p>Companies are designing even more intrusive surveillance.  Some
+770:project that pervasive surveillance, hooked to companies such as
+
+www.gnu.org/philosophy/technological-neutrality.html
+232:reveal to companies the personal data</a> that it maintains about
+
+www.gnu.org/philosophy/the-danger-of-ebooks.html
+232:<p>The e-book companies say denying our traditional freedoms is
+234:supports those companies handsomely and most authors badly. We can
+246:but they will if companies get to decide. It's up to us to stop them.</p>
+
+www.gnu.org/philosophy/the-root-of-this-problem.html
+240:Security Guide.) Cellular phone network companies regularly install
+
+www.gnu.org/philosophy/third-party-ideas.html
+673:  &mdash; Record companies argue for more copyright power by saying they
+
+www.gnu.org/philosophy/ubuntu-spyware.html
+247:  is the company that develops Ubuntu.)</p>
+
+www.gnu.org/philosophy/ucita.html
+192:We generally believe that big companies ought to be held to a strict
+198:good samaritans liable, but not big companies.</p>
+203:software companies that make proprietary software will use shrink-wrap
+
+www.gnu.org/philosophy/udi.html
+236:UDI.&rdquo; How does a rich and self-seeking company approach a
+
+www.gnu.org/philosophy/when-free-depends-on-nonfree.html
+199:developed by people or companies that don't particularly support these
+255:clinic) to entrust its own computing and its data to the company
+262:can trust the company that runs the service never to intentionally
+274:doing this is not easy. It may be easier to pressure the company to
+
+www.gnu.org/philosophy/who-does-that-server-really-serve.html
+223:control because the owner (a company such as Apple or Microsoft)
+498:company is bad, but that is a matter of privacy, not SaaSS; depending
+535:Trust companies without hesitation.&rdquo; In other words, &ldquo;Be a
+575:server, at least don't trust a server run by a company.  A mere
+577:breach and could really sue, and the company probably writes its
+579:your data from the company along with everyone else's, as Obama has
+580:done to phone companies, supposing the company doesn't volunteer them
+581:like the US phone companies that illegally wiretapped their customers
+597:<p>In the meantime, if a company invites you to use its server to do
+
+www.gnu.org/philosophy/why-audio-format-matters.html
+211:format.  What this means is that various companies have
+215:companies</em>, the companies have the right to decide whether or not
+
+www.gnu.org/philosophy/why-call-it-the-swindle.html
+211:<p>Companies choose names for products as part of a marketing plan.
+218:<p>Every time we call these products by the names the companies use,
+
+www.gnu.org/philosophy/why-free.html
+332:companies, not authors, hold the copyrights on software, but we are
+466:development&mdash;a respectable percentage for a software company.</p>
+469:In the early 1990s, companies including Intel, Motorola, Texas
+473:in the 90s by the US Air Force, and continued since then by a company
+
+www.gnu.org/philosophy/words-to-avoid.html
+448:or recommend to a user, since the companies validate that they
+626:same publishing companies that are pushing unjust laws on us.
+658:or the accountant of a publishing company, someone who doesn't appreciate
+1185:When companies decided to make computerized appliances that would
+1502:merely because patent-wielding companies have made it widespread is to
+1503:let those companies dictate the views you express.</p>
+1554:When companies manipulate or lure people into revealing personal data
+1561:<p>When one company redistributes collected personal data to another company,
+
+www.gnu.org/philosophy/wsis-2003.html
+205:Then there's the economic effect.  When companies have power over you,
+225:&ldquo;You&rdquo; could mean an individual programmer, a company, or a
+245:single company, that's not development, that's electronic
+
+www.gnu.org/philosophy/x.html
+222:popularity&mdash;specifically, getting computer companies to use the X
+223:Window System.  This definition put the computer companies in the
+228:Computer companies normally distribute proprietary software.  They
+
+www.gnu.org/philosophy/your-freedom-needs-free-software.html
+201:proprietary software</a>: controlled by software companies, not
+253:companies they wish to protest&mdash;or that work hand in glove with the
+255:proprietary software company, whether it be Microsoft, Apple, Adobe or
+259:<p>There is also danger in using a company's server to do your word
